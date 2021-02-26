@@ -1,0 +1,1145 @@
+parameter,measure_id,measure,metric_id,location_id,age_group_id,sex_id,location_name,sex,age,mean,lower,upper
+Total iron responsive anemia,5,prevalence,rate,168,169,2,Angola,Female,Reproductive age,0.179469585,0.149142599,0.212594873
+Total iron responsive anemia,3,ylds,count,168,169,2,Angola,Female,Reproductive age,54320.65756,33929.8147,80344.39769
+Total iron responsive anemia,3,ylds,rate,168,169,2,Angola,Female,Reproductive age,0.005692856,0.003555877,0.008420169
+Total iron responsive anemia,5,prevalence,count,168,169,2,Angola,Female,Reproductive age,1712480.544,1423103.519,2028558.672
+Total iron responsive anemia,3,ylds,rate,168,1,3,Angola,Both,Under Five,0.012740176,0.00762069,0.01976212
+Total iron responsive anemia,5,prevalence,rate,168,1,3,Angola,Both,Under Five,0.451481519,0.387392803,0.518285522
+Total iron responsive anemia,3,ylds,count,168,1,3,Angola,Both,Under Five,65575.59769,39224.83481,101718.6018
+Total iron responsive anemia,5,prevalence,count,168,1,3,Angola,Both,Under Five,2323843.219,1993968.967,2667693.461
+Mean hemoglobin concentration,n/a,g/L,g/L,168,1,3,Angola,Both,Under five,107.6897168,105.3767427,109.981788
+Mean hemoglobin concentration,n/a,g/L,g/L,168,169,2,Angola,Female,Reproductive age,123.2997163,121.1244719,125.4443905
+Total anemia,5,prevalence,count,168,1,3,Angola,Both,Under Five,2815481.095,2455263.382,3176940.675
+Mild anemia,5,prevalence,count,168,1,3,Angola,Both,Under Five,1372997.14,1237115.338,1515477.42
+Moderate anemia,5,prevalence,count,168,1,3,Angola,Both,Under Five,1375813.385,1120044.258,1639146.942
+Severe anemia,5,prevalence,count,168,1,3,Angola,Both,Under Five,66670.56972,44452.14847,93905.52086
+Total anemia,3,ylds,count,168,1,3,Angola,Both,Under Five,85179.46484,51961.8864,130581.3822
+Mild anemia,3,ylds,count,168,1,3,Angola,Both,Under Five,5057.00836,1813.818409,11370.99227
+Moderate anemia,3,ylds,count,168,1,3,Angola,Both,Under Five,70374.77209,42965.15026,106263.4057
+Severe anemia,3,ylds,count,168,1,3,Angola,Both,Under Five,9747.684391,5490.422518,16056.30314
+Total anemia,5,prevalence,rate,168,1,3,Angola,Both,Under Five,0.546998038,0.477014126,0.617223224
+Mild anemia,5,prevalence,rate,168,1,3,Angola,Both,Under Five,0.266748991,0.240349567,0.294430382
+Moderate anemia,5,prevalence,rate,168,1,3,Angola,Both,Under Five,0.267296138,0.217604733,0.318457177
+Severe anemia,5,prevalence,rate,168,1,3,Angola,Both,Under Five,0.012952909,0.008636264,0.018244177
+Total anemia,3,ylds,rate,168,1,3,Angola,Both,Under Five,0.016548859,0.010095273,0.025369646
+Mild anemia,3,ylds,rate,168,1,3,Angola,Both,Under Five,0.000982487,0.000352393,0.002209182
+Moderate anemia,3,ylds,rate,168,1,3,Angola,Both,Under Five,0.01367257,0.008347367,0.020645095
+Severe anemia,3,ylds,rate,168,1,3,Angola,Both,Under Five,0.001893802,0.001066692,0.003119455
+Total anemia,3,ylds,count,168,169,2,Angola,Female,Reproductive age,84417.42881,50978.73078,128082.0075
+Mild anemia,3,ylds,count,168,169,2,Angola,Female,Reproductive age,5814.515466,2086.053229,13120.77313
+Moderate anemia,3,ylds,count,168,169,2,Angola,Female,Reproductive age,69147.71611,41408.20182,105369.031
+Severe anemia,3,ylds,count,168,169,2,Angola,Female,Reproductive age,9455.197232,5291.414132,15067.75627
+Total anemia,5,prevalence,count,168,169,2,Angola,Female,Reproductive age,2988579.119,2528641.022,3479227.153
+Mild anemia,5,prevalence,count,168,169,2,Angola,Female,Reproductive age,1573778.406,1384215.473,1764673.199
+Moderate anemia,5,prevalence,count,168,169,2,Angola,Female,Reproductive age,1350484.861,1064228.03,1671637.545
+Severe anemia,5,prevalence,count,168,169,2,Angola,Female,Reproductive age,64315.8526,42259.31326,93137.78743
+Total anemia,3,ylds,rate,168,169,2,Angola,Female,Reproductive age,0.008853708,0.005370995,0.013423116
+Mild anemia,3,ylds,rate,168,169,2,Angola,Female,Reproductive age,0.00060963,0.000220638,0.001375069
+Moderate anemia,3,ylds,rate,168,169,2,Angola,Female,Reproductive age,0.007251997,0.004344124,0.011042774
+Severe anemia,3,ylds,rate,168,169,2,Angola,Female,Reproductive age,0.000992081,0.000563983,0.001579115
+Total anemia,5,prevalence,rate,168,169,2,Angola,Female,Reproductive age,0.313495832,0.265702194,0.364626306
+Mild anemia,5,prevalence,rate,168,169,2,Angola,Female,Reproductive age,0.165079814,0.145282659,0.184939425
+Moderate anemia,5,prevalence,rate,168,169,2,Angola,Female,Reproductive age,0.141667117,0.111653279,0.1751892
+Severe anemia,5,prevalence,rate,168,169,2,Angola,Female,Reproductive age,0.0067489,0.004431185,0.009760928
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,168,169,2,Angola,female,Reproductive age,24669.99765,8475.763661,43488.29748
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,168,169,2,Angola,female,Reproductive age,0.002585439,0.000888268,0.004557615
+Total iron responsive anemia,5,prevalence,rate,161,169,2,Bangladesh,Female,Reproductive age,0.255635897,0.213747852,0.29925554
+Total iron responsive anemia,3,ylds,count,161,169,2,Bangladesh,Female,Reproductive age,384534.8906,242435.496,583432.2766
+Total iron responsive anemia,3,ylds,rate,161,169,2,Bangladesh,Female,Reproductive age,0.00683894,0.004311707,0.010376323
+Total iron responsive anemia,5,prevalence,count,161,169,2,Bangladesh,Female,Reproductive age,14373707.23,12018457.02,16826320.44
+Total iron responsive anemia,3,ylds,rate,161,1,3,Bangladesh,Both,Under Five,0.010267145,0.005836856,0.01652845
+Total iron responsive anemia,5,prevalence,rate,161,1,3,Bangladesh,Both,Under Five,0.42506581,0.341106953,0.516297841
+Total iron responsive anemia,3,ylds,count,161,1,3,Bangladesh,Both,Under Five,141131.2683,80232.90776,227198.6148
+Total iron responsive anemia,5,prevalence,count,161,1,3,Bangladesh,Both,Under Five,5842917.104,4688826.06,7096984.543
+Mean hemoglobin concentration,n/a,g/L,g/L,161,1,3,Bangladesh,Both,Under five,110.3073728,107.45794,113.003536
+Mean hemoglobin concentration,n/a,g/L,g/L,161,169,2,Bangladesh,Female,Reproductive age,124.1948771,122.3234842,126.1987418
+Total anemia,5,prevalence,count,161,1,3,Bangladesh,Both,Under Five,6515178.776,5284863.504,7865340.13
+Mild anemia,5,prevalence,count,161,1,3,Bangladesh,Both,Under Five,3780052.518,3217031.588,4370382.82
+Moderate anemia,5,prevalence,count,161,1,3,Bangladesh,Both,Under Five,2659070.17,1975964.436,3509879.372
+Severe anemia,5,prevalence,count,161,1,3,Bangladesh,Both,Under Five,76056.08732,46300.04114,122419.8618
+Total anemia,3,ylds,count,161,1,3,Bangladesh,Both,Under Five,161444.1628,91183.58386,261486.3049
+Mild anemia,3,ylds,count,161,1,3,Bangladesh,Both,Under Five,13952.12246,4913.109439,31558.90842
+Moderate anemia,3,ylds,count,161,1,3,Bangladesh,Both,Under Five,136309.4574,78475.69983,219732.998
+Severe anemia,3,ylds,count,161,1,3,Bangladesh,Both,Under Five,11182.58295,5654.765541,20692.21355
+Total anemia,5,prevalence,rate,161,1,3,Bangladesh,Both,Under Five,0.473972109,0.384468023,0.572194867
+Mild anemia,5,prevalence,rate,161,1,3,Bangladesh,Both,Under Five,0.274994674,0.234035519,0.317940556
+Moderate anemia,5,prevalence,rate,161,1,3,Bangladesh,Both,Under Five,0.193444438,0.143749245,0.255339874
+Severe anemia,5,prevalence,rate,161,1,3,Bangladesh,Both,Under Five,0.005532997,0.003368277,0.008905911
+Total anemia,3,ylds,rate,161,1,3,Bangladesh,Both,Under Five,0.011744886,0.006633506,0.019022842
+Mild anemia,3,ylds,rate,161,1,3,Bangladesh,Both,Under Five,0.001015002,0.000357423,0.002295876
+Moderate anemia,3,ylds,rate,161,1,3,Bangladesh,Both,Under Five,0.009916364,0.005709021,0.015985335
+Severe anemia,3,ylds,rate,161,1,3,Bangladesh,Both,Under Five,0.000813521,0.000411378,0.001505336
+Total anemia,3,ylds,count,161,169,2,Bangladesh,Female,Reproductive age,464626.8455,283743.3623,724956.1241
+Mild anemia,3,ylds,count,161,169,2,Bangladesh,Female,Reproductive age,37918.39492,13673.34927,83569.7751
+Moderate anemia,3,ylds,count,161,169,2,Bangladesh,Female,Reproductive age,381122.4306,234582.7264,584043.1541
+Severe anemia,3,ylds,count,161,169,2,Bangladesh,Female,Reproductive age,45586.01992,25986.38405,72084.32978
+Total anemia,5,prevalence,count,161,169,2,Bangladesh,Female,Reproductive age,18050224.56,15381415.45,20669926.92
+Mild anemia,5,prevalence,count,161,169,2,Bangladesh,Female,Reproductive age,10293121.72,9034420.635,11613499.58
+Moderate anemia,5,prevalence,count,161,169,2,Bangladesh,Female,Reproductive age,7447026.928,5938448.72,9010855.787
+Severe anemia,5,prevalence,count,161,169,2,Bangladesh,Female,Reproductive age,310075.9082,210126.9493,437252.7094
+Total anemia,3,ylds,rate,161,169,2,Bangladesh,Female,Reproductive age,0.008269067,0.005055535,0.01289332
+Mild anemia,3,ylds,rate,161,169,2,Bangladesh,Female,Reproductive age,0.000674702,0.000243971,0.001486286
+Moderate anemia,3,ylds,rate,161,169,2,Bangladesh,Female,Reproductive age,0.006782935,0.004182816,0.010387188
+Severe anemia,3,ylds,rate,161,169,2,Bangladesh,Female,Reproductive age,0.000811431,0.000466534,0.001282017
+Total anemia,5,prevalence,rate,161,169,2,Bangladesh,Female,Reproductive age,0.321329122,0.274773018,0.367613951
+Mild anemia,5,prevalence,rate,161,169,2,Bangladesh,Female,Reproductive age,0.183243829,0.160803964,0.206545697
+Moderate anemia,5,prevalence,rate,161,169,2,Bangladesh,Female,Reproductive age,0.132565796,0.106198118,0.160257765
+Severe anemia,5,prevalence,rate,161,169,2,Bangladesh,Female,Reproductive age,0.005519496,0.003739423,0.007776525
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,161,169,2,Bangladesh,female,Reproductive age,70613.2035,24043.51153,124820.3336
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,161,169,2,Bangladesh,female,Reproductive age,0.001255853,0.000427613,0.002219925
+Total iron responsive anemia,5,prevalence,rate,201,169,2,Burkina Faso,Female,Reproductive age,0.230597236,0.172438535,0.299681742
+Total iron responsive anemia,3,ylds,count,201,169,2,Burkina Faso,Female,Reproductive age,59063.35064,33803.89747,93490.47022
+Total iron responsive anemia,3,ylds,rate,201,169,2,Burkina Faso,Female,Reproductive age,0.008235345,0.004713359,0.013035601
+Total iron responsive anemia,5,prevalence,count,201,169,2,Burkina Faso,Female,Reproductive age,1653828.159,1236717.791,2149297.67
+Total iron responsive anemia,3,ylds,rate,201,1,3,Burkina Faso,Both,Under Five,0.02974731,0.019728144,0.043543096
+Total iron responsive anemia,5,prevalence,rate,201,1,3,Burkina Faso,Both,Under Five,0.670928883,0.606677929,0.751786815
+Total iron responsive anemia,3,ylds,count,201,1,3,Burkina Faso,Both,Under Five,120326.6004,79799.50206,176129.9658
+Total iron responsive anemia,5,prevalence,count,201,1,3,Burkina Faso,Both,Under Five,2713878.69,2453986.324,3040945.575
+Mean hemoglobin concentration,n/a,g/L,g/L,201,1,3,Burkina Faso,Both,Under five,93.53666528,91.76821564,95.46809895
+Mean hemoglobin concentration,n/a,g/L,g/L,201,169,2,Burkina Faso,Female,Reproductive age,118.7159524,116.8925041,120.6577726
+Total anemia,5,prevalence,count,201,1,3,Burkina Faso,Both,Under Five,3461606.061,3300253.76,3596616.659
+Mild anemia,5,prevalence,count,201,1,3,Burkina Faso,Both,Under Five,883433.8357,800613.8816,958829.1929
+Moderate anemia,5,prevalence,count,201,1,3,Burkina Faso,Both,Under Five,2255446.439,2089374.392,2417961.343
+Severe anemia,5,prevalence,count,201,1,3,Burkina Faso,Both,Under Five,322725.7867,252620.5209,402569.8963
+Total anemia,3,ylds,count,201,1,3,Burkina Faso,Both,Under Five,164377.9097,110984.3152,237244.9845
+Mild anemia,3,ylds,count,201,1,3,Burkina Faso,Both,Under Five,3245.001737,1169.907962,7275.668811
+Moderate anemia,3,ylds,count,201,1,3,Burkina Faso,Both,Under Five,114544.2314,75590.74839,169510.404
+Severe anemia,3,ylds,count,201,1,3,Burkina Faso,Both,Under Five,46588.67654,29868.56267,69451.79563
+Total anemia,5,prevalence,rate,201,1,3,Burkina Faso,Both,Under Five,0.855783089,0.815893347,0.889160597
+Mild anemia,5,prevalence,rate,201,1,3,Burkina Faso,Both,Under Five,0.218403748,0.197928883,0.237043093
+Moderate anemia,5,prevalence,rate,201,1,3,Burkina Faso,Both,Under Five,0.557594621,0.516538058,0.597771783
+Severe anemia,5,prevalence,rate,201,1,3,Burkina Faso,Both,Under Five,0.07978472,0.062453198,0.099523892
+Total anemia,3,ylds,rate,201,1,3,Burkina Faso,Both,Under Five,0.040637737,0.027437698,0.058652037
+Mild anemia,3,ylds,rate,201,1,3,Burkina Faso,Both,Under Five,0.000802234,0.000289226,0.001798701
+Moderate anemia,3,ylds,rate,201,1,3,Burkina Faso,Both,Under Five,0.028317785,0.01868765,0.041906599
+Severe anemia,3,ylds,rate,201,1,3,Burkina Faso,Both,Under Five,0.011517718,0.007384148,0.01716997
+Total anemia,3,ylds,count,201,169,2,Burkina Faso,Female,Reproductive age,106708.8792,69252.14252,159879.6068
+Mild anemia,3,ylds,count,201,169,2,Burkina Faso,Female,Reproductive age,4815.300087,1687.20653,10508.40448
+Moderate anemia,3,ylds,count,201,169,2,Burkina Faso,Female,Reproductive age,85421.76974,54561.85284,129334.0046
+Severe anemia,3,ylds,count,201,169,2,Burkina Faso,Female,Reproductive age,16471.80939,9745.627224,25585.23781
+Total anemia,5,prevalence,count,201,169,2,Burkina Faso,Female,Reproductive age,3090318.343,2752405.128,3440131.803
+Mild anemia,5,prevalence,count,201,169,2,Burkina Faso,Female,Reproductive age,1305815.903,1202605.834,1414754.261
+Moderate anemia,5,prevalence,count,201,169,2,Burkina Faso,Female,Reproductive age,1672058.819,1414337.378,1933161.536
+Severe anemia,5,prevalence,count,201,169,2,Burkina Faso,Female,Reproductive age,112443.6203,81098.15453,157573.1739
+Total anemia,3,ylds,rate,201,169,2,Burkina Faso,Female,Reproductive age,0.014890196,0.009679679,0.022292398
+Mild anemia,3,ylds,rate,201,169,2,Burkina Faso,Female,Reproductive age,0.00067174,0.000236864,0.001465212
+Moderate anemia,3,ylds,rate,201,169,2,Burkina Faso,Female,Reproductive age,0.011919681,0.007661347,0.018033351
+Severe anemia,3,ylds,rate,201,169,2,Burkina Faso,Female,Reproductive age,0.002298775,0.001365372,0.003567411
+Total anemia,5,prevalence,rate,201,169,2,Burkina Faso,Female,Reproductive age,0.43132591,0.384182373,0.479665848
+Mild anemia,5,prevalence,rate,201,169,2,Burkina Faso,Female,Reproductive age,0.182257731,0.167872629,0.197262588
+Moderate anemia,5,prevalence,rate,201,169,2,Burkina Faso,Female,Reproductive age,0.233374687,0.197496901,0.269545361
+Severe anemia,5,prevalence,rate,201,169,2,Burkina Faso,Female,Reproductive age,0.015693491,0.011313052,0.021970806
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,201,169,2,Burkina Faso,female,Reproductive age,30578.69494,10749.52369,54058.49199
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,201,169,2,Burkina Faso,female,Reproductive age,0.004263661,0.001498832,0.007537506
+Total iron responsive anemia,5,prevalence,rate,205,169,2,Côte d'Ivoire,Female,Reproductive age,0.222286221,0.182874009,0.258975093
+Total iron responsive anemia,3,ylds,count,205,169,2,Côte d'Ivoire,Female,Reproductive age,62923.10755,39889.89262,92607.78108
+Total iron responsive anemia,3,ylds,rate,205,169,2,Côte d'Ivoire,Female,Reproductive age,0.007702395,0.004882907,0.011336085
+Total iron responsive anemia,5,prevalence,count,205,169,2,Côte d'Ivoire,Female,Reproductive age,1815920.942,1493951.094,2115643.033
+Total iron responsive anemia,3,ylds,rate,205,1,3,Côte d'Ivoire,Both,Under Five,0.018614276,0.011913437,0.028121659
+Total iron responsive anemia,5,prevalence,rate,205,1,3,Côte d'Ivoire,Both,Under Five,0.576315648,0.514179282,0.62738996
+Total iron responsive anemia,3,ylds,count,205,1,3,Côte d'Ivoire,Both,Under Five,74680.44881,47796.68964,112824.0561
+Total iron responsive anemia,5,prevalence,count,205,1,3,Côte d'Ivoire,Both,Under Five,2312177.526,2062886.52,2517087.591
+Mean hemoglobin concentration,n/a,g/L,g/L,205,1,3,Côte d'Ivoire,Both,Under five,100.4520968,98.39235942,102.482946
+Mean hemoglobin concentration,n/a,g/L,g/L,205,169,2,Côte d'Ivoire,Female,Reproductive age,119.1994792,117.5977809,120.8046993
+Total anemia,5,prevalence,count,205,1,3,Côte d'Ivoire,Both,Under Five,3000289.435,2767446.15,3233233.531
+Mild anemia,5,prevalence,count,205,1,3,Côte d'Ivoire,Both,Under Five,1127396.082,1044268.93,1210778.185
+Moderate anemia,5,prevalence,count,205,1,3,Côte d'Ivoire,Both,Under Five,1756761.759,1557559.222,1971722.319
+Severe anemia,5,prevalence,count,205,1,3,Côte d'Ivoire,Both,Under Five,116131.5944,83580.28085,157678.3807
+Total anemia,3,ylds,count,205,1,3,Côte d'Ivoire,Both,Under Five,110517.2051,73334.37475,164565.4435
+Mild anemia,3,ylds,count,205,1,3,Côte d'Ivoire,Both,Under Five,4150.219423,1470.114583,9229.001907
+Moderate anemia,3,ylds,count,205,1,3,Côte d'Ivoire,Both,Under Five,89473.4585,57977.45039,135064.8631
+Severe anemia,3,ylds,count,205,1,3,Côte d'Ivoire,Both,Under Five,16893.52719,10117.57023,26110.14747
+Total anemia,5,prevalence,rate,205,1,3,Côte d'Ivoire,Both,Under Five,0.747829148,0.689792415,0.805891008
+Mild anemia,5,prevalence,rate,205,1,3,Côte d'Ivoire,Both,Under Five,0.281006106,0.260286469,0.30178929
+Moderate anemia,5,prevalence,rate,205,1,3,Côte d'Ivoire,Both,Under Five,0.437876971,0.388225273,0.491456392
+Severe anemia,5,prevalence,rate,205,1,3,Côte d'Ivoire,Both,Under Five,0.028946071,0.02083258,0.039301705
+Total anemia,3,ylds,rate,205,1,3,Côte d'Ivoire,Both,Under Five,0.027546671,0.018278764,0.041018321
+Mild anemia,3,ylds,rate,205,1,3,Côte d'Ivoire,Both,Under Five,0.001034452,0.000366429,0.00230035
+Moderate anemia,3,ylds,rate,205,1,3,Côte d'Ivoire,Both,Under Five,0.022301468,0.014451015,0.033665233
+Severe anemia,3,ylds,rate,205,1,3,Côte d'Ivoire,Both,Under Five,0.004210751,0.002521828,0.006508015
+Total anemia,3,ylds,count,205,169,2,Côte d'Ivoire,Female,Reproductive age,116358.6936,74652.37988,171371.3785
+Mild anemia,3,ylds,count,205,169,2,Côte d'Ivoire,Female,Reproductive age,5653.866449,1961.22115,12250.51541
+Moderate anemia,3,ylds,count,205,169,2,Côte d'Ivoire,Female,Reproductive age,92869.16528,59140.50813,136517.8962
+Severe anemia,3,ylds,count,205,169,2,Côte d'Ivoire,Female,Reproductive age,17835.66188,10690.7276,27143.26494
+Total anemia,5,prevalence,count,205,169,2,Côte d'Ivoire,Female,Reproductive age,3473978.056,3143133.343,3792000.942
+Mild anemia,5,prevalence,count,205,169,2,Côte d'Ivoire,Female,Reproductive age,1534438.097,1429225.455,1641333.481
+Moderate anemia,5,prevalence,count,205,169,2,Côte d'Ivoire,Female,Reproductive age,1817866.486,1574659.684,2051701.525
+Severe anemia,5,prevalence,count,205,169,2,Côte d'Ivoire,Female,Reproductive age,121673.4733,92254.24566,158640.9788
+Total anemia,3,ylds,rate,205,169,2,Côte d'Ivoire,Female,Reproductive age,0.014255741,0.00918456,0.020977508
+Mild anemia,3,ylds,rate,205,169,2,Côte d'Ivoire,Female,Reproductive age,0.000692432,0.000243997,0.001499581
+Moderate anemia,3,ylds,rate,205,169,2,Côte d'Ivoire,Female,Reproductive age,0.011377668,0.00726179,0.016711106
+Severe anemia,3,ylds,rate,205,169,2,Côte d'Ivoire,Female,Reproductive age,0.002185641,0.001308811,0.003322597
+Total anemia,5,prevalence,rate,205,169,2,Côte d'Ivoire,Female,Reproductive age,0.425708165,0.38493456,0.464177454
+Mild anemia,5,prevalence,rate,205,169,2,Côte d'Ivoire,Female,Reproductive age,0.188022779,0.17502439,0.200915033
+Moderate anemia,5,prevalence,rate,205,169,2,Côte d'Ivoire,Female,Reproductive age,0.222773697,0.193049296,0.251148036
+Severe anemia,5,prevalence,rate,205,169,2,Côte d'Ivoire,Female,Reproductive age,0.014911689,0.011359099,0.019419184
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,205,169,2,Côte d'Ivoire,female,Reproductive age,33637.19879,11785.25657,60904.02725
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,205,169,2,Côte d'Ivoire,female,Reproductive age,0.004117517,0.001442629,0.00745524
+Total iron responsive anemia,5,prevalence,rate,202,169,2,Cameroon,Female,Reproductive age,0.17665195,0.144316788,0.21104645
+Total iron responsive anemia,3,ylds,count,202,169,2,Cameroon,Female,Reproductive age,57005.26109,35734.40222,83139.1874
+Total iron responsive anemia,3,ylds,rate,202,169,2,Cameroon,Female,Reproductive age,0.00596316,0.003738076,0.008696957
+Total iron responsive anemia,5,prevalence,count,202,169,2,Cameroon,Female,Reproductive age,1688717.006,1379606.703,2017513.696
+Total iron responsive anemia,3,ylds,rate,202,1,3,Cameroon,Both,Under Five,0.012480883,0.007798032,0.019055703
+Total iron responsive anemia,5,prevalence,rate,202,1,3,Cameroon,Both,Under Five,0.432586896,0.369123336,0.500284431
+Total iron responsive anemia,3,ylds,count,202,1,3,Cameroon,Both,Under Five,52508.43941,32807.17401,80169.42294
+Total iron responsive anemia,5,prevalence,count,202,1,3,Cameroon,Both,Under Five,1819940.333,1552942.199,2104751.259
+Mean hemoglobin concentration,n/a,g/L,g/L,202,1,3,Cameroon,Both,Under five,107.392252,105.1868858,109.6978678
+Mean hemoglobin concentration,n/a,g/L,g/L,202,169,2,Cameroon,Female,Reproductive age,124.0990583,122.4211578,125.8669133
+Total anemia,5,prevalence,count,202,1,3,Cameroon,Both,Under Five,2328648.778,2051380.92,2589599.321
+Mild anemia,5,prevalence,count,202,1,3,Cameroon,Both,Under Five,1090534.778,988758.0255,1194392.761
+Moderate anemia,5,prevalence,count,202,1,3,Cameroon,Both,Under Five,1172805.974,975613.6141,1371493.282
+Severe anemia,5,prevalence,count,202,1,3,Cameroon,Both,Under Five,65308.02614,45617.99199,90158.04931
+Total anemia,3,ylds,count,202,1,3,Cameroon,Both,Under Five,73496.39821,45906.96451,111200.566
+Mild anemia,3,ylds,count,202,1,3,Cameroon,Both,Under Five,4010.04957,1435.084216,8979.38045
+Moderate anemia,3,ylds,count,202,1,3,Cameroon,Both,Under Five,59942.63036,37471.04624,88740.69828
+Severe anemia,3,ylds,count,202,1,3,Cameroon,Both,Under Five,9543.718273,5602.766811,14454.2952
+Total anemia,5,prevalence,rate,202,1,3,Cameroon,Both,Under Five,0.553503282,0.487598681,0.615529374
+Mild anemia,5,prevalence,rate,202,1,3,Cameroon,Both,Under Five,0.259212374,0.235020763,0.28389868
+Moderate anemia,5,prevalence,rate,202,1,3,Cameroon,Both,Under Five,0.278767654,0.23189643,0.325994216
+Severe anemia,5,prevalence,rate,202,1,3,Cameroon,Both,Under Five,0.015523254,0.010843073,0.021429928
+Total anemia,3,ylds,rate,202,1,3,Cameroon,Both,Under Five,0.017469572,0.01091176,0.026431585
+Mild anemia,3,ylds,rate,202,1,3,Cameroon,Both,Under Five,0.00095316,0.000341109,0.002134335
+Moderate anemia,3,ylds,rate,202,1,3,Cameroon,Both,Under Five,0.014247938,0.008906602,0.021093034
+Severe anemia,3,ylds,rate,202,1,3,Cameroon,Both,Under Five,0.002268474,0.001331738,0.003435683
+Total anemia,3,ylds,count,202,169,2,Cameroon,Female,Reproductive age,90825.7051,56633.32019,135619.7865
+Mild anemia,3,ylds,count,202,169,2,Cameroon,Female,Reproductive age,5503.419977,1954.110092,11982.39212
+Moderate anemia,3,ylds,count,202,169,2,Cameroon,Female,Reproductive age,72940.62905,45717.15084,108576.2463
+Severe anemia,3,ylds,count,202,169,2,Cameroon,Female,Reproductive age,12381.65608,7575.078,19084.56979
+Total anemia,5,prevalence,count,202,169,2,Cameroon,Female,Reproductive age,3003953.325,2631315.342,3370276.332
+Mild anemia,5,prevalence,count,202,169,2,Cameroon,Female,Reproductive age,1493200.517,1371599.295,1634225.649
+Moderate anemia,5,prevalence,count,202,169,2,Cameroon,Female,Reproductive age,1426550.082,1176370.739,1679525.661
+Severe anemia,5,prevalence,count,202,169,2,Cameroon,Female,Reproductive age,84202.7262,61620.63088,113741.6157
+Total anemia,3,ylds,rate,202,169,2,Cameroon,Female,Reproductive age,0.009507146,0.005927365,0.014186806
+Mild anemia,3,ylds,rate,202,169,2,Cameroon,Female,Reproductive age,0.000575973,0.00020668,0.001253444
+Moderate anemia,3,ylds,rate,202,169,2,Cameroon,Female,Reproductive age,0.007634987,0.004802138,0.011357857
+Severe anemia,3,ylds,rate,202,169,2,Cameroon,Female,Reproductive age,0.001296186,0.000797564,0.001996383
+Total anemia,5,prevalence,rate,202,169,2,Cameroon,Female,Reproductive age,0.314525072,0.275276099,0.352555155
+Mild anemia,5,prevalence,rate,202,169,2,Cameroon,Female,Reproductive age,0.156355401,0.143525532,0.170951762
+Moderate anemia,5,prevalence,rate,202,169,2,Cameroon,Female,Reproductive age,0.14935447,0.123241195,0.175690469
+Severe anemia,5,prevalence,rate,202,169,2,Cameroon,Female,Reproductive age,0.008815201,0.006449854,0.011898191
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,202,169,2,Cameroon,female,Reproductive age,35889.20453,12190.15699,66246.15716
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,202,169,2,Cameroon,female,Reproductive age,0.003754269,0.001275178,0.006929825
+Total iron responsive anemia,3,ylds,rate,6,169,2,China,Female,Reproductive age,0.001997833,0.001313038,0.00283952
+Total iron responsive anemia,5,prevalence,count,6,169,2,China,Female,Reproductive age,32530283.06,27530890.6,37492000.2
+Total iron responsive anemia,5,prevalence,rate,6,169,2,China,Female,Reproductive age,0.072987961,0.061770861,0.08412053
+Total iron responsive anemia,3,ylds,count,6,169,2,China,Female,Reproductive age,890421.7016,585212.981,1265556.578
+Total iron responsive anemia,5,prevalence,count,6,1,3,China,Both,Under Five,6087555.37,4835927.959,7471381.584
+Total iron responsive anemia,3,ylds,rate,6,1,3,China,Both,Under Five,0.001546049,0.000868757,0.002448056
+Total iron responsive anemia,5,prevalence,rate,6,1,3,China,Both,Under Five,0.074702309,0.059343195,0.091683677
+Total iron responsive anemia,3,ylds,count,6,1,3,China,Both,Under Five,125988.8282,70795.75217,199494.187
+Mean hemoglobin concentration,n/a,g/L,g/L,6,1,3,China,Both,Under five,128.5930217,127.7400487,129.4092931
+Mean hemoglobin concentration,n/a,g/L,g/L,6,169,2,China,Female,Reproductive age,136.3348858,135.929697,136.7475423
+Total anemia,5,prevalence,count,6,1,3,China,Both,Under Five,7720005.531,6242167.61,9317921.404
+Mild anemia,5,prevalence,count,6,1,3,China,Both,Under Five,5269996.036,4450696.972,6098180.225
+Moderate anemia,5,prevalence,count,6,1,3,China,Both,Under Five,2325568.332,1719284.518,3041679.357
+Severe anemia,5,prevalence,count,6,1,3,China,Both,Under Five,124441.1623,73565.86232,197600.9313
+Total anemia,3,ylds,count,6,1,3,China,Both,Under Five,157419.8134,88249.5988,254267.8904
+Mild anemia,3,ylds,count,6,1,3,China,Both,Under Five,19476.23237,7088.365349,42185.15112
+Moderate anemia,3,ylds,count,6,1,3,China,Both,Under Five,119552.5225,68615.10159,189557.1786
+Severe anemia,3,ylds,count,6,1,3,China,Both,Under Five,18391.05856,9326.803005,32123.48508
+Total anemia,5,prevalence,rate,6,1,3,China,Both,Under Five,0.094734619,0.076599605,0.114343148
+Mild anemia,5,prevalence,rate,6,1,3,China,Both,Under Five,0.064669781,0.054615904,0.07483269
+Moderate anemia,5,prevalence,rate,6,1,3,China,Both,Under Five,0.028537781,0.021097882,0.037325405
+Severe anemia,5,prevalence,rate,6,1,3,China,Both,Under Five,0.001527057,0.00090275,0.002424823
+Total anemia,3,ylds,rate,6,1,3,China,Both,Under Five,0.001931748,0.001082939,0.003120201
+Mild anemia,3,ylds,rate,6,1,3,China,Both,Under Five,0.000238999,8.70E-05,0.000517667
+Moderate anemia,3,ylds,rate,6,1,3,China,Both,Under Five,0.001467067,0.000841998,0.002326116
+Severe anemia,3,ylds,rate,6,1,3,China,Both,Under Five,0.000225682,0.000114452,0.000394197
+Total anemia,3,ylds,count,6,169,2,China,Female,Reproductive age,993982.6486,601384.7733,1515893.256
+Mild anemia,3,ylds,count,6,169,2,China,Female,Reproductive age,115288.7109,41543.70268,260778.2519
+Moderate anemia,3,ylds,count,6,169,2,China,Female,Reproductive age,761956.4422,463087.0774,1123344.969
+Severe anemia,3,ylds,count,6,169,2,China,Female,Reproductive age,116737.4955,66269.58064,185343.2335
+Total anemia,5,prevalence,count,6,169,2,China,Female,Reproductive age,46928914.72,41046607.28,52598127.62
+Mild anemia,5,prevalence,count,6,169,2,China,Female,Reproductive age,31275760.86,28487238.03,33798099.05
+Moderate anemia,5,prevalence,count,6,169,2,China,Female,Reproductive age,14864539.14,12034079.81,17840242.57
+Severe anemia,5,prevalence,count,6,169,2,China,Female,Reproductive age,788614.7155,518119.6837,1118882.794
+Total anemia,3,ylds,rate,6,169,2,China,Female,Reproductive age,0.002232237,0.001358266,0.003401199
+Mild anemia,3,ylds,rate,6,169,2,China,Female,Reproductive age,0.000258808,9.33E-05,0.000585106
+Moderate anemia,3,ylds,rate,6,169,2,China,Female,Reproductive age,0.001711159,0.001042729,0.002520441
+Severe anemia,3,ylds,rate,6,169,2,China,Female,Reproductive age,0.00026227,0.000148928,0.000415853
+Total anemia,5,prevalence,rate,6,169,2,China,Female,Reproductive age,0.105413151,0.092149412,0.1180992
+Mild anemia,5,prevalence,rate,6,169,2,China,Female,Reproductive age,0.070249557,0.063951586,0.07590408
+Moderate anemia,5,prevalence,rate,6,169,2,China,Female,Reproductive age,0.033391711,0.027014985,0.040205438
+Severe anemia,5,prevalence,rate,6,169,2,China,Female,Reproductive age,0.001771883,0.001171559,0.002510429
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,6,169,2,China,female,Reproductive age,17558.76106,5961.172412,31155.2065
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,6,169,2,China,female,Reproductive age,3.94E-05,1.34E-05,6.99E-05
+Total iron responsive anemia,5,prevalence,rate,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,0.21460784,0.178088288,0.249797034
+Total iron responsive anemia,3,ylds,count,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,202057.6416,128156.9995,298050.2062
+Total iron responsive anemia,3,ylds,rate,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,0.007339678,0.004655261,0.010826577
+Total iron responsive anemia,5,prevalence,count,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,5908045.79,4902680.906,6876786.574
+Total iron responsive anemia,3,ylds,rate,171,1,3,Democratic Republic of the Congo,Both,Under Five,0.01412889,0.008989381,0.020813424
+Total iron responsive anemia,5,prevalence,rate,171,1,3,Democratic Republic of the Congo,Both,Under Five,0.464278652,0.408177785,0.521840182
+Total iron responsive anemia,3,ylds,count,171,1,3,Democratic Republic of the Congo,Both,Under Five,192569.2139,122520.4506,283675.8379
+Total iron responsive anemia,5,prevalence,count,171,1,3,Democratic Republic of the Congo,Both,Under Five,6327869.713,5563244.903,7112402.578
+Mean hemoglobin concentration,n/a,g/L,g/L,171,1,3,Democratic Republic of the Congo,Both,Under five,105.3666388,103.2192664,107.4858718
+Mean hemoglobin concentration,n/a,g/L,g/L,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,120.6577601,118.7663487,122.4054047
+Total anemia,5,prevalence,count,171,1,3,Democratic Republic of the Congo,Both,Under Five,8194765.324,7430553.591,8970488.028
+Mild anemia,5,prevalence,count,171,1,3,Democratic Republic of the Congo,Both,Under Five,3492445.754,3243359.086,3741649.891
+Moderate anemia,5,prevalence,count,171,1,3,Democratic Republic of the Congo,Both,Under Five,4411630.444,3855150.302,5010833.057
+Severe anemia,5,prevalence,count,171,1,3,Democratic Republic of the Congo,Both,Under Five,290689.1253,216098.5542,387267.0927
+Total anemia,3,ylds,count,171,1,3,Democratic Republic of the Congo,Both,Under Five,280382.4156,175950.4768,406346.8926
+Mild anemia,3,ylds,count,171,1,3,Democratic Republic of the Congo,Both,Under Five,12843.45104,4490.559025,28326.27899
+Moderate anemia,3,ylds,count,171,1,3,Democratic Republic of the Congo,Both,Under Five,225136.644,139674.1927,329140.0167
+Severe anemia,3,ylds,count,171,1,3,Democratic Republic of the Congo,Both,Under Five,42402.32048,26346.69434,63884.59518
+Total anemia,5,prevalence,rate,171,1,3,Democratic Republic of the Congo,Both,Under Five,0.601253625,0.545183065,0.658168749
+Mild anemia,5,prevalence,rate,171,1,3,Democratic Republic of the Congo,Both,Under Five,0.256242319,0.237966718,0.274526539
+Moderate anemia,5,prevalence,rate,171,1,3,Democratic Republic of the Congo,Both,Under Five,0.323683314,0.282854115,0.367647079
+Severe anemia,5,prevalence,rate,171,1,3,Democratic Republic of the Congo,Both,Under Five,0.021327992,0.015855248,0.028413961
+Total anemia,3,ylds,rate,171,1,3,Democratic Republic of the Congo,Both,Under Five,0.020571784,0.012909566,0.029813855
+Mild anemia,3,ylds,rate,171,1,3,Democratic Republic of the Congo,Both,Under Five,0.00094233,0.000329474,0.002078312
+Moderate anemia,3,ylds,rate,171,1,3,Democratic Republic of the Congo,Both,Under Five,0.016518377,0.010247958,0.024149151
+Severe anemia,3,ylds,rate,171,1,3,Democratic Republic of the Congo,Both,Under Five,0.003111077,0.001933069,0.004687242
+Total anemia,3,ylds,count,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,349853.9943,219894.8653,525462.6098
+Mild anemia,3,ylds,count,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,17880.15743,6357.363705,40088.36196
+Moderate anemia,3,ylds,count,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,280198.6407,176080.6608,419494.6517
+Severe anemia,3,ylds,count,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,51775.19616,30157.59201,80728.48254
+Total anemia,5,prevalence,count,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,10684905.95,9544333.652,11953659.4
+Mild anemia,5,prevalence,count,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,4852086.497,4488275.653,5232051.432
+Moderate anemia,5,prevalence,count,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,5479879.984,4683768.563,6353042.74
+Severe anemia,5,prevalence,count,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,352939.4663,262180.0486,485491.8061
+Total anemia,3,ylds,rate,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,0.012717181,0.008035876,0.019087258
+Mild anemia,3,ylds,rate,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,0.000649781,0.000231783,0.001456197
+Moderate anemia,3,ylds,rate,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,0.010184997,0.006439149,0.015238007
+Severe anemia,3,ylds,rate,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,0.001882404,0.001103841,0.002932436
+Total anemia,5,prevalence,rate,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,0.388478654,0.34699355,0.434212786
+Mild anemia,5,prevalence,rate,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,0.176414382,0.163051167,0.190052565
+Moderate anemia,5,prevalence,rate,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,0.199231625,0.170953623,0.230772209
+Severe anemia,5,prevalence,rate,171,169,2,Democratic Republic of the Congo,Female,Reproductive age,0.012832647,0.009533543,0.017635332
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,171,169,2,Democratic Republic of the Congo,female,Reproductive age,136168.1179,49175.59634,231623.3025
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,171,169,2,Democratic Republic of the Congo,female,Reproductive age,0.004946263,0.001786288,0.008413641
+Total iron responsive anemia,3,ylds,rate,141,169,2,Egypt,Female,Reproductive age,0.004046596,0.00267947,0.006137024
+Total iron responsive anemia,5,prevalence,count,141,169,2,Egypt,Female,Reproductive age,5113735.103,4161064.043,6156679.765
+Total iron responsive anemia,5,prevalence,rate,141,169,2,Egypt,Female,Reproductive age,0.160024892,0.130212811,0.192661918
+Total iron responsive anemia,3,ylds,count,141,169,2,Egypt,Female,Reproductive age,129312.5061,85624.79943,196113.9695
+Total iron responsive anemia,5,prevalence,count,141,1,3,Egypt,Both,Under Five,2601326.187,2040169.733,3231044.592
+Total iron responsive anemia,3,ylds,rate,141,1,3,Egypt,Both,Under Five,0.004849846,0.002744642,0.007833913
+Total iron responsive anemia,5,prevalence,rate,141,1,3,Egypt,Both,Under Five,0.24030296,0.188464956,0.298474518
+Total iron responsive anemia,3,ylds,count,141,1,3,Egypt,Both,Under Five,52500.52934,29711.28608,84803.62419
+Mean hemoglobin concentration,n/a,g/L,g/L,141,1,3,Egypt,Both,Under five,116.4969792,114.2024901,118.8419988
+Mean hemoglobin concentration,n/a,g/L,g/L,141,169,2,Egypt,Female,Reproductive age,126.9185763,125.3070396,128.5298393
+Total anemia,5,prevalence,count,141,1,3,Egypt,Both,Under Five,3034634.886,2410067.303,3712898.703
+Mild anemia,5,prevalence,count,141,1,3,Egypt,Both,Under Five,2056689.285,1672973.5,2470900.423
+Moderate anemia,5,prevalence,count,141,1,3,Egypt,Both,Under Five,952336.8963,678291.1848,1250040.691
+Severe anemia,5,prevalence,count,141,1,3,Egypt,Both,Under Five,25608.70503,15884.77975,37072.02983
+Total anemia,3,ylds,count,141,1,3,Egypt,Both,Under Five,60430.10681,34013.08615,98786.49499
+Mild anemia,3,ylds,count,141,1,3,Egypt,Both,Under Five,7619.614175,2594.731559,17424.71171
+Moderate anemia,3,ylds,count,141,1,3,Egypt,Both,Under Five,49013.73644,27451.40535,80478.96318
+Severe anemia,3,ylds,count,141,1,3,Egypt,Both,Under Five,3796.756193,1959.063623,6400.94162
+Total anemia,5,prevalence,rate,141,1,3,Egypt,Both,Under Five,0.280330759,0.22263502,0.342986801
+Mild anemia,5,prevalence,rate,141,1,3,Egypt,Both,Under Five,0.189990984,0.154544434,0.228254607
+Moderate anemia,5,prevalence,rate,141,1,3,Egypt,Both,Under Five,0.087974117,0.06265857,0.115475129
+Severe anemia,5,prevalence,rate,141,1,3,Egypt,Both,Under Five,0.002365658,0.00146739,0.003424606
+Total anemia,3,ylds,rate,141,1,3,Egypt,Both,Under Five,0.005582358,0.00314203,0.00912561
+Mild anemia,3,ylds,rate,141,1,3,Egypt,Both,Under Five,0.000703878,0.000239694,0.001609644
+Moderate anemia,3,ylds,rate,141,1,3,Egypt,Both,Under Five,0.004527747,0.002535881,0.007434413
+Severe anemia,3,ylds,rate,141,1,3,Egypt,Both,Under Five,0.000350733,0.000180973,0.0005913
+Total anemia,3,ylds,count,141,169,2,Egypt,Female,Reproductive age,141634.1867,84189.37506,225717.6978
+Mild anemia,3,ylds,count,141,169,2,Egypt,Female,Reproductive age,17209.333,6059.320632,37660.7788
+Moderate anemia,3,ylds,count,141,169,2,Egypt,Female,Reproductive age,115299.3473,70334.84644,182507.1658
+Severe anemia,3,ylds,count,141,169,2,Egypt,Female,Reproductive age,9125.506433,5065.15242,14988.07723
+Total anemia,5,prevalence,count,141,169,2,Egypt,Female,Reproductive age,6961340.309,5807723.633,8211284.637
+Mild anemia,5,prevalence,count,141,169,2,Egypt,Female,Reproductive age,4653243.388,4020860.776,5314227.125
+Moderate anemia,5,prevalence,count,141,169,2,Egypt,Female,Reproductive age,2246595.81,1705955.048,2880085.382
+Severe anemia,5,prevalence,count,141,169,2,Egypt,Female,Reproductive age,61501.11119,40724.54325,90057.71222
+Total anemia,3,ylds,rate,141,169,2,Egypt,Female,Reproductive age,0.00443516,0.002639585,0.007063418
+Mild anemia,3,ylds,rate,141,169,2,Egypt,Female,Reproductive age,0.000538784,0.000189714,0.001178524
+Moderate anemia,3,ylds,rate,141,169,2,Egypt,Female,Reproductive age,0.003610565,0.002206847,0.005711225
+Severe anemia,3,ylds,rate,141,169,2,Egypt,Female,Reproductive age,0.000285811,0.000160028,0.000469024
+Total anemia,5,prevalence,rate,141,169,2,Egypt,Female,Reproductive age,0.218045875,0.181783712,0.256956981
+Mild anemia,5,prevalence,rate,141,169,2,Egypt,Female,Reproductive age,0.14575373,0.125847085,0.166298919
+Moderate anemia,5,prevalence,rate,141,169,2,Egypt,Female,Reproductive age,0.070366026,0.053460859,0.090126951
+Severe anemia,5,prevalence,rate,141,169,2,Egypt,Female,Reproductive age,0.001926119,0.001278494,0.00281819
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,141,169,2,Egypt,female,Reproductive age,7215.534237,2498.030903,12949.34789
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,141,169,2,Egypt,female,Reproductive age,0.000225797,7.82E-05,0.000405226
+Total iron responsive anemia,5,prevalence,rate,179,169,2,Ethiopia,Female,Reproductive age,0.150880082,0.135513756,0.166764199
+Total iron responsive anemia,3,ylds,count,179,169,2,Ethiopia,Female,Reproductive age,177368.8473,118041.3544,250573.793
+Total iron responsive anemia,3,ylds,rate,179,169,2,Ethiopia,Female,Reproductive age,0.005136537,0.003418434,0.007256525
+Total iron responsive anemia,5,prevalence,count,179,169,2,Ethiopia,Female,Reproductive age,5210013.591,4679401.663,5758505.211
+Total iron responsive anemia,3,ylds,rate,179,1,3,Ethiopia,Both,Under Five,0.017569858,0.011749222,0.026220203
+Total iron responsive anemia,5,prevalence,rate,179,1,3,Ethiopia,Both,Under Five,0.527380113,0.501399049,0.553048904
+Total iron responsive anemia,3,ylds,count,179,1,3,Ethiopia,Both,Under Five,293059.4308,195973.1428,437344.3366
+Total iron responsive anemia,5,prevalence,count,179,1,3,Ethiopia,Both,Under Five,8796526.19,8363170.618,9224673.166
+Mean hemoglobin concentration,n/a,g/L,g/L,179,1,3,Ethiopia,Both,Under five,106.4254931,105.4609349,107.3708817
+Mean hemoglobin concentration,n/a,g/L,g/L,179,169,2,Ethiopia,Female,Reproductive age,130.3326256,129.4741213,131.3038655
+Total anemia,5,prevalence,count,179,1,3,Ethiopia,Both,Under Five,9598886.894,9151362.43,10029867.13
+Mild anemia,5,prevalence,count,179,1,3,Ethiopia,Both,Under Five,4146989.511,3971639.362,4316458.918
+Moderate anemia,5,prevalence,count,179,1,3,Ethiopia,Both,Under Five,5091828.191,4765269.118,5432556.846
+Severe anemia,5,prevalence,count,179,1,3,Ethiopia,Both,Under Five,360069.1921,311039.9544,421532.7903
+Total anemia,3,ylds,count,179,1,3,Ethiopia,Both,Under Five,328003.5504,216185.3948,492691.629
+Mild anemia,3,ylds,count,179,1,3,Ethiopia,Both,Under Five,15280.90582,5416.822297,33365.6281
+Moderate anemia,3,ylds,count,179,1,3,Ethiopia,Both,Under Five,260140.1161,169018.7306,381732.4614
+Severe anemia,3,ylds,count,179,1,3,Ethiopia,Both,Under Five,52582.52855,34991.88452,75805.51132
+Total anemia,5,prevalence,rate,179,1,3,Ethiopia,Both,Under Five,0.575484224,0.548653689,0.601322879
+Mild anemia,5,prevalence,rate,179,1,3,Ethiopia,Both,Under Five,0.248625395,0.238112588,0.258785632
+Moderate anemia,5,prevalence,rate,179,1,3,Ethiopia,Both,Under Five,0.30527152,0.285693251,0.325699302
+Severe anemia,5,prevalence,rate,179,1,3,Ethiopia,Both,Under Five,0.021587309,0.018647848,0.02527225
+Total anemia,3,ylds,rate,179,1,3,Ethiopia,Both,Under Five,0.019664871,0.012961012,0.029538452
+Mild anemia,3,ylds,rate,179,1,3,Ethiopia,Both,Under Five,0.00091614,0.000324756,0.002000377
+Moderate anemia,3,ylds,rate,179,1,3,Ethiopia,Both,Under Five,0.015596239,0.010133218,0.022886092
+Severe anemia,3,ylds,rate,179,1,3,Ethiopia,Both,Under Five,0.003152492,0.002097876,0.004544785
+Total anemia,3,ylds,count,179,169,2,Ethiopia,Female,Reproductive age,218969.5392,143060.6792,324926.8931
+Mild anemia,3,ylds,count,179,169,2,Ethiopia,Female,Reproductive age,13149.51985,4684.929433,28698.03686
+Moderate anemia,3,ylds,count,179,169,2,Ethiopia,Female,Reproductive age,165864.3879,106212.7941,247303.1093
+Severe anemia,3,ylds,count,179,169,2,Ethiopia,Female,Reproductive age,39955.63148,25986.54883,56821.44872
+Total anemia,5,prevalence,count,179,169,2,Ethiopia,Female,Reproductive age,7077553.512,6517280.585,7667532.029
+Mild anemia,5,prevalence,count,179,169,2,Ethiopia,Female,Reproductive age,3566312.946,3349342.355,3772296.67
+Moderate anemia,5,prevalence,count,179,169,2,Ethiopia,Female,Reproductive age,3239416.821,2892109.392,3626321.974
+Severe anemia,5,prevalence,count,179,169,2,Ethiopia,Female,Reproductive age,271823.7456,230644.5235,316108.3708
+Total anemia,3,ylds,rate,179,169,2,Ethiopia,Female,Reproductive age,0.006346197,0.004148812,0.009409764
+Mild anemia,3,ylds,rate,179,169,2,Ethiopia,Female,Reproductive age,0.000380995,0.000135997,0.000831085
+Moderate anemia,3,ylds,rate,179,169,2,Ethiopia,Female,Reproductive age,0.004807061,0.00307702,0.007161807
+Severe anemia,3,ylds,rate,179,169,2,Ethiopia,Female,Reproductive age,0.001158141,0.000752902,0.001645528
+Total anemia,5,prevalence,rate,179,169,2,Ethiopia,Female,Reproductive age,0.205172409,0.188771913,0.222048915
+Mild anemia,5,prevalence,rate,179,169,2,Ethiopia,Female,Reproductive age,0.103385293,0.097307975,0.109244328
+Moderate anemia,5,prevalence,rate,179,169,2,Ethiopia,Female,Reproductive age,0.093907612,0.083881991,0.105016954
+Severe anemia,5,prevalence,rate,179,169,2,Ethiopia,Female,Reproductive age,0.007879505,0.006679722,0.009154382
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,179,169,2,Ethiopia,female,Reproductive age,92998.85555,30467.16429,167221.9229
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,179,169,2,Ethiopia,female,Reproductive age,0.002693213,0.000882318,0.004842686
+Total iron responsive anemia,5,prevalence,rate,207,169,2,Ghana,Female,Reproductive age,0.24548166,0.202299655,0.288871359
+Total iron responsive anemia,3,ylds,count,207,169,2,Ghana,Female,Reproductive age,85751.14704,53146.54846,126467.0744
+Total iron responsive anemia,3,ylds,rate,207,169,2,Ghana,Female,Reproductive age,0.007815008,0.004843559,0.011525691
+Total iron responsive anemia,5,prevalence,count,207,169,2,Ghana,Female,Reproductive age,2693577.872,2219757.976,3169676.706
+Total iron responsive anemia,3,ylds,rate,207,1,3,Ghana,Both,Under Five,0.017105684,0.010785605,0.026012615
+Total iron responsive anemia,5,prevalence,rate,207,1,3,Ghana,Both,Under Five,0.539933037,0.470387437,0.603398313
+Total iron responsive anemia,3,ylds,count,207,1,3,Ghana,Both,Under Five,67920.42622,42825.69732,103286.5953
+Total iron responsive anemia,5,prevalence,count,207,1,3,Ghana,Both,Under Five,2143876.916,1867736.736,2395874.35
+Mean hemoglobin concentration,n/a,g/L,g/L,207,1,3,Ghana,Both,Under five,103.2978942,100.856822,105.7821412
+Mean hemoglobin concentration,n/a,g/L,g/L,207,169,2,Ghana,Female,Reproductive age,120.3317951,118.452595,122.2854787
+Total anemia,5,prevalence,count,207,1,3,Ghana,Both,Under Five,2623307.703,2337351.462,2883491.12
+Mild anemia,5,prevalence,count,207,1,3,Ghana,Both,Under Five,1080392.905,999763.6513,1166661.947
+Moderate anemia,5,prevalence,count,207,1,3,Ghana,Both,Under Five,1449732.509,1228332.869,1675952.48
+Severe anemia,5,prevalence,count,207,1,3,Ghana,Both,Under Five,93182.2887,65591.43819,134373.6435
+Total anemia,3,ylds,count,207,1,3,Ghana,Both,Under Five,91492.55828,59044.18749,137898.8877
+Mild anemia,3,ylds,count,207,1,3,Ghana,Both,Under Five,3972.348439,1439.568942,8833.026728
+Moderate anemia,3,ylds,count,207,1,3,Ghana,Both,Under Five,73934.22917,47353.64351,108956.0686
+Severe anemia,3,ylds,count,207,1,3,Ghana,Both,Under Five,13585.98068,8031.070278,21741.81674
+Total anemia,5,prevalence,rate,207,1,3,Ghana,Both,Under Five,0.660677152,0.588659388,0.726204058
+Mild anemia,5,prevalence,rate,207,1,3,Ghana,Both,Under Five,0.272095762,0.251789373,0.293822525
+Moderate anemia,5,prevalence,rate,207,1,3,Ghana,Both,Under Five,0.365113533,0.309354278,0.422086784
+Severe anemia,5,prevalence,rate,207,1,3,Ghana,Both,Under Five,0.023467857,0.016519131,0.033841854
+Total anemia,3,ylds,rate,207,1,3,Ghana,Both,Under Five,0.0230423,0.014870213,0.034729683
+Mild anemia,3,ylds,rate,207,1,3,Ghana,Both,Under Five,0.001000432,0.000362554,0.002224588
+Moderate anemia,3,ylds,rate,207,1,3,Ghana,Both,Under Five,0.018620254,0.011925963,0.027440466
+Severe anemia,3,ylds,rate,207,1,3,Ghana,Both,Under Five,0.003421614,0.002022616,0.005475653
+Total anemia,3,ylds,count,207,169,2,Ghana,Female,Reproductive age,140313.0093,87685.46238,210325.0274
+Mild anemia,3,ylds,count,207,169,2,Ghana,Female,Reproductive age,7803.774194,2724.596912,17524.77438
+Moderate anemia,3,ylds,count,207,169,2,Ghana,Female,Reproductive age,112605.7413,70314.61359,168641.49
+Severe anemia,3,ylds,count,207,169,2,Ghana,Female,Reproductive age,19903.49381,12175.9822,30947.31684
+Total anemia,5,prevalence,count,207,169,2,Ghana,Female,Reproductive age,4460901.171,3966250.536,4986775.193
+Mild anemia,5,prevalence,count,207,169,2,Ghana,Female,Reproductive age,2119517.397,1934221.663,2310450.267
+Moderate anemia,5,prevalence,count,207,169,2,Ghana,Female,Reproductive age,2205546.074,1870007.676,2579239.073
+Severe anemia,5,prevalence,count,207,169,2,Ghana,Female,Reproductive age,135837.6999,99255.69922,180044.0803
+Total anemia,3,ylds,rate,207,169,2,Ghana,Female,Reproductive age,0.012796542,0.008043723,0.019168162
+Mild anemia,3,ylds,rate,207,169,2,Ghana,Female,Reproductive age,0.000711569,0.000249259,0.001597136
+Moderate anemia,3,ylds,rate,207,169,2,Ghana,Female,Reproductive age,0.010269737,0.006419857,0.015369295
+Severe anemia,3,ylds,rate,207,169,2,Ghana,Female,Reproductive age,0.001815236,0.001110137,0.002820412
+Total anemia,5,prevalence,rate,207,169,2,Ghana,Female,Reproductive age,0.40695369,0.361873139,0.454474276
+Mild anemia,5,prevalence,rate,207,169,2,Ghana,Female,Reproductive age,0.193370546,0.176453929,0.210564979
+Moderate anemia,5,prevalence,rate,207,169,2,Ghana,Female,Reproductive age,0.201194258,0.170440754,0.23506129
+Severe anemia,5,prevalence,rate,207,169,2,Ghana,Female,Reproductive age,0.012388885,0.009064914,0.01640848
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,207,169,2,Ghana,female,Reproductive age,22821.9415,7626.885955,40568.20345
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,207,169,2,Ghana,female,Reproductive age,0.002079898,0.000695083,0.00369722
+Total iron responsive anemia,3,ylds,rate,1,169,2,Global,Female,Reproductive age,0.006488779,0.004487159,0.009090281
+Total iron responsive anemia,5,prevalence,count,1,169,2,Global,Female,Reproductive age,483921960.8,471750308.6,495578733.4
+Total iron responsive anemia,5,prevalence,rate,1,169,2,Global,Female,Reproductive age,0.195489847,0.190572868,0.200198831
+Total iron responsive anemia,3,ylds,count,1,169,2,Global,Female,Reproductive age,16062536.83,11107660.5,22502379.09
+Total iron responsive anemia,5,prevalence,count,1,1,3,Global,Both,Under Five,226191851.3,220918519.3,231381563.7
+Total iron responsive anemia,3,ylds,rate,1,1,3,Global,Both,Under Five,0.010304905,0.006890595,0.014917082
+Total iron responsive anemia,5,prevalence,rate,1,1,3,Global,Both,Under Five,0.341245151,0.33328952,0.34907463
+Total iron responsive anemia,3,ylds,count,1,1,3,Global,Both,Under Five,6830530.95,4567380.575,9887678.618
+Mean hemoglobin concentration,n/a,g/L,g/L,1,1,3,Global,Both,Under five,113.6804385,113.3959437,113.9875816
+Mean hemoglobin concentration,n/a,g/L,g/L,1,169,2,Global,Female,Reproductive age,127.9299857,127.7399844,128.1155695
+Total anemia,5,prevalence,count,1,1,3,Global,Both,Under Five,262204911.5,257082259,266728979.8
+Mild anemia,5,prevalence,count,1,1,3,Global,Both,Under Five,125270594.9,122809495.2,127256317.4
+Moderate anemia,5,prevalence,count,1,1,3,Global,Both,Under Five,127937744.6,124761154.3,131216089
+Severe anemia,5,prevalence,count,1,1,3,Global,Both,Under Five,8996572.015,8436223.798,9576353.074
+Total anemia,3,ylds,count,1,1,3,Global,Both,Under Five,8311092.839,5512346.177,12168529.5
+Mild anemia,3,ylds,count,1,1,3,Global,Both,Under Five,461525.8739,163197.011,1011052.334
+Moderate anemia,3,ylds,count,1,1,3,Global,Both,Under Five,6537079.877,4283573.11,9675535.504
+Severe anemia,3,ylds,count,1,1,3,Global,Both,Under Five,1312487.088,878467.6841,1841812.41
+Total anemia,5,prevalence,rate,1,1,3,Global,Both,Under Five,0.395576385,0.387848076,0.402401636
+Mild anemia,5,prevalence,rate,1,1,3,Global,Both,Under Five,0.188989934,0.185276987,0.191985702
+Moderate anemia,5,prevalence,rate,1,1,3,Global,Both,Under Five,0.193013739,0.188221365,0.197959625
+Severe anemia,5,prevalence,rate,1,1,3,Global,Both,Under Five,0.013572711,0.012727339,0.0144474
+Total anemia,3,ylds,rate,1,1,3,Global,Both,Under Five,0.01253856,0.008316221,0.018358096
+Mild anemia,3,ylds,rate,1,1,3,Global,Both,Under Five,0.000696283,0.000246208,0.001525328
+Moderate anemia,3,ylds,rate,1,1,3,Global,Both,Under Five,0.009862189,0.006462428,0.014597032
+Severe anemia,3,ylds,rate,1,1,3,Global,Both,Under Five,0.001980088,0.001325303,0.002778657
+Total anemia,3,ylds,count,1,169,2,Global,Female,Reproductive age,19418336.33,12927649.99,28511244.33
+Mild anemia,3,ylds,count,1,169,2,Global,Female,Reproductive age,1175415.255,419808.5124,2594898.282
+Moderate anemia,3,ylds,count,1,169,2,Global,Female,Reproductive age,15035422.56,9881319.035,21989063.78
+Severe anemia,3,ylds,count,1,169,2,Global,Female,Reproductive age,3207498.514,2169161.81,4523400.457
+Total anemia,5,prevalence,count,1,169,2,Global,Female,Reproductive age,635017014.5,625054848.8,645869056.6
+Mild anemia,5,prevalence,count,1,169,2,Global,Female,Reproductive age,318896648.1,314401122.5,323975491.2
+Moderate anemia,5,prevalence,count,1,169,2,Global,Female,Reproductive age,294206846.9,288512349.1,300716984.8
+Severe anemia,5,prevalence,count,1,169,2,Global,Female,Reproductive age,21913519.46,20987230.26,22899082.63
+Total anemia,3,ylds,rate,1,169,2,Global,Female,Reproductive age,0.007850582,0.005233199,0.011517681
+Mild anemia,3,ylds,rate,1,169,2,Global,Female,Reproductive age,0.000475062,0.000170087,0.00104826
+Moderate anemia,3,ylds,rate,1,169,2,Global,Female,Reproductive age,0.006078549,0.003999721,0.008882917
+Severe anemia,3,ylds,rate,1,169,2,Global,Female,Reproductive age,0.001296971,0.00087745,0.001827317
+Total anemia,5,prevalence,rate,1,169,2,Global,Female,Reproductive age,0.256787183,0.252536281,0.26091158
+Mild anemia,5,prevalence,rate,1,169,2,Global,Female,Reproductive age,0.12895398,0.127029209,0.130876307
+Moderate anemia,5,prevalence,rate,1,169,2,Global,Female,Reproductive age,0.118971746,0.116557939,0.121480574
+Severe anemia,5,prevalence,rate,1,169,2,Global,Female,Reproductive age,0.008861457,0.008478632,0.009250537
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,1,169,2,Global,female,Reproductive age,2728444.751,977285.4353,4524661.802
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,1,169,2,Global,female,Reproductive age,0.001102209,0.000394794,0.001827827
+Total iron responsive anemia,3,ylds,rate,163,169,2,India,Female,Reproductive age,0.014108068,0.009741364,0.019833915
+Total iron responsive anemia,5,prevalence,count,163,169,2,India,Female,Reproductive age,178960343.9,174214856.9,183199982.2
+Total iron responsive anemia,5,prevalence,rate,163,169,2,India,Female,Reproductive age,0.386137843,0.375898636,0.395285595
+Total iron responsive anemia,3,ylds,count,163,169,2,India,Female,Reproductive age,6538558.035,4514755.207,9192272.565
+Total iron responsive anemia,5,prevalence,count,163,1,3,India,Both,Under Five,58043087.58,56347163.11,59640735.2
+Total iron responsive anemia,3,ylds,rate,163,1,3,India,Both,Under Five,0.016125287,0.010797757,0.023479955
+Total iron responsive anemia,5,prevalence,rate,163,1,3,India,Both,Under Five,0.49579491,0.48130859,0.509441764
+Total iron responsive anemia,3,ylds,count,163,1,3,India,Both,Under Five,1887799.636,1264101.601,2748816.223
+Mean hemoglobin concentration,n/a,g/L,g/L,163,1,3,India,Both,Under five,106.6891227,106.1949376,107.187063
+Mean hemoglobin concentration,n/a,g/L,g/L,163,169,2,India,Female,Reproductive age,117.8092011,117.4719977,118.1383456
+Total anemia,5,prevalence,count,163,1,3,India,Both,Under Five,66070960.5,64546070.94,67501902.68
+Mild anemia,5,prevalence,count,163,1,3,India,Both,Under Five,28989377.73,28464926.91,29501520.15
+Moderate anemia,5,prevalence,count,163,1,3,India,Both,Under Five,34513172.78,33426995.66,35607109.48
+Severe anemia,5,prevalence,count,163,1,3,India,Both,Under Five,2568409.997,2356824.522,2810273.734
+Total anemia,3,ylds,count,163,1,3,India,Both,Under Five,2245101.213,1481309.069,3306122.92
+Mild anemia,3,ylds,count,163,1,3,India,Both,Under Five,106719.7957,38030.02634,233822.693
+Moderate anemia,3,ylds,count,163,1,3,India,Both,Under Five,1763236.137,1151273.682,2620312.587
+Severe anemia,3,ylds,count,163,1,3,India,Both,Under Five,375145.2801,250926.0226,530237.3715
+Total anemia,5,prevalence,rate,163,1,3,India,Both,Under Five,0.564367736,0.551342369,0.576590619
+Mild anemia,5,prevalence,rate,163,1,3,India,Both,Under Five,0.247622698,0.243142921,0.251997338
+Moderate anemia,5,prevalence,rate,163,1,3,India,Both,Under Five,0.294806085,0.285528131,0.30415032
+Severe anemia,5,prevalence,rate,163,1,3,India,Both,Under Five,0.021938954,0.020131624,0.024004916
+Total anemia,3,ylds,rate,163,1,3,India,Both,Under Five,0.019177301,0.012653109,0.028240381
+Mild anemia,3,ylds,rate,163,1,3,India,Both,Under Five,0.000911584,0.000324846,0.001997277
+Moderate anemia,3,ylds,rate,163,1,3,India,Both,Under Five,0.015061285,0.009833998,0.022382297
+Severe anemia,3,ylds,rate,163,1,3,India,Both,Under Five,0.003204432,0.002143371,0.004529204
+Total anemia,3,ylds,count,163,169,2,India,Female,Reproductive age,8114514.196,5447642.094,11689299.02
+Mild anemia,3,ylds,count,163,169,2,India,Female,Reproductive age,340386.1241,121255.6319,741533.7533
+Moderate anemia,3,ylds,count,163,169,2,India,Female,Reproductive age,6184056.743,4052219.23,9012663.478
+Severe anemia,3,ylds,count,163,169,2,India,Female,Reproductive age,1590071.329,1079419.973,2223168.077
+Total anemia,5,prevalence,count,163,169,2,India,Female,Reproductive age,224639864,221308064,228542974.4
+Mild anemia,5,prevalence,count,163,169,2,India,Female,Reproductive age,92480437.12,91325668.24,93722024.36
+Moderate anemia,5,prevalence,count,163,169,2,India,Female,Reproductive age,121260276.8,118830731.1,123920276.7
+Severe anemia,5,prevalence,count,163,169,2,India,Female,Reproductive age,10899150.04,10336623.05,11483866.31
+Total anemia,3,ylds,rate,163,169,2,India,Female,Reproductive age,0.017522145,0.011763383,0.025221681
+Mild anemia,3,ylds,rate,163,169,2,India,Female,Reproductive age,0.000734796,0.000262014,0.001599987
+Moderate anemia,3,ylds,rate,163,169,2,India,Female,Reproductive age,0.013353275,0.008746231,0.019446378
+Severe anemia,3,ylds,rate,163,169,2,India,Female,Reproductive age,0.003434074,0.002338009,0.004796869
+Total anemia,5,prevalence,rate,163,169,2,India,Female,Reproductive age,0.485183487,0.477583786,0.49312093
+Mild anemia,5,prevalence,rate,163,169,2,India,Female,Reproductive age,0.199741747,0.197079579,0.202221451
+Moderate anemia,5,prevalence,rate,163,169,2,India,Female,Reproductive age,0.261901226,0.256456932,0.267379394
+Severe anemia,5,prevalence,rate,163,169,2,India,Female,Reproductive age,0.023540514,0.022339311,0.024778424
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,163,169,2,India,female,Reproductive age,685896.033,241744.0836,1177394.037
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,163,169,2,India,female,Reproductive age,0.001479939,0.000521605,0.002540431
+Total iron responsive anemia,3,ylds,rate,11,169,2,Indonesia,Female,Reproductive age,0.006179685,0.004108454,0.008836182
+Total iron responsive anemia,5,prevalence,count,11,169,2,Indonesia,Female,Reproductive age,18407471.34,15786001.52,21282170.79
+Total iron responsive anemia,5,prevalence,rate,11,169,2,Indonesia,Female,Reproductive age,0.206330903,0.176946626,0.238553653
+Total iron responsive anemia,3,ylds,count,11,169,2,Indonesia,Female,Reproductive age,551310.4392,366528.9092,788305.3643
+Total iron responsive anemia,5,prevalence,count,11,1,3,Indonesia,Both,Under Five,3281985.134,2484756.245,4297598.396
+Total iron responsive anemia,3,ylds,rate,11,1,3,Indonesia,Both,Under Five,0.003385731,0.001957568,0.005684996
+Total iron responsive anemia,5,prevalence,rate,11,1,3,Indonesia,Both,Under Five,0.166544516,0.126089092,0.218081867
+Total iron responsive anemia,3,ylds,count,11,1,3,Indonesia,Both,Under Five,66720.40891,38576.5233,112030.5344
+Mean hemoglobin concentration,n/a,g/L,g/L,11,1,3,Indonesia,Both,Under five,121.2230566,118.5390645,123.7403393
+Mean hemoglobin concentration,n/a,g/L,g/L,11,169,2,Indonesia,Female,Reproductive age,127.3612158,125.7637114,128.8904874
+Total anemia,5,prevalence,count,11,1,3,Indonesia,Both,Under Five,3768067.721,2878512.075,4901628.937
+Mild anemia,5,prevalence,count,11,1,3,Indonesia,Both,Under Five,2550732.325,2014324.676,3162033.407
+Moderate anemia,5,prevalence,count,11,1,3,Indonesia,Both,Under Five,1178526.498,809414.5979,1668645.491
+Severe anemia,5,prevalence,count,11,1,3,Indonesia,Both,Under Five,38808.89785,22997.69256,63165.18521
+Total anemia,3,ylds,count,11,1,3,Indonesia,Both,Under Five,75721.70244,42806.05378,126479.586
+Mild anemia,3,ylds,count,11,1,3,Indonesia,Both,Under Five,9407.814308,3193.832036,21496.65038
+Moderate anemia,3,ylds,count,11,1,3,Indonesia,Both,Under Five,60570.86717,33947.85075,100425.0873
+Severe anemia,3,ylds,count,11,1,3,Indonesia,Both,Under Five,5743.020956,2834.348794,10284.97953
+Total anemia,5,prevalence,rate,11,1,3,Indonesia,Both,Under Five,0.191210803,0.146070253,0.24873343
+Mild anemia,5,prevalence,rate,11,1,3,Indonesia,Both,Under Five,0.129437052,0.102217016,0.160457559
+Moderate anemia,5,prevalence,rate,11,1,3,Indonesia,Both,Under Five,0.059804392,0.041073788,0.084675507
+Severe anemia,5,prevalence,rate,11,1,3,Indonesia,Both,Under Five,0.00196936,0.001167019,0.003205321
+Total anemia,3,ylds,rate,11,1,3,Indonesia,Both,Under Five,0.003842502,0.002172196,0.006418214
+Mild anemia,3,ylds,rate,11,1,3,Indonesia,Both,Under Five,0.0004774,0.000162071,0.001090849
+Moderate anemia,3,ylds,rate,11,1,3,Indonesia,Both,Under Five,0.003073672,0.001722686,0.005096077
+Severe anemia,3,ylds,rate,11,1,3,Indonesia,Both,Under Five,0.00029143,0.000143829,0.000521912
+Total anemia,3,ylds,count,11,169,2,Indonesia,Female,Reproductive age,571353.7726,356455.4089,870702.898
+Mild anemia,3,ylds,count,11,169,2,Indonesia,Female,Reproductive age,48468.59813,16655.22288,108340.1604
+Moderate anemia,3,ylds,count,11,169,2,Indonesia,Female,Reproductive age,459224.8788,285339.1178,701972.909
+Severe anemia,3,ylds,count,11,169,2,Indonesia,Female,Reproductive age,63660.2957,39703.06142,94212.75422
+Total anemia,5,prevalence,count,11,169,2,Indonesia,Female,Reproductive age,22523351.57,19718860.27,25674317.56
+Mild anemia,5,prevalence,count,11,169,2,Indonesia,Female,Reproductive age,13128233.65,11696801.63,14599481.83
+Moderate anemia,5,prevalence,count,11,169,2,Indonesia,Female,Reproductive age,8962263.221,7417738.656,10651180.04
+Severe anemia,5,prevalence,count,11,169,2,Indonesia,Female,Reproductive age,432854.7027,330376.8093,548427.508
+Total anemia,3,ylds,rate,11,169,2,Indonesia,Female,Reproductive age,0.006409764,0.003997156,0.009759782
+Mild anemia,3,ylds,rate,11,169,2,Indonesia,Female,Reproductive age,0.000543542,0.000189753,0.001214394
+Moderate anemia,3,ylds,rate,11,169,2,Indonesia,Female,Reproductive age,0.005151769,0.003226768,0.007868474
+Severe anemia,3,ylds,rate,11,169,2,Indonesia,Female,Reproductive age,0.000714453,0.000451539,0.001056039
+Total anemia,5,prevalence,rate,11,169,2,Indonesia,Female,Reproductive age,0.25272481,0.221037726,0.287785597
+Mild anemia,5,prevalence,rate,11,169,2,Indonesia,Female,Reproductive age,0.147297565,0.131132325,0.163646827
+Moderate anemia,5,prevalence,rate,11,169,2,Indonesia,Female,Reproductive age,0.10056896,0.083213488,0.119389978
+Severe anemia,5,prevalence,rate,11,169,2,Indonesia,Female,Reproductive age,0.004858285,0.003708781,0.006153892
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,11,169,2,Indonesia,female,Reproductive age,49593.63452,17455.58931,85531.33491
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,11,169,2,Indonesia,female,Reproductive age,0.000555899,0.000195661,0.000958728
+Total iron responsive anemia,3,ylds,rate,180,169,2,Kenya,Female,Reproductive age,0.005456768,0.003784728,0.007465651
+Total iron responsive anemia,5,prevalence,rate,180,169,2,Kenya,Female,Reproductive age,0.14930048,0.140600396,0.157386908
+Total iron responsive anemia,3,ylds,count,180,169,2,Kenya,Female,Reproductive age,92778.42759,64349.65006,126934.3606
+Total iron responsive anemia,5,prevalence,count,180,169,2,Kenya,Female,Reproductive age,2538474.052,2390551.303,2675963.141
+Total iron responsive anemia,3,ylds,rate,180,1,3,Kenya,Both,Under Five,0.008060389,0.005195882,0.011903772
+Total iron responsive anemia,5,prevalence,rate,180,1,3,Kenya,Both,Under Five,0.329755226,0.3086008,0.349745249
+Total iron responsive anemia,3,ylds,count,180,1,3,Kenya,Both,Under Five,51715.8029,33337.00347,76375.11173
+Total iron responsive anemia,5,prevalence,count,180,1,3,Kenya,Both,Under Five,2115723.635,1979995.933,2243980.478
+Mean hemoglobin concentration,n/a,g/L,g/L,180,1,3,Kenya,Both,Under five,112.4361716,111.9523951,112.8861435
+Mean hemoglobin concentration,n/a,g/L,g/L,180,169,2,Kenya,Female,Reproductive age,129.1659517,128.7769326,129.5560792
+Total anemia,5,prevalence,count,180,1,3,Kenya,Both,Under Five,2622290.638,2525600.023,2725219.156
+Mild anemia,5,prevalence,count,180,1,3,Kenya,Both,Under Five,1494575.122,1425668.965,1555049.641
+Moderate anemia,5,prevalence,count,180,1,3,Kenya,Both,Under Five,1075214.549,1026559.189,1127040.141
+Severe anemia,5,prevalence,count,180,1,3,Kenya,Both,Under Five,52500.96682,48312.71183,57122.72439
+Total anemia,3,ylds,count,180,1,3,Kenya,Both,Under Five,68168.71702,44662.84694,100464.5569
+Mild anemia,3,ylds,count,180,1,3,Kenya,Both,Under Five,5510.053084,1966.82413,12086.39823
+Moderate anemia,3,ylds,count,180,1,3,Kenya,Both,Under Five,54971.82151,36307.97018,81559.34899
+Severe anemia,3,ylds,count,180,1,3,Kenya,Both,Under Five,7686.842426,5195.164035,10880.30902
+Total anemia,5,prevalence,rate,180,1,3,Kenya,Both,Under Five,0.408708409,0.393638277,0.424750777
+Mild anemia,5,prevalence,rate,180,1,3,Kenya,Both,Under Five,0.232943447,0.222203781,0.242368964
+Moderate anemia,5,prevalence,rate,180,1,3,Kenya,Both,Under Five,0.167582198,0.159998807,0.175659699
+Severe anemia,5,prevalence,rate,180,1,3,Kenya,Both,Under Five,0.008182764,0.007529986,0.008903108
+Total anemia,3,ylds,rate,180,1,3,Kenya,Both,Under Five,0.010624729,0.006961121,0.015658337
+Mild anemia,3,ylds,rate,180,1,3,Kenya,Both,Under Five,0.000858793,0.000306548,0.001883778
+Moderate anemia,3,ylds,rate,180,1,3,Kenya,Both,Under Five,0.00856787,0.005658935,0.012711784
+Severe anemia,3,ylds,rate,180,1,3,Kenya,Both,Under Five,0.001198066,0.000809715,0.001695797
+Total anemia,3,ylds,count,180,169,2,Kenya,Female,Reproductive age,137924.2997,91062.46589,197597.6478
+Mild anemia,3,ylds,count,180,169,2,Kenya,Female,Reproductive age,6730.511263,2398.732466,14784.25849
+Moderate anemia,3,ylds,count,180,169,2,Kenya,Female,Reproductive age,96292.51003,63076.93913,139595.7916
+Severe anemia,3,ylds,count,180,169,2,Kenya,Female,Reproductive age,34901.27842,23501.50286,48862.3326
+Total anemia,5,prevalence,count,180,169,2,Kenya,Female,Reproductive age,3956093.674,3841984.292,4069528.448
+Mild anemia,5,prevalence,count,180,169,2,Kenya,Female,Reproductive age,1827063.989,1775069.963,1884531.611
+Moderate anemia,5,prevalence,count,180,169,2,Kenya,Female,Reproductive age,1888705.243,1822669.672,1952508.152
+Severe anemia,5,prevalence,count,180,169,2,Kenya,Female,Reproductive age,240324.4431,225744.1731,256896.0997
+Total anemia,3,ylds,rate,180,169,2,Kenya,Female,Reproductive age,0.008118367,0.005402962,0.011621716
+Mild anemia,3,ylds,rate,180,169,2,Kenya,Female,Reproductive age,0.000396045,0.000141502,0.000869537
+Moderate anemia,3,ylds,rate,180,169,2,Kenya,Female,Reproductive age,0.005667724,0.00372519,0.008210334
+Severe anemia,3,ylds,rate,180,169,2,Kenya,Female,Reproductive age,0.002054598,0.001383122,0.002873841
+Total anemia,5,prevalence,rate,180,169,2,Kenya,Female,Reproductive age,0.232908507,0.226050557,0.239349522
+Mild anemia,5,prevalence,rate,180,169,2,Kenya,Female,Reproductive age,0.107565217,0.104404654,0.110838822
+Moderate anemia,5,prevalence,rate,180,169,2,Kenya,Female,Reproductive age,0.111194777,0.107205425,0.114836866
+Severe anemia,5,prevalence,rate,180,169,2,Kenya,Female,Reproductive age,0.014148513,0.013288976,0.015109357
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,180,169,2,Kenya,female,Reproductive age,49362.69083,17399.29709,85547.50385
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,180,169,2,Kenya,female,Reproductive age,0.002903269,0.001023341,0.005031481
+Total iron responsive anemia,3,ylds,rate,181,169,2,Madagascar,Female,Reproductive age,0.006772514,0.004203857,0.010054006
+Total iron responsive anemia,5,prevalence,rate,181,169,2,Madagascar,Female,Reproductive age,0.212714346,0.17680641,0.24998551
+Total iron responsive anemia,3,ylds,count,181,169,2,Madagascar,Female,Reproductive age,58971.233,36604.81412,87544.61293
+Total iron responsive anemia,5,prevalence,count,181,169,2,Madagascar,Female,Reproductive age,1852196.629,1539530.558,2176732.912
+Total iron responsive anemia,3,ylds,rate,181,1,3,Madagascar,Both,Under Five,0.010840426,0.00669592,0.016393715
+Total iron responsive anemia,5,prevalence,rate,181,1,3,Madagascar,Both,Under Five,0.41020086,0.355119838,0.467606841
+Total iron responsive anemia,3,ylds,count,181,1,3,Madagascar,Both,Under Five,42702.40524,26376.44257,64577.81723
+Total iron responsive anemia,5,prevalence,count,181,1,3,Madagascar,Both,Under Five,1615855.645,1398881.502,1841988.225
+Mean hemoglobin concentration,n/a,g/L,g/L,181,1,3,Madagascar,Both,Under five,110.6492807,108.6188526,112.6864705
+Mean hemoglobin concentration,n/a,g/L,g/L,181,169,2,Madagascar,Female,Reproductive age,124.3004412,122.3723372,126.3348065
+Total anemia,5,prevalence,count,181,1,3,Madagascar,Both,Under Five,1834282.031,1596460.664,2067517.522
+Mild anemia,5,prevalence,count,181,1,3,Madagascar,Both,Under Five,983301.7226,889399.2512,1078423.651
+Moderate anemia,5,prevalence,count,181,1,3,Madagascar,Both,Under Five,819596.7105,672796.4099,968956.8767
+Severe anemia,5,prevalence,count,181,1,3,Madagascar,Both,Under Five,31383.5981,22861.78833,41794.15669
+Total anemia,3,ylds,count,181,1,3,Madagascar,Both,Under Five,50192.9159,30826.05266,76262.14998
+Mild anemia,3,ylds,count,181,1,3,Madagascar,Both,Under Five,3619.555255,1275.042665,7940.956779
+Moderate anemia,3,ylds,count,181,1,3,Madagascar,Both,Under Five,41962.41484,25893.61756,63091.51234
+Severe anemia,3,ylds,count,181,1,3,Madagascar,Both,Under Five,4610.945803,2705.777817,7032.827117
+Total anemia,5,prevalence,rate,181,1,3,Madagascar,Both,Under Five,0.465650548,0.405277253,0.524859673
+Mild anemia,5,prevalence,rate,181,1,3,Madagascar,Both,Under Five,0.249620821,0.225782754,0.273768458
+Moderate anemia,5,prevalence,rate,181,1,3,Madagascar,Both,Under Five,0.208062692,0.170795991,0.24597924
+Severe anemia,5,prevalence,rate,181,1,3,Madagascar,Both,Under Five,0.007967035,0.00580369,0.010609858
+Total anemia,3,ylds,rate,181,1,3,Madagascar,Both,Under Five,0.012741966,0.007825497,0.019359897
+Mild anemia,3,ylds,rate,181,1,3,Madagascar,Both,Under Five,0.00091886,0.000323682,0.00201589
+Moderate anemia,3,ylds,rate,181,1,3,Madagascar,Both,Under Five,0.010652572,0.00657335,0.016016401
+Severe anemia,3,ylds,rate,181,1,3,Madagascar,Both,Under Five,0.001170534,0.000686888,0.001785352
+Total anemia,3,ylds,count,181,169,2,Madagascar,Female,Reproductive age,79747.61202,48485.74746,121964.1729
+Mild anemia,3,ylds,count,181,169,2,Madagascar,Female,Reproductive age,5010.381955,1733.117827,11279.69203
+Moderate anemia,3,ylds,count,181,169,2,Madagascar,Female,Reproductive age,64245.9215,38703.67955,95983.70643
+Severe anemia,3,ylds,count,181,169,2,Madagascar,Female,Reproductive age,10491.30857,6107.149639,16779.92783
+Total anemia,5,prevalence,count,181,169,2,Madagascar,Female,Reproductive age,2686718.947,2295829.325,3072666.63
+Mild anemia,5,prevalence,count,181,169,2,Madagascar,Female,Reproductive age,1359738.77,1206085.866,1507410.542
+Moderate anemia,5,prevalence,count,181,169,2,Madagascar,Female,Reproductive age,1255675.745,998709.5212,1526497.996
+Severe anemia,5,prevalence,count,181,169,2,Madagascar,Female,Reproductive age,71304.43116,49142.56153,98087.30793
+Total anemia,3,ylds,rate,181,169,2,Madagascar,Female,Reproductive age,0.009166128,0.005581893,0.014006898
+Mild anemia,3,ylds,rate,181,169,2,Madagascar,Female,Reproductive age,0.000575729,0.000199763,0.001295409
+Moderate anemia,3,ylds,rate,181,169,2,Madagascar,Female,Reproductive age,0.007384486,0.004462485,0.011023188
+Severe anemia,3,ylds,rate,181,169,2,Madagascar,Female,Reproductive age,0.001205913,0.000704923,0.00192708
+Total anemia,5,prevalence,rate,181,169,2,Madagascar,Female,Reproductive age,0.30889776,0.263812945,0.352878449
+Mild anemia,5,prevalence,rate,181,169,2,Madagascar,Female,Reproductive age,0.156334271,0.138739985,0.173547584
+Moderate anemia,5,prevalence,rate,181,169,2,Madagascar,Female,Reproductive age,0.144366868,0.114865278,0.175309694
+Severe anemia,5,prevalence,rate,181,169,2,Madagascar,Female,Reproductive age,0.008196622,0.005652098,0.011264775
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,181,169,2,Madagascar,female,Reproductive age,28438.58112,9973.325976,49344.34751
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,181,169,2,Madagascar,female,Reproductive age,0.003266011,0.00114538,0.00566692
+Total iron responsive anemia,3,ylds,rate,184,169,2,Mozambique,Female,Reproductive age,0.006666918,0.004295094,0.009722179
+Total iron responsive anemia,5,prevalence,rate,184,169,2,Mozambique,Female,Reproductive age,0.191521563,0.163396468,0.219200081
+Total iron responsive anemia,3,ylds,count,184,169,2,Mozambique,Female,Reproductive age,63099.7752,40651.3855,92016.62946
+Total iron responsive anemia,5,prevalence,count,184,169,2,Mozambique,Female,Reproductive age,1812676.908,1546483.85,2074643.29
+Total iron responsive anemia,3,ylds,rate,184,1,3,Mozambique,Both,Under Five,0.019558934,0.012525499,0.028706829
+Total iron responsive anemia,5,prevalence,rate,184,1,3,Mozambique,Both,Under Five,0.568288157,0.513339767,0.6180334
+Total iron responsive anemia,3,ylds,count,184,1,3,Mozambique,Both,Under Five,99849.06385,63943.12783,146549.4001
+Total iron responsive anemia,5,prevalence,count,184,1,3,Mozambique,Both,Under Five,2901131.594,2620618.08,3155082.861
+Mean hemoglobin concentration,n/a,g/L,g/L,184,1,3,Mozambique,Both,Under five,102.5266167,100.7577834,104.3864623
+Mean hemoglobin concentration,n/a,g/L,g/L,184,169,2,Mozambique,Female,Reproductive age,121.814672,120.212848,123.4495959
+Total anemia,5,prevalence,count,184,1,3,Mozambique,Both,Under Five,3454769.916,3184176.781,3709685.483
+Mild anemia,5,prevalence,count,184,1,3,Mozambique,Both,Under Five,1323024.818,1224443.809,1417890.488
+Moderate anemia,5,prevalence,count,184,1,3,Mozambique,Both,Under Five,1974304.272,1763445.185,2172375.564
+Severe anemia,5,prevalence,count,184,1,3,Mozambique,Both,Under Five,157440.8265,119180.3232,203821.1386
+Total anemia,3,ylds,count,184,1,3,Mozambique,Both,Under Five,128463.5336,82095.82044,187632.9063
+Mild anemia,3,ylds,count,184,1,3,Mozambique,Both,Under Five,4869.985015,1705.328768,10799.75418
+Moderate anemia,3,ylds,count,184,1,3,Mozambique,Both,Under Five,100674.2395,64380.24002,147854.7999
+Severe anemia,3,ylds,count,184,1,3,Mozambique,Both,Under Five,22919.3091,14752.32606,34577.88954
+Total anemia,5,prevalence,rate,184,1,3,Mozambique,Both,Under Five,0.676737598,0.623732462,0.726671734
+Mild anemia,5,prevalence,rate,184,1,3,Mozambique,Both,Under Five,0.259160714,0.239850173,0.277743475
+Moderate anemia,5,prevalence,rate,184,1,3,Mozambique,Both,Under Five,0.386736588,0.345432456,0.425535783
+Severe anemia,5,prevalence,rate,184,1,3,Mozambique,Both,Under Five,0.030840296,0.023345637,0.039925503
+Total anemia,3,ylds,rate,184,1,3,Mozambique,Both,Under Five,0.025164079,0.01608134,0.036754471
+Mild anemia,3,ylds,rate,184,1,3,Mozambique,Both,Under Five,0.000953957,0.000334048,0.00211551
+Moderate anemia,3,ylds,rate,184,1,3,Mozambique,Both,Under Five,0.019720573,0.012611123,0.028962537
+Severe anemia,3,ylds,rate,184,1,3,Mozambique,Both,Under Five,0.004489549,0.002889759,0.00677329
+Total anemia,3,ylds,count,184,169,2,Mozambique,Female,Reproductive age,112708.8256,71556.71434,165552.746
+Mild anemia,3,ylds,count,184,169,2,Mozambique,Female,Reproductive age,5689.435672,2016.525204,12509.07711
+Moderate anemia,3,ylds,count,184,169,2,Mozambique,Female,Reproductive age,88477.22652,55263.21885,132399.7325
+Severe anemia,3,ylds,count,184,169,2,Mozambique,Female,Reproductive age,18542.16342,11486.71822,28362.67797
+Total anemia,5,prevalence,count,184,169,2,Mozambique,Female,Reproductive age,3401165.812,3045582.651,3753159.89
+Mild anemia,5,prevalence,count,184,169,2,Mozambique,Female,Reproductive age,1543590.554,1432501.205,1663810.512
+Moderate anemia,5,prevalence,count,184,169,2,Mozambique,Female,Reproductive age,1731220.651,1487261.668,1981839.083
+Severe anemia,5,prevalence,count,184,169,2,Mozambique,Female,Reproductive age,126354.6071,92995.02419,164603.2791
+Total anemia,3,ylds,rate,184,169,2,Mozambique,Female,Reproductive age,0.011917621,0.007605212,0.017491766
+Mild anemia,3,ylds,rate,184,169,2,Mozambique,Female,Reproductive age,0.000601422,0.000213464,0.001321669
+Moderate anemia,3,ylds,rate,184,169,2,Mozambique,Female,Reproductive age,0.009355345,0.005865046,0.013988926
+Severe anemia,3,ylds,rate,184,169,2,Mozambique,Female,Reproductive age,0.001960854,0.00121558,0.002996709
+Total anemia,5,prevalence,rate,184,169,2,Mozambique,Female,Reproductive age,0.35971747,0.322111485,0.396546701
+Mild anemia,5,prevalence,rate,184,169,2,Mozambique,Female,Reproductive age,0.1632564,0.151361201,0.175792822
+Moderate anemia,5,prevalence,rate,184,169,2,Mozambique,Female,Reproductive age,0.183098332,0.157270027,0.20939469
+Severe anemia,5,prevalence,rate,184,169,2,Mozambique,Female,Reproductive age,0.013362738,0.009860658,0.017391449
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,184,169,2,Mozambique,female,Reproductive age,33195.90426,11733.06034,59677.12099
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,184,169,2,Mozambique,female,Reproductive age,0.003507372,0.001239677,0.006305291
+Total iron responsive anemia,3,ylds,rate,15,169,2,Myanmar,Female,Reproductive age,0.00969413,0.006524303,0.013715835
+Total iron responsive anemia,5,prevalence,count,15,169,2,Myanmar,Female,Reproductive age,5600099.273,5067822.408,6200296.596
+Total iron responsive anemia,5,prevalence,rate,15,169,2,Myanmar,Female,Reproductive age,0.294674997,0.2666668,0.326257142
+Total iron responsive anemia,3,ylds,count,15,169,2,Myanmar,Female,Reproductive age,184230.3876,123989.9635,260660.1855
+Total iron responsive anemia,5,prevalence,count,15,1,3,Myanmar,Both,Under Five,2891013.677,2541572.711,3241600.627
+Total iron responsive anemia,3,ylds,rate,15,1,3,Myanmar,Both,Under Five,0.016816584,0.010575951,0.025960585
+Total iron responsive anemia,5,prevalence,rate,15,1,3,Myanmar,Both,Under Five,0.57605174,0.50642354,0.645908283
+Total iron responsive anemia,3,ylds,count,15,1,3,Myanmar,Both,Under Five,84396.88774,53077.20868,130287.6132
+Mean hemoglobin concentration,n/a,g/L,g/L,15,1,3,Myanmar,Both,Under five,105.4117943,103.1676296,107.55094
+Mean hemoglobin concentration,n/a,g/L,g/L,15,169,2,Myanmar,Female,Reproductive age,122.3902503,121.0714209,123.6839552
+Total anemia,5,prevalence,count,15,1,3,Myanmar,Both,Under Five,3162423.876,2803929.77,3527788.125
+Mild anemia,5,prevalence,count,15,1,3,Myanmar,Both,Under Five,1532804.159,1387940.046,1681822.991
+Moderate anemia,5,prevalence,count,15,1,3,Myanmar,Both,Under Five,1571919.027,1296361.993,1871715.415
+Severe anemia,5,prevalence,count,15,1,3,Myanmar,Both,Under Five,57700.69003,37521.60615,84935.21008
+Total anemia,3,ylds,count,15,1,3,Myanmar,Both,Under Five,94496.80561,58088.25225,147269.2175
+Mild anemia,3,ylds,count,15,1,3,Myanmar,Both,Under Five,5640.735476,1982.497291,12066.9719
+Moderate anemia,3,ylds,count,15,1,3,Myanmar,Both,Under Five,80394.81207,50170.40807,122970.7971
+Severe anemia,3,ylds,count,15,1,3,Myanmar,Both,Under Five,8461.258067,4626.627645,14045.81803
+Total anemia,5,prevalence,rate,15,1,3,Myanmar,Both,Under Five,0.630131843,0.558699751,0.702932851
+Mild anemia,5,prevalence,rate,15,1,3,Myanmar,Both,Under Five,0.305420382,0.276555343,0.335113274
+Moderate anemia,5,prevalence,rate,15,1,3,Myanmar,Both,Under Five,0.313214253,0.258307869,0.372950474
+Severe anemia,5,prevalence,rate,15,1,3,Myanmar,Both,Under Five,0.011497207,0.007476404,0.016923848
+Total anemia,3,ylds,rate,15,1,3,Myanmar,Both,Under Five,0.018829053,0.011574431,0.029344271
+Mild anemia,3,ylds,rate,15,1,3,Myanmar,Both,Under Five,0.00112395,0.000395024,0.002404416
+Moderate anemia,3,ylds,rate,15,1,3,Myanmar,Both,Under Five,0.016019146,0.009996753,0.024502666
+Severe anemia,3,ylds,rate,15,1,3,Myanmar,Both,Under Five,0.001685956,0.000921883,0.002798713
+Total anemia,3,ylds,count,15,169,2,Myanmar,Female,Reproductive age,197719.3197,123397.54,290150.1742
+Mild anemia,3,ylds,count,15,169,2,Myanmar,Female,Reproductive age,13341.34842,4689.710861,29844.58316
+Moderate anemia,3,ylds,count,15,169,2,Myanmar,Female,Reproductive age,160797.7121,100370.6403,237707.2065
+Severe anemia,3,ylds,count,15,169,2,Myanmar,Female,Reproductive age,23580.2592,14377.05399,35261.39117
+Total anemia,5,prevalence,count,15,169,2,Myanmar,Female,Reproductive age,6920545.977,6389478.45,7546800.094
+Mild anemia,5,prevalence,count,15,169,2,Myanmar,Female,Reproductive age,3617529.659,3386303.288,3870619.02
+Moderate anemia,5,prevalence,count,15,169,2,Myanmar,Female,Reproductive age,3142362.776,2784347.096,3569756.033
+Severe anemia,5,prevalence,count,15,169,2,Myanmar,Female,Reproductive age,160653.5419,124021.5004,203781.0153
+Total anemia,3,ylds,rate,15,169,2,Myanmar,Female,Reproductive age,0.010412823,0.006517694,0.015267587
+Mild anemia,3,ylds,rate,15,169,2,Myanmar,Female,Reproductive age,0.000702375,0.000252989,0.00157041
+Moderate anemia,3,ylds,rate,15,169,2,Myanmar,Female,Reproductive age,0.008468403,0.005330511,0.012508059
+Severe anemia,3,ylds,rate,15,169,2,Myanmar,Female,Reproductive age,0.001242045,0.000758601,0.00185544
+Total anemia,5,prevalence,rate,15,169,2,Myanmar,Female,Reproductive age,0.364555597,0.336309267,0.397917351
+Mild anemia,5,prevalence,rate,15,169,2,Myanmar,Female,Reproductive age,0.190555639,0.178205094,0.203670434
+Moderate anemia,5,prevalence,rate,15,169,2,Myanmar,Female,Reproductive age,0.165537248,0.146703373,0.187839143
+Severe anemia,5,prevalence,rate,15,169,2,Myanmar,Female,Reproductive age,0.00846271,0.006527753,0.010722876
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,15,169,2,Myanmar,female,Reproductive age,18338.7141,6510.127391,33086.16159
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,15,169,2,Myanmar,female,Reproductive age,0.000964976,0.00034256,0.001740981
+Total iron responsive anemia,3,ylds,rate,164,169,2,Nepal,Female,Reproductive age,0.009529037,0.006057389,0.014079579
+Total iron responsive anemia,5,prevalence,count,164,169,2,Nepal,Female,Reproductive age,3519402.426,3082383.798,3990002.559
+Total iron responsive anemia,5,prevalence,rate,164,169,2,Nepal,Female,Reproductive age,0.319233474,0.279592945,0.361920071
+Total iron responsive anemia,3,ylds,count,164,169,2,Nepal,Female,Reproductive age,105053.2583,66779.93061,155220.8925
+Total iron responsive anemia,5,prevalence,count,164,1,3,Nepal,Both,Under Five,1526322.164,1276050.093,1797951.016
+Total iron responsive anemia,3,ylds,rate,164,1,3,Nepal,Both,Under Five,0.013048339,0.007982318,0.020220984
+Total iron responsive anemia,5,prevalence,rate,164,1,3,Nepal,Both,Under Five,0.509458821,0.425922516,0.600123635
+Total iron responsive anemia,3,ylds,count,164,1,3,Nepal,Both,Under Five,39092.40242,23914.7664,60581.4144
+Mean hemoglobin concentration,n/a,g/L,g/L,164,1,3,Nepal,Both,Under five,108.4655745,105.7476045,111.0363236
+Mean hemoglobin concentration,n/a,g/L,g/L,164,169,2,Nepal,Female,Reproductive age,123.0329131,121.3062806,124.7376218
+Total anemia,5,prevalence,count,164,1,3,Nepal,Both,Under Five,1609401.009,1346988.66,1887311.519
+Mild anemia,5,prevalence,count,164,1,3,Nepal,Both,Under Five,898288.7993,788037.6924,1007983.217
+Moderate anemia,5,prevalence,count,164,1,3,Nepal,Both,Under Five,693000.988,528649.3372,890377.8432
+Severe anemia,5,prevalence,count,164,1,3,Nepal,Both,Under Five,18111.22209,11291.17441,27220.42804
+Total anemia,3,ylds,count,164,1,3,Nepal,Both,Under Five,41425.20911,25237.14018,64627.30717
+Mild anemia,3,ylds,count,164,1,3,Nepal,Both,Under Five,3313.746743,1173.823946,7487.448572
+Moderate anemia,3,ylds,count,164,1,3,Nepal,Both,Under Five,35465.36137,21599.57857,54810.24366
+Severe anemia,3,ylds,count,164,1,3,Nepal,Both,Under Five,2646.100997,1459.530255,4288.639408
+Total anemia,5,prevalence,rate,164,1,3,Nepal,Both,Under Five,0.537189042,0.449600531,0.62995056
+Mild anemia,5,prevalence,rate,164,1,3,Nepal,Both,Under Five,0.299832607,0.263032775,0.336446626
+Moderate anemia,5,prevalence,rate,164,1,3,Nepal,Both,Under Five,0.231311236,0.176453618,0.297192072
+Severe anemia,5,prevalence,rate,164,1,3,Nepal,Both,Under Five,0.006045199,0.00376879,0.009085688
+Total anemia,3,ylds,rate,164,1,3,Nepal,Both,Under Five,0.013826988,0.008423702,0.02157143
+Mild anemia,3,ylds,rate,164,1,3,Nepal,Both,Under Five,0.001106069,0.000391801,0.002499175
+Moderate anemia,3,ylds,rate,164,1,3,Nepal,Both,Under Five,0.011837698,0.00720955,0.018294671
+Severe anemia,3,ylds,rate,164,1,3,Nepal,Both,Under Five,0.000883221,0.000487165,0.001431471
+Total anemia,3,ylds,count,164,169,2,Nepal,Female,Reproductive age,110535.7792,67315.92469,166263.2588
+Mild anemia,3,ylds,count,164,169,2,Nepal,Female,Reproductive age,7419.927869,2648.237864,16409.94995
+Moderate anemia,3,ylds,count,164,169,2,Nepal,Female,Reproductive age,90079.25329,54899.25932,135467.7262
+Severe anemia,3,ylds,count,164,169,2,Nepal,Female,Reproductive age,13036.59808,7869.560389,20354.28151
+Total anemia,5,prevalence,count,164,169,2,Nepal,Female,Reproductive age,3862013.679,3403032.351,4347907.246
+Mild anemia,5,prevalence,count,164,169,2,Nepal,Female,Reproductive age,2011759.258,1828650.038,2209170.909
+Moderate anemia,5,prevalence,count,164,169,2,Nepal,Female,Reproductive age,1761354.39,1463536.901,2079938.38
+Severe anemia,5,prevalence,count,164,169,2,Nepal,Female,Reproductive age,88900.03035,65513.36346,117126.9374
+Total anemia,3,ylds,rate,164,169,2,Nepal,Female,Reproductive age,0.010032743,0.006127597,0.015081196
+Mild anemia,3,ylds,rate,164,169,2,Nepal,Female,Reproductive age,0.000673344,0.000240807,0.001488493
+Moderate anemia,3,ylds,rate,164,169,2,Nepal,Female,Reproductive age,0.008176058,0.005005957,0.012287834
+Severe anemia,3,ylds,rate,164,169,2,Nepal,Female,Reproductive age,0.001183341,0.000713874,0.00184627
+Total anemia,5,prevalence,rate,164,169,2,Nepal,Female,Reproductive age,0.350624509,0.30951648,0.394384434
+Mild anemia,5,prevalence,rate,164,169,2,Nepal,Female,Reproductive age,0.182652317,0.166047502,0.200386662
+Moderate anemia,5,prevalence,rate,164,169,2,Nepal,Female,Reproductive age,0.159902034,0.132843346,0.188664402
+Severe anemia,5,prevalence,rate,164,169,2,Nepal,Female,Reproductive age,0.008070157,0.005946268,0.010624201
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,164,169,2,Nepal,female,Reproductive age,18608.57624,6539.123047,32555.41051
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,164,169,2,Nepal,female,Reproductive age,0.001687923,0.000593142,0.002952995
+Total iron responsive anemia,5,prevalence,rate,213,169,2,Niger,Female,Reproductive age,0.238950058,0.193418901,0.280704165
+Total iron responsive anemia,3,ylds,count,213,169,2,Niger,Female,Reproductive age,58348.0275,37053.74022,87751.71381
+Total iron responsive anemia,3,ylds,rate,213,169,2,Niger,Female,Reproductive age,0.008658639,0.005498643,0.013022041
+Total iron responsive anemia,5,prevalence,count,213,169,2,Niger,Female,Reproductive age,1610214.382,1303393.263,1891583.067
+Total iron responsive anemia,3,ylds,rate,213,1,3,Niger,Both,Under Five,0.019149856,0.012083843,0.028539123
+Total iron responsive anemia,5,prevalence,rate,213,1,3,Niger,Both,Under Five,0.57532434,0.504081912,0.640298667
+Total iron responsive anemia,3,ylds,count,213,1,3,Niger,Both,Under Five,92931.63842,58641.24257,138496.4692
+Total iron responsive anemia,5,prevalence,count,213,1,3,Niger,Both,Under Five,2791970.555,2446240.769,3107282.105
+Mean hemoglobin concentration,n/a,g/L,g/L,213,1,3,Niger,Both,Under five,101.4790457,99.00207144,103.836821
+Mean hemoglobin concentration,n/a,g/L,g/L,213,169,2,Niger,Female,Reproductive age,119.0469549,117.203132,121.0690222
+Total anemia,5,prevalence,count,213,1,3,Niger,Both,Under Five,3455976.676,3125866.955,3777830.71
+Mild anemia,5,prevalence,count,213,1,3,Niger,Both,Under Five,1313258.287,1206120.167,1420264.717
+Moderate anemia,5,prevalence,count,213,1,3,Niger,Both,Under Five,1991809.539,1717452.103,2296589.282
+Severe anemia,5,prevalence,count,213,1,3,Niger,Both,Under Five,150908.8498,105106.5011,207226.1646
+Total anemia,3,ylds,count,213,1,3,Niger,Both,Under Five,128263.6622,81899.44869,189889.1333
+Mild anemia,3,ylds,count,213,1,3,Niger,Both,Under Five,4830.746507,1690.988089,10833.23715
+Moderate anemia,3,ylds,count,213,1,3,Niger,Both,Under Five,101472.2466,64503.53919,149793.3035
+Severe anemia,3,ylds,count,213,1,3,Niger,Both,Under Five,21960.66912,12810.24105,33524.28105
+Total anemia,5,prevalence,rate,213,1,3,Niger,Both,Under Five,0.71215203,0.644128334,0.778474528
+Mild anemia,5,prevalence,rate,213,1,3,Niger,Both,Under Five,0.270615124,0.248537825,0.292665286
+Moderate anemia,5,prevalence,rate,213,1,3,Niger,Both,Under Five,0.410440041,0.353904877,0.473244143
+Severe anemia,5,prevalence,rate,213,1,3,Niger,Both,Under Five,0.031096866,0.021658655,0.042701832
+Total anemia,3,ylds,rate,213,1,3,Niger,Both,Under Five,0.02643051,0.01687652,0.039129295
+Mild anemia,3,ylds,rate,213,1,3,Niger,Both,Under Five,0.000995442,0.000348452,0.002232339
+Moderate anemia,3,ylds,rate,213,1,3,Niger,Both,Under Five,0.020909767,0.013291851,0.030866992
+Severe anemia,3,ylds,rate,213,1,3,Niger,Both,Under Five,0.004525301,0.002639728,0.006908144
+Total anemia,3,ylds,count,213,169,2,Niger,Female,Reproductive age,96727.37789,62712.43507,144057.4755
+Mild anemia,3,ylds,count,213,169,2,Niger,Female,Reproductive age,4286.052784,1531.233292,9497.135762
+Moderate anemia,3,ylds,count,213,169,2,Niger,Female,Reproductive age,77755.89591,49706.02688,116815.4078
+Severe anemia,3,ylds,count,213,169,2,Niger,Female,Reproductive age,14685.4292,8743.953737,23161.7164
+Total anemia,5,prevalence,count,213,169,2,Niger,Female,Reproductive age,2788080.199,2450837.566,3121164.888
+Mild anemia,5,prevalence,count,213,169,2,Niger,Female,Reproductive age,1163338.753,1071414.534,1263049.72
+Moderate anemia,5,prevalence,count,213,169,2,Niger,Female,Reproductive age,1524234.993,1268577.936,1776148.542
+Severe anemia,5,prevalence,count,213,169,2,Niger,Female,Reproductive age,100506.4542,69569.65616,140926.8192
+Total anemia,3,ylds,rate,213,169,2,Niger,Female,Reproductive age,0.014366675,0.009312748,0.021377614
+Mild anemia,3,ylds,rate,213,169,2,Niger,Female,Reproductive age,0.000636347,0.000227535,0.001409341
+Moderate anemia,3,ylds,rate,213,169,2,Niger,Female,Reproductive age,0.011548579,0.007398006,0.017334989
+Severe anemia,3,ylds,rate,213,169,2,Niger,Female,Reproductive age,0.00218175,0.001302714,0.003437116
+Total anemia,5,prevalence,rate,213,169,2,Niger,Female,Reproductive age,0.414187997,0.36378447,0.463169712
+Mild anemia,5,prevalence,rate,213,169,2,Niger,Female,Reproductive age,0.172810487,0.159005406,0.187432063
+Moderate anemia,5,prevalence,rate,213,169,2,Niger,Female,Reproductive age,0.226444243,0.188315011,0.263574094
+Severe anemia,5,prevalence,rate,213,169,2,Niger,Female,Reproductive age,0.014933267,0.010395187,0.020913036
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,213,169,2,Niger,female,Reproductive age,49036.23889,17222.0965,87410.14788
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,213,169,2,Niger,female,Reproductive age,0.007276803,0.002555698,0.012971353
+Total iron responsive anemia,5,prevalence,rate,214,169,2,Nigeria,Female,Reproductive age,0.268542554,0.235527071,0.303875237
+Total iron responsive anemia,3,ylds,count,214,169,2,Nigeria,Female,Reproductive age,657308.3326,422365.5661,962448.2048
+Total iron responsive anemia,3,ylds,rate,214,169,2,Nigeria,Female,Reproductive age,0.009171589,0.005893374,0.013429283
+Total iron responsive anemia,5,prevalence,count,214,169,2,Nigeria,Female,Reproductive age,19245874.5,16879724.94,21778092.8
+Total iron responsive anemia,3,ylds,rate,214,1,3,Nigeria,Both,Under Five,0.021143336,0.013561298,0.030671501
+Total iron responsive anemia,5,prevalence,rate,214,1,3,Nigeria,Both,Under Five,0.579996137,0.539972189,0.619304092
+Total iron responsive anemia,3,ylds,count,214,1,3,Nigeria,Both,Under Five,708759.2523,454596.9293,1028158.945
+Total iron responsive anemia,5,prevalence,count,214,1,3,Nigeria,Both,Under Five,19442420.46,18100752.16,20760087.47
+Mean hemoglobin concentration,n/a,g/L,g/L,214,1,3,Nigeria,Both,Under five,100.15279,98.52589764,101.607618
+Mean hemoglobin concentration,n/a,g/L,g/L,214,169,2,Nigeria,Female,Reproductive age,118.8440642,117.2988055,120.3793006
+Total anemia,5,prevalence,count,214,1,3,Nigeria,Both,Under Five,24241970.51,22925122.23,25641407.39
+Mild anemia,5,prevalence,count,214,1,3,Nigeria,Both,Under Five,8499305.255,7864339.78,9111733.24
+Moderate anemia,5,prevalence,count,214,1,3,Nigeria,Both,Under Five,14378929.66,13256399.65,15566325.04
+Severe anemia,5,prevalence,count,214,1,3,Nigeria,Both,Under Five,1363735.598,1052823.034,1745133.25
+Total anemia,3,ylds,count,214,1,3,Nigeria,Both,Under Five,961822.744,619827.3925,1389143.421
+Mild anemia,3,ylds,count,214,1,3,Nigeria,Both,Under Five,31258.44452,10936.09616,69959.1902
+Moderate anemia,3,ylds,count,214,1,3,Nigeria,Both,Under Five,732439.5198,468860.2802,1094212.764
+Severe anemia,3,ylds,count,214,1,3,Nigeria,Both,Under Five,198124.7797,120796.554,297505.2314
+Total anemia,5,prevalence,rate,214,1,3,Nigeria,Both,Under Five,0.723173809,0.683890278,0.764921079
+Mild anemia,5,prevalence,rate,214,1,3,Nigeria,Both,Under Five,0.253546837,0.234604879,0.271816469
+Moderate anemia,5,prevalence,rate,214,1,3,Nigeria,Both,Under Five,0.428944723,0.395457994,0.464366482
+Severe anemia,5,prevalence,rate,214,1,3,Nigeria,Both,Under Five,0.040682248,0.031407267,0.052059904
+Total anemia,3,ylds,rate,214,1,3,Nigeria,Both,Under Five,0.028692594,0.018490367,0.041440201
+Mild anemia,3,ylds,rate,214,1,3,Nigeria,Both,Under Five,0.000932486,0.00032624,0.002086986
+Moderate anemia,3,ylds,rate,214,1,3,Nigeria,Both,Under Five,0.021849753,0.013986795,0.032641984
+Severe anemia,3,ylds,rate,214,1,3,Nigeria,Both,Under Five,0.005910355,0.00360354,0.008875021
+Total anemia,3,ylds,count,214,169,2,Nigeria,Female,Reproductive age,1019705.933,647609.6135,1507029.903
+Mild anemia,3,ylds,count,214,169,2,Nigeria,Female,Reproductive age,51121.87606,17893.5744,113681.0669
+Moderate anemia,3,ylds,count,214,169,2,Nigeria,Female,Reproductive age,807760.5595,508143.5175,1196396.354
+Severe anemia,3,ylds,count,214,169,2,Nigeria,Female,Reproductive age,160823.4974,95718.94975,258230.5674
+Total anemia,5,prevalence,count,214,169,2,Nigeria,Female,Reproductive age,30794227.95,28013660.79,33636822.32
+Mild anemia,5,prevalence,count,214,169,2,Nigeria,Female,Reproductive age,13872323.35,12912425.41,14970155
+Moderate anemia,5,prevalence,count,214,169,2,Nigeria,Female,Reproductive age,15821600.98,13721585.51,18046233.54
+Severe anemia,5,prevalence,count,214,169,2,Nigeria,Female,Reproductive age,1100303.615,774378.7702,1559227.582
+Total anemia,3,ylds,rate,214,169,2,Nigeria,Female,Reproductive age,0.014241051,0.009087465,0.021027969
+Mild anemia,3,ylds,rate,214,169,2,Nigeria,Female,Reproductive age,0.000713655,0.000250526,0.001586221
+Moderate anemia,3,ylds,rate,214,169,2,Nigeria,Female,Reproductive age,0.011280732,0.007093535,0.016693621
+Severe anemia,3,ylds,rate,214,169,2,Nigeria,Female,Reproductive age,0.002246664,0.00133779,0.003603156
+Total anemia,5,prevalence,rate,214,169,2,Nigeria,Female,Reproductive age,0.430144207,0.391207724,0.469343089
+Mild anemia,5,prevalence,rate,214,169,2,Nigeria,Female,Reproductive age,0.193754703,0.180190241,0.208882359
+Moderate anemia,5,prevalence,rate,214,169,2,Nigeria,Female,Reproductive age,0.221017296,0.191891809,0.251944255
+Severe anemia,5,prevalence,rate,214,169,2,Nigeria,Female,Reproductive age,0.015372208,0.010865301,0.021756297
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,214,169,2,Nigeria,female,Reproductive age,277459.9439,91452.49101,515885.5594
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,214,169,2,Nigeria,female,Reproductive age,0.003871469,0.00127606,0.007198282
+Total iron responsive anemia,3,ylds,rate,165,169,2,Pakistan,Female,Reproductive age,0.013759535,0.00887361,0.019625597
+Total iron responsive anemia,5,prevalence,count,165,169,2,Pakistan,Female,Reproductive age,26102626.29,23369459.76,28903808.97
+Total iron responsive anemia,5,prevalence,rate,165,169,2,Pakistan,Female,Reproductive age,0.36248874,0.324533092,0.401388932
+Total iron responsive anemia,3,ylds,count,165,169,2,Pakistan,Female,Reproductive age,990816.9567,638984.0531,1413229.042
+Total iron responsive anemia,5,prevalence,count,165,1,3,Pakistan,Both,Under Five,13796408.35,11363930.75,16202366.38
+Total iron responsive anemia,3,ylds,rate,165,1,3,Pakistan,Both,Under Five,0.014685204,0.008752405,0.022941214
+Total iron responsive anemia,5,prevalence,rate,165,1,3,Pakistan,Both,Under Five,0.451948832,0.372264657,0.530764267
+Total iron responsive anemia,3,ylds,count,165,1,3,Pakistan,Both,Under Five,448287.6357,267180.1392,700314.5905
+Mean hemoglobin concentration,n/a,g/L,g/L,165,1,3,Pakistan,Both,Under five,110.6347515,107.4729441,113.9436643
+Mean hemoglobin concentration,n/a,g/L,g/L,165,169,2,Pakistan,Female,Reproductive age,119.323035,117.5289018,121.0536948
+Total anemia,5,prevalence,count,165,1,3,Pakistan,Both,Under Five,15446395.54,12800794.61,18070608.44
+Mild anemia,5,prevalence,count,165,1,3,Pakistan,Both,Under Five,6827936.268,5923405.919,7698926.728
+Moderate anemia,5,prevalence,count,165,1,3,Pakistan,Both,Under Five,8132548.605,6040050.076,10414962.76
+Severe anemia,5,prevalence,count,165,1,3,Pakistan,Both,Under Five,485910.6666,285602.0116,787933.8168
+Total anemia,3,ylds,count,165,1,3,Pakistan,Both,Under Five,511667.7481,305347.7732,802637.3968
+Mild anemia,3,ylds,count,165,1,3,Pakistan,Both,Under Five,25108.44373,8823.794432,56782.54024
+Moderate anemia,3,ylds,count,165,1,3,Pakistan,Both,Under Five,415548.647,244874.8517,645819.7607
+Severe anemia,3,ylds,count,165,1,3,Pakistan,Both,Under Five,71010.65733,35244.72904,127236.0162
+Total anemia,5,prevalence,rate,165,1,3,Pakistan,Both,Under Five,0.50599984,0.419334078,0.591964964
+Mild anemia,5,prevalence,rate,165,1,3,Pakistan,Both,Under Five,0.223672549,0.194041545,0.252204839
+Moderate anemia,5,prevalence,rate,165,1,3,Pakistan,Both,Under Five,0.266409615,0.197862625,0.341177945
+Severe anemia,5,prevalence,rate,165,1,3,Pakistan,Both,Under Five,0.015917676,0.009355877,0.025811484
+Total anemia,3,ylds,rate,165,1,3,Pakistan,Both,Under Five,0.016761438,0.010002717,0.02629315
+Mild anemia,3,ylds,rate,165,1,3,Pakistan,Both,Under Five,0.000822513,0.000289054,0.001860108
+Moderate anemia,3,ylds,rate,165,1,3,Pakistan,Both,Under Five,0.013612726,0.008021718,0.021156049
+Severe anemia,3,ylds,rate,165,1,3,Pakistan,Both,Under Five,0.002326198,0.001154562,0.004168054
+Total anemia,3,ylds,count,165,169,2,Pakistan,Female,Reproductive age,1143094.755,714714.0191,1683145.09
+Mild anemia,3,ylds,count,165,169,2,Pakistan,Female,Reproductive age,46689.30221,16557.45745,107138.5872
+Moderate anemia,3,ylds,count,165,169,2,Pakistan,Female,Reproductive age,854000.4884,535866.867,1274315.825
+Severe anemia,3,ylds,count,165,169,2,Pakistan,Female,Reproductive age,242404.9648,142083.3583,374184.5847
+Total anemia,5,prevalence,count,165,169,2,Pakistan,Female,Reproductive age,31027473.02,28279120.11,33935142.92
+Mild anemia,5,prevalence,count,165,169,2,Pakistan,Female,Reproductive age,12672027,11762155.6,13682540.46
+Moderate anemia,5,prevalence,count,165,169,2,Pakistan,Female,Reproductive age,16701104.74,14743969.37,18783877.15
+Severe anemia,5,prevalence,count,165,169,2,Pakistan,Female,Reproductive age,1654341.28,1208817.219,2128259.76
+Total anemia,3,ylds,rate,165,169,2,Pakistan,Female,Reproductive age,0.015886177,0.009928546,0.023373937
+Mild anemia,3,ylds,rate,165,169,2,Pakistan,Female,Reproductive age,0.0006487,0.000230282,0.00148784
+Moderate anemia,3,ylds,rate,165,169,2,Pakistan,Female,Reproductive age,0.01186851,0.007481958,0.0176965
+Severe anemia,3,ylds,rate,165,169,2,Pakistan,Female,Reproductive age,0.003368966,0.001985628,0.005196324
+Total anemia,5,prevalence,rate,165,169,2,Pakistan,Female,Reproductive age,0.431314129,0.393233938,0.471259369
+Mild anemia,5,prevalence,rate,165,169,2,Pakistan,Female,Reproductive age,0.176160009,0.163452332,0.190010261
+Moderate anemia,5,prevalence,rate,165,169,2,Pakistan,Female,Reproductive age,0.232160574,0.205005836,0.260852831
+Severe anemia,5,prevalence,rate,165,169,2,Pakistan,Female,Reproductive age,0.022993545,0.016914809,0.029555271
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,165,169,2,Pakistan,female,Reproductive age,227179.3796,80495.3816,394323.3325
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,165,169,2,Pakistan,female,Reproductive age,0.003154854,0.001117844,0.005475992
+Total iron responsive anemia,3,ylds,rate,196,169,2,South Africa,Female,Reproductive age,0.006525384,0.004450574,0.009171778
+Total iron responsive anemia,5,prevalence,count,196,169,2,South Africa,Female,Reproductive age,3443432.529,3099104.885,3820452.424
+Total iron responsive anemia,5,prevalence,rate,196,169,2,South Africa,Female,Reproductive age,0.182257601,0.164032667,0.202212905
+Total iron responsive anemia,3,ylds,count,196,169,2,South Africa,Female,Reproductive age,123285.4922,84085.65453,173284.3965
+Total iron responsive anemia,5,prevalence,count,196,1,3,South Africa,Both,Under Five,791183.942,586278.4977,1002918.609
+Total iron responsive anemia,3,ylds,rate,196,1,3,South Africa,Both,Under Five,0.003214086,0.001740186,0.005392847
+Total iron responsive anemia,5,prevalence,rate,196,1,3,South Africa,Both,Under Five,0.155300761,0.115080061,0.196861961
+Total iron responsive anemia,3,ylds,count,196,1,3,South Africa,Both,Under Five,16374.24937,8865.42718,27474.00704
+Mean hemoglobin concentration,n/a,g/L,g/L,196,1,3,South Africa,Both,Under five,123.267542,120.9267788,125.7385615
+Mean hemoglobin concentration,n/a,g/L,g/L,196,169,2,South Africa,Female,Reproductive age,128.5116225,127.1204479,129.8834142
+Total anemia,5,prevalence,count,196,1,3,South Africa,Both,Under Five,832720.4086,617868.4084,1052966.5
+Mild anemia,5,prevalence,count,196,1,3,South Africa,Both,Under Five,563937.8061,439386.1686,689539.4496
+Moderate anemia,5,prevalence,count,196,1,3,South Africa,Both,Under Five,257971.3601,169059.078,361061.5165
+Severe anemia,5,prevalence,count,196,1,3,South Africa,Both,Under Five,10811.24241,5435.389953,18523.56723
+Total anemia,3,ylds,count,196,1,3,South Africa,Both,Under Five,16934.76383,9124.454032,28348.33323
+Mild anemia,3,ylds,count,196,1,3,South Africa,Both,Under Five,2081.863519,727.6628974,4700.976395
+Moderate anemia,3,ylds,count,196,1,3,South Africa,Both,Under Five,13252.72315,7196.864116,21935.42737
+Severe anemia,3,ylds,count,196,1,3,South Africa,Both,Under Five,1600.177164,700.4957506,3009.581688
+Total anemia,5,prevalence,rate,196,1,3,South Africa,Both,Under Five,0.163453915,0.121280816,0.206685816
+Mild anemia,5,prevalence,rate,196,1,3,South Africa,Both,Under Five,0.110694828,0.086246703,0.135349058
+Moderate anemia,5,prevalence,rate,196,1,3,South Africa,Both,Under Five,0.050636958,0.033184449,0.070872429
+Severe anemia,5,prevalence,rate,196,1,3,South Africa,Both,Under Five,0.002122129,0.001066908,0.003635974
+Total anemia,3,ylds,rate,196,1,3,South Africa,Both,Under Five,0.003324109,0.001791031,0.005564468
+Mild anemia,3,ylds,rate,196,1,3,South Africa,Both,Under Five,0.000408647,0.000142832,0.00092275
+Moderate anemia,3,ylds,rate,196,1,3,South Africa,Both,Under Five,0.002601365,0.001412666,0.004305685
+Severe anemia,3,ylds,rate,196,1,3,South Africa,Both,Under Five,0.000314097,0.0001375,0.000590748
+Total anemia,3,ylds,count,196,169,2,South Africa,Female,Reproductive age,172372.065,110744.2957,248676.1706
+Mild anemia,3,ylds,count,196,169,2,South Africa,Female,Reproductive age,8999.409122,3171.237011,20132.29161
+Moderate anemia,3,ylds,count,196,169,2,South Africa,Female,Reproductive age,125698.3525,80157.59358,184181.7114
+Severe anemia,3,ylds,count,196,169,2,South Africa,Female,Reproductive age,37674.30335,24909.62783,54036.16614
+Total anemia,5,prevalence,count,196,169,2,South Africa,Female,Reproductive age,5157813.243,4733034.531,5615218.015
+Mild anemia,5,prevalence,count,196,169,2,South Africa,Female,Reproductive age,2441916.458,2288359.374,2606725.624
+Moderate anemia,5,prevalence,count,196,169,2,South Africa,Female,Reproductive age,2459024.812,2198112.92,2739927.319
+Severe anemia,5,prevalence,count,196,169,2,South Africa,Female,Reproductive age,256871.9729,213910.8962,307730.8056
+Total anemia,3,ylds,rate,196,169,2,South Africa,Female,Reproductive age,0.009130436,0.005911541,0.013162193
+Mild anemia,3,ylds,rate,196,169,2,South Africa,Female,Reproductive age,0.000476561,0.000170784,0.001065583
+Moderate anemia,3,ylds,rate,196,169,2,South Africa,Female,Reproductive age,0.006658129,0.004261249,0.009748562
+Severe anemia,3,ylds,rate,196,169,2,South Africa,Female,Reproductive age,0.001995745,0.001319695,0.002860083
+Total anemia,5,prevalence,rate,196,169,2,South Africa,Female,Reproductive age,0.273269564,0.250522408,0.297208136
+Mild anemia,5,prevalence,rate,196,169,2,South Africa,Female,Reproductive age,0.12937799,0.121158477,0.137971502
+Moderate anemia,5,prevalence,rate,196,169,2,South Africa,Female,Reproductive age,0.130283259,0.116438927,0.145021741
+Severe anemia,5,prevalence,rate,196,169,2,South Africa,Female,Reproductive age,0.013608315,0.011327992,0.016287898
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,196,169,2,South Africa,female,Reproductive age,20042.02723,7003.094188,36552.91197
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,196,169,2,South Africa,female,Reproductive age,0.001060805,0.000370667,0.001934711
+Total iron responsive anemia,5,prevalence,rate,522,169,2,Sudan,Female,Reproductive age,0.185924108,0.152367181,0.223602141
+Total iron responsive anemia,3,ylds,count,522,169,2,Sudan,Female,Reproductive age,80849.14485,51890.8254,122238.4579
+Total iron responsive anemia,3,ylds,rate,522,169,2,Sudan,Female,Reproductive age,0.005948325,0.003817771,0.008993467
+Total iron responsive anemia,5,prevalence,count,522,169,2,Sudan,Female,Reproductive age,2527065.167,2070962.183,3039181.888
+Total iron responsive anemia,3,ylds,rate,522,1,3,Sudan,Both,Under Five,0.012568726,0.007775406,0.018909383
+Total iron responsive anemia,5,prevalence,rate,522,1,3,Sudan,Both,Under Five,0.422667504,0.365983977,0.480598304
+Total iron responsive anemia,3,ylds,count,522,1,3,Sudan,Both,Under Five,69288.20524,42863.84299,104242.6395
+Total iron responsive anemia,5,prevalence,count,522,1,3,Sudan,Both,Under Five,2330058.96,2017577.026,2649416.794
+Mean hemoglobin concentration,n/a,g/L,g/L,522,1,3,Sudan,Both,Under five,109.0968531,106.9227637,111.2260041
+Mean hemoglobin concentration,n/a,g/L,g/L,522,169,2,Sudan,Female,Reproductive age,124.7151568,122.5923089,126.725947
+Total anemia,5,prevalence,count,522,1,3,Sudan,Both,Under Five,2772700.987,2450344.841,3106740.075
+Mild anemia,5,prevalence,count,522,1,3,Sudan,Both,Under Five,1326772.819,1216074.794,1428782.27
+Moderate anemia,5,prevalence,count,522,1,3,Sudan,Both,Under Five,1365647.145,1144482.67,1605393.761
+Severe anemia,5,prevalence,count,522,1,3,Sudan,Both,Under Five,80281.02308,61055.91914,104590.5323
+Total anemia,3,ylds,count,522,1,3,Sudan,Both,Under Five,86582.37396,53499.49501,131420.1982
+Mild anemia,3,ylds,count,522,1,3,Sudan,Both,Under Five,4888.936698,1737.716283,10888.83751
+Moderate anemia,3,ylds,count,522,1,3,Sudan,Both,Under Five,69908.81958,42802.90646,105951.6565
+Severe anemia,3,ylds,count,522,1,3,Sudan,Both,Under Five,11784.61769,7188.670084,18516.31572
+Total anemia,5,prevalence,rate,522,1,3,Sudan,Both,Under Five,0.502961782,0.444487095,0.563555728
+Mild anemia,5,prevalence,rate,522,1,3,Sudan,Both,Under Five,0.240673633,0.220593258,0.25917792
+Moderate anemia,5,prevalence,rate,522,1,3,Sudan,Both,Under Five,0.247725349,0.207606607,0.291214852
+Severe anemia,5,prevalence,rate,522,1,3,Sudan,Both,Under Five,0.014562799,0.011075408,0.01897249
+Total anemia,3,ylds,rate,522,1,3,Sudan,Both,Under Five,0.01570585,0.009704689,0.023839331
+Mild anemia,3,ylds,rate,522,1,3,Sudan,Both,Under Five,0.000886842,0.000315218,0.001975211
+Moderate anemia,3,ylds,rate,522,1,3,Sudan,Both,Under Five,0.012681304,0.007764352,0.019219394
+Severe anemia,3,ylds,rate,522,1,3,Sudan,Both,Under Five,0.002137703,0.001304009,0.003358818
+Total anemia,3,ylds,count,522,169,2,Sudan,Female,Reproductive age,115256.2548,68875.69761,179303.0727
+Mild anemia,3,ylds,count,522,169,2,Sudan,Female,Reproductive age,8012.839586,2803.373526,18057.31505
+Moderate anemia,3,ylds,count,522,169,2,Sudan,Female,Reproductive age,93088.74524,55452.46799,143962.7538
+Severe anemia,3,ylds,count,522,169,2,Sudan,Female,Reproductive age,14154.66994,7796.950032,22866.88076
+Total anemia,5,prevalence,count,522,169,2,Sudan,Female,Reproductive age,4081104.528,3470163.193,4724358.399
+Mild anemia,5,prevalence,count,522,169,2,Sudan,Female,Reproductive age,2168765.969,1921733.234,2442892.076
+Moderate anemia,5,prevalence,count,522,169,2,Sudan,Female,Reproductive age,1816211.592,1432799.224,2228170.443
+Severe anemia,5,prevalence,count,522,169,2,Sudan,Female,Reproductive age,96126.96717,64652.5163,135346.4327
+Total anemia,3,ylds,rate,522,169,2,Sudan,Female,Reproductive age,0.008487262,0.005079499,0.013191889
+Mild anemia,3,ylds,rate,522,169,2,Sudan,Female,Reproductive age,0.000589822,0.00020911,0.001328533
+Moderate anemia,3,ylds,rate,522,169,2,Sudan,Female,Reproductive age,0.006854774,0.004134222,0.010591791
+Severe anemia,3,ylds,rate,522,169,2,Sudan,Female,Reproductive age,0.001042667,0.000590569,0.001682388
+Total anemia,5,prevalence,rate,522,169,2,Sudan,Female,Reproductive age,0.300585116,0.256627145,0.347585861
+Mild anemia,5,prevalence,rate,522,169,2,Sudan,Female,Reproductive age,0.159726457,0.14149433,0.17973123
+Moderate anemia,5,prevalence,rate,522,169,2,Sudan,Female,Reproductive age,0.133776994,0.105599391,0.163933486
+Severe anemia,5,prevalence,rate,522,169,2,Sudan,Female,Reproductive age,0.007081665,0.004760809,0.009957861
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,522,169,2,Sudan,female,Reproductive age,28169.28947,9541.074853,52809.03906
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,522,169,2,Sudan,female,Reproductive age,0.002072503,0.000701967,0.003885327
+Total iron responsive anemia,3,ylds,rate,190,169,2,Uganda,Female,Reproductive age,0.004069203,0.002453753,0.006455169
+Total iron responsive anemia,5,prevalence,count,190,169,2,Uganda,Female,Reproductive age,1608155.153,1267219.208,1974006.523
+Total iron responsive anemia,5,prevalence,rate,190,169,2,Uganda,Female,Reproductive age,0.123074991,0.096982553,0.15107425
+Total iron responsive anemia,3,ylds,count,190,169,2,Uganda,Female,Reproductive age,53170.09664,32061.88133,84346.24282
+Total iron responsive anemia,5,prevalence,count,190,1,3,Uganda,Both,Under Five,2644818.085,2211513.78,3045099.133
+Total iron responsive anemia,3,ylds,rate,190,1,3,Uganda,Both,Under Five,0.010876344,0.006760041,0.016402518
+Total iron responsive anemia,5,prevalence,rate,190,1,3,Uganda,Both,Under Five,0.373048155,0.311931145,0.429507276
+Total iron responsive anemia,3,ylds,count,190,1,3,Uganda,Both,Under Five,77110.55736,47927.00249,116289.7512
+Mean hemoglobin concentration,n/a,g/L,g/L,190,1,3,Uganda,Both,Under five,109.1124182,106.8885191,111.4805441
+Mean hemoglobin concentration,n/a,g/L,g/L,190,169,2,Uganda,Female,Reproductive age,126.4956431,124.4819266,128.5781228
+Total anemia,5,prevalence,count,190,1,3,Uganda,Both,Under Five,3578906.579,3134496.594,4010116.173
+Mild anemia,5,prevalence,count,190,1,3,Uganda,Both,Under Five,1657760.256,1490365.02,1814705.235
+Moderate anemia,5,prevalence,count,190,1,3,Uganda,Both,Under Five,1801533.714,1493985.525,2097772.422
+Severe anemia,5,prevalence,count,190,1,3,Uganda,Both,Under Five,119612.6093,87034.62981,160555.271
+Total anemia,3,ylds,count,190,1,3,Uganda,Both,Under Five,115699.9005,73585.16817,170341.3622
+Mild anemia,3,ylds,count,190,1,3,Uganda,Both,Under Five,6109.540325,2140.986003,13281.07544
+Moderate anemia,3,ylds,count,190,1,3,Uganda,Both,Under Five,92053.88736,58320.85792,137853.6429
+Severe anemia,3,ylds,count,190,1,3,Uganda,Both,Under Five,17536.47281,10548.58325,26680.65531
+Total anemia,5,prevalence,rate,190,1,3,Uganda,Both,Under Five,0.504800123,0.442116672,0.565621676
+Mild anemia,5,prevalence,rate,190,1,3,Uganda,Both,Under Five,0.23382493,0.21021405,0.255961816
+Moderate anemia,5,prevalence,rate,190,1,3,Uganda,Both,Under Five,0.25410399,0.210724717,0.295888075
+Severe anemia,5,prevalence,rate,190,1,3,Uganda,Both,Under Five,0.016871203,0.012276121,0.022646112
+Total anemia,3,ylds,rate,190,1,3,Uganda,Both,Under Five,0.016319321,0.010379092,0.024026428
+Mild anemia,3,ylds,rate,190,1,3,Uganda,Both,Under Five,0.000861743,0.000301983,0.001873278
+Moderate anemia,3,ylds,rate,190,1,3,Uganda,Both,Under Five,0.012984081,0.008226081,0.019444077
+Severe anemia,3,ylds,rate,190,1,3,Uganda,Both,Under Five,0.002473497,0.001487864,0.003763272
+Total anemia,3,ylds,count,190,169,2,Uganda,Female,Reproductive age,104414.2214,64209.93743,163441.161
+Mild anemia,3,ylds,count,190,169,2,Uganda,Female,Reproductive age,6333.884353,2187.083818,14126.97372
+Moderate anemia,3,ylds,count,190,169,2,Uganda,Female,Reproductive age,82852.26186,49807.73437,129661.1054
+Severe anemia,3,ylds,count,190,169,2,Uganda,Female,Reproductive age,15228.07515,9003.135187,23829.08471
+Total anemia,5,prevalence,count,190,169,2,Uganda,Female,Reproductive age,3434370.945,2939572.175,3970393.325
+Mild anemia,5,prevalence,count,190,169,2,Uganda,Female,Reproductive age,1715285.011,1527004.178,1904196.102
+Moderate anemia,5,prevalence,count,190,169,2,Uganda,Female,Reproductive age,1615728.287,1299899.379,1976362.627
+Severe anemia,5,prevalence,count,190,169,2,Uganda,Female,Reproductive age,103357.6464,72158.16804,146140.2608
+Total anemia,3,ylds,rate,190,169,2,Uganda,Female,Reproductive age,0.007996619,0.004929243,0.012508444
+Mild anemia,3,ylds,rate,190,169,2,Uganda,Female,Reproductive age,0.00048497,0.000167721,0.001081163
+Moderate anemia,3,ylds,rate,190,169,2,Uganda,Female,Reproductive age,0.00634517,0.003878262,0.009923196
+Severe anemia,3,ylds,rate,190,169,2,Uganda,Female,Reproductive age,0.00116648,0.000690461,0.001823682
+Total anemia,5,prevalence,rate,190,169,2,Uganda,Female,Reproductive age,0.263085407,0.225713892,0.303861303
+Mild anemia,5,prevalence,rate,190,169,2,Uganda,Female,Reproductive age,0.131400542,0.117038041,0.145731534
+Moderate anemia,5,prevalence,rate,190,169,2,Uganda,Female,Reproductive age,0.123767724,0.099647473,0.151254567
+Severe anemia,5,prevalence,rate,190,169,2,Uganda,Female,Reproductive age,0.007917141,0.005523765,0.011184376
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,190,169,2,Uganda,female,Reproductive age,30229.56821,10432.13007,52839.6164
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,190,169,2,Uganda,female,Reproductive age,0.002313523,0.00079839,0.00404391
+Total iron responsive anemia,3,ylds,rate,189,169,2,United Republic of Tanzania,Female,Reproductive age,0.008487471,0.005493434,0.012342132
+Total iron responsive anemia,5,prevalence,count,189,169,2,United Republic of Tanzania,Female,Reproductive age,4466385.577,3774638.736,5156446.434
+Total iron responsive anemia,5,prevalence,rate,189,169,2,United Republic of Tanzania,Female,Reproductive age,0.242035115,0.204549094,0.279429773
+Total iron responsive anemia,3,ylds,count,189,169,2,United Republic of Tanzania,Female,Reproductive age,156623.211,101372.876,227755.0588
+Total iron responsive anemia,5,prevalence,count,189,1,3,United Republic of Tanzania,Both,Under Five,4791351.118,4202055.833,5400763.634
+Total iron responsive anemia,3,ylds,rate,189,1,3,United Republic of Tanzania,Both,Under Five,0.015396398,0.009542692,0.022225321
+Total iron responsive anemia,5,prevalence,rate,189,1,3,United Republic of Tanzania,Both,Under Five,0.514796233,0.451480691,0.580273227
+Total iron responsive anemia,3,ylds,count,189,1,3,United Republic of Tanzania,Both,Under Five,143298.5368,88816.47657,206857.2192
+Mean hemoglobin concentration,n/a,g/L,g/L,189,1,3,United Republic of Tanzania,Both,Under five,106.5014496,104.3284878,108.7096418
+Mean hemoglobin concentration,n/a,g/L,g/L,189,169,2,United Republic of Tanzania,Female,Reproductive age,120.9444039,119.0971486,122.9394129
+Total anemia,5,prevalence,count,189,1,3,United Republic of Tanzania,Both,Under Five,5423939.706,4794657.416,6058390.228
+Mild anemia,5,prevalence,count,189,1,3,United Republic of Tanzania,Both,Under Five,2542963.894,2326452.072,2764483.974
+Moderate anemia,5,prevalence,count,189,1,3,United Republic of Tanzania,Both,Under Five,2749442.726,2304519.999,3223007.49
+Severe anemia,5,prevalence,count,189,1,3,United Republic of Tanzania,Both,Under Five,131533.0851,91190.12917,180545.7636
+Total anemia,3,ylds,count,189,1,3,United Republic of Tanzania,Both,Under Five,169144.5473,104523.2783,243832.5674
+Mild anemia,3,ylds,count,189,1,3,United Republic of Tanzania,Both,Under Five,9360.947739,3332.698159,20563.59859
+Moderate anemia,3,ylds,count,189,1,3,United Republic of Tanzania,Both,Under Five,140554.3827,87269.58252,203349.5115
+Severe anemia,3,ylds,count,189,1,3,United Republic of Tanzania,Both,Under Five,19229.21688,11073.63825,30011.52584
+Total anemia,5,prevalence,rate,189,1,3,United Republic of Tanzania,Both,Under Five,0.582763329,0.515151471,0.650930476
+Mild anemia,5,prevalence,rate,189,1,3,United Republic of Tanzania,Both,Under Five,0.273223189,0.24996055,0.297023929
+Moderate anemia,5,prevalence,rate,189,1,3,United Republic of Tanzania,Both,Under Five,0.295407855,0.247604107,0.346288985
+Severe anemia,5,prevalence,rate,189,1,3,United Republic of Tanzania,Both,Under Five,0.014132284,0.009797724,0.019398344
+Total anemia,3,ylds,rate,189,1,3,United Republic of Tanzania,Both,Under Five,0.018173366,0.011230275,0.026198056
+Mild anemia,3,ylds,rate,189,1,3,United Republic of Tanzania,Both,Under Five,0.001005767,0.000358074,0.002209411
+Moderate anemia,3,ylds,rate,189,1,3,United Republic of Tanzania,Both,Under Five,0.015101558,0.009376489,0.021848443
+Severe anemia,3,ylds,rate,189,1,3,United Republic of Tanzania,Both,Under Five,0.002066041,0.001189783,0.003224523
+Total anemia,3,ylds,count,189,169,2,United Republic of Tanzania,Female,Reproductive age,229818.7307,145586.3663,340142.0552
+Mild anemia,3,ylds,count,189,169,2,United Republic of Tanzania,Female,Reproductive age,11851.98328,4200.509361,26355.78265
+Moderate anemia,3,ylds,count,189,169,2,United Republic of Tanzania,Female,Reproductive age,183882.8875,115425.4518,275070.3023
+Severe anemia,3,ylds,count,189,169,2,United Republic of Tanzania,Female,Reproductive age,34083.85988,20823.26547,50951.32951
+Total anemia,5,prevalence,count,189,169,2,United Republic of Tanzania,Female,Reproductive age,7048278.29,6168465.167,7891454.559
+Mild anemia,5,prevalence,count,189,169,2,United Republic of Tanzania,Female,Reproductive age,3213743.11,2927636.624,3501450.877
+Moderate anemia,5,prevalence,count,189,169,2,United Republic of Tanzania,Female,Reproductive age,3601666.52,2997789.618,4210760.274
+Severe anemia,5,prevalence,count,189,169,2,United Republic of Tanzania,Female,Reproductive age,232868.6601,170443.5786,311101.1558
+Total anemia,3,ylds,rate,189,169,2,United Republic of Tanzania,Female,Reproductive age,0.012463621,0.007907913,0.018432426
+Mild anemia,3,ylds,rate,189,169,2,United Republic of Tanzania,Female,Reproductive age,0.000642568,0.000227947,0.00142823
+Moderate anemia,3,ylds,rate,189,169,2,United Republic of Tanzania,Female,Reproductive age,0.009972236,0.006277406,0.014906163
+Severe anemia,3,ylds,rate,189,169,2,United Republic of Tanzania,Female,Reproductive age,0.001848818,0.001129955,0.002761072
+Total anemia,5,prevalence,rate,189,169,2,United Republic of Tanzania,Female,Reproductive age,0.382328491,0.334438159,0.427640892
+Mild anemia,5,prevalence,rate,189,169,2,United Republic of Tanzania,Female,Reproductive age,0.174325892,0.159042184,0.189744941
+Moderate anemia,5,prevalence,rate,189,169,2,United Republic of Tanzania,Female,Reproductive age,0.195370468,0.162590668,0.228182684
+Severe anemia,5,prevalence,rate,189,169,2,United Republic of Tanzania,Female,Reproductive age,0.012632131,0.009238466,0.016858689
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,189,169,2,United Republic of Tanzania,female,Reproductive age,78538.8236,27259.53825,137340.8263
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,189,169,2,United Republic of Tanzania,female,Reproductive age,0.004256048,0.001477205,0.007442551
+Total iron responsive anemia,3,ylds,rate,20,169,2,Viet Nam,Female,Reproductive age,0.002976111,0.001961158,0.004400751
+Total iron responsive anemia,5,prevalence,count,20,169,2,Viet Nam,Female,Reproductive age,3472213.257,2688778.933,4375768.648
+Total iron responsive anemia,5,prevalence,rate,20,169,2,Viet Nam,Female,Reproductive age,0.106427846,0.082414567,0.134122993
+Total iron responsive anemia,3,ylds,count,20,169,2,Viet Nam,Female,Reproductive age,97095.74452,63982.86177,143574.7053
+Total iron responsive anemia,5,prevalence,count,20,1,3,Viet Nam,Both,Under Five,1314796.621,948054.9975,1788034.286
+Total iron responsive anemia,3,ylds,rate,20,1,3,Viet Nam,Both,Under Five,0.004211155,0.002274198,0.007343753
+Total iron responsive anemia,5,prevalence,rate,20,1,3,Viet Nam,Both,Under Five,0.189521632,0.136657585,0.257736574
+Total iron responsive anemia,3,ylds,count,20,1,3,Viet Nam,Both,Under Five,29214.67267,15777.1341,50946.91302
+Mean hemoglobin concentration,n/a,g/L,g/L,20,1,3,Viet Nam,Both,Under five,120.394288,116.9107699,123.4291599
+Mean hemoglobin concentration,n/a,g/L,g/L,20,169,2,Viet Nam,Female,Reproductive age,132.3797183,130.5453583,134.0008333
+Total anemia,5,prevalence,count,20,1,3,Viet Nam,Both,Under Five,1509162.836,1102544.416,2017870.348
+Mild anemia,5,prevalence,count,20,1,3,Viet Nam,Both,Under Five,971796.7464,729493.1211,1255002.928
+Moderate anemia,5,prevalence,count,20,1,3,Viet Nam,Both,Under Five,513947.4893,330582.9777,749219.2951
+Severe anemia,5,prevalence,count,20,1,3,Viet Nam,Both,Under Five,23418.59986,11964.13292,40591.16888
+Total anemia,3,ylds,count,20,1,3,Viet Nam,Both,Under Five,33448.43036,18209.00454,58703.84744
+Mild anemia,3,ylds,count,20,1,3,Viet Nam,Both,Under Five,3588.887776,1250.938711,8421.105323
+Moderate anemia,3,ylds,count,20,1,3,Viet Nam,Both,Under Five,26388.42527,14413.64227,46226.00795
+Severe anemia,3,ylds,count,20,1,3,Viet Nam,Both,Under Five,3471.117309,1478.443186,6879.166276
+Total anemia,5,prevalence,rate,20,1,3,Viet Nam,Both,Under Five,0.217538591,0.158926494,0.290866341
+Mild anemia,5,prevalence,rate,20,1,3,Viet Nam,Both,Under Five,0.140079844,0.105152938,0.180902658
+Moderate anemia,5,prevalence,rate,20,1,3,Viet Nam,Both,Under Five,0.074083068,0.047651952,0.107996371
+Severe anemia,5,prevalence,rate,20,1,3,Viet Nam,Both,Under Five,0.003375679,0.001724572,0.005851022
+Total anemia,3,ylds,rate,20,1,3,Viet Nam,Both,Under Five,0.004821431,0.002624741,0.008461878
+Mild anemia,3,ylds,rate,20,1,3,Viet Nam,Both,Under Five,0.000517321,0.000180317,0.001213862
+Moderate anemia,3,ylds,rate,20,1,3,Viet Nam,Both,Under Five,0.003803765,0.002077657,0.006663258
+Severe anemia,3,ylds,rate,20,1,3,Viet Nam,Both,Under Five,0.000500345,0.000213111,0.000991599
+Total anemia,3,ylds,count,20,169,2,Viet Nam,Female,Reproductive age,92685.96487,52503.34189,151052.6053
+Mild anemia,3,ylds,count,20,169,2,Viet Nam,Female,Reproductive age,11528.75273,3940.060982,26669.43575
+Moderate anemia,3,ylds,count,20,169,2,Viet Nam,Female,Reproductive age,73188.33334,42414.15531,117590.9062
+Severe anemia,3,ylds,count,20,169,2,Viet Nam,Female,Reproductive age,7968.878803,4075.280004,14068.08891
+Total anemia,5,prevalence,count,20,169,2,Viet Nam,Female,Reproductive age,4609681.582,3662794.974,5665109.063
+Mild anemia,5,prevalence,count,20,169,2,Viet Nam,Female,Reproductive age,3128595.361,2588018.267,3764569.037
+Moderate anemia,5,prevalence,count,20,169,2,Viet Nam,Female,Reproductive age,1427313.861,1020009.819,1886228.655
+Severe anemia,5,prevalence,count,20,169,2,Viet Nam,Female,Reproductive age,53772.35995,31833.00465,83296.55316
+Total anemia,3,ylds,rate,20,169,2,Viet Nam,Female,Reproductive age,0.002842682,0.001610304,0.004629959
+Mild anemia,3,ylds,rate,20,169,2,Viet Nam,Female,Reproductive age,0.000353528,0.000121502,0.000817453
+Moderate anemia,3,ylds,rate,20,169,2,Viet Nam,Female,Reproductive age,0.002244727,0.001304304,0.003604314
+Severe anemia,3,ylds,rate,20,169,2,Viet Nam,Female,Reproductive age,0.000244427,0.000125591,0.000431205
+Total anemia,5,prevalence,rate,20,169,2,Viet Nam,Female,Reproductive age,0.141418238,0.112906587,0.173642951
+Mild anemia,5,prevalence,rate,20,169,2,Viet Nam,Female,Reproductive age,0.09598402,0.079380239,0.115388931
+Moderate anemia,5,prevalence,rate,20,169,2,Viet Nam,Female,Reproductive age,0.043784832,0.031385834,0.057815358
+Severe anemia,5,prevalence,rate,20,169,2,Viet Nam,Female,Reproductive age,0.001649385,0.000976705,0.002553148
+Maternal disorder burden attributable to iron deficiency,2,dalys,count,20,169,2,Viet Nam,female,Reproductive age,2843.536132,969.12595,5081.060285
+Maternal disorder burden attributable to iron deficiency,2,dalys,rate,20,169,2,Viet Nam,female,Reproductive age,8.72E-05,2.97E-05,0.000155741
