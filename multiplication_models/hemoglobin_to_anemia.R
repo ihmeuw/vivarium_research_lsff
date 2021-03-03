@@ -18,7 +18,7 @@ setwd("H:/notebooks/vivarium_research_lsff/multiplication_models")
 getwd()
 # LOAD BASELINE DATA
 mean <- read.csv("mean_hgb.csv")
-sd <- read_excel("sd_hgb.csv")
+sd <- read.csv("sd_hgb.csv")
 thresholds <- read_excel("thresholds.xlsx")
 
 #Distribution Functions
@@ -111,4 +111,4 @@ sevs <- c("mild", "moderate", "severe", "anemic")
 #Everything is prevalence (means/stdev entered as continuous)
 df[,measure_id := 5]
 
-fwrite(df, "baseline_anemia_prev.csv")
+fwrite(df, "anemia_prev.csv")
