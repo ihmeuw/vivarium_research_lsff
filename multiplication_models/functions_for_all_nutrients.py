@@ -124,7 +124,6 @@ def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels):
 
     location_spacer = 0.15
     coverage_spacer = 0.025
-
     df = data.apply(pd.DataFrame.describe, percentiles=[0.025, 0.975], axis=1).reset_index()
 
     for n in list(range(0, len(coverage_levels))):
