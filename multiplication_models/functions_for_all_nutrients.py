@@ -56,7 +56,7 @@ def generate_overall_coverage_rates(filepath,
     data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001)
 
     data = data.loc[data.vehicle == vehicle].loc[data.nutrient.isin([nutrient, 'na'])]
-    data['value_std'] = (data.value_975_percentile - data.value_mean) / 1.96
+    data['value_std'] = (data.value_975_percentile - data.value_025_percentile) / (2 * 1.96)
     data['a'] = (0 - data.value_mean) / data.value_std
     data['b'] = (100 - data.value_mean) / data.value_std
 
@@ -92,7 +92,6 @@ def generate_overall_coverage_rates(filepath,
     return baseline_coverage, counterfactual_coverage
 
 def generate_rr_deficiency_nofort_draws(mean, std, location_ids):
-    import pandas as pd, numpy as np
     """This function takes a distribution for the relative risk
     for lack of fortification of a particular nutrient and generates
     1,000 draws based on a lognormal distribution of uncertainty. 
@@ -113,7 +112,7 @@ def generate_rr_deficiency_nofort_draws(mean, std, location_ids):
     return df
 
 
-def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels):
+def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels, subtitle, wra=False):
     """This function takes a dataframe, 
     nutrient (as a string), 
     and measure (as a string, either: 'rates', 'counts', or 'pifs').
@@ -124,7 +123,6 @@ def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels):
 
     location_spacer = 0.15
     coverage_spacer = 0.025
-
     df = data.apply(pd.DataFrame.describe, percentiles=[0.025, 0.975], axis=1).reset_index()
 
     for n in list(range(0, len(coverage_levels))):
@@ -143,14 +141,19 @@ def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels):
                     label=f'{int(coverage_levels[n] * 100)} percent coverage', color=colors[n])
     plt.plot()
 
+    if wra==True:
+        subpop = 'Women of Reproductive Age'
+    else:
+        subpop = 'Children Under Five'
+
     if measure == 'rates':
-        plt.title(f'DALYs Averted per 100,000 Person-Years due to\n{nutrient} Fortication Among Children Under Five')
+        plt.title(f'DALYs Averted per 100,000 Person-Years due to\n{nutrient} Fortication Among {subpop}\n{subtitle}')
         plt.ylabel('DALYs Averted per 100,000')
     elif measure == 'counts':
-        plt.title(f'DALYs Averted due to\n{nutrient} Fortication Among Children Under Five')
+        plt.title(f'DALYs Averted due to\n{nutrient} Fortication Among {subpop}\n{subtitle}')
         plt.ylabel('DALYs')
     elif measure == 'pifs':
-        plt.title(f'Population Impact Fraction of {nutrient} Fortication\non DALYs Among Children Under Five')
+        plt.title(f'Population Impact Fraction of {nutrient} Fortication\non DALYs Among {subpop}\n{subtitle}')
         plt.ylabel('Population Impact Fraction (Percent)')
     plt.legend(bbox_to_anchor=[1.5, 1])
     # plt.xlabel('Year')
