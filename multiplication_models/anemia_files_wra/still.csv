@@ -1,0 +1,4 @@
+,model_version_id,covariate_id,covariate_name_short,location_id,location_name,year_id,age_group_id,age_group_name,sex_id,sex,mean_value,lower_value,upper_value
+0,32394,2267,stillbirth_livebirth_ratio,163,India,2019,22,All Ages,3,Both,0.0150895444492101,0.0150895444492101,0.0150895444492101
+1,32394,2267,stillbirth_livebirth_ratio,179,Ethiopia,2019,22,All Ages,3,Both,0.0125468212858242,0.0125468212858242,0.0125468212858242
+2,32394,2267,stillbirth_livebirth_ratio,214,Nigeria,2019,22,All Ages,3,Both,0.0266858681860976,0.0266858681860976,0.0266858681860976
