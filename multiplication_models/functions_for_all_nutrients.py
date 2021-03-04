@@ -113,7 +113,7 @@ def generate_rr_deficiency_nofort_draws(mean, std, location_ids):
     return df
 
 
-def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels, wra=False):
+def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels, subtitle, wra=False):
     """This function takes a dataframe, 
     nutrient (as a string), 
     and measure (as a string, either: 'rates', 'counts', or 'pifs').
@@ -148,13 +148,13 @@ def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels, 
         subpop = 'Children Under Give'
 
     if measure == 'rates':
-        plt.title(f'DALYs Averted per 100,000 Person-Years due to\n{nutrient} Fortication Among {subpop}')
+        plt.title(f'DALYs Averted per 100,000 Person-Years due to\n{nutrient} Fortication Among {subpop}\n{subtitle}')
         plt.ylabel('DALYs Averted per 100,000')
     elif measure == 'counts':
-        plt.title(f'DALYs Averted due to\n{nutrient} Fortication Among {subpop}')
+        plt.title(f'DALYs Averted due to\n{nutrient} Fortication Among {subpop}\n{subtitle}')
         plt.ylabel('DALYs')
     elif measure == 'pifs':
-        plt.title(f'Population Impact Fraction of {nutrient} Fortication\non DALYs Among {subpop}')
+        plt.title(f'Population Impact Fraction of {nutrient} Fortication\non DALYs Among {subpop}\n{subtitle}')
         plt.ylabel('Population Impact Fraction (Percent)')
     plt.legend(bbox_to_anchor=[1.5, 1])
     # plt.xlabel('Year')
