@@ -1,0 +1,81 @@
+,location_name,vehicle,nutrient,value_description,n_data_points,mean_mean,value_means
+12,Angola,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+25,Angola,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+42,Angola,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+55,Bangladesh,oil,na,percent of population eating industrially produced vehicle,2,87.95,"[87.5, 88.4]"
+72,Bangladesh,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+89,Burkina Faso,bouillon,na,percent of population eating industrially produced vehicle,0,,[nan]
+108,Burkina Faso,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+121,Burkina Faso,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+138,Burkina Faso,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+155,Cameroon,bouillon,na,percent of population eating industrially produced vehicle,0,,[nan]
+174,Cameroon,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+187,Cameroon,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+204,Cameroon,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+217,China,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+234,China,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+251,Côte d'Ivoire,bouillon,na,percent of population eating industrially produced vehicle,0,,[nan]
+270,Côte d'Ivoire,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+283,Côte d'Ivoire,oil,na,percent of population eating industrially produced vehicle,1,98.0,[98.0]
+300,Côte d'Ivoire,wheat flour,na,percent of population eating industrially produced vehicle,1,10.2,[10.2]
+317,Democratic Republic of the Congo,bouillon,na,percent of population eating industrially produced vehicle,0,,[nan]
+336,Democratic Republic of the Congo,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+349,Democratic Republic of the Congo,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+366,Democratic Republic of the Congo,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+387,Egypt,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+400,Egypt,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+417,Egypt,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+438,Ethiopia,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+451,Ethiopia,oil,na,percent of population eating industrially produced vehicle,5,57.2,"[19.0, 92.0, 70.0, 50.0, 55.0]"
+460,Ethiopia,salt,na,percent of population eating industrially produced vehicle,0,,[nan]
+477,Ethiopia,wheat flour,na,percent of population eating industrially produced vehicle,6,39.5,"[28.0, 18.0, 89.0, 55.0, 27.0, 20.0]"
+494,Ghana,bouillon,na,percent of population eating industrially produced vehicle,0,,[nan]
+513,Ghana,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+526,Ghana,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+541,Ghana,rice,na,percent of population eating industrially produced vehicle,0,,[nan]
+561,Ghana,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+574,India,oil,na,percent of population eating industrially produced vehicle,1,89.4,[89.4]
+589,India,rice,na,percent of population eating industrially produced vehicle,0,,[nan]
+601,India,salt,na,percent of population eating industrially produced vehicle,2,96.5,"[100.0, 93.0]"
+618,India,wheat flour,na,percent of population eating industrially produced vehicle,1,7.1,[7.1]
+631,Indonesia,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+648,Indonesia,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+669,Kenya,maize flour,na,percent of population eating industrially produced vehicle,1,36.67,[36.67]
+682,Kenya,oil,na,percent of population eating industrially produced vehicle,1,9.39,[9.39]
+699,Kenya,wheat flour,na,percent of population eating industrially produced vehicle,1,30.95,[30.95]
+720,Madagascar,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+733,Madagascar,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+750,Madagascar,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+771,Mozambique,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+784,Mozambique,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+801,Mozambique,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+814,Myanmar,oil,na,percent of population eating industrially produced vehicle,1,10.0,[10.0]
+831,Myanmar,wheat flour,na,percent of population eating industrially produced vehicle,1,50.0,[50.0]
+844,Nepal,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+861,Nepal,wheat flour,na,percent of population eating industrially produced vehicle,2,40.0,"[37.0, 43.0]"
+878,Niger,bouillon,na,percent of population eating industrially produced vehicle,0,,[nan]
+897,Niger,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+910,Niger,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+927,Niger,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+944,Nigeria,bouillon,na,percent of population eating industrially produced vehicle,2,61.5,"[83.0, 40.0]"
+963,Nigeria,maize flour,na,percent of population eating industrially produced vehicle,2,6.95,"[2.9, 11.0]"
+976,Nigeria,oil,na,percent of population eating industrially produced vehicle,2,29.3,"[22.7, 35.9]"
+991,Nigeria,rice,na,percent of population eating industrially produced vehicle,2,99.5,"[100.0, 99.0]"
+1003,Nigeria,salt,na,percent of population eating industrially produced vehicle,1,93.0,[93.0]
+1020,Nigeria,wheat flour,na,percent of population eating industrially produced vehicle,2,48.8,"[13.8, 83.8]"
+1033,Pakistan,oil,na,percent of population eating industrially produced vehicle,3,99.0,"[99.0, 99.0, 99.0]"
+1050,Pakistan,wheat flour,na,percent of population eating industrially produced vehicle,3,48.66666666666666,"[52.0, 31.0, 63.0]"
+1071,South Africa,maize flour,na,percent of population eating industrially produced vehicle,2,97.05,"[98.7, 95.4]"
+1084,South Africa,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+1101,South Africa,wheat flour,na,percent of population eating industrially produced vehicle,2,14.75,"[25.2, 4.3]"
+1122,Sudan,maize flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+1135,Sudan,oil,na,percent of population eating industrially produced vehicle,0,,[nan]
+1152,Sudan,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
+1173,Uganda,maize flour,na,percent of population eating industrially produced vehicle,3,30.43333333333333,"[42.4, 42.4, 6.5]"
+1186,Uganda,oil,na,percent of population eating industrially produced vehicle,3,77.33333333333333,"[89.0, 89.0, 54.0]"
+1203,Uganda,wheat flour,na,percent of population eating industrially produced vehicle,3,9.9,"[10.6, 10.6, 8.5]"
+1224,United Republic of Tanzania,maize flour,na,percent of population eating industrially produced vehicle,3,25.23333333333333,"[36.6, 36.6, 2.5]"
+1237,United Republic of Tanzania,oil,na,percent of population eating industrially produced vehicle,3,79.73333333333333,"[92.6, 92.6, 54.0]"
+1254,United Republic of Tanzania,wheat flour,na,percent of population eating industrially produced vehicle,3,44.66666666666666,"[50.5, 50.5, 33.0]"
+1267,Vietnam,oil,na,percent of population eating industrially produced vehicle,1,90.0,[90.0]
+1284,Vietnam,wheat flour,na,percent of population eating industrially produced vehicle,0,,[nan]
