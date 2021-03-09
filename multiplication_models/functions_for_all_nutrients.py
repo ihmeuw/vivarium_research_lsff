@@ -56,7 +56,7 @@ def generate_overall_coverage_rates(filepath,
     data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001)
 
     data = data.loc[data.vehicle == vehicle].loc[data.nutrient.isin([nutrient, 'na'])]
-    data['value_std'] = (data.value_975_percentile - data.value_mean) / 1.96
+    data['value_std'] = (data.value_975_percentile - data.value_025_percentile) / (2 * 1.96)
     data['a'] = (0 - data.value_mean) / data.value_std
     data['b'] = (100 - data.value_mean) / data.value_std
 
@@ -92,7 +92,6 @@ def generate_overall_coverage_rates(filepath,
     return baseline_coverage, counterfactual_coverage
 
 def generate_rr_deficiency_nofort_draws(mean, std, location_ids):
-    import pandas as pd, numpy as np
     """This function takes a distribution for the relative risk
     for lack of fortification of a particular nutrient and generates
     1,000 draws based on a lognormal distribution of uncertainty. 
@@ -113,7 +112,9 @@ def generate_rr_deficiency_nofort_draws(mean, std, location_ids):
     return df
 
 
+
 def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels, subtitle, wra=False):
+
     """This function takes a dataframe, 
     nutrient (as a string), 
     and measure (as a string, either: 'rates', 'counts', or 'pifs').
@@ -145,7 +146,7 @@ def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels, 
     if wra==True:
         subpop = 'Women of Reproductive Age'
     else:
-        subpop = 'Children Under Give'
+        subpop = 'Children Under Five'
 
     if measure == 'rates':
         plt.title(f'DALYs Averted per 100,000 Person-Years due to\n{nutrient} Fortication Among {subpop}\n{subtitle}')

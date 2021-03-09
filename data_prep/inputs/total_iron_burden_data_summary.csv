@@ -1,0 +1,53 @@
+,parameter,measure_id,measure,metric_id,location_id,age_group_id,sex_id,location_name,sex,age,mean,lower,upper
+0,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,1,169,2,Global,female,Reproductive age,18790981.580536626,13050115.472531686,25733648.775407854
+1,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,6,169,2,China,female,Reproductive age,907980.4626427302,602398.9103072535,1288012.6840852585
+2,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,11,169,2,Indonesia,female,Reproductive age,600904.0737610962,412163.2499654322,846699.2316167731
+3,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,15,169,2,Myanmar,female,Reproductive age,202569.1017012566,136951.0857971838,280895.35106421483
+4,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,20,169,2,Viet Nam,female,Reproductive age,99939.28065419389,65940.9141611072,147102.73467870615
+5,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,141,169,2,Egypt,female,Reproductive age,136528.04036502723,91696.83936892013,203443.28159406033
+6,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,161,169,2,Bangladesh,female,Reproductive age,455148.09409745166,302307.22721296386,662410.3467309885
+7,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,163,169,2,India,female,Reproductive age,7224454.068362566,4973117.519394149,9915775.425365828
+8,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,164,169,2,Nepal,female,Reproductive age,123661.83453506655,81991.84735699312,174119.07581211318
+9,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,165,169,2,Pakistan,female,Reproductive age,1217996.33630891,813529.7637690761,1687747.0703173636
+10,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,168,169,2,Angola,female,Reproductive age,78990.65520970465,49816.351790877176,113520.5216280856
+11,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,171,169,2,Democratic Republic of the Congo,female,Reproductive age,338225.759478352,221074.91288325793,474799.11522291315
+12,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,179,169,2,Ethiopia,female,Reproductive age,270367.7028968498,182900.76978052664,381299.44481468067
+13,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,180,169,2,Kenya,female,Reproductive age,142141.11842433971,96938.39301599907,193744.3111687897
+14,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,181,169,2,Madagascar,female,Reproductive age,87409.81411050214,56924.63762595327,123713.31119439476
+15,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,184,169,2,Mozambique,female,Reproductive age,96295.67945618859,62346.61409360842,136422.23184240639
+16,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,189,169,2,United Republic of Tanzania,female,Reproductive age,235162.0345765487,151148.130536892,325122.17037363193
+17,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,190,169,2,Uganda,female,Reproductive age,83399.66485064423,51738.502810522245,122541.7748386976
+18,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,196,169,2,South Africa,female,Reproductive age,143327.519397868,99689.8821592014,196628.58403178412
+19,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,201,169,2,Burkina Faso,female,Reproductive age,89642.04557408878,55996.16132287099,133214.68162767086
+20,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,202,169,2,Cameroon,female,Reproductive age,92894.46561698626,58090.24751174222,133170.65494601813
+21,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,205,169,2,Côte d'Ivoire,female,Reproductive age,96560.30633900626,62243.99600627465,136533.08004931943
+22,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,207,169,2,Ghana,female,Reproductive age,108573.08853799886,72114.90763316395,155141.63331081593
+23,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,213,169,2,Niger,female,Reproductive age,107384.26638495369,66526.43993096713,156163.1173212361
+24,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,214,169,2,Nigeria,female,Reproductive age,934768.2764849003,611893.4595528037,1309866.9780049853
+25,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,count,522,169,2,Sudan,female,Reproductive age,109018.43431597414,71458.81949738675,154438.11951704317
+26,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,1,169,2,Global,female,Reproductive age,0.007590988668209576,0.005271852257756589,0.010395616397609588
+27,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,6,169,2,China,female,Reproductive age,0.002037229215011367,0.0013515980901142297,0.00288990476919124
+28,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,11,169,2,Indonesia,female,Reproductive age,0.006735584594995777,0.004619972734939866,0.009490723311920942
+29,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,15,169,2,Myanmar,female,Reproductive age,0.010659105595260449,0.007206311686421919,0.014780601696239083
+30,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,20,169,2,Viet Nam,female,Reproductive age,0.0030632687613205587,0.002021174668462691,0.004508889886903515
+31,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,141,169,2,Egypt,female,Reproductive age,0.004272392765882744,0.002869483163507268,0.006366381603559287
+32,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,161,169,2,Bangladesh,female,Reproductive age,0.008094793461198397,0.005376523812472707,0.011780945615033369
+33,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,163,169,2,India,female,Reproductive age,0.015588007106269198,0.010730359761315235,0.021394997647179295
+34,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,164,169,2,Nepal,female,Reproductive age,0.011216960222103485,0.007437212085668803,0.015793771414090267
+35,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,165,169,2,Pakistan,female,Reproductive age,0.01691438829979036,0.011297536706495442,0.023437844965685753
+36,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,168,169,2,Angola,female,Reproductive age,0.0082782955838979,0.0052208009155196465,0.011897058334061144
+37,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,171,169,2,Democratic Republic of the Congo,female,Reproductive age,0.012285940607463101,0.008030474242035455,0.017246923294965952
+38,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,179,169,2,Ethiopia,female,Reproductive age,0.007829749500116584,0.005296739201525031,0.01104229205428243
+39,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,180,169,2,Kenya,female,Reproductive age,0.00836003707879716,0.005701436494634988,0.011395081473481245
+40,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,181,169,2,Madagascar,female,Reproductive age,0.010038524629883173,0.006537473882885754,0.014207776713714823
+41,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,184,169,2,Mozambique,female,Reproductive age,0.010174289173885246,0.006587341035270456,0.014413930555866244
+42,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,189,169,2,United Republic of Tanzania,female,Reproductive age,0.012743519155063773,0.008190774077190465,0.017618492769689038
+43,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,190,169,2,Uganda,female,Reproductive age,0.0063827255344599595,0.0039596401687566,0.009378341228369535
+44,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,196,169,2,South Africa,female,Reproductive age,0.007586188963115212,0.005276490425199107,0.010407363500613838
+45,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,201,169,2,Burkina Faso,female,Reproductive age,0.012499005933490296,0.007807679400274092,0.01857444333659388
+46,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,202,169,2,Cameroon,female,Reproductive age,0.009717429522366873,0.0060766578760423256,0.013930608732074343
+47,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,205,169,2,Côte d'Ivoire,female,Reproductive age,0.011819911921272217,0.007619264875146598,0.016712964588753113
+48,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,207,169,2,Ghana,female,Reproductive age,0.009894906805238027,0.006572257452626185,0.014138973330261952
+49,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,213,169,2,Niger,female,Reproductive age,0.015935441268197643,0.00987228587567784,0.02317404837884053
+50,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,214,169,2,Nigeria,female,Reproductive age,0.01304305816955532,0.008537904192180387,0.01827690521627863
+51,Total iron deficiency burden (including anemia and maternal disorders),2,dalys,rate,522,169,2,Sudan,female,Reproductive age,0.008020828039944024,0.0052574494095624265,0.011362496693616705
