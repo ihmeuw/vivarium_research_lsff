@@ -1,0 +1,50 @@
+,location_name,vehicle,nutrient,value_description,n_data_points,mean_mean,value_means
+0,Angola,maize flour,na,percent of vehicle that is industrially produced,1,0.0,[0.0]
+1,Angola,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+2,Angola,wheat flour,na,percent of vehicle that is industrially produced,1,100.0,[100.0]
+3,Bangladesh,wheat flour,na,percent of vehicle that is industrially produced,1,79.0,[79.0]
+4,Burkina Faso,bouillon,na,percent of vehicle that is industrially produced,0,,[nan]
+5,Burkina Faso,maize flour,na,percent of vehicle that is industrially produced,1,0.0,[0.0]
+6,Burkina Faso,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+7,Burkina Faso,wheat flour,na,percent of vehicle that is industrially produced,1,100.0,[100.0]
+8,Cameroon,bouillon,na,percent of vehicle that is industrially produced,0,,[nan]
+9,Cameroon,maize flour,na,percent of vehicle that is industrially produced,2,3.0,"[3.0, 3.0]"
+10,Cameroon,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+11,Cameroon,wheat flour,na,percent of vehicle that is industrially produced,2,80.0,"[80.0, 80.0]"
+12,China,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+13,China,wheat flour,na,percent of vehicle that is industrially produced,2,89.0,"[89.0, 89.0]"
+14,Côte d'Ivoire,bouillon,na,percent of vehicle that is industrially produced,0,,[nan]
+15,Côte d'Ivoire,maize flour,na,percent of vehicle that is industrially produced,1,100.0,[100.0]
+16,Democratic Republic of the Congo,bouillon,na,percent of vehicle that is industrially produced,0,,[nan]
+17,Democratic Republic of the Congo,maize flour,na,percent of vehicle that is industrially produced,1,5.0,[5.0]
+18,Democratic Republic of the Congo,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+19,Democratic Republic of the Congo,wheat flour,na,percent of vehicle that is industrially produced,1,100.0,[100.0]
+20,Egypt,maize flour,na,percent of vehicle that is industrially produced,1,0.0,[0.0]
+21,Egypt,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+22,Egypt,wheat flour,na,percent of vehicle that is industrially produced,2,100.0,"[100.0, 100.0]"
+23,Ethiopia,maize flour,na,percent of vehicle that is industrially produced,0,,[nan]
+24,Ethiopia,salt,na,percent of vehicle that is industrially produced,0,,[nan]
+25,Ghana,bouillon,na,percent of vehicle that is industrially produced,0,,[nan]
+26,Ghana,maize flour,na,percent of vehicle that is industrially produced,1,0.0,[0.0]
+27,Ghana,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+28,Ghana,rice,na,percent of vehicle that is industrially produced,1,30.0,"[30.0, nan]"
+29,Ghana,wheat flour,na,percent of vehicle that is industrially produced,4,75.0,"[100.0, 100.0, 100.0, 0.0]"
+30,India,rice,na,percent of vehicle that is industrially produced,2,50.0,"[50.0, 50.0]"
+31,Indonesia,oil,na,percent of vehicle that is industrially produced,1,95.0,[95.0]
+32,Indonesia,wheat flour,na,percent of vehicle that is industrially produced,1,100.0,[100.0]
+33,Madagascar,maize flour,na,percent of vehicle that is industrially produced,1,0.0,[0.0]
+34,Madagascar,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+35,Madagascar,wheat flour,na,percent of vehicle that is industrially produced,1,100.0,[100.0]
+36,Mozambique,maize flour,na,percent of vehicle that is industrially produced,2,30.0,"[30.0, 30.0]"
+37,Mozambique,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+38,Mozambique,wheat flour,na,percent of vehicle that is industrially produced,2,100.0,"[100.0, 100.0]"
+39,Nepal,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+40,Niger,bouillon,na,percent of vehicle that is industrially produced,0,,[nan]
+41,Niger,maize flour,na,percent of vehicle that is industrially produced,1,0.0,[0.0]
+42,Niger,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+43,Niger,wheat flour,na,percent of vehicle that is industrially produced,1,100.0,[100.0]
+44,South Africa,oil,na,percent of vehicle that is industrially produced,0,,[nan]
+45,Sudan,maize flour,na,percent of vehicle that is industrially produced,1,0.0,[0.0]
+46,Sudan,oil,na,percent of vehicle that is industrially produced,1,80.0,[80.0]
+47,Sudan,wheat flour,na,percent of vehicle that is industrially produced,2,85.0,"[80.0, 90.0]"
+48,Vietnam,wheat flour,na,percent of vehicle that is industrially produced,2,100.0,"[100.0, 100.0]"

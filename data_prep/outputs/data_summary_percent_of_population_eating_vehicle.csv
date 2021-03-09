@@ -1,0 +1,73 @@
+,location_name,vehicle,nutrient,value_description,n_data_points,mean_mean,value_means
+0,Angola,maize flour,na,percent of population eating vehicle,0,,[nan]
+1,Angola,oil,na,percent of population eating vehicle,0,,[nan]
+2,Angola,wheat flour,na,percent of population eating vehicle,0,,[nan]
+3,Bangladesh,oil,na,percent of population eating vehicle,10,80.78,"[95.0, 89.0, 75.0, 95.0, 51.0, 59.0, 68.0, 76.0, 100.0, 99.8]"
+4,Bangladesh,wheat flour,na,percent of population eating vehicle,12,62.35,"[40.0, 68.0, 63.0, 59.0, 70.0, 70.0, 77.0, 65.0, 76.2, 41.9, 41.9, 76.2]"
+5,Burkina Faso,bouillon,na,percent of population eating vehicle,6,80.83333333333333,"[79.0, 98.0, 48.0, 96.0, 76.0, 88.0]"
+6,Burkina Faso,maize flour,na,percent of population eating vehicle,4,31.15,"[0.2, 39.4, 39.0, 46.0]"
+7,Burkina Faso,oil,na,percent of population eating vehicle,5,48.906000000000006,"[92.23, 30.2, 16.1, 54.0, 52.0]"
+8,Burkina Faso,wheat flour,na,percent of population eating vehicle,10,52.3,"[48.0, 83.0, 15.0, 52.0, 41.0, 57.0, 88.0, 19.0, 58.0, 62.0]"
+9,Cameroon,bouillon,na,percent of population eating vehicle,7,95.25714285714285,"[96.0, 95.5, 96.8, 93.3, 96.2, 96.0, 93.0]"
+10,Cameroon,maize flour,na,percent of population eating vehicle,0,,[nan]
+11,Cameroon,oil,na,percent of population eating vehicle,10,68.79,"[82.6, 54.1, 40.7, 54.5, 54.0, 53.1, 82.4, 93.6, 81.2, 91.7]"
+12,Cameroon,wheat flour,na,percent of population eating vehicle,11,94.46363636363638,"[92.2, 91.2, 89.8, 98.0, 92.0, 93.7, 94.0, 97.6, 95.2, 97.0, 98.4]"
+13,China,oil,na,percent of population eating vehicle,0,,[nan]
+14,China,wheat flour,na,percent of population eating vehicle,0,,[nan]
+15,Côte d'Ivoire,bouillon,na,percent of population eating vehicle,0,,[nan]
+16,Côte d'Ivoire,maize flour,na,percent of population eating vehicle,0,,[nan]
+17,Côte d'Ivoire,oil,na,percent of population eating vehicle,1,98.5,[98.5]
+18,Côte d'Ivoire,wheat flour,na,percent of population eating vehicle,1,54.7,[54.7]
+19,Democratic Republic of the Congo,bouillon,na,percent of population eating vehicle,0,,[nan]
+20,Democratic Republic of the Congo,maize flour,na,percent of population eating vehicle,8,45.255,"[20.7, 27.2, 42.7, 30.0, 64.0, 31.0, 53.0, 93.44]"
+21,Democratic Republic of the Congo,oil,na,percent of population eating vehicle,5,95.882,"[97.3, 95.6, 98.1, 88.41, 100.0]"
+22,Democratic Republic of the Congo,wheat flour,na,percent of population eating vehicle,1,0.58,[0.58]
+23,Egypt,maize flour,na,percent of population eating vehicle,0,,[nan]
+24,Egypt,oil,na,percent of population eating vehicle,0,,[nan]
+25,Egypt,wheat flour,na,percent of population eating vehicle,0,,[nan]
+26,Ethiopia,maize flour,na,percent of population eating vehicle,0,,[nan]
+27,Ethiopia,oil,na,percent of population eating vehicle,2,29.35,"[55.0, 3.7]"
+28,Ethiopia,salt,na,percent of population eating vehicle,0,,[nan]
+29,Ethiopia,wheat flour,na,percent of population eating vehicle,1,28.0,[28.0]
+30,Ghana,bouillon,na,percent of population eating vehicle,0,,[nan]
+31,Ghana,maize flour,na,percent of population eating vehicle,0,,[nan]
+32,Ghana,oil,na,percent of population eating vehicle,4,96.275,"[98.0, 94.7, 96.8, 95.6]"
+33,Ghana,rice,na,percent of population eating vehicle,0,,[nan]
+34,Ghana,wheat flour,na,percent of population eating vehicle,0,,[nan]
+35,India,rice,na,percent of population eating vehicle,1,50.0,[50.0]
+36,India,salt,na,percent of population eating vehicle,1,100.0,[100.0]
+37,India,wheat flour,na,percent of population eating vehicle,1,83.2,[83.2]
+38,Indonesia,oil,na,percent of population eating vehicle,0,,[nan]
+39,Indonesia,wheat flour,na,percent of population eating vehicle,0,,[nan]
+40,Kenya,maize flour,na,percent of population eating vehicle,12,53.10583333333333,"[85.27, 57.0, 63.0, 81.0, 16.0, 38.0, 17.0, 89.0, 91.0, 95.0, 2.0, 3.0]"
+41,Kenya,oil,na,percent of population eating vehicle,13,29.705384615384613,"[16.17, 6.0, 16.0, 7.0, 12.0, 38.0, 45.0, 60.0, 70.0, 72.0, 9.0, 18.0, 17.0]"
+42,Kenya,wheat flour,na,percent of population eating vehicle,1,36.58,[36.58]
+43,Madagascar,maize flour,na,percent of population eating vehicle,0,,[nan]
+44,Madagascar,oil,na,percent of population eating vehicle,0,,[nan]
+45,Madagascar,wheat flour,na,percent of population eating vehicle,0,,[nan]
+46,Mozambique,maize flour,na,percent of population eating vehicle,1,79.9,[79.9]
+47,Mozambique,oil,na,percent of population eating vehicle,2,96.6,"[95.2, 98.0]"
+48,Mozambique,wheat flour,na,percent of population eating vehicle,3,66.76666666666667,"[16.3, 92.0, 92.0]"
+49,Myanmar,wheat flour,na,percent of population eating vehicle,1,5.0,[5.0]
+50,Nepal,oil,na,percent of population eating vehicle,3,99.86666666666667,"[99.8, 100.0, 99.8]"
+51,Nepal,wheat flour,na,percent of population eating vehicle,6,27.96666666666667,"[8.8, 16.5, 7.4, 42.7, 52.1, 40.3]"
+52,Niger,bouillon,na,percent of population eating vehicle,3,91.0,"[88.0, 99.0, 86.0]"
+53,Niger,maize flour,na,percent of population eating vehicle,0,,[nan]
+54,Niger,oil,na,percent of population eating vehicle,3,86.33333333333331,"[85.0, 98.0, 76.0]"
+55,Niger,wheat flour,na,percent of population eating vehicle,0,,[nan]
+56,Nigeria,bouillon,na,percent of population eating vehicle,0,,[nan]
+57,Nigeria,maize flour,na,percent of population eating vehicle,2,44.65,"[12.2, 77.1]"
+58,Nigeria,oil,na,percent of population eating vehicle,2,98.5,"[98.6, 98.4]"
+59,Nigeria,rice,na,percent of population eating vehicle,1,14.9,[14.9]
+60,Nigeria,salt,na,percent of population eating vehicle,0,,[nan]
+61,Nigeria,wheat flour,na,percent of population eating vehicle,2,49.05,"[14.2, 83.9]"
+62,Pakistan,oil,na,percent of population eating vehicle,3,100.0,"[100.0, 100.0, 100.0]"
+63,Pakistan,wheat flour,na,percent of population eating vehicle,3,97.33333333333331,"[100.0, 100.0, 92.0]"
+64,South Africa,maize flour,na,percent of population eating vehicle,2,97.15,"[98.7, 95.6]"
+65,South Africa,oil,na,percent of population eating vehicle,0,,[nan]
+66,South Africa,wheat flour,na,percent of population eating vehicle,2,14.75,"[25.2, 4.3]"
+67,Sudan,maize flour,na,percent of population eating vehicle,0,,[nan]
+68,Sudan,oil,na,percent of population eating vehicle,0,,[nan]
+69,Sudan,wheat flour,na,percent of population eating vehicle,0,,[nan]
+70,Vietnam,oil,na,percent of population eating vehicle,10,54.5,"[91.5, 89.4, 38.3, 45.8, 28.9, 38.3, 41.5, 43.8, 33.6, 93.9]"
+71,Vietnam,wheat flour,na,percent of population eating vehicle,10,21.93,"[4.2, 38.8, 46.7, 31.1, 16.4, 17.5, 9.6, 22.7, 13.5, 18.8]"
