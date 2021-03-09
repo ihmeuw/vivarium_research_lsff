@@ -1,0 +1,381 @@
+,Domain Code,Domain,Area Code,Area,Element Code,Element,Item Code,Item,Year Code,Year,Unit,Value,Flag,Flag Description
+137,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,256.0,Fc,Calculated data
+139,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,80.0,Fc,Calculated data
+143,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,415.0,Fc,Calculated data
+181,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+183,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,65.0,Fc,Calculated data
+185,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,25.0,Fc,Calculated data
+187,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,11.0,Fc,Calculated data
+189,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+191,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+193,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,6.0,Fc,Calculated data
+195,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,161.0,Fc,Calculated data
+197,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+199,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+201,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,3.0,Fc,Calculated data
+204,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+206,FBS,New Food Balances,7,Angola,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,11.0,Fc,Calculated data
+340,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,164.0,Fc,Calculated data
+342,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,1728.0,Fc,Calculated data
+346,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,7.0,Fc,Calculated data
+384,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+386,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,58.0,Fc,Calculated data
+388,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+390,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+392,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,22.0,Fc,Calculated data
+394,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+397,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,87.0,Fc,Calculated data
+399,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,6.0,Fc,Calculated data
+401,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+403,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+405,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2581,Ricebran Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+407,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+409,FBS,New Food Balances,16,Bangladesh,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+564,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,109.0,Fc,Calculated data
+566,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,221.0,Fc,Calculated data
+570,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,629.0,Fc,Calculated data
+612,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+614,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+616,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,12.0,Fc,Calculated data
+618,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+620,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+622,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,78.0,Fc,Calculated data
+624,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+626,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,92.0,Fc,Calculated data
+628,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,5.0,Fc,Calculated data
+630,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+632,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+635,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+637,FBS,New Food Balances,233,Burkina Faso,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+780,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,192.0,Fc,Calculated data
+782,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,277.0,Fc,Calculated data
+786,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,381.0,Fc,Calculated data
+828,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,16.0,Fc,Calculated data
+830,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+832,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,57.0,Fc,Calculated data
+834,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+836,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+838,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,22.0,Fc,Calculated data
+840,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,9.0,Fc,Calculated data
+842,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,118.0,Fc,Calculated data
+844,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+846,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+848,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+851,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+853,FBS,New Food Balances,32,Cameroon,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,4.0,Fc,Calculated data
+1161,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,563.0,Fc,Calculated data
+1163,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,821.0,Fc,Calculated data
+1167,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,57.0,Fc,Calculated data
+1205,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,59.0,Fc,Calculated data
+1207,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,17.0,Fc,Calculated data
+1209,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,4.0,Fc,Calculated data
+1211,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,36.0,Fc,Calculated data
+1213,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,13.0,Fc,Calculated data
+1215,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+1217,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,49.0,Fc,Calculated data
+1219,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+1221,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,5.0,Fc,Calculated data
+1223,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+1225,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2581,Ricebran Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+1227,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,5.0,Fc,Calculated data
+1229,FBS,New Food Balances,41,"China, mainland",664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+1378,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,181.0,Fc,Calculated data
+1380,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,601.0,Fc,Calculated data
+1384,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,232.0,Fc,Calculated data
+1426,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1428,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+1430,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,15.0,Fc,Calculated data
+1432,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,3.0,Fc,Calculated data
+1434,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1436,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,22.0,Fc,Calculated data
+1438,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,24.0,Fc,Calculated data
+1440,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,273.0,Fc,Calculated data
+1442,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,10.0,Fc,Calculated data
+1444,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1446,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+1449,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1451,FBS,New Food Balances,107,Côte d'Ivoire,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,11.0,Fc,Calculated data
+1642,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,1158.0,Fc,Calculated data
+1644,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,322.0,Fc,Calculated data
+1648,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,572.0,Fc,Calculated data
+1686,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1688,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,85.0,Fc,Calculated data
+1690,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,3.0,Fc,Calculated data
+1692,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,37.0,Fc,Calculated data
+1694,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1696,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,3.0,Fc,Calculated data
+1698,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1700,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+1702,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,6.0,Fc,Calculated data
+1704,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,7.0,Fc,Calculated data
+1706,FBS,New Food Balances,59,Egypt,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,10.0,Fc,Calculated data
+1780,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,333.0,Fc,Calculated data
+1782,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,33.0,Fc,Calculated data
+1786,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,437.0,Fc,Calculated data
+1828,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1830,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+1832,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+1834,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,3.0,Fc,Calculated data
+1836,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,4.0,Fc,Calculated data
+1838,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+1840,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1842,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,56.0,Fc,Calculated data
+1844,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1846,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1848,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1851,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+1853,FBS,New Food Balances,238,Ethiopia,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,13.0,Fc,Calculated data
+2063,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,152.0,Fc,Calculated data
+2065,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,284.0,Fc,Calculated data
+2069,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,194.0,Fc,Calculated data
+2109,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,6.0,Fc,Calculated data
+2111,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,3.0,Fc,Calculated data
+2113,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,54.0,Fc,Calculated data
+2115,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+2117,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2119,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2121,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,14.0,Fc,Calculated data
+2123,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,50.0,Fc,Calculated data
+2125,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,6.0,Fc,Calculated data
+2127,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2129,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+2131,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2133,FBS,New Food Balances,81,Ghana,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,19.0,Fc,Calculated data
+2287,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,527.0,Fc,Calculated data
+2289,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,645.0,Fc,Calculated data
+2293,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,63.0,Fc,Calculated data
+2329,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2331,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,53.0,Fc,Calculated data
+2333,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,25.0,Fc,Calculated data
+2335,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,46.0,Fc,Calculated data
+2337,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,48.0,Fc,Calculated data
+2339,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,22.0,Fc,Calculated data
+2341,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,42.0,Fc,Calculated data
+2343,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,5.0,Fc,Calculated data
+2345,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+2347,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2349,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2581,Ricebran Oil,2018,2018,kcal/capita/day,8.0,Fc,Calculated data
+2351,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2353,FBS,New Food Balances,100,India,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+2357,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,274.0,Fc,Calculated data
+2359,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,1286.0,Fc,Calculated data
+2363,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,184.0,Fc,Calculated data
+2399,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2401,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,45.0,Fc,Calculated data
+2403,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,3.0,Fc,Calculated data
+2405,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+2407,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2409,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2411,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,102.0,Fc,Calculated data
+2413,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,139.0,Fc,Calculated data
+2415,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,4.0,Fc,Calculated data
+2417,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2419,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2421,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2581,Ricebran Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2423,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+2425,FBS,New Food Balances,101,Indonesia,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+2838,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,299.0,Fc,Calculated data
+2840,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,148.0,Fc,Calculated data
+2844,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,656.0,Fc,Calculated data
+2884,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+2886,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2888,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,4.0,Fc,Calculated data
+2890,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+2892,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+2894,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+2896,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,47.0,Fc,Calculated data
+2898,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+2900,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2902,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+2904,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,10.0,Fc,Calculated data
+2906,FBS,New Food Balances,114,Kenya,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,97.0,Fc,Calculated data
+3294,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,105.0,Fc,Calculated data
+3296,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,1075.0,Fc,Calculated data
+3300,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,66.0,Fc,Calculated data
+3338,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+3340,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,32.0,Fc,Calculated data
+3342,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+3344,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,4.0,Fc,Calculated data
+3346,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+3348,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+3351,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,24.0,Fc,Calculated data
+3353,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,8.0,Fc,Calculated data
+3355,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+3357,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+3360,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+3362,FBS,New Food Balances,129,Madagascar,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+3940,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,184.0,Fc,Calculated data
+3942,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,238.0,Fc,Calculated data
+3946,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,321.0,Fc,Calculated data
+3982,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+3984,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,34.0,Fc,Calculated data
+3986,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,9.0,Fc,Calculated data
+3988,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,14.0,Fc,Calculated data
+3990,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+3992,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,4.0,Fc,Calculated data
+3994,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+3996,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,161.0,Fc,Calculated data
+3998,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,24.0,Fc,Calculated data
+4000,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,4.0,Fc,Calculated data
+4002,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+4005,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,15.0,Fc,Calculated data
+4007,FBS,New Food Balances,144,Mozambique,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,13.0,Fc,Calculated data
+4013,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,69.0,Fc,Calculated data
+4015,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,1221.0,Fc,Calculated data
+4019,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,43.0,Fc,Calculated data
+4059,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,10.0,Fc,Calculated data
+4061,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,114.0,Fc,Calculated data
+4063,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,20.0,Fc,Calculated data
+4065,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4067,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,14.0,Fc,Calculated data
+4069,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+4071,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4073,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4075,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,28.0,Fc,Calculated data
+4077,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4081,FBS,New Food Balances,28,Myanmar,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+4155,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,400.0,Fc,Calculated data
+4157,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,864.0,Fc,Calculated data
+4161,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,345.0,Fc,Calculated data
+4201,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4203,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,107.0,Fc,Calculated data
+4205,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+4207,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,28.0,Fc,Calculated data
+4209,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,55.0,Fc,Calculated data
+4211,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4213,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4215,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,17.0,Fc,Calculated data
+4217,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,3.0,Fc,Calculated data
+4219,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4221,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4223,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2581,Ricebran Oil,2018,2018,kcal/capita/day,8.0,Fc,Calculated data
+4225,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4227,FBS,New Food Balances,149,Nepal,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,15.0,Fc,Calculated data
+4233,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,26.0,Fc,Calculated data
+4235,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,181.0,Fc,Calculated data
+4239,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,24.0,Fc,Calculated data
+4279,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4281,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4283,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,38.0,Fc,Calculated data
+4285,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4287,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4289,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4291,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4293,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,58.0,Fc,Calculated data
+4295,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4297,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4299,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4301,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2581,Ricebran Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4303,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4305,FBS,New Food Balances,158,Niger,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4311,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,195.0,Fc,Calculated data
+4313,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,266.0,Fc,Calculated data
+4317,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,315.0,Fc,Calculated data
+4357,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,18.0,Fc,Calculated data
+4359,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,10.0,Fc,Calculated data
+4361,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,41.0,Fc,Calculated data
+4363,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4365,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4367,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+4369,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,15.0,Fc,Calculated data
+4371,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,172.0,Fc,Calculated data
+4373,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+4375,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,6.0,Fc,Calculated data
+4377,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4380,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4382,FBS,New Food Balances,159,Nigeria,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,18.0,Fc,Calculated data
+4458,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,920.0,Fc,Calculated data
+4460,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,138.0,Fc,Calculated data
+4464,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,164.0,Fc,Calculated data
+4499,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,9.0,Fc,Calculated data
+4501,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+4503,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,6.0,Fc,Calculated data
+4505,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,23.0,Fc,Calculated data
+4507,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,42.0,Fc,Calculated data
+4509,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+4511,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,187.0,Fc,Calculated data
+4513,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+4515,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4517,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4519,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2581,Ricebran Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+4521,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+4523,FBS,New Food Balances,165,Pakistan,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,6.0,Fc,Calculated data
+5043,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,485.0,Fc,Calculated data
+5045,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,149.0,Fc,Calculated data
+5049,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,815.0,Fc,Calculated data
+5087,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5089,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,112.0,Fc,Calculated data
+5091,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+5093,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,130.0,Fc,Calculated data
+5095,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+5097,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,7.0,Fc,Calculated data
+5099,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,24.0,Fc,Calculated data
+5101,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+5103,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5105,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+5107,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,36.0,Fc,Calculated data
+5109,FBS,New Food Balances,202,South Africa,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5191,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,530.0,Fc,Calculated data
+5193,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,19.0,Fc,Calculated data
+5197,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+5239,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,8.0,Fc,Calculated data
+5241,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5243,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,98.0,Fc,Calculated data
+5245,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,68.0,Fc,Calculated data
+5247,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5249,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,8.0,Fc,Calculated data
+5251,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+5253,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,5.0,Fc,Calculated data
+5255,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5257,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,14.0,Fc,Calculated data
+5259,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5261,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2581,Ricebran Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5263,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5265,FBS,New Food Balances,276,Sudan,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,8.0,Fc,Calculated data
+5719,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,109.0,Fc,Calculated data
+5721,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,65.0,Fc,Calculated data
+5725,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,361.0,Fc,Calculated data
+5765,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,7.0,Fc,Calculated data
+5767,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,4.0,Fc,Calculated data
+5769,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,45.0,Fc,Calculated data
+5771,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5773,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,6.0,Fc,Calculated data
+5775,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+5777,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,142.0,Fc,Calculated data
+5779,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5781,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,19.0,Fc,Calculated data
+5783,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5785,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2581,Ricebran Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5787,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5789,FBS,New Food Balances,226,Uganda,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,13.0,Fc,Calculated data
+5851,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,131.0,Fc,Calculated data
+5853,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,228.0,Fc,Calculated data
+5857,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,530.0,Fc,Calculated data
+5897,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2570,"Oilcrops, Other",2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+5899,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+5901,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,3.0,Fc,Calculated data
+5903,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,103.0,Fc,Calculated data
+5905,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5907,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,5.0,Fc,Calculated data
+5909,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+5911,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2577,Palm Oil,2018,2018,kcal/capita/day,84.0,Fc,Calculated data
+5913,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,6.0,Fc,Calculated data
+5915,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,5.0,Fc,Calculated data
+5917,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+5919,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,11.0,Fc,Calculated data
+5921,FBS,New Food Balances,215,United Republic of Tanzania,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,17.0,Fc,Calculated data
+5993,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2511,Wheat and products,2018,2018,kcal/capita/day,112.0,Fc,Calculated data
+5995,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2805,Rice and products,2018,2018,kcal/capita/day,1319.0,Fc,Calculated data
+5999,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2514,Maize and products,2018,2018,kcal/capita/day,124.0,Fc,Calculated data
+6030,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2571,Soyabean Oil,2018,2018,kcal/capita/day,20.0,Fc,Calculated data
+6032,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2572,Groundnut Oil,2018,2018,kcal/capita/day,9.0,Fc,Calculated data
+6034,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2573,Sunflowerseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+6036,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2574,Rape and Mustard Oil,2018,2018,kcal/capita/day,1.0,Fc,Calculated data
+6038,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2575,Cottonseed Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+6040,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2576,Palmkernel Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+6043,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2578,Coconut Oil,2018,2018,kcal/capita/day,27.0,Fc,Calculated data
+6045,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2579,Sesameseed Oil,2018,2018,kcal/capita/day,2.0,Fc,Calculated data
+6047,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2580,Olive Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+6049,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2581,Ricebran Oil,2018,2018,kcal/capita/day,3.0,Fc,Calculated data
+6051,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2582,Maize Germ Oil,2018,2018,kcal/capita/day,0.0,Fc,Calculated data
+6053,FBS,New Food Balances,237,Viet Nam,664,Food supply (kcal/capita/day),2586,"Oilcrops Oil, Other",2018,2018,kcal/capita/day,5.0,Fc,Calculated data
