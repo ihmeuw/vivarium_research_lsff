@@ -14,7 +14,7 @@ options(scipen = 999)
 # load data from python output
 library(readxl)
 pacman::p_load(data.table,actuar)
-setwd("H:/notebooks/vivarium_research_lsff/multiplication_models")
+setwd("H:/notebooks/vivarium_research_lsff/multiplication_models/anemia_files_u5")
 getwd()
 # LOAD BASELINE DATA
 mean <- read.csv("mean_hgb.csv")
