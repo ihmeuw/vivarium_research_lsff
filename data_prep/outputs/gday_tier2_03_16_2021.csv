@@ -1,0 +1,9 @@
+location_id,location_name,sub_population,vehicle,metric,mass_unit,time_unit,pop_denom,value_mean,lower,upper
+161,Bangladesh,women of reproductive age,wheat flour,mean,g,day,capita,77.9,51.95852833092672,103.84147166907329
+165,Pakistan,women of reproductive age,wheat flour,mean,g,day,capita,297.9,198.69634903444245,397.10365096555756
+189,United Republic of Tanzania,total population,maize flour,mean,g,day,capita,172.47,102.94485417020374,241.99514582979626
+189,United Republic of Tanzania,total population,wheat flour,mean,g,day,capita,32.96,21.983993501763088,43.936006498236914
+190,Uganda,total population,maize flour,mean,g,day,capita,126.3,75.38664742677992,177.21335257322008
+190,Uganda,total population,wheat flour,mean,g,day,capita,30.27,20.189790148615554,40.35020985138445
+196,South Africa,total population,maize flour,mean,g,day,capita,283.29,169.09171298125483,397.4882870187452
+196,South Africa,total population,wheat flour,mean,g,day,capita,156.36,104.2905711145533,208.42942888544673
