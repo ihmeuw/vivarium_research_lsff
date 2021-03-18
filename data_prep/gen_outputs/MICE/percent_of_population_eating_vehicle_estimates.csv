@@ -1,0 +1,78 @@
+location_name,vehicle,percent_of_population_eating_vehicle
+Angola,wheat flour,38.20073597749264
+Bangladesh,wheat flour,62.35
+Burkina Faso,wheat flour,52.3
+Cameroon,wheat flour,94.46363636363638
+China,wheat flour,91.96498128473635
+Côte d'Ivoire,wheat flour,54.7
+Democratic Republic of the Congo,wheat flour,0.58
+Egypt,wheat flour,95.69492923430192
+Ethiopia,wheat flour,28.0
+Ghana,wheat flour,24.353333501286095
+India,wheat flour,83.2
+Indonesia,wheat flour,100.0
+Kenya,wheat flour,36.58
+Madagascar,wheat flour,38.53285622009199
+Mozambique,wheat flour,66.76666666666667
+Myanmar,wheat flour,5.0
+Nepal,wheat flour,27.96666666666667
+Niger,wheat flour,52.12699548363187
+Nigeria,wheat flour,49.05
+Pakistan,wheat flour,97.33333333333331
+South Africa,wheat flour,14.75
+Sudan,wheat flour,68.36794959833952
+United Republic of Tanzania,wheat flour,51.5
+Uganda,wheat flour,11.2
+Viet Nam,wheat flour,21.93
+Angola,oil,91.91264537119156
+Bangladesh,oil,80.78
+Burkina Faso,oil,48.90600000000001
+Cameroon,oil,68.79
+China,oil,7.258757990611201
+Côte d'Ivoire,oil,98.5
+Democratic Republic of the Congo,oil,95.882
+Egypt,oil,45.194552705929105
+Ethiopia,oil,29.35
+Ghana,oil,96.275
+India,oil,100.0
+Indonesia,oil,78.5160743950314
+Kenya,oil,29.705384615384606
+Madagascar,oil,67.90760005762698
+Mozambique,oil,96.6
+Myanmar,oil,50.0
+Nepal,oil,99.86666666666667
+Niger,oil,86.33333333333331
+Nigeria,oil,98.5
+Pakistan,oil,100.0
+South Africa,oil,61.694950447319954
+Sudan,oil,90.63905082161045
+United Republic of Tanzania,oil,96.2
+Uganda,oil,89.9
+Viet Nam,oil,54.5
+Angola,maize flour,27.751147976657904
+Burkina Faso,maize flour,31.15
+Cameroon,maize flour,100.0
+Côte d'Ivoire,maize flour,87.34897173440099
+Democratic Republic of the Congo,maize flour,45.255
+Egypt,maize flour,0.0
+Ethiopia,maize flour,66.93355038938579
+Ghana,maize flour,100.0
+Kenya,maize flour,53.10583333333333
+Madagascar,maize flour,100.0
+Mozambique,maize flour,79.9
+Niger,maize flour,100.0
+Nigeria,maize flour,44.65
+South Africa,maize flour,97.15
+Sudan,maize flour,18.995257716094386
+United Republic of Tanzania,maize flour,93.0
+Uganda,maize flour,91.8
+Burkina Faso,bouillon,80.83333333333333
+Cameroon,bouillon,95.25714285714285
+Côte d'Ivoire,bouillon,100.0
+Democratic Republic of the Congo,bouillon,95.99402836638053
+Ghana,bouillon,96.97092934407999
+Niger,bouillon,91.0
+Nigeria,bouillon,98.72728000309259
+Ghana,rice,65.74643276464118
+India,rice,50.0
+Nigeria,rice,67.35

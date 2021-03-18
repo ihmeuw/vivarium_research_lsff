@@ -1,0 +1,12 @@
+location_id,location_name,sub_population,vehicle,metric,mass_unit,time_unit,pop_denom,value_mean,lower,upper
+163,India,total population,rice,mean,g,day,capita,282.77,72.45702967031505,493.08297032968494
+163,India,total population,salt,mean,g,day,consumers,9.5,7.023048796150427,11.976951203849573
+163,India,total population,wheat flour,mean,g,day,capita,169.62,0.0,371.91778873443525
+179,Ethiopia,total population,maize flour,mean,g,day,capita,113.84,17.71332241017815,209.96667758982187
+179,Ethiopia,total population,salt,mean,g,day,capita,5.8,4.2877561071234185,7.312243892876581
+179,Ethiopia,total population,wheat flour,mean,g,day,capita,97.64,0.0,214.0906313644043
+214,Nigeria,total population,maize flour,mean,g,day,capita,95.1,14.797408302950998,175.402591697049
+214,Nigeria,total population,salt,mean,g,day,consumers,7.2,5.322731719187692,9.077268280812309
+214,Nigeria,total population,wheat flour,mean,g,day,capita,49.15,0.0,107.76889114666602
+214,Nigeria,women of reproductive age,bouillon,mean,g,day,consumers,2.668675217625471,3.0893923878694878,6.910607612130512
+214,Nigeria,women of reproductive age,rice,mean,g,day,consumers,91.36747869963301,45.354508086592524,308.64549191340745
