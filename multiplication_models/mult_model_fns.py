@@ -183,16 +183,6 @@ def pull_coverage_data(vivarium_data_analysis_path, nutrient, vehicle, location_
     return data.loc[(data.vehicle == vehicle) & (data.nutrient.isin([nutrient, 'na']))].drop_duplicates()
 
 
-
-
-
-
-
-
-
-
-
-
 def lognormal_draws(mu, sigma, seed):
     """
     INPUT:
