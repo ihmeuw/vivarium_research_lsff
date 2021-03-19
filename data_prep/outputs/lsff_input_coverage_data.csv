@@ -1,5 +1,4 @@
 location_id,location_name,sub_population,vehicle,value_description,nutrient,value_mean,value_025_percentile,value_975_percentile
-179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,iron,0,0,5
 179,Ethiopia,,oil,percent of population eating fortified vehicle,vitamin a,1,0,5
 179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,folic acid,1,0,5
 179,Ethiopia,under-5,wheat flour,percent of population eating industrially produced vehicle,na,27,17,37
@@ -8,14 +7,12 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,folic acid,1,0,5
 179,Ethiopia,,oil,percent of population eating fortified vehicle,vitamin a,1,0,5
 179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,zinc,0,0,5
-163,India,,wheat flour,percent of population eating fortified vehicle,iron,6.3,4.8,7.9
 163,India,,oil,percent of population eating industrially produced vehicle,na,89.4,87,91.8
 163,India,,wheat flour,percent of population eating industrially produced vehicle,na,7.1,5.6,9.1
 163,India,,oil,percent of population eating fortified vehicle,vitamin a,24.3,21.1,27.9
 163,India,,wheat flour,percent of population eating fortified vehicle,folic acid,6.3,4.8,7.9
 163,India,,wheat flour,percent of population eating fortified vehicle,zinc,0,0,5
 163,India,,wheat flour,percent of population eating fortified vehicle,vitamin a,0,0,5
-214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,iron,16.79966092,14.47482699,19.15628284
 214,Nigeria,total population,oil,percent of population eating industrially produced vehicle,na,31.39800717,28.3344312,34.46158315
 214,Nigeria,total population,wheat flour,percent of population eating industrially produced vehicle,na,59.92579562,57.55990163,62.29168961
 214,Nigeria,total population,oil,percent of population eating fortified vehicle,vitamin a,7.463575975,5.763575975,9.229469969
@@ -86,3 +83,6 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 196,South Africa,total population,maize flour,percent of population eating fortified vehicle,zinc,58.05414846,50.86576232,72.35622537
 196,South Africa,total population,maize flour,percent of population eating industrially produced vehicle,na,96.44486596,92.2630815,98.90660168
 196,South Africa,total population,maize flour,percent of population eating vehicle,na,96.58154075,92.33141889,99.04327647
+179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,iron,0,0,5
+163,India,,wheat flour,percent of population eating fortified vehicle,iron,6.3,4.8,7.9
+214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,iron,16.79966092,14.47482699,19.15628284
