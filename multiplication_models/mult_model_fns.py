@@ -187,7 +187,6 @@ def pull_coverage_data(input_data_path, nutrient, vehicle, location_ids, sub_pop
 
 
 
-
 def lognormal_draws(mu, sigma, seed):
     """
     INPUT:
