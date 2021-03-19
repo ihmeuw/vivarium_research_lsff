@@ -43,7 +43,7 @@ def generate_overall_coverage_rates(filepath,
     of interest that may be specific to women of reproductive age or children under 5, etc.
     """
 
-    data = pd.read_csv(filepath)
+    data = pd.read_csv(filepath).sort_values(by='location_id')
     if location_ids == 'all':
         data = (data.loc[data.sub_population.isin(subpopulations)].drop_duplicates())
     else:
