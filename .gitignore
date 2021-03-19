@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# ANEMIA PREV FILES
+anemia_prev.csv
+anemia_prev_wra.csv
+
 # Distribution / packaging
 .Python
 build/
