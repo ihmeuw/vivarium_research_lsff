@@ -90,6 +90,7 @@ def generate_coverage_tables(data, coverage_levels, seed = 11):
     """
     # generate draws from a truncated normal distribution   
     fortified = data.loc[data.value_description == 'percent of population eating fortified vehicle']
+    fortified = fortified.drop_duplicates()
     baseline = generate_coverage_parameter_draws(fortified,
                                                   seed = seed,
                                                   lower_bound = 0,
