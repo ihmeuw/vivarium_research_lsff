@@ -112,7 +112,7 @@ def generate_rr_deficiency_nofort_draws(mean, std, location_ids):
     return df
 
 
-def make_dot_plots(data, nutrient, measure, coverage_levels, subtitle, wra=False):
+def make_dot_plots(data, nutrient, measure, coverage_levels, subtitle, output_filename, wra=False):
     """This function takes a dataframe,
     nutrient (as a string),
     and measure (as a string, either: 'rates', 'counts', or 'pifs').
@@ -183,3 +183,4 @@ def make_dot_plots(data, nutrient, measure, coverage_levels, subtitle, wra=False
     l_names = df.loc[df.coverage_level == coverage_levels[0]].loc[df.year == 2025]
     l_names = list(l_names.reset_index().merge(l, on='location_id')['location_name'].values)
     ax.set_xticklabels(l_names)
+    plt.savefig(f'results_plots/{output_filename}.png', bbox_inches='tight')
