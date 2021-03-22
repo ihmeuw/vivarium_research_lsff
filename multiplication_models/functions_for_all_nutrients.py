@@ -43,7 +43,7 @@ def generate_overall_coverage_rates(filepath,
     of interest that may be specific to women of reproductive age or children under 5, etc.
     """
 
-    data = pd.read_csv(filepath)
+    data = pd.read_csv(filepath).sort_values(by='location_id')
     if location_ids == 'all':
         data = (data.loc[data.sub_population.isin(subpopulations)].drop_duplicates())
     else:
@@ -112,7 +112,7 @@ def generate_rr_deficiency_nofort_draws(mean, std, location_ids):
     return df
 
 
-def make_dot_plots(data, nutrient, measure, coverage_levels, subtitle, wra=False):
+def make_dot_plots(data, nutrient, measure, coverage_levels, subtitle, output_filename, wra=False):
     """This function takes a dataframe,
     nutrient (as a string),
     and measure (as a string, either: 'rates', 'counts', or 'pifs').
@@ -124,6 +124,15 @@ def make_dot_plots(data, nutrient, measure, coverage_levels, subtitle, wra=False
     location_spacer = 0.15
     coverage_spacer = 0.025
     df = data.apply(pd.DataFrame.describe, percentiles=[0.025, 0.975], axis=1).reset_index()
+
+    order = df.reset_index()
+    order = list(
+        order.loc[order.coverage_level == 0.8].loc[order.year == 2025].sort_values(by='mean').location_id.values)
+    nums = list(range(0, len(order)))
+    orders = pd.DataFrame()
+    orders['location_id'] = order
+    orders['order'] = nums
+    df = df.merge(orders, on='location_id').sort_values(by='order', ascending=False)
 
     for n in list(range(0, len(coverage_levels))):
         rate = (df.loc[df.year == 2025]
@@ -171,5 +180,7 @@ def make_dot_plots(data, nutrient, measure, coverage_levels, subtitle, wra=False
     ax.set_xticks(x_ticks)
     plt.xticks(rotation=90)
     l = get_ids('location')
-    l_names = list(data.reset_index().merge(l, on='location_id')['location_name'].unique())
+    l_names = df.loc[df.coverage_level == coverage_levels[0]].loc[df.year == 2025]
+    l_names = list(l_names.reset_index().merge(l, on='location_id')['location_name'].values)
     ax.set_xticklabels(l_names)
+    plt.savefig(f'results_plots/{output_filename}.png', bbox_inches='tight')
