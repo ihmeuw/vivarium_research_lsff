@@ -151,10 +151,15 @@ def create_marginal_uncertainty(data):
     data['value_025_percentile'] = data['value_025_percentile'].replace(100, 100 - 0.00001 * 3)
     data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001)
     
+    # the following is a transformation for a potential data issue and should be removed when resolved
+    data['value_mean'] = data['value_mean'].replace(0, 0 + 0.00001 * 2)
+    data['value_025_percentile'] = data['value_025_percentile'].replace(0, 0 + 0.00001)
+    data['value_975_percentile'] = data['value_975_percentile'].replace(0, 0 + 0.00001 * 3)
+    
     return data
 
 
-def pull_coverage_data(vivarium_data_analysis_path, nutrient, vehicle, location_ids, sub_pop):
+def pull_coverage_data(input_data_path, nutrient, vehicle, location_ids, sub_pop):
     """
     Load pct of fortified and fortifiable data for a given vehicle/nutrient/loc_id set
     ----
@@ -168,8 +173,7 @@ def pull_coverage_data(vivarium_data_analysis_path, nutrient, vehicle, location_
     a pd.DataFrame() with:
     - location_id, location_name, sub_populuation, value_descrip, nutrient, value_mean, value_025_percentile, value_975_percentile
     """
-    coverage_data_path = vivarium_data_analysis_path + '/pre_processing/lsff_project/data_prep/outputs/nigeria_ethiopia_india_coverage_data.csv'
-    data = pd.read_csv(coverage_data_path)
+    data = pd.read_csv(input_data_path)
     #TODO: fix this to deal more cleanly with all possible cases!
     if sub_pop=='u5':
         data = data.loc[data.location_id.isin(location_ids)].loc[data.sub_population!='women of reproductive age']
@@ -179,8 +183,8 @@ def pull_coverage_data(vivarium_data_analysis_path, nutrient, vehicle, location_
         raise Exception("Subpop must be either 'wra' or 'u5'")
         
     #TODO: ADD A CHECK FOR UNIQUENESS OF ROWS
-    
     return data.loc[(data.vehicle == vehicle) & (data.nutrient.isin([nutrient, 'na']))].drop_duplicates()
+
 
 
 def lognormal_draws(mu, sigma, seed):

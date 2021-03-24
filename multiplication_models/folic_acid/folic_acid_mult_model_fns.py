@@ -169,7 +169,6 @@ def get_age_1_4_age_splits(location_ids, sexes):
     - "prop_1_4" with the proportion of age_group X out of age_group_id 5 
     """
     # pull population data
-    location_ids = list(location_ids)
     age_split_pop_count = get_population(
         location_id=location_ids,
         year_id=2019,
