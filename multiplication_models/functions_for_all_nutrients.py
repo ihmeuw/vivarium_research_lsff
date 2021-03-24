@@ -43,7 +43,7 @@ def generate_overall_coverage_rates(filepath,
     of interest that may be specific to women of reproductive age or children under 5, etc.
     """
 
-    data = pd.read_csv(filepath)
+    data = pd.read_csv(filepath).sort_values(by='location_id')
     if location_ids == 'all':
         data = (data.loc[data.sub_population.isin(subpopulations)].drop_duplicates())
     else:
@@ -51,9 +51,9 @@ def generate_overall_coverage_rates(filepath,
             .loc[data.sub_population.isin(subpopulations)].drop_duplicates())
 
     # the following is a transformation for a potential data issue and should be removed when resolved
-    data['value_mean'] = data['value_mean'].replace(100, 100 - 0.00001 * 2)
-    data['value_025_percentile'] = data['value_025_percentile'].replace(100, 100 - 0.00001 * 3)
-    data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001)
+    data['value_mean'] = data['value_mean'].replace(100, 100 - 0.00001 * 2).replace(0, 0 + 0.00001 * 2)
+    data['value_025_percentile'] = data['value_025_percentile'].replace(100, 100 - 0.00001 * 3).replace(0, 0 + 0.00001)
+    data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001).replace(0, 0 + 0.00001 * 3)
 
     data = data.loc[data.vehicle == vehicle].loc[data.nutrient.isin([nutrient, 'na'])]
     data['value_std'] = (data.value_975_percentile - data.value_025_percentile) / (2 * 1.96)
@@ -112,20 +112,27 @@ def generate_rr_deficiency_nofort_draws(mean, std, location_ids):
     return df
 
 
-
-def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels, subtitle, wra=False):
-
-    """This function takes a dataframe, 
-    nutrient (as a string), 
+def make_dot_plots(data, nutrient, measure, coverage_levels, subtitle, output_filename, wra=False):
+    """This function takes a dataframe,
+    nutrient (as a string),
     and measure (as a string, either: 'rates', 'counts', or 'pifs').
     """
-    
-    f, ax = plt.subplots()
+
+    f, ax = plt.subplots(figsize=(7, 4), dpi=120)
     colors = ['tab:red', 'tab:orange', 'tab:green']
 
     location_spacer = 0.15
     coverage_spacer = 0.025
     df = data.apply(pd.DataFrame.describe, percentiles=[0.025, 0.975], axis=1).reset_index()
+
+    order = df.reset_index()
+    order = list(
+        order.loc[order.coverage_level == 0.8].loc[order.year == 2025].sort_values(by='mean').location_id.values)
+    nums = list(range(0, len(order)))
+    orders = pd.DataFrame()
+    orders['location_id'] = order
+    orders['order'] = nums
+    df = df.merge(orders, on='location_id').sort_values(by='order', ascending=False)
 
     for n in list(range(0, len(coverage_levels))):
         rate = (df.loc[df.year == 2025]
@@ -137,13 +144,20 @@ def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels, 
                         c='black')
             plt.scatter([location_spacer * i + coverage_spacer * n], rate['97.5%'].values[i], s=50, marker='_',
                         c='black')
-        plt.scatter([coverage_spacer * n,
-                     location_spacer + coverage_spacer * n,
-                     location_spacer * 2 + coverage_spacer * n], rate['mean'], s=100,
+
+        x_vals = []
+        for x in list(range(0, len(rate))):
+            x_vals.append(location_spacer * x + coverage_spacer * n)
+        plt.scatter(x_vals, rate['mean'], s=50,
                     label=f'{int(coverage_levels[n] * 100)} percent coverage', color=colors[n])
+
+    plt.hlines(0, 0 - coverage_spacer * 2,
+               location_spacer * (len(rate)) - coverage_spacer * 2,
+               linestyle='dashed', color='grey', alpha=0.5)
+
     plt.plot()
 
-    if wra==True:
+    if wra == True:
         subpop = 'Women of Reproductive Age'
     else:
         subpop = 'Children Under Five'
@@ -157,7 +171,16 @@ def make_india_ethiopia_nigeria_plots(data, nutrient, measure, coverage_levels, 
     elif measure == 'pifs':
         plt.title(f'Population Impact Fraction of {nutrient} Fortication\non DALYs Among {subpop}\n{subtitle}')
         plt.ylabel('Population Impact Fraction (Percent)')
+
     plt.legend(bbox_to_anchor=[1.5, 1])
-    # plt.xlabel('Year')
-    ax.set_xticks([coverage_spacer, location_spacer + coverage_spacer, location_spacer * 2 + coverage_spacer])
-    ax.set_xticklabels(['India', 'Ethiopia', 'Nigeria'])
+
+    x_ticks = []
+    for x in list(range(0, len(rate))):
+        x_ticks.append(location_spacer * x + coverage_spacer)
+    ax.set_xticks(x_ticks)
+    plt.xticks(rotation=90)
+    l = get_ids('location')
+    l_names = df.loc[df.coverage_level == coverage_levels[0]].loc[df.year == 2025]
+    l_names = list(l_names.reset_index().merge(l, on='location_id')['location_name'].values)
+    ax.set_xticklabels(l_names)
+    plt.savefig(f'results_plots/{output_filename}.png', bbox_inches='tight')
