@@ -104,7 +104,7 @@ def generate_coverage_tables(data, coverage_levels, seed = 11):
     # scale counterfactual fortified coverage by coverage level targets
     counterfactual = pd.DataFrame()
     for lvl in coverage_levels:
-        tmp = fortifiable * lvl
+        tmp = baseline + (baseline - fortifiable) * lvl
         tmp['coverage_level'] = lvl
         counterfactual = pd.concat([counterfactual, tmp])
     counterfactual = counterfactual.reset_index().set_index(['location_id','coverage_level']).sort_index()
