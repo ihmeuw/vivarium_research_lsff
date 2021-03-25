@@ -1,0 +1,936 @@
+location_name,vehicle,nutrient,value_description,value_mean,value_025_percentile,value_975_percentile,is_estimate,sub_population,source_year
+Angola,maize flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2018
+Angola,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2018
+Angola,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2021
+Angola,maize flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2018
+Angola,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2018
+Angola,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2018
+Angola,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2018
+Angola,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2021
+Angola,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2019
+Angola,wheat flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Angola,wheat flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Angola,wheat flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Angola,wheat flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Angola,wheat flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Angola,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2018
+Angola,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Angola,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2019
+Bangladesh,oil,na,percent of population eating industrially produced vehicle,88.4,84.5,92.3,0.0,total population,2015
+Bangladesh,oil,na,percent of population eating industrially produced vehicle,87.5,,,0.0,total population,2015
+Bangladesh,oil,na,percent of population eating vehicle,95.0,,,0.0,total population,2005
+Bangladesh,oil,na,percent of population eating vehicle,89.0,,,0.0,total population,2005
+Bangladesh,oil,na,percent of population eating vehicle,75.0,,,0.0,total population,2005
+Bangladesh,oil,na,percent of population eating vehicle,95.0,,,0.0,total population,2005
+Bangladesh,oil,na,percent of population eating vehicle,51.0,,,0.0,total population,2005
+Bangladesh,oil,na,percent of population eating vehicle,59.0,,,0.0,total population,2005
+Bangladesh,oil,na,percent of population eating vehicle,68.0,,,0.0,total population,2005
+Bangladesh,oil,na,percent of population eating vehicle,76.0,,,0.0,total population,2005
+Bangladesh,oil,na,percent of population eating vehicle,100.0,,,0.0,total population,2015
+Bangladesh,oil,na,percent of population eating vehicle,99.8,,,0.0,total population,2011
+Bangladesh,oil,vitamin a,percent of vehicle that is fortified,61.0,,,0.0,total population,2017
+Bangladesh,oil,na,percent of vehicle that is industrially produced,52.0,,,0.0,total population,2013
+Bangladesh,oil,na,percent of vehicle that is industrially produced,52.0,,,0.0,total population,2018
+Bangladesh,wheat flour,na,percent of population eating vehicle,40.0,,,0.0,total population,2005
+Bangladesh,wheat flour,na,percent of population eating vehicle,63.0,,,0.0,total population,2005
+Bangladesh,wheat flour,na,percent of population eating vehicle,59.0,,,0.0,total population,2005
+Bangladesh,wheat flour,na,percent of population eating vehicle,70.0,,,0.0,,2005
+Bangladesh,wheat flour,na,percent of population eating vehicle,70.0,,,0.0,,2005
+Bangladesh,wheat flour,na,percent of population eating vehicle,77.0,,,0.0,,2005
+Bangladesh,wheat flour,na,percent of population eating vehicle,65.0,,,0.0,total population,2005
+Bangladesh,wheat flour,na,percent of population eating vehicle,76.2,,,0.0,under-5,2011
+Bangladesh,wheat flour,na,percent of population eating vehicle,41.9,,,0.0,women of reproductive age,2011
+Bangladesh,wheat flour,na,percent of population eating vehicle,41.9,,,0.0,women of reproductive age,2011
+Bangladesh,wheat flour,na,percent of population eating vehicle,76.2,,,0.0,under-5,2011
+Bangladesh,wheat flour,na,percent of population eating vehicle,68.0,,,0.0,total population,2005
+Bangladesh,wheat flour,folic acid,percent of vehicle that is fortified,1.0,,,0.0,total population,2019
+Bangladesh,wheat flour,iron,percent of vehicle that is fortified,1.0,,,0.0,total population,2019
+Bangladesh,wheat flour,vitamin a,percent of vehicle that is fortified,1.0,,,0.0,total population,2019
+Bangladesh,wheat flour,vitamin b1,percent of vehicle that is fortified,1.0,,,0.0,total population,2019
+Bangladesh,wheat flour,vitamin b12,percent of vehicle that is fortified,1.0,,,0.0,total population,2019
+Bangladesh,wheat flour,zinc,percent of vehicle that is fortified,1.0,,,0.0,total population,2019
+Bangladesh,wheat flour,na,percent of vehicle that is industrially produced,21.0,,,0.0,total population,2018
+Bangladesh,wheat flour,na,percent of vehicle that is industrially produced,84.0,,,0.0,total population,2017
+Bangladesh,wheat flour,na,percent of vehicle that is industrially produced,79.0,,,0.0,total population,2019
+Burkina Faso,bouillon,na,percent of population eating vehicle,79.0,,,0.0,women of reproductive age,1999
+Burkina Faso,bouillon,na,percent of population eating vehicle,98.0,,,0.0,women of reproductive age,1999
+Burkina Faso,bouillon,na,percent of population eating vehicle,48.0,,,0.0,women of reproductive age,1999
+Burkina Faso,bouillon,na,percent of population eating vehicle,96.0,,,0.0,women of reproductive age,1999
+Burkina Faso,bouillon,na,percent of population eating vehicle,76.0,,,0.0,women of reproductive age,1999
+Burkina Faso,bouillon,na,percent of population eating vehicle,88.0,,,0.0,total population,2014
+Burkina Faso,maize flour,na,percent of population eating vehicle,0.2,,,0.0,women,2003
+Burkina Faso,maize flour,na,percent of population eating vehicle,39.4,,,0.0,women,2003
+Burkina Faso,maize flour,na,percent of population eating vehicle,39.0,,,0.0,total population,2007
+Burkina Faso,maize flour,na,percent of population eating vehicle,46.0,,,0.0,total population,2007
+Burkina Faso,maize flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Burkina Faso,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Burkina Faso,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2021
+Burkina Faso,maize flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Burkina Faso,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Burkina Faso,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Burkina Faso,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2021
+Burkina Faso,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2017
+Burkina Faso,oil,vitamin a,percent of population eating fortified vehicle,70.0,,,0.0,total population,2010
+Burkina Faso,oil,vitamin a,percent of population eating fortified vehicle,75.0,,,0.0,total population,2013
+Burkina Faso,oil,na,percent of population eating vehicle,92.23,,,0.0,8-59 months,2018
+Burkina Faso,oil,na,percent of population eating vehicle,30.2,,,0.0,women,2003
+Burkina Faso,oil,na,percent of population eating vehicle,16.1,,,0.0,women,2003
+Burkina Faso,oil,na,percent of population eating vehicle,54.0,,,0.0,total population,2007
+Burkina Faso,oil,na,percent of population eating vehicle,52.0,,,0.0,total population,2007
+Burkina Faso,oil,vitamin a,percent of vehicle that is fortified,39.0,,,0.0,total population,2017
+Burkina Faso,wheat flour,na,percent of population eating vehicle,52.0,,,0.0,women of reproductive age,1999
+Burkina Faso,wheat flour,na,percent of population eating vehicle,15.0,,,0.0,women of reproductive age,1999
+Burkina Faso,wheat flour,na,percent of population eating vehicle,48.0,,,0.0,women of reproductive age,1999
+Burkina Faso,wheat flour,na,percent of population eating vehicle,83.0,,,0.0,women of reproductive age,1999
+Burkina Faso,wheat flour,na,percent of population eating vehicle,41.0,,,0.0,women of reproductive age,1999
+Burkina Faso,wheat flour,na,percent of population eating vehicle,57.0,,,0.0,children 12-36 months,1999
+Burkina Faso,wheat flour,na,percent of population eating vehicle,88.0,,,0.0,children 12-36 months,1999
+Burkina Faso,wheat flour,na,percent of population eating vehicle,19.0,,,0.0,children 12-36 months,1999
+Burkina Faso,wheat flour,na,percent of population eating vehicle,58.0,,,0.0,children 12-36 months,1999
+Burkina Faso,wheat flour,na,percent of population eating vehicle,62.0,,,0.0,children 12-36 months,1999
+Burkina Faso,wheat flour,folic acid,percent of vehicle that is fortified,61.5,,,0.0,total population,2017
+Burkina Faso,wheat flour,iron,percent of vehicle that is fortified,5.0,0.0,10.0,0.0,total population,
+Burkina Faso,wheat flour,iron,percent of vehicle that is fortified,61.5,,,0.0,total population,2017
+Burkina Faso,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Cameroon,bouillon,na,percent of population eating vehicle,96.0,,,0.0,total population,2013
+Cameroon,bouillon,na,percent of population eating vehicle,95.5,94.2,96.9,0.0,women of reproductive age,2009
+Cameroon,bouillon,na,percent of population eating vehicle,96.8,95.1,98.5,0.0,women of reproductive age,2009
+Cameroon,bouillon,na,percent of population eating vehicle,93.3,90.1,96.5,0.0,women of reproductive age,2009
+Cameroon,bouillon,na,percent of population eating vehicle,96.2,93.9,98.6,0.0,women of reproductive age,2009
+Cameroon,bouillon,na,percent of population eating vehicle,96.0,94.0,97.0,0.0,women of reproductive age,2011
+Cameroon,bouillon,na,percent of population eating vehicle,93.0,,,0.0,under-5,2009
+Cameroon,maize flour,folic acid,percent of vehicle that is fortified,50.0,,,0.0,total population,2017
+Cameroon,maize flour,iron,percent of vehicle that is fortified,50.0,,,0.0,total population,2017
+Cameroon,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2021
+Cameroon,maize flour,zinc,percent of vehicle that is fortified,50.0,,,0.0,total population,2017
+Cameroon,maize flour,na,percent of vehicle that is industrially produced,3.0,,,0.0,total population,
+Cameroon,maize flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2021
+Cameroon,maize flour,na,percent of vehicle that is industrially produced,3.0,,,0.0,total population,
+Cameroon,oil,na,percent of population eating vehicle,82.6,77.0,88.2,0.0,women of reproductive age,2009
+Cameroon,oil,na,percent of population eating vehicle,54.1,48.5,59.7,0.0,women of reproductive age,2009
+Cameroon,oil,na,percent of population eating vehicle,40.7,31.2,50.2,0.0,women of reproductive age,2009
+Cameroon,oil,na,percent of population eating vehicle,54.5,43.5,65.6,0.0,women of reproductive age,2009
+Cameroon,oil,na,percent of population eating vehicle,54.0,49.0,60.0,0.0,women of reproductive age,2011
+Cameroon,oil,na,percent of population eating vehicle,53.1,,,0.0,under-5,2009
+Cameroon,oil,na,percent of population eating vehicle,82.4,79.6,85.2,0.0,women of reproductive age,2009
+Cameroon,oil,na,percent of population eating vehicle,93.6,92.2,95.0,0.0,women of reproductive age,2012
+Cameroon,oil,na,percent of population eating vehicle,81.2,78.2,84.2,0.0,under-5,2009
+Cameroon,oil,na,percent of population eating vehicle,91.7,90.2,93.2,0.0,under-5,2012
+Cameroon,oil,vitamin a,percent of vehicle that is fortified,44.0,,,0.0,total population,2012
+Cameroon,oil,vitamin a,percent of vehicle that is fortified,35.0,,,0.0,total population,2012
+Cameroon,oil,vitamin a,percent of vehicle that is fortified,54.0,,,0.0,total population,2012
+Cameroon,wheat flour,na,percent of population eating vehicle,92.2,90.1,94.3,0.0,women of reproductive age,2009
+Cameroon,wheat flour,na,percent of population eating vehicle,91.2,87.4,94.9,0.0,women of reproductive age,2009
+Cameroon,wheat flour,na,percent of population eating vehicle,89.8,86.0,93.7,0.0,women of reproductive age,2009
+Cameroon,wheat flour,na,percent of population eating vehicle,98.0,96.2,99.8,0.0,women of reproductive age,2009
+Cameroon,wheat flour,na,percent of population eating vehicle,92.0,90.0,94.0,0.0,women of reproductive age,2011
+Cameroon,wheat flour,na,percent of population eating vehicle,93.7,,,0.0,under-5,2009
+Cameroon,wheat flour,na,percent of population eating vehicle,94.0,92.0,96.0,0.0,under-5,2011
+Cameroon,wheat flour,na,percent of population eating vehicle,97.6,96.7,98.5,0.0,women of reproductive age,2009
+Cameroon,wheat flour,na,percent of population eating vehicle,98.4,97.7,99.1,0.0,under-5,2012
+Cameroon,wheat flour,na,percent of population eating vehicle,95.2,93.8,96.6,0.0,women of reproductive age,2012
+Cameroon,wheat flour,na,percent of population eating vehicle,97.0,96.0,98.0,0.0,under-5,2009
+Cameroon,wheat flour,folic acid,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Cameroon,wheat flour,folic acid,percent of vehicle that is fortified,100.0,,,0.0,total population,2019
+Cameroon,wheat flour,folic acid,percent of vehicle that is fortified,76.0,,,0.0,total population,2009
+Cameroon,wheat flour,iron,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Cameroon,wheat flour,iron,percent of vehicle that is fortified,5.0,0.0,10.0,0.0,total population,
+Cameroon,wheat flour,iron,percent of vehicle that is fortified,100.0,,,0.0,total population,2019
+Cameroon,wheat flour,iron,percent of vehicle that is fortified,76.0,,,0.0,total population,2009
+Cameroon,wheat flour,vitamin b12,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Cameroon,wheat flour,vitamin b12,percent of vehicle that is fortified,100.0,,,0.0,total population,2019
+Cameroon,wheat flour,vitamin b12,percent of vehicle that is fortified,76.0,,,0.0,total population,2009
+Cameroon,wheat flour,zinc,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Cameroon,wheat flour,zinc,percent of vehicle that is fortified,100.0,,,0.0,total population,2019
+Cameroon,wheat flour,zinc,percent of vehicle that is fortified,76.0,,,0.0,total population,2009
+Cameroon,wheat flour,na,percent of vehicle that is industrially produced,80.0,,,0.0,total population,
+Cameroon,wheat flour,na,percent of vehicle that is industrially produced,80.0,,,0.0,total population,2019
+China,wheat flour,folic acid,percent of vehicle that is fortified,1.0,,,0.0,total population,2017
+China,wheat flour,iron,percent of vehicle that is fortified,1.0,,,0.0,total population,2017
+China,wheat flour,vitamin a,percent of vehicle that is fortified,1.0,,,0.0,total population,2017
+China,wheat flour,vitamin b1,percent of vehicle that is fortified,1.0,,,0.0,total population,2017
+China,wheat flour,zinc,percent of vehicle that is fortified,1.0,,,0.0,total population,2017
+China,wheat flour,na,percent of vehicle that is industrially produced,85.0,,,0.0,total population,2017
+China,wheat flour,na,percent of vehicle that is industrially produced,89.0,,,0.0,total population,2012
+China,wheat flour,na,percent of vehicle that is industrially produced,89.0,,,0.0,total population,2018
+Côte d'Ivoire,maize flour,iron,percent of vehicle that is fortified,100.0,,,0.0,total population,2021
+Côte d'Ivoire,maize flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2021
+Côte d'Ivoire,maize flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Côte d'Ivoire,oil,vitamin a,percent of population eating fortified vehicle,70.0,,,0.0,total population,2010
+Côte d'Ivoire,oil,vitamin a,percent of population eating fortified vehicle,75.0,,,0.0,total population,2013
+Côte d'Ivoire,oil,vitamin a,percent of population eating fortified vehicle,98.0,97.0,99.0,0.0,households with children <2 years old,2014
+Côte d'Ivoire,oil,na,percent of population eating industrially produced vehicle,98.0,97.0,99.0,0.0,households with children <2 years old,2014
+Côte d'Ivoire,oil,na,percent of population eating vehicle,98.5,97.5,99.3,0.0,households with children <2 years old,2014
+Côte d'Ivoire,oil,vitamin a,percent of vehicle that is fortified,53.0,,,0.0,total population,2009
+Côte d'Ivoire,oil,vitamin a,percent of vehicle that is fortified,12.0,,,0.0,total population,2009
+Côte d'Ivoire,oil,vitamin a,percent of vehicle that is fortified,81.0,,,0.0,total population,2009
+Côte d'Ivoire,wheat flour,na,percent of population eating industrially produced vehicle,10.2,7.5,13.1,0.0,households with children <2 years old,2014
+Côte d'Ivoire,wheat flour,na,percent of population eating vehicle,54.7,50.1,59.6,0.0,households with children <2 years old,2014
+Côte d'Ivoire,wheat flour,folic acid,percent of vehicle that is fortified,99.0,,,0.0,total population,2017
+Côte d'Ivoire,wheat flour,iron,percent of vehicle that is fortified,25.0,10.0,40.0,0.0,total population,
+Côte d'Ivoire,wheat flour,iron,percent of vehicle that is fortified,99.0,,,0.0,total population,2017
+Côte d'Ivoire,wheat flour,na,percent of vehicle that is industrially produced,98.0,,,0.0,total population,2016
+Côte d'Ivoire,wheat flour,na,percent of vehicle that is industrially produced,98.0,,,0.0,total population,2007
+Côte d'Ivoire,wheat flour,na,percent of vehicle that is industrially produced,98.0,,,0.0,total population,2017
+Democratic Republic of the Congo,maize flour,na,percent of population eating vehicle,20.7,,,0.0,women,2009
+Democratic Republic of the Congo,maize flour,na,percent of population eating vehicle,27.2,,,0.0,women,2009
+Democratic Republic of the Congo,maize flour,na,percent of population eating vehicle,42.7,,,0.0,women,2009
+Democratic Republic of the Congo,maize flour,na,percent of population eating vehicle,30.0,,,0.0,women of reproductive age,2014
+Democratic Republic of the Congo,maize flour,na,percent of population eating vehicle,64.0,,,0.0,women of reproductive age,2014
+Democratic Republic of the Congo,maize flour,na,percent of population eating vehicle,31.0,,,0.0,under-5,2014
+Democratic Republic of the Congo,maize flour,na,percent of population eating vehicle,53.0,,,0.0,under-5,2014
+Democratic Republic of the Congo,maize flour,na,percent of population eating vehicle,93.44,90.19,95.7,0.0,under-5,1991
+Democratic Republic of the Congo,maize flour,na,percent of vehicle that is industrially produced,5.0,,,0.0,total population,2017
+Democratic Republic of the Congo,oil,na,percent of population eating vehicle,97.3,,,0.0,women,2009
+Democratic Republic of the Congo,oil,na,percent of population eating vehicle,95.6,,,0.0,women,2009
+Democratic Republic of the Congo,oil,na,percent of population eating vehicle,98.1,,,0.0,women,2009
+Democratic Republic of the Congo,oil,na,percent of population eating vehicle,88.41,81.1,92.12,0.0,under-5,1991
+Democratic Republic of the Congo,oil,na,percent of population eating vehicle,100.0,,,0.0,total population,2012
+Democratic Republic of the Congo,wheat flour,na,percent of population eating vehicle,0.58,0.0,1.4,0.0,under-5,1991
+Democratic Republic of the Congo,wheat flour,folic acid,percent of vehicle that is fortified,55.0,,,0.0,total population,2017
+Democratic Republic of the Congo,wheat flour,iron,percent of vehicle that is fortified,55.0,,,0.0,total population,2017
+Democratic Republic of the Congo,wheat flour,zinc,percent of vehicle that is fortified,55.0,,,0.0,total population,2017
+Democratic Republic of the Congo,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Egypt,maize flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Egypt,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2021
+Egypt,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Egypt,maize flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Egypt,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Egypt,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Egypt,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2021
+Egypt,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2017
+Egypt,wheat flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Egypt,wheat flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Egypt,wheat flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Egypt,wheat flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Egypt,wheat flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Egypt,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,
+Egypt,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2016
+Egypt,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Ethiopia,maize flour,folic acid,percent of population eating fortified vehicle,0.0,0.0,0.0,1.0,total population,
+Ethiopia,maize flour,iron,percent of population eating fortified vehicle,0.0,0.0,0.0,1.0,total population,
+Ethiopia,maize flour,zinc,percent of population eating fortified vehicle,0.0,0.0,0.0,1.0,total population,
+Ethiopia,maize flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ethiopia,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ethiopia,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2021
+Ethiopia,maize flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ethiopia,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ethiopia,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ethiopia,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2017
+Ethiopia,maize flour,na,percent of vehicle that is industrially produced,30.0,,,0.0,total population,2021
+Ethiopia,oil,vitamin a,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+Ethiopia,oil,na,percent of population eating industrially produced vehicle,19.0,,,0.0,total population,2000
+Ethiopia,oil,na,percent of population eating industrially produced vehicle,92.0,,,0.0,total population,2000
+Ethiopia,oil,na,percent of population eating industrially produced vehicle,70.0,,,0.0,under-5,2015
+Ethiopia,oil,na,percent of population eating industrially produced vehicle,50.0,,,0.0,women of reproductive age,2015
+Ethiopia,oil,na,percent of population eating industrially produced vehicle,55.0,,,0.0,total population,2000
+Ethiopia,oil,na,percent of population eating vehicle,55.0,45.0,65.0,0.0,,
+Ethiopia,oil,na,percent of population eating vehicle,3.7,2.3,4.6,0.0,women of reproductive age,2011
+Ethiopia,oil,vitamin a,percent of vehicle that is fortified,11.11,,,0.0,women,
+Ethiopia,oil,na,percent of vehicle that is industrially produced,47.0,,,0.0,women,
+Ethiopia,salt,folic acid,percent of population eating fortified vehicle,0.0,,,0.0,total population,
+Ethiopia,salt,iron,percent of population eating fortified vehicle,85.6,,,0.0,total population,2018
+Ethiopia,salt,iron,percent of vehicle that is fortified,89.0,,,0.0,total population,2018
+Ethiopia,wheat flour,folic acid,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+Ethiopia,wheat flour,iron,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+Ethiopia,wheat flour,zinc,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+Ethiopia,wheat flour,na,percent of population eating industrially produced vehicle,28.0,,,0.0,total population,2000
+Ethiopia,wheat flour,na,percent of population eating industrially produced vehicle,18.0,,,0.0,total population,2000
+Ethiopia,wheat flour,na,percent of population eating industrially produced vehicle,89.0,,,0.0,total population,2000
+Ethiopia,wheat flour,na,percent of population eating industrially produced vehicle,27.0,,,0.0,under-5,2015
+Ethiopia,wheat flour,na,percent of population eating industrially produced vehicle,20.0,,,0.0,women of reproductive age,2015
+Ethiopia,wheat flour,na,percent of population eating vehicle,28.0,23.0,33.0,0.0,,
+Ethiopia,wheat flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ethiopia,wheat flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ethiopia,wheat flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ethiopia,wheat flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ethiopia,wheat flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ethiopia,wheat flour,na,percent of vehicle that is industrially produced,55.0,,,0.0,total population,2017
+Ghana,maize flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ghana,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ghana,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2021
+Ghana,maize flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ghana,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ghana,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ghana,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2021
+Ghana,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2017
+Ghana,oil,vitamin a,percent of population eating fortified vehicle,34.9,,,0.0,total population,2014
+Ghana,oil,vitamin a,percent of population eating fortified vehicle,19.4,,,0.0,total population,2014
+Ghana,oil,vitamin a,percent of population eating fortified vehicle,32.9,,,0.0,total population,2014
+Ghana,oil,na,percent of population eating vehicle,98.0,,,0.0,total population,2004
+Ghana,oil,na,percent of population eating vehicle,94.7,,,0.0,total population,2014
+Ghana,oil,na,percent of population eating vehicle,96.8,,,0.0,total population,2014
+Ghana,oil,na,percent of population eating vehicle,95.6,,,0.0,total population,2014
+Ghana,oil,vitamin a,percent of vehicle that is fortified,95.0,,,0.0,total population,2011
+Ghana,rice,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ghana,rice,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ghana,rice,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ghana,rice,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ghana,rice,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Ghana,rice,na,percent of vehicle that is industrially produced,30.0,,,0.0,total population,2016
+Ghana,rice,na,percent of vehicle that is industrially produced,17.0,11.0,23.0,0.0,total population,2013
+Ghana,rice,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2017
+Ghana,wheat flour,folic acid,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Ghana,wheat flour,folic acid,percent of vehicle that is fortified,13.0,,,0.0,,2011
+Ghana,wheat flour,folic acid,percent of vehicle that is fortified,47.0,,,0.0,,2010
+Ghana,wheat flour,folic acid,percent of vehicle that is fortified,25.0,,,0.0,,2009
+Ghana,wheat flour,folic acid,percent of vehicle that is fortified,100.0,,,0.0,,2008
+Ghana,wheat flour,iron,percent of vehicle that is fortified,30.0,25.0,35.0,0.0,total population,
+Ghana,wheat flour,iron,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Ghana,wheat flour,iron,percent of vehicle that is fortified,13.0,,,0.0,,2011
+Ghana,wheat flour,iron,percent of vehicle that is fortified,47.0,,,0.0,,2010
+Ghana,wheat flour,iron,percent of vehicle that is fortified,25.0,,,0.0,,2009
+Ghana,wheat flour,iron,percent of vehicle that is fortified,100.0,,,0.0,,2008
+Ghana,wheat flour,vitamin a,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Ghana,wheat flour,vitamin a,percent of vehicle that is fortified,13.0,,,0.0,,2011
+Ghana,wheat flour,vitamin a,percent of vehicle that is fortified,47.0,,,0.0,,2010
+Ghana,wheat flour,vitamin a,percent of vehicle that is fortified,25.0,,,0.0,,2009
+Ghana,wheat flour,vitamin a,percent of vehicle that is fortified,100.0,,,0.0,,2008
+Ghana,wheat flour,vitamin b1,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Ghana,wheat flour,vitamin b1,percent of vehicle that is fortified,13.0,,,0.0,,2011
+Ghana,wheat flour,vitamin b1,percent of vehicle that is fortified,47.0,,,0.0,,2010
+Ghana,wheat flour,vitamin b1,percent of vehicle that is fortified,25.0,,,0.0,,2009
+Ghana,wheat flour,vitamin b1,percent of vehicle that is fortified,100.0,,,0.0,,2008
+Ghana,wheat flour,vitamin b12,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Ghana,wheat flour,vitamin b12,percent of vehicle that is fortified,13.0,,,0.0,,2011
+Ghana,wheat flour,vitamin b12,percent of vehicle that is fortified,47.0,,,0.0,,2010
+Ghana,wheat flour,vitamin b12,percent of vehicle that is fortified,25.0,,,0.0,,2009
+Ghana,wheat flour,vitamin b12,percent of vehicle that is fortified,100.0,,,0.0,,2008
+Ghana,wheat flour,zinc,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Ghana,wheat flour,zinc,percent of vehicle that is fortified,13.0,,,0.0,,2011
+Ghana,wheat flour,zinc,percent of vehicle that is fortified,47.0,,,0.0,,2010
+Ghana,wheat flour,zinc,percent of vehicle that is fortified,25.0,,,0.0,,2009
+Ghana,wheat flour,zinc,percent of vehicle that is fortified,100.0,,,0.0,,2008
+Ghana,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2006
+Ghana,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Ghana,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2013
+Ghana,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2016
+India,oil,vitamin a,percent of population eating fortified vehicle,24.3,21.1,27.9,0.0,0-24 months,2013-2014
+India,oil,vitamin a,percent of population eating fortified vehicle,24.3,21.1,27.9,0.0,caregiver,2013-2014
+India,oil,vitamin d,percent of population eating fortified vehicle,24.3,21.1,27.9,0.0,caregiver,2013-2014
+India,oil,vitamin d,percent of population eating fortified vehicle,24.3,21.1,27.9,0.0,0-24 months,2013-2014
+India,oil,na,percent of population eating industrially produced vehicle,89.4,87.0,91.8,0.0,0-24 months,2017
+India,oil,na,percent of population eating industrially produced vehicle,89.4,87.0,91.8,0.0,caregiver,2013-2014
+India,oil,na,percent of population eating vehicle,100.0,100.0,100.0,0.0,caregiver,2013-2014
+India,oil,na,percent of population eating vehicle,100.0,100.0,100.0,0.0,0-24 months,2013-2014
+India,oil,vitamin a,percent of vehicle that is fortified,10.0,,,0.0,total population,
+India,oil,vitamin a,percent of vehicle that is fortified,0.0,,,0.0,total population,
+India,oil,vitamin a,percent of vehicle that is fortified,0.0,,,0.0,total population,
+India,oil,vitamin a,percent of vehicle that is fortified,14.0,,,0.0,total population,
+India,oil,vitamin a,percent of vehicle that is fortified,76.0,,,0.0,total population,
+India,oil,vitamin a,percent of vehicle that is fortified,97.0,,,0.0,total population,
+India,oil,na,percent of vehicle that is industrially produced,65.0,,,0.0,total population,
+India,oil,na,percent of vehicle that is industrially produced,59.0,,,0.0,total population,
+India,oil,na,percent of vehicle that is industrially produced,92.0,,,0.0,total population,
+India,rice,folic acid,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+India,rice,iron,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+India,rice,zinc,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+India,rice,na,percent of population eating vehicle,50.0,,,0.0,,2017
+India,rice,folic acid,percent of vehicle that is fortified,0.0,,,0.0,,2018
+India,rice,folic acid,percent of vehicle that is fortified,0.25,,,0.0,total population,
+India,rice,folic acid,percent of vehicle that is fortified,0.25,,,0.0,total population,2017
+India,rice,iron,percent of vehicle that is fortified,0.0,,,0.0,,2018
+India,rice,iron,percent of vehicle that is fortified,0.25,,,0.0,total population,
+India,rice,iron,percent of vehicle that is fortified,0.25,,,0.0,total population,2017
+India,rice,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,,2018
+India,rice,vitamin b1,percent of vehicle that is fortified,0.25,,,0.0,total population,2017
+India,rice,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,,2018
+India,rice,vitamin b12,percent of vehicle that is fortified,0.25,,,0.0,total population,2017
+India,rice,zinc,percent of vehicle that is fortified,0.0,,,0.0,,2018
+India,rice,zinc,percent of vehicle that is fortified,0.25,,,0.0,total population,
+India,rice,zinc,percent of vehicle that is fortified,0.25,,,0.0,total population,2017
+India,rice,na,percent of vehicle that is industrially produced,50.0,,,0.0,total population,
+India,salt,iron,percent of population eating fortified vehicle,0.0,0.0,2.0,1.0,total population,
+India,salt,na,percent of population eating industrially produced vehicle,100.0,,,0.0,total population,2011
+India,salt,na,percent of population eating industrially produced vehicle,93.0,,,0.0,total population,2016
+India,salt,na,percent of population eating industrially produced vehicle,100.0,,,0.0,caregiver,2013-2014
+India,salt,na,percent of population eating industrially produced vehicle,100.0,,,0.0,0-24 months,2013-2014
+India,salt,na,percent of population eating vehicle,100.0,,,0.0,total population,2011
+India,salt,na,percent of population eating vehicle,99.5,,,0.0,total population,2016
+India,salt,na,percent of population eating vehicle,100.0,,,0.0,caregiver,2013-2014
+India,salt,na,percent of population eating vehicle,100.0,,,0.0,0-24 months,2013-2014
+India,wheat flour,folic acid,percent of population eating fortified vehicle,6.3,4.8,7.9,0.0,0-24 months,2013-2014
+India,wheat flour,folic acid,percent of population eating fortified vehicle,0.1,,,0.0,0-24 months,2013-2014
+India,wheat flour,folic acid,percent of population eating fortified vehicle,6.3,4.8,7.9,0.0,caregiver,2013-2014
+India,wheat flour,folic acid,percent of population eating fortified vehicle,0.1,,,0.0,caregiver,2013-2014
+India,wheat flour,iron,percent of population eating fortified vehicle,6.3,4.8,7.9,0.0,0-24 months,2013-2014
+India,wheat flour,iron,percent of population eating fortified vehicle,0.1,,,0.0,0-24 months,2013-2014
+India,wheat flour,iron,percent of population eating fortified vehicle,6.3,4.8,7.9,0.0,caregiver,2013-2014
+India,wheat flour,iron,percent of population eating fortified vehicle,0.1,,,0.0,caregiver,2013-2014
+India,wheat flour,vitamin a,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+India,wheat flour,vitamin b12,percent of population eating fortified vehicle,6.3,4.8,7.9,0.0,0-24 months,2013-2014
+India,wheat flour,vitamin b12,percent of population eating fortified vehicle,0.1,,,0.0,0-24 months,2013-2014
+India,wheat flour,vitamin b12,percent of population eating fortified vehicle,6.3,4.8,7.9,0.0,caregiver,2013-2014
+India,wheat flour,vitamin b12,percent of population eating fortified vehicle,0.1,,,0.0,caregiver,2013-2014
+India,wheat flour,na,percent of population eating industrially produced vehicle,7.1,5.6,9.1,0.0,0-24 months,2013-2014
+India,wheat flour,na,percent of population eating industrially produced vehicle,7.1,5.6,9.1,0.0,caregiver,2013-2014
+India,wheat flour,na,percent of population eating vehicle,83.2,79.5,86.5,0.0,0-24 months,2013-2014
+India,wheat flour,na,percent of population eating vehicle,83.2,79.5,86.5,0.0,caregiver,2013-2014
+India,wheat flour,folic acid,percent of vehicle that is fortified,2.0,,,0.0,total population,2017
+India,wheat flour,iron,percent of vehicle that is fortified,2.0,,,0.0,total population,2017
+India,wheat flour,vitamin a,percent of vehicle that is fortified,2.0,,,0.0,total population,2017
+India,wheat flour,vitamin b1,percent of vehicle that is fortified,2.0,,,0.0,total population,2017
+India,wheat flour,vitamin b12,percent of vehicle that is fortified,2.0,,,0.0,total population,2017
+India,wheat flour,zinc,percent of vehicle that is fortified,2.0,,,0.0,total population,2017
+India,wheat flour,na,percent of vehicle that is industrially produced,30.0,,,0.0,total population,2017
+Indonesia,oil,vitamin a,percent of vehicle that is fortified,65.0,,,0.0,total population,2013
+Indonesia,oil,vitamin a,percent of vehicle that is fortified,43.0,,,0.0,total population,2015
+Indonesia,oil,na,percent of vehicle that is industrially produced,95.0,,,0.0,total population,2018
+Indonesia,wheat flour,folic acid,percent of population eating fortified vehicle,73.1,,,0.0,total population,2020
+Indonesia,wheat flour,iron,percent of population eating fortified vehicle,73.1,,,0.0,total population,2020
+Indonesia,wheat flour,vitamin b1,percent of population eating fortified vehicle,73.1,,,0.0,total population,2020
+Indonesia,wheat flour,zinc,percent of population eating fortified vehicle,73.1,,,0.0,total population,2020
+Indonesia,wheat flour,folic acid,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Indonesia,wheat flour,folic acid,percent of vehicle that is fortified,85.71,,,0.0,total population,2016
+Indonesia,wheat flour,folic acid,percent of vehicle that is fortified,78.49,,,0.0,total population,2015
+Indonesia,wheat flour,folic acid,percent of vehicle that is fortified,86.09,,,0.0,total population,2014
+Indonesia,wheat flour,folic acid,percent of vehicle that is fortified,76.55,,,0.0,total population,2013
+Indonesia,wheat flour,folic acid,percent of vehicle that is fortified,85.91,,,0.0,total population,2012
+Indonesia,wheat flour,folic acid,percent of vehicle that is fortified,88.17,,,0.0,total population,2011
+Indonesia,wheat flour,folic acid,percent of vehicle that is fortified,96.18,,,0.0,total population,2010
+Indonesia,wheat flour,folic acid,percent of vehicle that is fortified,87.0,,,0.0,total population,2018
+Indonesia,wheat flour,iron,percent of vehicle that is fortified,95.0,90.0,100.0,0.0,total population,
+Indonesia,wheat flour,iron,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Indonesia,wheat flour,iron,percent of vehicle that is fortified,85.71,,,0.0,total population,2016
+Indonesia,wheat flour,iron,percent of vehicle that is fortified,78.49,,,0.0,total population,2015
+Indonesia,wheat flour,iron,percent of vehicle that is fortified,86.09,,,0.0,total population,2014
+Indonesia,wheat flour,iron,percent of vehicle that is fortified,76.55,,,0.0,total population,2013
+Indonesia,wheat flour,iron,percent of vehicle that is fortified,85.91,,,0.0,total population,2012
+Indonesia,wheat flour,iron,percent of vehicle that is fortified,88.17,,,0.0,total population,2011
+Indonesia,wheat flour,iron,percent of vehicle that is fortified,96.18,,,0.0,total population,2010
+Indonesia,wheat flour,iron,percent of vehicle that is fortified,87.0,,,0.0,total population,2018
+Indonesia,wheat flour,vitamin b1,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Indonesia,wheat flour,vitamin b1,percent of vehicle that is fortified,85.71,,,0.0,total population,2016
+Indonesia,wheat flour,vitamin b1,percent of vehicle that is fortified,78.49,,,0.0,total population,2015
+Indonesia,wheat flour,vitamin b1,percent of vehicle that is fortified,86.09,,,0.0,total population,2014
+Indonesia,wheat flour,vitamin b1,percent of vehicle that is fortified,76.55,,,0.0,total population,2013
+Indonesia,wheat flour,vitamin b1,percent of vehicle that is fortified,85.91,,,0.0,total population,2012
+Indonesia,wheat flour,vitamin b1,percent of vehicle that is fortified,88.17,,,0.0,total population,2011
+Indonesia,wheat flour,vitamin b1,percent of vehicle that is fortified,96.18,,,0.0,total population,2010
+Indonesia,wheat flour,vitamin b1,percent of vehicle that is fortified,87.0,,,0.0,total population,2018
+Indonesia,wheat flour,zinc,percent of vehicle that is fortified,87.0,,,0.0,total population,2018
+Indonesia,wheat flour,zinc,percent of vehicle that is fortified,87.0,,,0.0,total population,2018
+Indonesia,wheat flour,zinc,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Indonesia,wheat flour,zinc,percent of vehicle that is fortified,85.71,,,0.0,total population,2016
+Indonesia,wheat flour,zinc,percent of vehicle that is fortified,78.49,,,0.0,total population,2015
+Indonesia,wheat flour,zinc,percent of vehicle that is fortified,86.09,,,0.0,total population,2014
+Indonesia,wheat flour,zinc,percent of vehicle that is fortified,76.55,,,0.0,total population,2013
+Indonesia,wheat flour,zinc,percent of vehicle that is fortified,85.91,,,0.0,total population,2012
+Indonesia,wheat flour,zinc,percent of vehicle that is fortified,88.17,,,0.0,total population,2011
+Indonesia,wheat flour,zinc,percent of vehicle that is fortified,96.18,,,0.0,total population,2010
+Indonesia,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Indonesia,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2019
+Kenya,maize flour,na,percent of population eating industrially produced vehicle,36.67,,,0.0,total population,2005
+Kenya,maize flour,na,percent of population eating vehicle,85.27,,,0.0,total population,2005
+Kenya,maize flour,na,percent of population eating vehicle,57.0,,,0.0,6-8 months,2015
+Kenya,maize flour,na,percent of population eating vehicle,63.0,,,0.0,9-11 months,2015
+Kenya,maize flour,na,percent of population eating vehicle,81.0,,,0.0,12-23 months,2015
+Kenya,maize flour,na,percent of population eating vehicle,16.0,,,0.0,6-8 months,2015
+Kenya,maize flour,na,percent of population eating vehicle,38.0,,,0.0,9-11 months,2015
+Kenya,maize flour,na,percent of population eating vehicle,17.0,,,0.0,12-23 months,2015
+Kenya,maize flour,na,percent of population eating vehicle,89.0,,,0.0,6-8 months,2015
+Kenya,maize flour,na,percent of population eating vehicle,91.0,,,0.0,9-11 months,2015
+Kenya,maize flour,na,percent of population eating vehicle,95.0,,,0.0,12-23 months,2015
+Kenya,maize flour,na,percent of population eating vehicle,2.0,,,0.0,6-8 months,2015
+Kenya,maize flour,na,percent of population eating vehicle,3.0,,,0.0,9-11 months,2015
+Kenya,maize flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Kenya,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Kenya,maize flour,iron,percent of vehicle that is fortified,28.0,,,0.0,total population,2021
+Kenya,maize flour,vitamin a,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Kenya,maize flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Kenya,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Kenya,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Kenya,maize flour,na,percent of vehicle that is industrially produced,40.0,,,0.0,total population,2017
+Kenya,maize flour,na,percent of vehicle that is industrially produced,51.0,,,0.0,total population,2021
+Kenya,oil,na,percent of population eating industrially produced vehicle,9.39,,,0.0,total population,2005
+Kenya,oil,na,percent of population eating vehicle,16.17,,,0.0,total population,2005
+Kenya,oil,na,percent of population eating vehicle,6.0,,,0.0,6-8 months,2015
+Kenya,oil,na,percent of population eating vehicle,16.0,,,0.0,9-11 months,2015
+Kenya,oil,na,percent of population eating vehicle,7.0,,,0.0,12-23 months,2015
+Kenya,oil,na,percent of population eating vehicle,12.0,,,0.0,6-8 months,2015
+Kenya,oil,na,percent of population eating vehicle,38.0,,,0.0,9-11 months,2015
+Kenya,oil,na,percent of population eating vehicle,45.0,,,0.0,12-23 months,2015
+Kenya,oil,na,percent of population eating vehicle,60.0,,,0.0,6-8 months,2015
+Kenya,oil,na,percent of population eating vehicle,70.0,,,0.0,9-11 months,2015
+Kenya,oil,na,percent of population eating vehicle,72.0,,,0.0,12-23 months,2015
+Kenya,oil,na,percent of population eating vehicle,9.0,,,0.0,6-8 months,2015
+Kenya,oil,na,percent of population eating vehicle,18.0,,,0.0,9-11 months,2015
+Kenya,oil,na,percent of population eating vehicle,17.0,,,0.0,12-23 months,2015
+Kenya,wheat flour,na,percent of population eating industrially produced vehicle,30.95,,,0.0,total population,2005
+Kenya,wheat flour,na,percent of population eating vehicle,36.58,,,0.0,total population,2005
+Kenya,wheat flour,folic acid,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Kenya,wheat flour,iron,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Kenya,wheat flour,iron,percent of vehicle that is fortified,95.0,90.0,100.0,0.0,total population,
+Kenya,wheat flour,vitamin a,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Kenya,wheat flour,vitamin a,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Kenya,wheat flour,vitamin b1,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Kenya,wheat flour,vitamin b12,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Kenya,wheat flour,zinc,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Kenya,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Madagascar,maize flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Madagascar,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2021
+Madagascar,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Madagascar,maize flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Madagascar,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Madagascar,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Madagascar,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2017
+Madagascar,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2021
+Madagascar,wheat flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Madagascar,wheat flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Madagascar,wheat flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Madagascar,wheat flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Madagascar,wheat flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Madagascar,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2016
+Mozambique,maize flour,na,percent of population eating vehicle,79.9,,,0.0,total population,2013
+Mozambique,maize flour,na,percent of population eating vehicle,79.9,,,0.0,total population,
+Mozambique,maize flour,folic acid,percent of vehicle that is fortified,70.0,,,0.0,total population,2017
+Mozambique,maize flour,iron,percent of vehicle that is fortified,70.0,,,0.0,total population,2021
+Mozambique,maize flour,iron,percent of vehicle that is fortified,70.0,,,0.0,total population,2017
+Mozambique,maize flour,vitamin a,percent of vehicle that is fortified,70.0,,,0.0,total population,2017
+Mozambique,maize flour,vitamin b1,percent of vehicle that is fortified,70.0,,,0.0,total population,2017
+Mozambique,maize flour,vitamin b12,percent of vehicle that is fortified,70.0,,,0.0,total population,2017
+Mozambique,maize flour,zinc,percent of vehicle that is fortified,70.0,,,0.0,total population,2017
+Mozambique,maize flour,na,percent of vehicle that is industrially produced,30.0,,,0.0,total population,2017
+Mozambique,maize flour,na,percent of vehicle that is industrially produced,30.0,,,0.0,total population,2012
+Mozambique,maize flour,na,percent of vehicle that is industrially produced,30.0,,,0.0,total population,2021
+Mozambique,oil,na,percent of population eating vehicle,95.2,,,0.0,total population,2013
+Mozambique,oil,na,percent of population eating vehicle,98.0,,,0.0,women of reproductive age,2010
+Mozambique,oil,vitamin a,percent of vehicle that is fortified,38.9,,,0.0,total population,2014
+Mozambique,wheat flour,na,percent of population eating vehicle,16.3,,,0.0,total population,2013
+Mozambique,wheat flour,na,percent of population eating vehicle,92.0,,,0.0,women of reproductive age,2010
+Mozambique,wheat flour,na,percent of population eating vehicle,92.0,,,0.0,children 12-59 months,2010
+Mozambique,wheat flour,folic acid,percent of vehicle that is fortified,60.0,,,0.0,total population,2017
+Mozambique,wheat flour,iron,percent of vehicle that is fortified,95.0,90.0,100.0,0.0,total population,
+Mozambique,wheat flour,iron,percent of vehicle that is fortified,60.0,,,0.0,total population,2017
+Mozambique,wheat flour,vitamin a,percent of vehicle that is fortified,60.0,,,0.0,total population,2017
+Mozambique,wheat flour,vitamin b1,percent of vehicle that is fortified,60.0,,,0.0,total population,2017
+Mozambique,wheat flour,vitamin b12,percent of vehicle that is fortified,60.0,,,0.0,total population,2017
+Mozambique,wheat flour,zinc,percent of vehicle that is fortified,60.0,,,0.0,total population,2017
+Mozambique,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2012
+Mozambique,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Myanmar,oil,vitamin a,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+Myanmar,oil,vitamin d,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+Myanmar,oil,na,percent of population eating industrially produced vehicle,10.0,0.0,20.0,0.0,total population,
+Myanmar,wheat flour,folic acid,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+Myanmar,wheat flour,iron,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+Myanmar,wheat flour,zinc,percent of population eating fortified vehicle,0.0,0.0,5.0,1.0,total population,
+Myanmar,wheat flour,na,percent of population eating vehicle,5.0,0.0,10.0,1.0,total population,
+Myanmar,wheat flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Myanmar,wheat flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Myanmar,wheat flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Myanmar,wheat flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Myanmar,wheat flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Myanmar,wheat flour,na,percent of vehicle that is industrially produced,80.0,,,0.0,total population,2017
+Myanmar,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2018
+Nepal,oil,na,percent of population eating vehicle,99.8,99.8,99.9,0.0,total population,2016
+Nepal,oil,na,percent of population eating vehicle,100.0,0.0,100.0,0.0,total population,2016
+Nepal,oil,na,percent of population eating vehicle,99.8,99.7,99.8,0.0,total population,2016
+Nepal,wheat flour,na,percent of population eating industrially produced vehicle,37.0,,,0.0,total population,2011
+Nepal,wheat flour,na,percent of population eating industrially produced vehicle,43.0,,,0.0,total population,2016
+Nepal,wheat flour,na,percent of population eating vehicle,8.8,7.1,10.9,0.0,total population,2016
+Nepal,wheat flour,na,percent of population eating vehicle,16.5,12.4,21.6,0.0,total population,2016
+Nepal,wheat flour,na,percent of population eating vehicle,7.4,5.6,9.8,0.0,total population,2016
+Nepal,wheat flour,na,percent of population eating vehicle,42.7,38.3,47.3,0.0,total population,2016
+Nepal,wheat flour,na,percent of population eating vehicle,52.1,45.8,58.4,0.0,total population,2016
+Nepal,wheat flour,na,percent of population eating vehicle,40.3,35.3,45.5,0.0,total population,2016
+Nepal,wheat flour,folic acid,percent of vehicle that is fortified,20.0,,,0.0,total population,2017
+Nepal,wheat flour,iron,percent of vehicle that is fortified,36.8,,,0.0,total population,2016
+Nepal,wheat flour,iron,percent of vehicle that is fortified,20.0,,,0.0,total population,2017
+Nepal,wheat flour,vitamin a,percent of vehicle that is fortified,20.0,,,0.0,total population,2017
+Nepal,wheat flour,na,percent of vehicle that is industrially produced,43.0,,,0.0,total population,2011
+Nepal,wheat flour,na,percent of vehicle that is industrially produced,25.0,,,0.0,total population,2017
+Niger,bouillon,na,percent of population eating vehicle,88.0,,,0.0,women of reproductive age,2001
+Niger,bouillon,na,percent of population eating vehicle,99.0,,,0.0,women of reproductive age,2001
+Niger,bouillon,na,percent of population eating vehicle,86.0,,,0.0,women of reproductive age,2001
+Niger,maize flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Niger,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Niger,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2021
+Niger,maize flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Niger,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Niger,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Niger,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2017
+Niger,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2021
+Niger,oil,vitamin a,percent of population eating fortified vehicle,55.0,,,0.0,total population,2010
+Niger,oil,vitamin a,percent of population eating fortified vehicle,55.0,,,0.0,total population,2010
+Niger,oil,vitamin a,percent of population eating fortified vehicle,75.0,,,0.0,total population,2013
+Niger,oil,na,percent of population eating vehicle,85.0,,,0.0,women of reproductive age,2001
+Niger,oil,na,percent of population eating vehicle,98.0,,,0.0,women of reproductive age,2001
+Niger,oil,na,percent of population eating vehicle,76.0,,,0.0,women of reproductive age,2001
+Niger,wheat flour,folic acid,percent of population eating fortified vehicle,30.0,,,0.0,total population,2010
+Niger,wheat flour,iron,percent of population eating fortified vehicle,30.0,,,0.0,total population,2010
+Niger,wheat flour,folic acid,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+Niger,wheat flour,iron,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+Niger,wheat flour,iron,percent of vehicle that is fortified,0.0,0.0,0.0,0.0,total population,
+Niger,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Nigeria,bouillon,na,percent of population eating industrially produced vehicle,83.0,,,0.0,total population,2018
+Nigeria,bouillon,na,percent of population eating industrially produced vehicle,40.0,,,0.0,total population,2018
+Nigeria,bouillon,na,percent of population eating vehicle,38.0,,,0.0,total population,2019
+Nigeria,bouillon,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Nigeria,bouillon,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Nigeria,bouillon,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Nigeria,bouillon,na,percent of vehicle that is industrially produced,96.0,,,0.0,total population,
+Nigeria,maize flour,folic acid,percent of population eating fortified vehicle,0.2,0.0,0.5,0.0,total population,2015
+Nigeria,maize flour,folic acid,percent of population eating fortified vehicle,1.7,0.9,2.6,0.0,total population,2015
+Nigeria,maize flour,vitamin a,percent of population eating fortified vehicle,0.2,0.0,0.5,0.0,total population,2015
+Nigeria,maize flour,vitamin a,percent of population eating fortified vehicle,1.7,0.9,2.6,0.0,total population,2015
+Nigeria,maize flour,zinc,percent of population eating fortified vehicle,0.2,0.0,0.5,0.0,total population,2015
+Nigeria,maize flour,zinc,percent of population eating fortified vehicle,1.7,0.9,2.6,0.0,total population,2015
+Nigeria,maize flour,na,percent of population eating industrially produced vehicle,2.9,1.8,4.0,0.0,total population,2015
+Nigeria,maize flour,na,percent of population eating industrially produced vehicle,11.0,9.0,13.1,0.0,total population,2015
+Nigeria,maize flour,na,percent of population eating vehicle,12.2,10.0,14.4,0.0,total population,2015
+Nigeria,maize flour,na,percent of population eating vehicle,77.1,74.4,79.9,0.0,total population,2015
+Nigeria,maize flour,folic acid,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+Nigeria,maize flour,iron,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+Nigeria,maize flour,iron,percent of vehicle that is fortified,30.0,,,0.0,total population,2021
+Nigeria,maize flour,vitamin a,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+Nigeria,maize flour,vitamin b1,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+Nigeria,maize flour,vitamin b12,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+Nigeria,maize flour,zinc,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+Nigeria,maize flour,na,percent of vehicle that is industrially produced,20.0,,,0.0,total population,2017
+Nigeria,maize flour,na,percent of vehicle that is industrially produced,20.0,,,0.0,total population,2021
+Nigeria,oil,vitamin a,percent of population eating fortified vehicle,7.2,5.5,8.9,0.0,total population,2015
+Nigeria,oil,vitamin a,percent of population eating fortified vehicle,7.6,5.9,9.4,0.0,total population,2015
+Nigeria,oil,na,percent of population eating industrially produced vehicle,22.7,19.9,25.5,0.0,total population,2015
+Nigeria,oil,na,percent of population eating industrially produced vehicle,35.9,32.7,39.1,0.0,total population,2015
+Nigeria,oil,na,percent of population eating vehicle,98.6,97.8,99.3,0.0,total population,2015
+Nigeria,oil,na,percent of population eating vehicle,98.4,97.6,99.2,0.0,total population,2015
+Nigeria,oil,vitamin a,percent of vehicle that is fortified,65.5,,,0.0,total population,2017
+Nigeria,oil,vitamin a,percent of vehicle that is fortified,94.1,,,0.0,total population,2016
+Nigeria,oil,vitamin a,percent of vehicle that is fortified,47.1,,,0.0,total population,2015
+Nigeria,oil,vitamin a,percent of vehicle that is fortified,60.9,,,0.0,total population,2014
+Nigeria,oil,vitamin a,percent of vehicle that is fortified,87.4,,,0.0,total population,2013
+Nigeria,oil,vitamin a,percent of vehicle that is fortified,95.7,,,0.0,total population,2012
+Nigeria,oil,vitamin a,percent of vehicle that is fortified,100.0,,,0.0,total population,2011
+Nigeria,oil,vitamin a,percent of vehicle that is fortified,94.1,,,0.0,total population,2016
+Nigeria,oil,vitamin a,percent of vehicle that is fortified,75.0,,,0.0,total population,
+Nigeria,oil,na,percent of vehicle that is industrially produced,40.0,,,0.0,total population,
+Nigeria,rice,na,percent of population eating industrially produced vehicle,100.0,,,0.0,total population,2018
+Nigeria,rice,na,percent of population eating industrially produced vehicle,99.0,,,0.0,total population,2018
+Nigeria,rice,na,percent of population eating vehicle,14.9,,,0.0,total population,2001-2003
+Nigeria,rice,na,percent of population eating vehicle,83.8,,,0.0,total population,2011
+Nigeria,rice,na,percent of population eating vehicle,90.8,,,0.0,total population,2011
+Nigeria,rice,na,percent of population eating vehicle,79.9,,,0.0,total population,2011
+Nigeria,rice,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Nigeria,rice,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Nigeria,rice,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Nigeria,rice,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Nigeria,rice,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Nigeria,rice,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Nigeria,rice,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Nigeria,rice,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Nigeria,rice,na,percent of vehicle that is industrially produced,10.0,,,0.0,total population,2017
+Nigeria,rice,na,percent of vehicle that is industrially produced,18.0,12.0,24.0,0.0,total population,2013
+Nigeria,rice,na,percent of vehicle that is industrially produced,40.0,,,0.0,total population,
+Nigeria,rice,na,percent of vehicle that is industrially produced,40.0,,,0.0,total population,2016
+Nigeria,salt,na,percent of population eating industrially produced vehicle,93.0,,,0.0,total population,2005
+Nigeria,salt,na,percent of vehicle that is industrially produced,20.0,,,0.0,total population,2005
+Nigeria,salt,na,percent of vehicle that is industrially produced,96.0,,,0.0,total population,
+Nigeria,salt,na,percent of vehicle that is industrially produced,20.0,,,0.0,total population,2018
+Nigeria,wheat flour,folic acid,percent of population eating fortified vehicle,22.7,20.0,25.5,0.0,total population,2015
+Nigeria,wheat flour,folic acid,percent of population eating fortified vehicle,5.4,3.8,6.9,0.0,total population,2015
+Nigeria,wheat flour,iron,percent of population eating fortified vehicle,22.7,20.0,25.5,0.0,total population,2015
+Nigeria,wheat flour,iron,percent of population eating fortified vehicle,5.4,3.8,6.9,0.0,total population,2015
+Nigeria,wheat flour,vitamin a,percent of population eating fortified vehicle,5.4,3.8,6.9,0.0,total population,2015
+Nigeria,wheat flour,vitamin a,percent of population eating fortified vehicle,22.7,20.0,25.5,0.0,total population,2015
+Nigeria,wheat flour,vitamin b1,percent of population eating fortified vehicle,5.4,3.8,6.9,0.0,total population,2015
+Nigeria,wheat flour,vitamin b1,percent of population eating fortified vehicle,22.7,20.0,25.5,0.0,total population,2015
+Nigeria,wheat flour,zinc,percent of population eating fortified vehicle,5.4,3.8,6.9,0.0,total population,2015
+Nigeria,wheat flour,zinc,percent of population eating fortified vehicle,22.7,20.0,25.5,0.0,total population,2015
+Nigeria,wheat flour,na,percent of population eating industrially produced vehicle,13.8,11.5,16.1,0.0,total population,2015
+Nigeria,wheat flour,na,percent of population eating industrially produced vehicle,83.8,81.4,86.2,0.0,total population,2015
+Nigeria,wheat flour,na,percent of population eating vehicle,14.2,11.8,16.5,0.0,total population,2015
+Nigeria,wheat flour,na,percent of population eating vehicle,83.9,81.5,86.3,0.0,total population,2015
+Nigeria,wheat flour,folic acid,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Nigeria,wheat flour,iron,percent of vehicle that is fortified,85.0,80.0,90.0,0.0,total population,
+Nigeria,wheat flour,iron,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Nigeria,wheat flour,vitamin a,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Nigeria,wheat flour,vitamin b1,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Nigeria,wheat flour,vitamin b12,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Nigeria,wheat flour,zinc,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Nigeria,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Nigeria,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2014
+Nigeria,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2013
+Nigeria,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2016
+Pakistan,oil,vitamin a,percent of population eating fortified vehicle,39.0,,,0.0,total population,
+Pakistan,oil,vitamin a,percent of population eating fortified vehicle,31.0,,,0.0,total population,
+Pakistan,oil,vitamin a,percent of population eating fortified vehicle,20.0,,,0.0,total population,
+Pakistan,oil,na,percent of population eating industrially produced vehicle,99.0,98.0,100.0,0.0,total population,
+Pakistan,oil,na,percent of population eating industrially produced vehicle,99.0,98.0,100.0,0.0,total population,
+Pakistan,oil,na,percent of population eating industrially produced vehicle,99.0,98.0,100.0,0.0,total population,
+Pakistan,oil,na,percent of population eating industrially produced vehicle,85.0,,,0.0,total population,2019
+Pakistan,oil,na,percent of population eating vehicle,100.0,100.0,100.0,0.0,total population,
+Pakistan,oil,na,percent of population eating vehicle,100.0,100.0,100.0,0.0,total population,
+Pakistan,oil,na,percent of population eating vehicle,100.0,100.0,100.0,0.0,total population,
+Pakistan,oil,vitamin a,percent of vehicle that is fortified,68.5,,,0.0,total population,2017
+Pakistan,oil,vitamin a,percent of vehicle that is fortified,69.5,,,0.0,total population,2016
+Pakistan,oil,na,percent of vehicle that is industrially produced,85.0,,,0.0,total population,2019
+Pakistan,wheat flour,iron,percent of population eating fortified vehicle,5.0,,,0.0,total population,
+Pakistan,wheat flour,iron,percent of population eating fortified vehicle,1.0,,,0.0,total population,
+Pakistan,wheat flour,iron,percent of population eating fortified vehicle,10.0,,,0.0,total population,
+Pakistan,wheat flour,na,percent of population eating industrially produced vehicle,52.0,,,0.0,total population,
+Pakistan,wheat flour,na,percent of population eating industrially produced vehicle,31.0,,,0.0,total population,
+Pakistan,wheat flour,na,percent of population eating industrially produced vehicle,63.0,,,0.0,total population,
+Pakistan,wheat flour,na,percent of population eating vehicle,100.0,100.0,100.0,0.0,total population,
+Pakistan,wheat flour,na,percent of population eating vehicle,100.0,100.0,100.0,0.0,total population,
+Pakistan,wheat flour,na,percent of population eating vehicle,92.0,,,0.0,total population,
+Pakistan,wheat flour,folic acid,percent of vehicle that is fortified,8.0,,,0.0,total population,2018
+Pakistan,wheat flour,iron,percent of vehicle that is fortified,51.0,,,0.0,total population,2017
+Pakistan,wheat flour,iron,percent of vehicle that is fortified,8.0,,,0.0,total population,2018
+Pakistan,wheat flour,iron,percent of vehicle that is fortified,7.5,5.0,10.0,0.0,total population,
+Pakistan,wheat flour,vitamin b12,percent of vehicle that is fortified,8.0,,,0.0,total population,2018
+Pakistan,wheat flour,zinc,percent of vehicle that is fortified,8.0,,,0.0,total population,2018
+Pakistan,wheat flour,na,percent of vehicle that is industrially produced,60.0,,,0.0,total population,2019
+Pakistan,wheat flour,na,percent of vehicle that is industrially produced,60.0,,,0.0,total population,2017
+South Africa,maize flour,folic acid,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,maize flour,folic acid,percent of population eating fortified vehicle,77.4,69.8,94.9,0.0,total population,2015
+South Africa,maize flour,iron,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,maize flour,iron,percent of population eating fortified vehicle,77.4,69.8,94.9,0.0,total population,2015
+South Africa,maize flour,vitamin a,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,maize flour,vitamin a,percent of population eating fortified vehicle,77.4,69.8,94.9,0.0,total population,2015
+South Africa,maize flour,vitamin b1,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,maize flour,vitamin b1,percent of population eating fortified vehicle,77.4,69.8,94.9,0.0,total population,2015
+South Africa,maize flour,zinc,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,maize flour,zinc,percent of population eating fortified vehicle,77.4,69.8,94.9,0.0,total population,2015
+South Africa,maize flour,na,percent of population eating industrially produced vehicle,98.7,96.5,100.0,0.0,total population,2015
+South Africa,maize flour,na,percent of population eating industrially produced vehicle,95.4,90.3,98.4,0.0,total population,2015
+South Africa,maize flour,na,percent of population eating vehicle,98.7,96.5,100.0,0.0,total population,2015
+South Africa,maize flour,na,percent of population eating vehicle,95.6,90.4,98.6,0.0,total population,2015
+South Africa,maize flour,folic acid,percent of vehicle that is fortified,83.4,,,0.0,total population,2011
+South Africa,maize flour,folic acid,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+South Africa,maize flour,iron,percent of vehicle that is fortified,83.4,,,0.0,total population,2011
+South Africa,maize flour,iron,percent of vehicle that is fortified,50.0,,,0.0,total population,2021
+South Africa,maize flour,iron,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+South Africa,maize flour,vitamin a,percent of vehicle that is fortified,83.4,,,0.0,total population,2011
+South Africa,maize flour,vitamin a,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+South Africa,maize flour,vitamin b1,percent of vehicle that is fortified,83.4,,,0.0,total population,2011
+South Africa,maize flour,vitamin b1,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+South Africa,maize flour,zinc,percent of vehicle that is fortified,83.4,,,0.0,total population,2011
+South Africa,maize flour,zinc,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+South Africa,maize flour,na,percent of vehicle that is industrially produced,75.0,,,0.0,total population,2017
+South Africa,maize flour,na,percent of vehicle that is industrially produced,75.0,,,0.0,total population,2021
+South Africa,wheat flour,folic acid,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,wheat flour,folic acid,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,wheat flour,folic acid,percent of population eating fortified vehicle,0.8,0.0,2.3,0.0,total population,2015
+South Africa,wheat flour,folic acid,percent of population eating fortified vehicle,0.8,0.0,2.3,0.0,total population,2015
+South Africa,wheat flour,iron,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,wheat flour,iron,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,wheat flour,iron,percent of population eating fortified vehicle,0.8,0.0,2.3,0.0,total population,2015
+South Africa,wheat flour,iron,percent of population eating fortified vehicle,0.8,0.0,2.3,0.0,total population,2015
+South Africa,wheat flour,vitamin a,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,wheat flour,vitamin a,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,wheat flour,vitamin a,percent of population eating fortified vehicle,0.8,0.0,2.3,0.0,total population,2015
+South Africa,wheat flour,vitamin a,percent of population eating fortified vehicle,0.8,0.0,2.3,0.0,total population,2015
+South Africa,wheat flour,vitamin b1,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,wheat flour,vitamin b1,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,wheat flour,vitamin b1,percent of population eating fortified vehicle,0.8,0.0,2.3,0.0,total population,2015
+South Africa,wheat flour,vitamin b1,percent of population eating fortified vehicle,0.8,0.0,2.3,0.0,total population,2015
+South Africa,wheat flour,zinc,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,wheat flour,zinc,percent of population eating fortified vehicle,16.3,10.0,23.7,0.0,total population,2015
+South Africa,wheat flour,zinc,percent of population eating fortified vehicle,0.8,0.0,2.3,0.0,total population,2015
+South Africa,wheat flour,zinc,percent of population eating fortified vehicle,0.8,0.0,2.3,0.0,total population,2015
+South Africa,wheat flour,na,percent of population eating industrially produced vehicle,25.2,16.3,34.1,0.0,total population,2015
+South Africa,wheat flour,na,percent of population eating industrially produced vehicle,4.3,1.8,7.6,0.0,total population,2015
+South Africa,wheat flour,na,percent of population eating vehicle,25.2,16.3,34.1,0.0,total population,2015
+South Africa,wheat flour,na,percent of population eating vehicle,4.3,1.8,7.6,0.0,total population,2015
+South Africa,wheat flour,folic acid,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+South Africa,wheat flour,folic acid,percent of vehicle that is fortified,84.8,,,0.0,total population,2011
+South Africa,wheat flour,folic acid,percent of vehicle that is fortified,40.0,,,0.0,total population,2018
+South Africa,wheat flour,iron,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+South Africa,wheat flour,iron,percent of vehicle that is fortified,84.8,,,0.0,total population,2011
+South Africa,wheat flour,iron,percent of vehicle that is fortified,70.0,60.0,80.0,0.0,total population,
+South Africa,wheat flour,iron,percent of vehicle that is fortified,40.0,,,0.0,total population,2018
+South Africa,wheat flour,vitamin a,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+South Africa,wheat flour,vitamin a,percent of vehicle that is fortified,84.8,,,0.0,total population,2011
+South Africa,wheat flour,vitamin a,percent of vehicle that is fortified,40.0,,,0.0,total population,2018
+South Africa,wheat flour,vitamin b1,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+South Africa,wheat flour,vitamin b1,percent of vehicle that is fortified,84.8,,,0.0,total population,2011
+South Africa,wheat flour,vitamin b1,percent of vehicle that is fortified,40.0,,,0.0,total population,2018
+South Africa,wheat flour,zinc,percent of vehicle that is fortified,80.0,,,0.0,total population,2017
+South Africa,wheat flour,zinc,percent of vehicle that is fortified,84.8,,,0.0,total population,2011
+South Africa,wheat flour,zinc,percent of vehicle that is fortified,40.0,,,0.0,total population,2018
+South Africa,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Sudan,maize flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Sudan,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Sudan,maize flour,iron,percent of vehicle that is fortified,25.0,,,0.0,total population,2021
+Sudan,maize flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Sudan,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Sudan,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Sudan,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2017
+Sudan,maize flour,na,percent of vehicle that is industrially produced,75.0,,,0.0,total population,2021
+Sudan,oil,vitamin a,percent of population eating fortified vehicle,80.0,,,0.0,total population,2019
+Sudan,oil,na,percent of population eating industrially produced vehicle,80.0,,,0.0,total population,2019
+Sudan,oil,na,percent of vehicle that is industrially produced,80.0,,,0.0,total population,2019
+Sudan,wheat flour,folic acid,percent of vehicle that is fortified,32.0,,,0.0,,2019
+Sudan,wheat flour,folic acid,percent of vehicle that is fortified,40.0,,,0.0,total population,2019
+Sudan,wheat flour,iron,percent of vehicle that is fortified,32.0,,,0.0,,2019
+Sudan,wheat flour,iron,percent of vehicle that is fortified,40.0,,,0.0,total population,2019
+Sudan,wheat flour,vitamin a,percent of vehicle that is fortified,40.0,,,0.0,total population,2019
+Sudan,wheat flour,vitamin b12,percent of vehicle that is fortified,40.0,,,0.0,total population,2019
+Sudan,wheat flour,zinc,percent of vehicle that is fortified,40.0,,,0.0,total population,2019
+Sudan,wheat flour,na,percent of vehicle that is industrially produced,80.0,,,0.0,,2019
+Sudan,wheat flour,na,percent of vehicle that is industrially produced,90.0,,,0.0,total population,2019
+Sudan,wheat flour,na,percent of vehicle that is industrially produced,80.0,,,0.0,total population,2018
+Sudan,wheat flour,na,percent of vehicle that is industrially produced,80.0,,,0.0,total population,2017
+Uganda,maize flour,folic acid,percent of population eating fortified vehicle,6.5,,,0.0,total population,2015
+Uganda,maize flour,folic acid,percent of population eating fortified vehicle,6.5,3.3,9.7,0.0,total population,2003
+Uganda,maize flour,iron,percent of population eating fortified vehicle,6.5,,,0.0,total population,2015
+Uganda,maize flour,iron,percent of population eating fortified vehicle,6.5,3.3,9.7,0.0,total population,2003
+Uganda,maize flour,vitamin a,percent of population eating fortified vehicle,6.5,,,0.0,total population,2015
+Uganda,maize flour,vitamin a,percent of population eating fortified vehicle,6.5,3.3,9.7,0.0,total population,2003
+Uganda,maize flour,vitamin b1,percent of population eating fortified vehicle,6.5,,,0.0,total population,2015
+Uganda,maize flour,vitamin b1,percent of population eating fortified vehicle,6.5,3.3,9.7,0.0,total population,2003
+Uganda,maize flour,vitamin b12,percent of population eating fortified vehicle,6.5,,,0.0,total population,2015
+Uganda,maize flour,vitamin b12,percent of population eating fortified vehicle,6.5,3.3,9.7,0.0,total population,2003
+Uganda,maize flour,zinc,percent of population eating fortified vehicle,6.5,,,0.0,total population,2015
+Uganda,maize flour,zinc,percent of population eating fortified vehicle,6.5,3.3,9.7,0.0,total population,2003
+Uganda,maize flour,na,percent of population eating industrially produced vehicle,42.4,,,0.0,total population,2015
+Uganda,maize flour,na,percent of population eating industrially produced vehicle,42.4,32.7,52.1,0.0,total population,2003
+Uganda,maize flour,na,percent of population eating industrially produced vehicle,6.5,,,0.0,total population,2006
+Uganda,maize flour,na,percent of population eating vehicle,91.8,,,0.0,total population,2015
+Uganda,maize flour,na,percent of population eating vehicle,91.8,87.7,96.0,0.0,total population,2003
+Uganda,maize flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Uganda,maize flour,folic acid,percent of vehicle that is fortified,3.0,,,0.0,total population,2019
+Uganda,maize flour,iron,percent of vehicle that is fortified,29.4,,,0.0,total population,2015
+Uganda,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Uganda,maize flour,iron,percent of vehicle that is fortified,3.0,,,0.0,total population,2019
+Uganda,maize flour,iron,percent of vehicle that is fortified,15.0,,,0.0,total population,2021
+Uganda,maize flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Uganda,maize flour,vitamin b1,percent of vehicle that is fortified,3.0,,,0.0,total population,2019
+Uganda,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Uganda,maize flour,vitamin b12,percent of vehicle that is fortified,3.0,,,0.0,total population,2019
+Uganda,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+Uganda,maize flour,zinc,percent of vehicle that is fortified,3.0,,,0.0,total population,2019
+Uganda,maize flour,na,percent of vehicle that is industrially produced,30.0,,,0.0,total population,2018
+Uganda,maize flour,na,percent of vehicle that is industrially produced,3.0,,,0.0,total population,2017
+Uganda,maize flour,na,percent of vehicle that is industrially produced,30.0,,,0.0,total population,2006
+Uganda,maize flour,na,percent of vehicle that is industrially produced,20.0,,,0.0,total population,2021
+Uganda,oil,vitamin a,percent of population eating fortified vehicle,54.4,48.3,60.4,0.0,total population,2015
+Uganda,oil,vitamin a,percent of population eating fortified vehicle,54.4,48.3,60.4,0.0,total population,2003
+Uganda,oil,vitamin d,percent of population eating fortified vehicle,0.0,,,0.0,total population,2003
+Uganda,oil,na,percent of population eating industrially produced vehicle,89.0,,,0.0,total population,2015
+Uganda,oil,na,percent of population eating industrially produced vehicle,89.0,84.7,93.2,0.0,total population,2003
+Uganda,oil,na,percent of population eating industrially produced vehicle,54.0,,,0.0,total population,2011
+Uganda,oil,na,percent of population eating vehicle,89.9,,,0.0,total population,2015
+Uganda,oil,na,percent of population eating vehicle,89.9,85.9,94.0,0.0,total population,2003
+Uganda,oil,vitamin a,percent of vehicle that is fortified,85.6,,,0.0,total population,2015
+Uganda,oil,vitamin a,percent of vehicle that is fortified,59.7,,,0.0,total population,2018
+Uganda,oil,na,percent of vehicle that is industrially produced,90.0,,,0.0,total population,2018
+Uganda,oil,na,percent of vehicle that is industrially produced,90.0,,,0.0,total population,2011
+Uganda,wheat flour,folic acid,percent of population eating fortified vehicle,8.5,5.7,11.4,0.0,total population,2003
+Uganda,wheat flour,folic acid,percent of population eating fortified vehicle,8.5,,,0.0,total population,2015
+Uganda,wheat flour,iron,percent of population eating fortified vehicle,8.5,5.7,11.4,0.0,total population,2003
+Uganda,wheat flour,iron,percent of population eating fortified vehicle,8.5,,,0.0,total population,2015
+Uganda,wheat flour,vitamin a,percent of population eating fortified vehicle,8.5,5.7,11.4,0.0,total population,2003
+Uganda,wheat flour,vitamin a,percent of population eating fortified vehicle,8.5,,,0.0,total population,2015
+Uganda,wheat flour,vitamin b1,percent of population eating fortified vehicle,8.5,5.7,11.4,0.0,total population,2003
+Uganda,wheat flour,vitamin b1,percent of population eating fortified vehicle,8.5,,,0.0,total population,2015
+Uganda,wheat flour,vitamin b12,percent of population eating fortified vehicle,8.5,5.7,11.4,0.0,total population,2003
+Uganda,wheat flour,vitamin b12,percent of population eating fortified vehicle,8.5,,,0.0,total population,2015
+Uganda,wheat flour,zinc,percent of population eating fortified vehicle,8.5,5.7,11.4,0.0,total population,2003
+Uganda,wheat flour,zinc,percent of population eating fortified vehicle,8.5,,,0.0,total population,2015
+Uganda,wheat flour,na,percent of population eating industrially produced vehicle,10.6,7.6,13.6,0.0,total population,2003
+Uganda,wheat flour,na,percent of population eating industrially produced vehicle,10.6,,,0.0,total population,2015
+Uganda,wheat flour,na,percent of population eating industrially produced vehicle,8.5,,,0.0,total population,2016
+Uganda,wheat flour,na,percent of population eating vehicle,11.2,7.7,14.7,0.0,total population,2003
+Uganda,wheat flour,na,percent of population eating vehicle,11.2,,,0.0,total population,2015
+Uganda,wheat flour,folic acid,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Uganda,wheat flour,iron,percent of vehicle that is fortified,76.6,,,0.0,total population,2015
+Uganda,wheat flour,iron,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Uganda,wheat flour,iron,percent of vehicle that is fortified,95.0,90.0,100.0,0.0,total population,
+Uganda,wheat flour,vitamin b1,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Uganda,wheat flour,vitamin b12,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Uganda,wheat flour,zinc,percent of vehicle that is fortified,100.0,,,0.0,total population,2017
+Uganda,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
+Uganda,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2016
+United Republic of Tanzania,maize flour,folic acid,percent of population eating fortified vehicle,2.5,1.3,3.7,0.0,total population,2015
+United Republic of Tanzania,maize flour,folic acid,percent of population eating fortified vehicle,2.5,1.3,3.7,0.0,total population,2011
+United Republic of Tanzania,maize flour,iron,percent of population eating fortified vehicle,2.5,1.3,3.7,0.0,total population,2011
+United Republic of Tanzania,maize flour,iron,percent of population eating fortified vehicle,2.5,1.3,3.7,0.0,total population,2017
+United Republic of Tanzania,maize flour,vitamin a,percent of population eating fortified vehicle,2.5,1.3,3.7,0.0,total population,2011
+United Republic of Tanzania,maize flour,vitamin b1,percent of population eating fortified vehicle,2.5,1.3,3.7,0.0,total population,2011
+United Republic of Tanzania,maize flour,vitamin b12,percent of population eating fortified vehicle,2.5,1.3,3.7,0.0,total population,2015
+United Republic of Tanzania,maize flour,vitamin b12,percent of population eating fortified vehicle,2.5,1.3,3.7,0.0,total population,2011
+United Republic of Tanzania,maize flour,zinc,percent of population eating fortified vehicle,2.5,1.3,3.7,0.0,total population,2015
+United Republic of Tanzania,maize flour,zinc,percent of population eating fortified vehicle,2.5,1.3,3.7,0.0,total population,2011
+United Republic of Tanzania,maize flour,na,percent of population eating industrially produced vehicle,36.6,29.2,44.0,0.0,total population,2015
+United Republic of Tanzania,maize flour,na,percent of population eating industrially produced vehicle,36.6,29.2,44.0,0.0,total population,2011
+United Republic of Tanzania,maize flour,na,percent of population eating industrially produced vehicle,2.5,,,0.0,total population,2011
+United Republic of Tanzania,maize flour,na,percent of population eating vehicle,93.0,89.7,96.4,0.0,total population,2011
+United Republic of Tanzania,maize flour,na,percent of population eating vehicle,93.0,89.7,96.4,0.0,total population,2015
+United Republic of Tanzania,maize flour,iron,percent of vehicle that is fortified,11.7,,,0.0,total population,2015
+United Republic of Tanzania,maize flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+United Republic of Tanzania,maize flour,iron,percent of vehicle that is fortified,1.0,,,0.0,total population,2021
+United Republic of Tanzania,maize flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+United Republic of Tanzania,maize flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,2017
+United Republic of Tanzania,maize flour,na,percent of vehicle that is industrially produced,20.0,,,0.0,total population,2017
+United Republic of Tanzania,maize flour,na,percent of vehicle that is industrially produced,0.0,,,0.0,total population,2017
+United Republic of Tanzania,maize flour,na,percent of vehicle that is industrially produced,13.0,,,0.0,total population,2018
+United Republic of Tanzania,maize flour,na,percent of vehicle that is industrially produced,45.0,,,0.0,total population,2021
+United Republic of Tanzania,oil,vitamin a,percent of population eating fortified vehicle,53.6,46.4,60.8,0.0,total population,
+United Republic of Tanzania,oil,vitamin a,percent of population eating fortified vehicle,53.6,46.4,60.8,0.0,total population,2010
+United Republic of Tanzania,oil,vitamin d,percent of population eating fortified vehicle,0.0,,,0.0,total population,2010
+United Republic of Tanzania,oil,na,percent of population eating industrially produced vehicle,92.6,89.0,96.3,0.0,total population,2010
+United Republic of Tanzania,oil,na,percent of population eating industrially produced vehicle,92.6,89.0,96.3,0.0,total population,2015
+United Republic of Tanzania,oil,na,percent of population eating industrially produced vehicle,54.0,,,0.0,total population,2011
+United Republic of Tanzania,oil,na,percent of population eating vehicle,96.2,93.2,99.2,0.0,total population,2010
+United Republic of Tanzania,oil,na,percent of population eating vehicle,96.2,93.2,99.2,0.0,total population,2015
+United Republic of Tanzania,oil,vitamin a,percent of vehicle that is fortified,61.8,,,0.0,total population,2015
+United Republic of Tanzania,wheat flour,folic acid,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,2010
+United Republic of Tanzania,wheat flour,folic acid,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,
+United Republic of Tanzania,wheat flour,iron,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,2010
+United Republic of Tanzania,wheat flour,iron,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,
+United Republic of Tanzania,wheat flour,vitamin a,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,2010
+United Republic of Tanzania,wheat flour,vitamin a,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,
+United Republic of Tanzania,wheat flour,vitamin b1,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,2010
+United Republic of Tanzania,wheat flour,vitamin b1,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,
+United Republic of Tanzania,wheat flour,vitamin b12,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,2010
+United Republic of Tanzania,wheat flour,vitamin b12,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,
+United Republic of Tanzania,wheat flour,zinc,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,2010
+United Republic of Tanzania,wheat flour,zinc,percent of population eating fortified vehicle,33.1,27.5,38.7,0.0,total population,
+United Republic of Tanzania,wheat flour,na,percent of population eating industrially produced vehicle,50.5,43.3,57.7,0.0,total population,2010
+United Republic of Tanzania,wheat flour,na,percent of population eating industrially produced vehicle,50.5,43.3,57.7,0.0,total population,2015
+United Republic of Tanzania,wheat flour,na,percent of population eating industrially produced vehicle,33.0,,,0.0,total population,2010
+United Republic of Tanzania,wheat flour,na,percent of population eating vehicle,51.5,44.5,58.5,0.0,total population,2010
+United Republic of Tanzania,wheat flour,na,percent of population eating vehicle,51.5,44.5,58.5,0.0,total population,2015
+United Republic of Tanzania,wheat flour,folic acid,percent of vehicle that is fortified,54.0,,,0.0,total population,2017
+United Republic of Tanzania,wheat flour,iron,percent of vehicle that is fortified,88.5,,,0.0,total population,2015
+United Republic of Tanzania,wheat flour,iron,percent of vehicle that is fortified,54.0,,,0.0,total population,2017
+United Republic of Tanzania,wheat flour,iron,percent of vehicle that is fortified,75.0,70.0,80.0,0.0,total population,
+United Republic of Tanzania,wheat flour,vitamin a,percent of vehicle that is fortified,54.0,,,0.0,total population,2017
+United Republic of Tanzania,wheat flour,vitamin b1,percent of vehicle that is fortified,54.0,,,0.0,total population,2017
+United Republic of Tanzania,wheat flour,vitamin b12,percent of vehicle that is fortified,54.0,,,0.0,total population,2017
+United Republic of Tanzania,wheat flour,zinc,percent of vehicle that is fortified,54.0,,,0.0,total population,2017
+United Republic of Tanzania,wheat flour,na,percent of vehicle that is industrially produced,85.0,,,0.0,total population,2018
+United Republic of Tanzania,wheat flour,na,percent of vehicle that is industrially produced,98.0,,,0.0,total population,2010
+United Republic of Tanzania,wheat flour,na,percent of vehicle that is industrially produced,98.0,,,0.0,total population,2017
+Vietnam,oil,na,percent of population eating industrially produced vehicle,90.0,,,0.0,total population,2018
+Vietnam,oil,na,percent of population eating vehicle,91.5,,,0.0,women of reproductive age,2010
+Vietnam,oil,na,percent of population eating vehicle,89.4,,,0.0,women of reproductive age,2010
+Vietnam,oil,na,percent of population eating vehicle,38.3,,,0.0,under-5,2010
+Vietnam,oil,na,percent of population eating vehicle,45.8,,,0.0,6-11.9 months,2010
+Vietnam,oil,na,percent of population eating vehicle,28.9,,,0.0,12-23.9 months,2010
+Vietnam,oil,na,percent of population eating vehicle,38.3,,,0.0,24-35.9 months,2010
+Vietnam,oil,na,percent of population eating vehicle,41.5,,,0.0,36-59.9 months,2010
+Vietnam,oil,na,percent of population eating vehicle,43.8,,,0.0,under-5,2010
+Vietnam,oil,na,percent of population eating vehicle,33.6,,,0.0,under-5,2010
+Vietnam,oil,na,percent of population eating vehicle,93.9,,,0.0,women of reproductive age,2010
+Vietnam,wheat flour,na,percent of population eating vehicle,4.2,,,0.0,6-11.9 months,2010
+Vietnam,wheat flour,na,percent of population eating vehicle,38.8,,,0.0,women of reproductive age,2010
+Vietnam,wheat flour,na,percent of population eating vehicle,46.7,,,0.0,women of reproductive age,2010
+Vietnam,wheat flour,na,percent of population eating vehicle,31.1,,,0.0,women of reproductive age,2010
+Vietnam,wheat flour,na,percent of population eating vehicle,16.4,,,0.0,under-5,2010
+Vietnam,wheat flour,na,percent of population eating vehicle,17.5,,,0.0,12-23.9 months,2010
+Vietnam,wheat flour,na,percent of population eating vehicle,9.6,,,0.0,24-35.9 months,2010
+Vietnam,wheat flour,na,percent of population eating vehicle,22.7,,,0.0,36-59.9 months,2010
+Vietnam,wheat flour,na,percent of population eating vehicle,13.5,,,0.0,under-5,2010
+Vietnam,wheat flour,na,percent of population eating vehicle,18.8,,,0.0,under-5,2010
+Vietnam,wheat flour,folic acid,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Vietnam,wheat flour,iron,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Vietnam,wheat flour,iron,percent of vehicle that is fortified,37.5,35.0,40.0,0.0,total population,
+Vietnam,wheat flour,vitamin a,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Vietnam,wheat flour,vitamin b1,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Vietnam,wheat flour,vitamin b12,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Vietnam,wheat flour,zinc,percent of vehicle that is fortified,0.0,,,0.0,total population,
+Vietnam,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2018
+Vietnam,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,
+Vietnam,wheat flour,na,percent of vehicle that is industrially produced,100.0,,,0.0,total population,2017
