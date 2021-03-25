@@ -81,7 +81,7 @@ def generate_overall_coverage_rates(filepath,
         cov = cov_a.copy()
         cov['year'] = years[0]
         for year in years[1:len(years)]:
-            temp = cov_b * level
+            temp = cov_a + (cov_b - cov_a) * level
             temp['year'] = year
             cov = pd.concat([cov, temp])
         cov['coverage_level'] = level
@@ -123,7 +123,7 @@ def make_dot_plots(data, nutrient, measure, coverage_levels, subtitle, output_fi
 
     location_spacer = 0.15
     coverage_spacer = 0.025
-    df = data.apply(pd.DataFrame.describe, percentiles=[0.025, 0.975], axis=1).reset_index()
+    df = data.drop(columns='measure', errors='ignore').apply(pd.DataFrame.describe, percentiles=[0.025, 0.975], axis=1).reset_index()
 
     order = df.reset_index()
     order = list(
