@@ -13,8 +13,8 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 201,Burkina Faso,,wheat flour,percent of population eating industrially produced vehicle,na,52.3,22.987907869481763,81.61209213051823
 201,Burkina Faso,,wheat flour,percent of population eating fortified vehicle,folic acid,32.164500000000004,14.137563339731287,50.19143666026872
 201,Burkina Faso,,wheat flour,percent of population eating fortified vehicle,iron,17.38975,7.643479366602687,27.13602063339731
-201,Burkina Faso,,wheat flour,percent of population eating fortified vehicle,vitamin a,12.388563,5.445260896353167,19.331865103646834
-201,Burkina Faso,,wheat flour,percent of population eating fortified vehicle,zinc,12.388563,5.445260896353167,19.331865103646834
+201,Burkina Faso,,wheat flour,percent of population eating fortified vehicle,vitamin a,12.388563,0.0,26.275167207293663
+201,Burkina Faso,,wheat flour,percent of population eating fortified vehicle,zinc,12.388563,0.0,26.275167207293663
 180,Kenya,,maize flour,percent of population eating vehicle,na,91.67123017265146,0.0,100.0
 180,Kenya,total population,maize flour,percent of population eating industrially produced vehicle,na,36.67,17.221860998869136,56.11813900113087
 180,Kenya,,maize flour,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0
@@ -30,6 +30,7 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 180,Kenya,,wheat flour,percent of population eating fortified vehicle,iron,33.835750000000004,14.872143474088293,52.79935652591172
 180,Kenya,,wheat flour,percent of population eating fortified vehicle,vitamin a,34.70333333333333,15.253480486244403,54.15318618042227
 180,Kenya,,wheat flour,percent of population eating fortified vehicle,zinc,34.70333333333333,15.253480486244403,54.15318618042227
+15,Myanmar,,oil,percent of population eating vehicle,na,76.77413778920719,0.0,100.0
 15,Myanmar,total population,oil,percent of population eating industrially produced vehicle,na,10.0,0.0,20.0
 15,Myanmar,total population,oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,5.0
 15,Myanmar,total population,wheat flour,percent of population eating vehicle,na,5.0,0.0,10.0
@@ -39,7 +40,7 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 15,Myanmar,,wheat flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0
 15,Myanmar,total population,wheat flour,percent of population eating fortified vehicle,zinc,0.0,0.0,5.0
 164,Nepal,total population,oil,percent of population eating vehicle,na,99.8,99.8,99.9
-164,Nepal,,oil,percent of population eating industrially produced vehicle,na,74.74764959980764,37.35510043878162,100.0
+164,Nepal,,oil,percent of population eating industrially produced vehicle,na,74.74764959980764,0.0,100.0
 164,Nepal,,oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0
 164,Nepal,total population,wheat flour,percent of population eating vehicle,na,52.1,45.8,58.4
 164,Nepal,total population,wheat flour,percent of population eating industrially produced vehicle,na,43.0,18.900191938579653,67.09980806142035
@@ -48,10 +49,13 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 164,Nepal,,wheat flour,percent of population eating fortified vehicle,vitamin a,5.1650222222222215,2.2702304969076557,8.059813947536787
 164,Nepal,,wheat flour,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0
 20,Viet Nam,under-5,oil,percent of population eating vehicle,na,38.3,19.140405811623243,57.459594188376755
+20,Viet Nam,,oil,percent of population eating vehicle,na,56.29999999999998,0.0,100.0
 20,Viet Nam,total population,oil,percent of population eating industrially produced vehicle,na,90.0,44.977454909819635,100.0
+20,Viet Nam,,oil,percent of population eating industrially produced vehicle,na,90.0,0.0,100.0
 20,Viet Nam,,oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0
 20,Viet Nam,women of reproductive age,wheat flour,percent of population eating vehicle,na,38.8,17.05412667946257,60.545873320537424
 20,Viet Nam,under-5,wheat flour,percent of population eating vehicle,na,16.4,7.208445297504797,25.591554702495202
+20,Viet Nam,,wheat flour,percent of population eating vehicle,na,21.930000000000003,0.0,46.51180422264876
 20,Viet Nam,,wheat flour,percent of population eating industrially produced vehicle,na,21.93,9.639097888675623,34.22090211132438
 20,Viet Nam,,wheat flour,percent of population eating fortified vehicle,folic acid,4.111875,1.8073308541266795,6.416419145873322
 20,Viet Nam,,wheat flour,percent of population eating fortified vehicle,iron,4.111875,1.8073308541266795,6.416419145873322
