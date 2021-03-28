@@ -2,8 +2,6 @@ import pandas as pd, numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
-from scipy.interpolate import interp2d, griddata, RegularGridInterpolator, RectBivariateSpline
-
 import lbwsg
 import test_lbwsg
 
