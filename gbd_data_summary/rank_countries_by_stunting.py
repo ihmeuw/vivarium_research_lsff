@@ -1,8 +1,7 @@
 """Module to rank countries by decreasing population of stunted children in GBD 2019."""
 import pandas as pd
 import sys, os.path
-sys.path.append(os.path.abspath("../.."))
-from pre_processing.id_helper import *
+from vivarium_helpers.id_helper import *
 # get_ids is no longer included in the above import * statement. Woo hoo!
 from db_queries import get_ids, get_population
 from get_draws.api import get_draws

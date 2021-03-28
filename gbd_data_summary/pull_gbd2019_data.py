@@ -3,8 +3,7 @@ import sys, os.path
 # from pandas.api.types import CategoricalDtype
 from collections import namedtuple
 
-sys.path.append(os.path.abspath("../.."))
-from pre_processing.id_helper import *
+from vivarium_helpers.id_helper import *
 # import rank_countries_by_stunting as rbs
 
 from db_queries import get_ids, get_population, get_outputs, get_best_model_versions

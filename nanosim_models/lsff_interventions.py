@@ -1,16 +1,10 @@
 import pandas as pd, numpy as np
 from scipy import stats
 from collections import namedtuple
-from numbers import Number
 
-import sys, os.path
-vivarium_data_analysis_path = os.path.abspath("../..")
-if vivarium_data_analysis_path not in sys.path:
-    sys.path.append(vivarium_data_analysis_path)
-
-from probability import prob_utils
-from plots_and_other_misc import lsff_plots
-from pre_processing import id_helper
+import lsff_plots
+from vivarium_helpers import prob_utils
+from vivarium_helpers import id_helper
 
 import functions_for_all_nutrients
 
@@ -336,10 +330,6 @@ class IronFortificationIntervention:
         Assumes `assign_propensities` and `assign_treatment_deleted_birthweight` have already been called on pop.
         `target_coverage` is assumed to be either a single number or a named Series indexed by draw.
         """
-#         if isinstance(target_coverage, Number):
-#             pass
-#             target_coverage = pd.Series(target_coverage, index=pop.index, name='target_coverage')
-
         # We need to make sure the Series indices are lined up with pop by broadcasting draws over simulant id's
         if isinstance(target_coverage, pd.Series):
         # The level argument of .reindex is not implemented for CategoricalIndex, so we can't always do this:
