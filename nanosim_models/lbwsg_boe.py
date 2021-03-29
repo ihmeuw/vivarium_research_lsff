@@ -10,8 +10,6 @@ ParsedArgs = namedtuple('ParsedArgs', "location, artifact_path, year, draws, tak
 
 class IronBirthweightCalculator:
     """Class to run nanosimulations for the effect of iron on low birthweight."""
-    
-    treated_lbwsg_rr_colname = 'treated_lbwsg_rr'
 
     def __init__(self, location, artifact_path, year, draws, vehicle, covered_proportion_of_eats_fortifiable,
                  take_mean=False, risk_effect_class=lbwsg.LBWSGRiskEffect, random_seed=None):
@@ -186,8 +184,9 @@ def main(args=None):
         args = sys.argv[1:]
         
     args = parse_args(args)
-    sim = IronBirthweightCalculator(args.location, args.artifact_path, args.year, args.draws, args.take_mean)
-    baseline_pop, intervention_pop = sim.initialize_population_tables(args.num_simulants)
-    pif = population_impact_fraction(baseline_pop, intervention_pop, IronBirthweightNanoSim.treated_lbwsg_rr_colname)
+#     # Old code:
+#     sim = IronBirthweightCalculator(args.location, args.artifact_path, args.year, args.draws, args.take_mean)
+#     baseline_pop, intervention_pop = sim.initialize_population_tables(args.num_simulants)
+#     pif = population_impact_fraction(baseline_pop, intervention_pop, IronBirthweightNanoSim.treated_lbwsg_rr_colname)
     # do something with pif...
 
