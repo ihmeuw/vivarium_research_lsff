@@ -78,11 +78,13 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 179,Ethiopia,women of reproductive age,wheat flour,percent of population eating industrially produced vehicle,na,20.0,10.0,30.0
 179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,folic acid,1.0,0.0,5.0
 179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,folic acid,1.0,0.0,5.0
+179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,iron,0.0,0.0,5.0
 179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,zinc,0.0,0.0,5.0
 163,India,,oil,percent of population eating industrially produced vehicle,na,89.4,87.0,91.8
 163,India,,oil,percent of population eating fortified vehicle,vitamin a,24.3,21.1,27.9
 163,India,,wheat flour,percent of population eating industrially produced vehicle,na,7.1,5.6,9.1
 163,India,,wheat flour,percent of population eating fortified vehicle,folic acid,6.3,4.8,7.9
+163,India,,wheat flour,percent of population eating fortified vehicle,iron,6.3,4.8,7.9
 163,India,,wheat flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,5.0
 163,India,,wheat flour,percent of population eating fortified vehicle,zinc,0.0,0.0,5.0
 11,Indonesia,,oil,percent of population eating vehicle,na,94.37297639214131,92.5476956822674,96.1982571020152
@@ -142,12 +144,13 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 164,Nepal,,wheat flour,percent of population eating fortified vehicle,iron,7.334331555555559,3.2237273056088727,11.444935805502244
 164,Nepal,,wheat flour,percent of population eating fortified vehicle,vitamin a,5.1650222222222215,2.270230496907656,8.059813947536787
 164,Nepal,,wheat flour,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0
-214,Nigeria,total population,oil,percent of population eating industrially produced vehicle,na,31.398007174016104,28.33443119904592,34.461583148986286
-214,Nigeria,total population,oil,percent of population eating fortified vehicle,vitamin a,7.463575974970184,5.763575974970185,9.229469968712733
-214,Nigeria,total population,wheat flour,percent of population eating industrially produced vehicle,na,59.92579561978236,57.55990162603982,62.2916896135249
-214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,folic acid,16.7996609174605,14.474826986292491,19.1562828361136
-214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,vitamin a,16.7996609174605,14.474826986292491,19.1562828361136
-214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,zinc,16.7996609174605,14.474826986292491,19.1562828361136
+214,Nigeria,total population,oil,percent of population eating industrially produced vehicle,na,31.39800717,28.334431199999997,34.46158315
+214,Nigeria,total population,oil,percent of population eating fortified vehicle,vitamin a,7.463575975,5.763575975,9.229469969
+214,Nigeria,total population,wheat flour,percent of population eating industrially produced vehicle,na,59.92579562,57.55990163,62.29168961
+214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,folic acid,16.79966092,14.47482699,19.15628284
+214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,iron,16.79966092,14.47482699,19.15628284
+214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,vitamin a,16.79966092,14.47482699,19.15628284
+214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,zinc,16.79966092,14.47482699,19.15628284
 165,Pakistan,total population,oil,percent of population eating vehicle,na,100.0,100.0,100.0
 165,Pakistan,total population,oil,percent of population eating industrially produced vehicle,na,85.0,0.0,87.96234142734241
 165,Pakistan,total population,oil,percent of population eating fortified vehicle,vitamin a,28.492582408768712,0.0,29.485579552785932
