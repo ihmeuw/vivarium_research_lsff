@@ -5,8 +5,8 @@ import demography, lbwsg, lsff_interventions
 from lbwsg import LBWSGDistribution, LBWSGRiskEffect
 from lsff_interventions import IronFortificationIntervention
 
-# Class to store and name the arguments passed to main()
-ParsedArgs = namedtuple('ParsedArgs', "location, artifact_path, year, draws, take_mean, random_seed, num_simulants")
+# Assumes the path to vivarium_research_lsff is in sys.path
+from multiplication_models import mult_model_fns
 
 class IronBirthweightCalculator:
     """Class to run nanosimulations for the effect of iron on low birthweight."""
@@ -161,6 +161,8 @@ def potential_impact_fraction(baseline_pop, counterfactual_pop, rr_colname):
 
 def parse_args(args):
     """"""
+    # Class to store and name the arguments passed to main()
+    ParsedArgs = namedtuple('ParsedArgs', "location, artifact_path, year, draws, take_mean, random_seed, num_simulants")
     if len(args)>0:
         # Don't do any parsing for now, just make args into a named tuple
         args = ParsedArgs._make(args)
@@ -176,17 +178,44 @@ def parse_args(args):
         args = ParsedArgs(location, artifact_path, year, draws, take_mean, random_seed, num_simulants)
     return args
 
-def main(args=None):
-    """
-    Does a back of the envelope calculation for the given arguments
-    """
-    if args is None:
-        args = sys.argv[1:]
+# def main(args=None):
+#     """
+#     Does a back of the envelope calculation for the given arguments
+#     """
+#     if args is None:
+#         args = sys.argv[1:]
         
-    args = parse_args(args)
+#     args = parse_args(args)
 #     # Old code:
 #     sim = IronBirthweightCalculator(args.location, args.artifact_path, args.year, args.draws, args.take_mean)
 #     baseline_pop, intervention_pop = sim.initialize_population_tables(args.num_simulants)
 #     pif = population_impact_fraction(baseline_pop, intervention_pop, IronBirthweightNanoSim.treated_lbwsg_rr_colname)
     # do something with pif...
+    
+    # Iterate over... locations, vehicles, coverage levels
+    # (Note: different age groups and sexes can be handled in one Calculator)
+    # Parameters for calculator:
+    # global_data (including draws), location (or local_data), vehicle, coverage levels
+    # whether to take mean (or mean_draws_name)
+    # "compliance" multiplier for iron concentration
+    # ages or age groups, with ratios (can be passed to initialize_population_tables)
+    # sexes or sex ratio (can be passed to initialize_population_tables)
+    # 
+    # Arguments for main():
+    # location, draws, take_mean
+    
+def main(location, num_simulants, random_seed, draws, take_mean):
+    """Computes the PIF for each vehicle for the specified location, for the gap_coverage levels [0.2, 0.5, 0.8]."""
+    fortification_data = get_fortification_input_data()
+    gbd_data = get_gbd_input_data()
+    
+    gap_coverage_levels = [0.2, 0.5, 0.8]
+    absolute_coverage_levels = [1]
+
+if __name__ == "main":
+    import sys
+    args = sys.argv[1:]
+    main(*args)
+    
+    
 
