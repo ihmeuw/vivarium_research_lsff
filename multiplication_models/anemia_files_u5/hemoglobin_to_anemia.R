@@ -28,7 +28,7 @@ w = c(0.4,0.6)
 
 #----MODEL-------------------------------------------------------------------------------------------------------------
 
-id_vars <- c("location_id", "sex_id", "age_group_id", "year_id", "coverage_level")
+id_vars <- c("location_id","vehicle", "sex_id", "age_group_id", "year_id", "coverage_level")
 id_vars_sd <- c("location_id", "sex_id", "age_group_id")
 
 by_vars <- c("location_id", "sex_id", "age_group_id", "draw")

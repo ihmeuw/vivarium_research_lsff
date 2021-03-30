@@ -17,15 +17,15 @@ def generate_coverage_parameter_draws(df):
                                                             data_frame.value_mean,
                                                             data_frame.value_std) / 100
     data_frame = (data_frame
-                  .set_index(['location_id'])
+                  .set_index(['location_id','vehicle'])
                   .drop(columns=[c for c in data_frame.columns if 'draw' not in c
-                                and c not in ['location_id','value_description']]))
+                                and c not in ['location_id','value_description','vehicle']]))
     return data_frame
 
 
 def generate_overall_coverage_rates(filepath,
                                     nutrient,
-                                    vehicle,
+                                    vehicles,
                                     coverage_levels,
                                     years,
                                     location_ids,
@@ -55,7 +55,7 @@ def generate_overall_coverage_rates(filepath,
     data['value_025_percentile'] = data['value_025_percentile'].replace(100, 100 - 0.00001 * 3).replace(0, 0 + 0.00001)
     data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001).replace(0, 0 + 0.00001 * 3)
 
-    data = data.loc[data.vehicle == vehicle].loc[data.nutrient.isin([nutrient, 'na'])]
+    data = data.loc[data.vehicle.isin(vehicles)].loc[data.nutrient.isin([nutrient, 'na'])]
     data['value_std'] = (data.value_975_percentile - data.value_025_percentile) / (2 * 1.96)
     data['a'] = (0 - data.value_mean) / data.value_std
     data['b'] = (100 - data.value_mean) / data.value_std
@@ -67,27 +67,27 @@ def generate_overall_coverage_rates(filepath,
     cov_a = generate_coverage_parameter_draws(cov_a)
     cov_b = generate_coverage_parameter_draws(cov_b)
 
-    assert np.all(cov_a <= cov_b), "Error: coverage parameters are not logically ordered"
+    #assert np.all(cov_a <= cov_b), "Error: coverage parameters are not logically ordered"
 
     baseline_coverage = pd.DataFrame()
     for year in years:
         temp = cov_a.copy()
         temp['year'] = year
         baseline_coverage = pd.concat([baseline_coverage, temp])
-    baseline_coverage = baseline_coverage.reset_index().set_index(['location_id', 'year']).sort_index()
+    baseline_coverage = baseline_coverage.reset_index().set_index(['location_id', 'vehicle','year']).sort_index()
 
     counterfactual_coverage = pd.DataFrame()
     for level in coverage_levels:
         cov = cov_a.copy()
         cov['year'] = years[0]
         for year in years[1:len(years)]:
-            temp = cov_b * level
+            temp = cov_a + (cov_b - cov_a) * level
             temp['year'] = year
             cov = pd.concat([cov, temp])
         cov['coverage_level'] = level
         counterfactual_coverage = pd.concat([counterfactual_coverage, cov])
     counterfactual_coverage = (counterfactual_coverage.reset_index()
-                               .set_index(['location_id', 'year', 'coverage_level']).sort_index())
+                               .set_index(['location_id','vehicle' ,'year', 'coverage_level']).sort_index())
 
     return baseline_coverage, counterfactual_coverage
 
