@@ -1,0 +1,101 @@
+location_name,vehicle,value_description,nutrient,value_mean,value_025_percentile,value_975_percentile,sub_population,estimation_status,source_citation,source_link,data_choice_notes,CI_source
+Angola,maize flour,percent of population eating vehicle,na,51.17280753710721,,,,regression,,,,modeling
+Angola,maize flour,percent of population eating industrially produced vehicle,na,5.5508614052158425,,,,regression,,,,modeling
+Angola,maize flour,percent of population eating fortified vehicle,folic acid,22.4856748587225,,,,regression,,,,modeling
+Angola,maize flour,percent of population eating fortified vehicle,iron,22.4856748587225,,,,regression,,,,modeling
+Angola,maize flour,percent of population eating fortified vehicle,vitamin a,22.4856748587225,,,,regression,,,,modeling
+Angola,maize flour,percent of population eating fortified vehicle,zinc,22.4856748587225,,,,regression,,,,modeling
+Angola,oil,percent of population eating vehicle,na,90.38470835622769,,,,regression,,,,modeling
+Angola,oil,percent of population eating industrially produced vehicle,na,35.635429986987795,,,,regression,,,,modeling
+Angola,oil,percent of population eating fortified vehicle,vitamin a,42.6554771863009,,,,regression,,,,modeling
+Angola,wheat flour,percent of population eating vehicle,na,27.183242137297086,,,,regression,,,,modeling
+Angola,wheat flour,percent of population eating industrially produced vehicle,na,23.27186074457779,,,,regression,,,,modeling
+Angola,wheat flour,percent of population eating fortified vehicle,folic acid,20.670828212275534,,,,regression,,,,modeling
+Angola,wheat flour,percent of population eating fortified vehicle,iron,20.670828212275534,,,,regression,,,,modeling
+Angola,wheat flour,percent of population eating fortified vehicle,vitamin a,20.670828212275534,,,,regression,,,,modeling
+Angola,wheat flour,percent of population eating fortified vehicle,zinc,20.670828212275534,,,,regression,,,,modeling
+China,oil,percent of population eating vehicle,na,57.65137316322879,,,,regression,,,,modeling
+China,oil,percent of population eating industrially produced vehicle,na,72.47478994925302,,,,regression,,,,modeling
+China,oil,percent of population eating fortified vehicle,vitamin a,21.77387313008408,,,,regression,,,,modeling
+China,wheat flour,percent of population eating vehicle,na,81.85827618592045,,,,regression,,,,modeling
+China,wheat flour,percent of population eating industrially produced vehicle,na,25.30915621716277,,,,regression,,,,modeling
+China,wheat flour,percent of population eating fortified vehicle,folic acid,3.575856279569338,,,,regression,,,,modeling
+China,wheat flour,percent of population eating fortified vehicle,iron,3.575856279569338,,,,regression,,,,modeling
+China,wheat flour,percent of population eating fortified vehicle,vitamin a,3.575856279569338,,,,regression,,,,modeling
+China,wheat flour,percent of population eating fortified vehicle,zinc,3.575856279569338,,,,regression,,,,modeling
+Egypt,maize flour,percent of population eating vehicle,na,74.3291762167753,,,,regression,,,,modeling
+Egypt,maize flour,percent of population eating industrially produced vehicle,na,11.979320035335126,,,,regression,,,,modeling
+Egypt,maize flour,percent of population eating fortified vehicle,folic acid,0.015533331936751897,,,,regression,,,,modeling
+Egypt,maize flour,percent of population eating fortified vehicle,iron,0.015533331936751897,,,,regression,,,,modeling
+Egypt,maize flour,percent of population eating fortified vehicle,vitamin a,0.015533331936751897,,,,regression,,,,modeling
+Egypt,maize flour,percent of population eating fortified vehicle,zinc,0.015533331936751897,,,,regression,,,,modeling
+Egypt,oil,percent of population eating vehicle,na,54.973297149228266,,,,regression,,,,modeling
+Egypt,oil,percent of population eating industrially produced vehicle,na,88.57967618632443,,,,regression,,,,modeling
+Egypt,oil,percent of population eating fortified vehicle,vitamin a,23.617015471732373,,,,regression,,,,modeling
+Egypt,wheat flour,percent of population eating vehicle,na,88.4749753672432,,,,regression,,,,modeling
+Egypt,wheat flour,percent of population eating industrially produced vehicle,na,47.0037035782884,,,,regression,,,,modeling
+Egypt,wheat flour,percent of population eating fortified vehicle,folic acid,22.463039230839897,,,,regression,,,,modeling
+Egypt,wheat flour,percent of population eating fortified vehicle,iron,22.463039230839897,,,,regression,,,,modeling
+Egypt,wheat flour,percent of population eating fortified vehicle,vitamin a,22.463039230839897,,,,regression,,,,modeling
+Egypt,wheat flour,percent of population eating fortified vehicle,zinc,22.463039230839897,,,,regression,,,,modeling
+Ghana,maize flour,percent of population eating vehicle,na,82.28541440294646,,,,regression,,,,modeling
+Ghana,maize flour,percent of population eating industrially produced vehicle,na,8.454992541833642,,,,regression,,,,modeling
+Ghana,maize flour,percent of population eating fortified vehicle,folic acid,6.2071806575811985,,,,regression,,,,modeling
+Ghana,maize flour,percent of population eating fortified vehicle,iron,6.2071806575811985,,,,regression,,,,modeling
+Ghana,maize flour,percent of population eating fortified vehicle,vitamin a,6.2071806575811985,,,,regression,,,,modeling
+Ghana,maize flour,percent of population eating fortified vehicle,zinc,6.2071806575811985,,,,regression,,,,modeling
+Ghana,oil,percent of population eating vehicle,na,95.6,,,total population,na,Ghana and Orc Macro. “Ghana Demographic and Health Survey 2003.” (2004).,https://dhsprogram.com/pubs/pdf/FR307/FR307.pdf,Discarded 2004 Nyumuah number (98%) in lieu of 2014 DHS number (95.6%),modeling
+Ghana,oil,percent of population eating industrially produced vehicle,na,89.34577916894013,,,,regression,,,,modeling
+Ghana,oil,percent of population eating fortified vehicle,na,0.0,,,,multiplicative,,,,modeling
+Ghana,oil,percent of population eating fortified vehicle,vitamin a,32.9,,,total population,na,Ghana and Orc Macro. “Ghana Demographic and Health Survey 2003.” (2004).,https://dhsprogram.com/pubs/pdf/FR307/FR307.pdf,Only one source; discarded urban and rural specific for nationally representative,modeling
+Ghana,wheat flour,percent of population eating vehicle,na,82.64520102403263,,,,regression,,,,modeling
+Ghana,wheat flour,percent of population eating industrially produced vehicle,na,48.4758594199559,,,,regression,,,,modeling
+Ghana,wheat flour,percent of population eating fortified vehicle,folic acid,34.92055776668208,,,,regression,,,,modeling
+Ghana,wheat flour,percent of population eating fortified vehicle,iron,34.92055776668208,,,,regression,,,,modeling
+Ghana,wheat flour,percent of population eating fortified vehicle,vitamin a,34.92055776668208,,,,regression,,,,modeling
+Ghana,wheat flour,percent of population eating fortified vehicle,zinc,34.92055776668208,,,,regression,,,,modeling
+Madagascar,maize flour,percent of population eating vehicle,na,92.95915510587476,,,,regression,,,,modeling
+Madagascar,maize flour,percent of population eating industrially produced vehicle,na,4.485707255768138,,,,regression,,,,modeling
+Madagascar,maize flour,percent of population eating fortified vehicle,folic acid,6.362468662837816,,,,regression,,,,modeling
+Madagascar,maize flour,percent of population eating fortified vehicle,iron,6.362468662837816,,,,regression,,,,modeling
+Madagascar,maize flour,percent of population eating fortified vehicle,vitamin a,6.362468662837816,,,,regression,,,,modeling
+Madagascar,maize flour,percent of population eating fortified vehicle,zinc,6.362468662837816,,,,regression,,,,modeling
+Madagascar,oil,percent of population eating vehicle,na,75.03460774764267,,,,regression,,,,modeling
+Madagascar,oil,percent of population eating industrially produced vehicle,na,85.03186775818601,,,,regression,,,,modeling
+Madagascar,oil,percent of population eating fortified vehicle,vitamin a,21.445559491971995,,,,regression,,,,modeling
+Madagascar,wheat flour,percent of population eating vehicle,na,45.22120235221776,,,,regression,,,,modeling
+Madagascar,wheat flour,percent of population eating industrially produced vehicle,na,25.987011685342164,,,,regression,,,,modeling
+Madagascar,wheat flour,percent of population eating fortified vehicle,folic acid,32.62599444545928,,,,regression,,,,modeling
+Madagascar,wheat flour,percent of population eating fortified vehicle,iron,32.62599444545928,,,,regression,,,,modeling
+Madagascar,wheat flour,percent of population eating fortified vehicle,vitamin a,32.62599444545928,,,,regression,,,,modeling
+Madagascar,wheat flour,percent of population eating fortified vehicle,zinc,32.62599444545928,,,,regression,,,,modeling
+Niger,maize flour,percent of population eating vehicle,na,70.42632016882723,,,,regression,,,,modeling
+Niger,maize flour,percent of population eating industrially produced vehicle,na,3.830472878775197,,,,regression,,,,modeling
+Niger,maize flour,percent of population eating fortified vehicle,folic acid,6.220913500147377,,,,regression,,,,modeling
+Niger,maize flour,percent of population eating fortified vehicle,iron,6.220913500147377,,,,regression,,,,modeling
+Niger,maize flour,percent of population eating fortified vehicle,vitamin a,6.220913500147377,,,,regression,,,,modeling
+Niger,maize flour,percent of population eating fortified vehicle,zinc,6.220913500147377,,,,regression,,,,modeling
+Niger,oil,percent of population eating vehicle,na,85.0,,,women of reproductive age,na,"Hess, S. Y., Brown, K. H., Sablah, M., Engle-Stone, R., Aaron, G. J., & Baker, S. K. (2013). Results of Fortification Rapid Assessment Tool (FRAT) surveys in sub-Saharan Africa and suggestions for future modifications of the survey instrument. Food and nutrition bulletin, 34(1), 21-38.",https://journals.sagepub.com/doi/pdf/10.1177/156482651303400104,Only one source. Discarded urban and rural specific estimates in lieu of the total estimate,modeling
+Niger,oil,percent of population eating industrially produced vehicle,na,54.40301354787108,,,,regression,,,,modeling
+Niger,oil,percent of population eating fortified vehicle,vitamin a,75.0,,,total population,na,"Sablah M, Klopp J, Steinberg D, Touaoro Z, Laillou A, Baker S. Thriving public-private partnership to fortify cooking oil in the West African Economic and Monetary Union (UEMOA) to control vitamin A deficiency: Faire Tache d'Huile en Afrique de l'Ouest. Food Nutr Bull. 2012 Dec;33(4 Suppl):S310-20. doi: 10.1177/15648265120334S307. PMID: 23444712.",https://pubmed.ncbi.nlm.nih.gov/23444712/,"From two sources, we had an estimate of 55% in 2010. The latter source additionally projected 75% by 2013, which we are using here.",modeling
+Niger,wheat flour,percent of population eating vehicle,na,41.464396450290934,,,,regression,,,,modeling
+Niger,wheat flour,percent of population eating industrially produced vehicle,na,44.59570620427173,,,,regression,,,,modeling
+Niger,wheat flour,percent of population eating fortified vehicle,folic acid,30.0,,,total population,na,"Corner, S. S. Nutrition and Business.",http://www.unscn.org/files/Publications/SCN_News/SCNNEWS3909.01b_lowdef.pdf,Only one source.,modeling
+Niger,wheat flour,percent of population eating fortified vehicle,iron,30.0,,,total population,na,"Corner, S. S. Nutrition and Business.",http://www.unscn.org/files/Publications/SCN_News/SCNNEWS3909.01b_lowdef.pdf,Only one source.,modeling
+Niger,wheat flour,percent of population eating fortified vehicle,vitamin a,30.0,,,,regression,,,,modeling
+Niger,wheat flour,percent of population eating fortified vehicle,zinc,30.0,,,,regression,,,,modeling
+Sudan,maize flour,percent of population eating vehicle,na,54.46358646715185,,,,regression,,,,modeling
+Sudan,maize flour,percent of population eating industrially produced vehicle,na,10.95624464506746,,,,regression,,,,modeling
+Sudan,maize flour,percent of population eating fortified vehicle,folic acid,6.210501683407572,,,,regression,,,,modeling
+Sudan,maize flour,percent of population eating fortified vehicle,iron,6.210501683407572,,,,regression,,,,modeling
+Sudan,maize flour,percent of population eating fortified vehicle,vitamin a,6.210501683407572,,,,regression,,,,modeling
+Sudan,maize flour,percent of population eating fortified vehicle,zinc,6.210501683407572,,,,regression,,,,modeling
+Sudan,oil,percent of population eating vehicle,na,50.64672475566439,,,,regression,,,,modeling
+Sudan,oil,percent of population eating industrially produced vehicle,na,80.0,,,total population,na,GFDx,https://fortificationdata.org/country-fortification-dashboard/?alpha3_code=SDN&lang=en,Only one source.,modeling
+Sudan,oil,percent of population eating fortified vehicle,vitamin a,80.0,,,total population,na,GFDx,https://fortificationdata.org/country-fortification-dashboard/?alpha3_code=SDN&lang=en,Only one source.,modeling
+Sudan,wheat flour,percent of population eating vehicle,na,88.75803575408757,,,,regression,,,,modeling
+Sudan,wheat flour,percent of population eating industrially produced vehicle,na,35.36571272035623,,,,regression,,,,modeling
+Sudan,wheat flour,percent of population eating fortified vehicle,folic acid,1.760469348532083,,,,regression,,,,modeling
+Sudan,wheat flour,percent of population eating fortified vehicle,iron,1.760469348532083,,,,regression,,,,modeling
+Sudan,wheat flour,percent of population eating fortified vehicle,vitamin a,1.760469348532083,,,,regression,,,,modeling
+Sudan,wheat flour,percent of population eating fortified vehicle,zinc,1.760469348532083,,,,regression,,,,modeling
