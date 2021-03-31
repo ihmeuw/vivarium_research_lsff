@@ -22,7 +22,7 @@ def apply_age_related_effective_coverage_restrictions(data,
         out_data['sex_id'] = sex_ids[n]
         final = pd.concat([final, out_data], ignore_index=True)
     final = (final.set_index(
-        ['location_id', 'age_group_id', 'sex_id', 'year'] + [c for c in final.columns if c == 'coverage_level'])
+        ['location_id', 'age_group_id', 'sex_id', 'year','vehicle'] + [c for c in final.columns if c == 'coverage_level'])
              .sort_index())
     return final
     
@@ -63,7 +63,7 @@ def get_effective_vitamin_a_coverage(df, sex_ids, age_group_ids, effective_fract
     effective_fraction_by_time_lag = calculate_vitamin_a_time_lag_effective_fraction(df, years)
     effective_coverage = effective_coverage_by_age * effective_fraction_by_time_lag
     effective_coverage = (effective_coverage.reset_index()
-                          .set_index(['location_id', 'sex_id', 'age_group_id', 'year'] +
+                          .set_index(['location_id', 'sex_id', 'age_group_id', 'year', 'vehicle'] +
                                      [c for c in effective_coverage.reset_index().columns if c == 'coverage_level'])
                           .sort_index())
 
@@ -138,14 +138,14 @@ def calculate_final_pifs_and_daly_reductions(pif_deficiency_nofort,
         pif_deficiency_nofort_level = (pif_deficiency_nofort.reset_index()
                                        .loc[pif_deficiency_nofort.reset_index().coverage_level == coverage_level]
                                        .drop(columns='coverage_level')
-                                       .set_index(['location_id', 'sex_id', 'age_group_id', 'year']))
+                                       .set_index(['location_id', 'sex_id', 'age_group_id', 'year','vehicle']))
         daly_reduction_level = pif_deficiency_nofort_level * deficiency_dalys
         daly_reduction_level['coverage_level'] = coverage_level
         dalys_reduction = pd.concat([dalys_reduction, daly_reduction_level])
 
     daly_reduction = (dalys_reduction.reset_index()
                       .set_index([c for c in dalys_reduction.reset_index().columns if 'draw' not in c])
-                      .replace(np.nan, 0)).groupby(['location_id','year','coverage_level']).sum()
+                      .replace(np.nan, 0)).groupby(['location_id','year','vehicle', 'coverage_level']).sum()
     overall_pifs = daly_reduction / deficiency_dalys.groupby('location_id').sum() * 100
 
     return overall_pifs, daly_reduction

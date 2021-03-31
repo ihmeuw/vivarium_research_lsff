@@ -101,8 +101,8 @@ def generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, v
             .location_id
             .isin([loc for loc in location_ids if loc not in issue_locs])])
 
-        cov_a_final = pd.concat([cov_a_draws_sub, reruns_a], ignore_index=True).set_index('location_id')
-        cov_b_final = pd.concat([cov_b_draws_sub, reruns_b], ignore_index=True).set_index('location_id')
+        cov_a_final = pd.concat([cov_a_draws_sub, reruns_a], ignore_index=True, sort=True).set_index('location_id')
+        cov_b_final = pd.concat([cov_b_draws_sub, reruns_b], ignore_index=True, sort=True).set_index('location_id')
     else:
         cov_a_final = (cov_a_draws.reset_index()
             .loc[cov_a_draws.reset_index()
@@ -144,12 +144,22 @@ def generate_coverage_dfs(cov_a, cov_b, years, coverage_levels):
 def get_baseline_and_counterfactual_coverage(coverage_data_dir,
                                              location_ids,
                                              nutrient,
-                                             vehicle,
+                                             vehicles,
                                              years,
                                              coverage_levels):
-    cov_a, cov_b = generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, vehicle)
-    baseline_coverage, counterfactual_coverage = generate_coverage_dfs(cov_a, cov_b, years, coverage_levels)
-    return baseline_coverage, counterfactual_coverage
+    baseline_coverage_final = pd.DataFrame()
+    counterfactual_coverage_final = pd.DataFrame()
+    for vehicle in vehicles:
+        cov_a, cov_b = generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, vehicle)
+        baseline_coverage, counterfactual_coverage = generate_coverage_dfs(cov_a, cov_b, years, coverage_levels)
+        baseline_coverage['vehicle'] = vehicle
+        counterfactual_coverage['vehicle'] = vehicle
+        baseline_coverage_final = pd.concat([baseline_coverage_final, baseline_coverage.reset_index()],
+                                            ignore_index=True, sort=True)
+        counterfactual_coverage_final = pd.concat([counterfactual_coverage_final, counterfactual_coverage.reset_index()],
+                                            ignore_index=True, sort=True)
+
+    return baseline_coverage_final, counterfactual_coverage_final
 
 def generate_rr_deficiency_nofort_draws(mean, std, location_ids):
     """This function takes a distribution for the relative risk
