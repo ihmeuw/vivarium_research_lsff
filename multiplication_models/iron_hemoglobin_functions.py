@@ -43,7 +43,7 @@ def apply_iron_hemoglobin_age_related_effective_coverage_restrictions(data,
         out_data['sex_id'] = sex_ids[n]
         final = pd.concat([final, out_data], ignore_index=True)
     final = (final.set_index(
-        ['location_id', 'age_group_id', 'sex_id', 'year'] + [c for c in final.columns if c == 'coverage_level'])
+        ['location_id', 'vehicle','age_group_id', 'sex_id', 'year'] + [c for c in final.columns if c == 'coverage_level'])
              .sort_index())
     return final
 
@@ -85,13 +85,16 @@ def get_effective_iron_hemoglobin_coverage(df, sex_ids, age_group_ids, effective
     effective_fraction_by_time_lag = calculate_iron_hemoglobin_time_lag_effective_fraction(df, years)
     effective_coverage = effective_coverage_by_age * effective_fraction_by_time_lag
     effective_coverage = (effective_coverage.reset_index()
-                          .set_index(['location_id', 'sex_id', 'age_group_id', 'year'] +
+                          .set_index(['location_id', 'sex_id', 'age_group_id','vehicle', 'year'] +
                                      [c for c in effective_coverage.reset_index().columns if c == 'coverage_level'])
                           .sort_index())
 
     return effective_coverage
     
-def generate_hemoglobin_values(delta_effective_coverage, mean_difference_hemoglobin_fort, location_ids, age_group_ids, sex_ids):
+def generate_hemoglobin_values(delta_effective_coverage,
+                               mean_difference_hemoglobin_fort,
+                               location_ids,
+                               age_group_ids, sex_ids):
     hgb_mean = get_draws('modelable_entity_id',
                     10487,
                     source='epi',
@@ -107,17 +110,23 @@ def generate_hemoglobin_values(delta_effective_coverage, mean_difference_hemoglo
     counterfactual_hgb_mean = hgb_mean_prepped + delta_effective_coverage * mean_difference_hemoglobin_fort
     counterfactual_hgb_mean_prepped = counterfactual_hgb_mean.reset_index().rename(columns={'year':'year_id'})
     hgb_mean_prepped['coverage_level'] = 'baseline'
-    mean_hgb_overall = (pd.concat([hgb_mean_prepped.reset_index(),
+    hgb_mean_prepped = hgb_mean_prepped.reset_index()
+    hgb_mean_vehicle = pd.DataFrame()
+    for vehicle in delta_effective_coverage.reset_index().vehicle.unique():
+        hgb_mean_prepped_temp = hgb_mean_prepped.copy()
+        hgb_mean_prepped_temp['vehicle'] = vehicle
+        hgb_mean_vehicle = pd.concat([hgb_mean_vehicle, hgb_mean_prepped_temp], ignore_index=True)
+    mean_hgb_overall = (pd.concat([hgb_mean_vehicle,
                                   counterfactual_hgb_mean_prepped.reset_index()],
                                 ignore_index=True)
                         .drop(columns='index')
-                        .set_index(['location_id','sex_id','age_group_id','year_id','coverage_level']))
+                        .set_index(['location_id','vehicle', 'sex_id','age_group_id','year_id','coverage_level']))
     return mean_hgb_overall
     
 def load_anemia_prev_and_calculate_ylds(file):
     data = pd.read_csv(file)
     data = (data.loc[data.draw.str.contains('draw')]
-                   .filter(['age_group_id','sex_id','location_id','draw',
+                   .filter(['age_group_id','sex_id','location_id','draw', 'vehicle',
                             'mild','moderate','severe','anemic','year_id','coverage_level'])
            .rename(columns={'year_id':'year'}))
     data['mild_ylds'] = data['mild'] * 0.004
@@ -136,7 +145,7 @@ def population_weight_values(df, age_group_ids, sex_ids, location_ids):
     df = df.merge(pop, on=['location_id','sex_id','age_group_id'])
     for col in ['mild','moderate','severe','anemic','mild_ylds','moderate_ylds','severe_ylds','anemic_ylds']:
         df[f'{col}'] = df[f'{col}'] * df['population']
-    counts = df.groupby(['location_id','year','draw','coverage_level']).sum()
+    counts = df.groupby(['location_id','vehicle','year','draw','coverage_level']).sum()
     rates = counts.copy()
     for col in ['mild','moderate','severe','anemic','mild_ylds','moderate_ylds','severe_ylds','anemic_ylds']:
         rates[f'{col}'] = rates[f'{col}'] / rates['population'] * 100_000
@@ -145,10 +154,10 @@ def population_weight_values(df, age_group_ids, sex_ids, location_ids):
     return counts, rates
     
 def summarize_data(df):
-    data = df.stack().reset_index().rename(columns={0:'value','level_4':'severity'})
+    data = df.stack().reset_index().rename(columns={0:'value','level_5':'severity'})
     data['measure'] = np.where(data.severity.str.contains('ylds'), 'ylds', 'prevalence')
     data['severity'] = data.severity.str.split('_', expand=True)[0]
-    data = pd.pivot_table(data, index=['location_id','year','coverage_level','severity','measure'],
+    data = pd.pivot_table(data, index=['location_id','vehicle','year','coverage_level','severity','measure'],
                          values='value', columns='draw').reset_index()
     data['coverage_level'] = data.coverage_level.astype(float)
     return data
