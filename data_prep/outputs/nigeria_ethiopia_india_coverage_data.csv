@@ -4,8 +4,6 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 179,Ethiopia,under-5,wheat flour,percent of population eating industrially produced vehicle,na,27,17,37
 179,Ethiopia,women of reproductive age,wheat flour,percent of population eating industrially produced vehicle,na,20,10,30
 179,Ethiopia,under-5,oil,percent of population eating industrially produced vehicle,na,70,60,80
-179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,folic acid,1,0,5
-179,Ethiopia,,oil,percent of population eating fortified vehicle,vitamin a,1,0,5
 179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,zinc,0,0,5
 179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,iron,0,0,5
 163,India,,oil,percent of population eating industrially produced vehicle,na,89.4,87,91.8
