@@ -4,7 +4,8 @@ from get_draws.api import get_draws
 import scipy.stats
 import scipy.integrate as integrate
 import matplotlib.pyplot as plt
-
+import matplotlib.backends.backend_pdf
+from matplotlib.backends.backend_pdf import PdfPages
 
 def generate_coverage_parameter_draws(df, random_seed, n_draws):
     data_frame = df.copy()
@@ -253,4 +254,4 @@ def make_dot_plots(data, nutrient, measure, coverage_levels, subtitle, output_fi
     l_names = df.loc[df.coverage_level == coverage_levels[0]].loc[df.year == 2025]
     l_names = list(l_names.reset_index().merge(l, on='location_id')['location_name'].values)
     ax.set_xticklabels(l_names)
-    plt.savefig(f'results_plots/{output_filename}.png', bbox_inches='tight')
+    #plt.savefig(f'results_plots/{output_filename}.png', bbox_inches='tight')
