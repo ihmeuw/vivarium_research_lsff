@@ -5,13 +5,11 @@ import scipy.stats
 import scipy.integrate as integrate
 import matplotlib.pyplot as plt
 
-def generate_coverage_parameter_draws(df):
-    """This function is used to generate 1000 draws of nutrient/vehicle coverage parameters based on
-    the mean value and confidence intervals. This function assumes a normal distribution of uncertainty
-    within the confidence interval centered around the mean and is truncated at the bounds of 0 and 100%"""
+
+def generate_coverage_parameter_draws(df, random_seed, n_draws):
     data_frame = df.copy()
-    np.random.seed(11)
-    for i in list(range(0,1000)):
+    np.random.seed(random_seed)
+    for i in list(range(0, n_draws)):
         data_frame[f'draw_{i}'] = scipy.stats.truncnorm.rvs(data_frame.a,
                                                             data_frame.b,
                                                             data_frame.value_mean,
@@ -19,36 +17,13 @@ def generate_coverage_parameter_draws(df):
     data_frame = (data_frame
                   .set_index(['location_id'])
                   .drop(columns=[c for c in data_frame.columns if 'draw' not in c
-                                and c not in ['location_id','value_description']]))
+                                 and c not in ['location_id', 'value_description']]))
     return data_frame
 
 
-def generate_overall_coverage_rates(filepath,
-                                    nutrient,
-                                    vehicle,
-                                    coverage_levels,
-                                    years,
-                                    location_ids,
-                                    subpopulations):
-    """This function generates baseline and counterfactual coverage rates of fortification for a specified
-    nutrient and vehicle pair. The baseline coverage rates are assumed to remain constant from over all of
-    the specified years. The alternative coverage rates are assumed to jump from the baseline rate in the
-    first specified year to either 20/50/80 percent (or the defined coverage levels) of the proportion
-    of the population consuming fortifiable/industrially produced vehicle in the second year of the specified
-    years and then remains constant for the remaining years.
-
-    The location_ids paramter can be set to 'all' or a list of specific location IDs.
-
-    The subpopulation parameter should be carefully evaluated and set to a list of the desired subpopulations
-    of interest that may be specific to women of reproductive age or children under 5, etc.
-    """
-
-    data = pd.read_csv(filepath).sort_values(by='location_id')
-    if location_ids == 'all':
-        data = (data.loc[data.sub_population.isin(subpopulations)].drop_duplicates())
-    else:
-        data = (data.loc[data.location_id.isin(location_ids)]
-            .loc[data.sub_population.isin(subpopulations)].drop_duplicates())
+def generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, vehicle):
+    data = pd.read_csv(coverage_data_dir).sort_values(by='location_id').drop_duplicates().drop(209)
+    data = data.loc[data.location_id.isin(location_ids)].loc[data.sub_population != 'women of reproductive age']
 
     # the following is a transformation for a potential data issue and should be removed when resolved
     data['value_mean'] = data['value_mean'].replace(100, 100 - 0.00001 * 2).replace(0, 0 + 0.00001 * 2)
@@ -59,16 +34,89 @@ def generate_overall_coverage_rates(filepath,
     data['value_std'] = (data.value_975_percentile - data.value_025_percentile) / (2 * 1.96)
     data['a'] = (0 - data.value_mean) / data.value_std
     data['b'] = (100 - data.value_mean) / data.value_std
-
     cov_a = data.loc[data.value_description == 'percent of population eating fortified vehicle'].drop(
         columns='value_description')
     cov_b = data.loc[data.value_description == 'percent of population eating industrially produced vehicle'].drop(
         columns='value_description')
-    cov_a = generate_coverage_parameter_draws(cov_a)
-    cov_b = generate_coverage_parameter_draws(cov_b)
 
-    #assert np.all(cov_a <= cov_b), "Error: coverage parameters are not logically ordered"
+    cov_a_draws = generate_coverage_parameter_draws(cov_a, 11, 1_000)
+    cov_b_draws = generate_coverage_parameter_draws(cov_b, 11, 1_000)
 
+    # check to see if any draws are illogically ordered
+    test = (cov_a_draws.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_a'})
+            .merge(cov_b_draws.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_b'}),
+                   on=['location_id', 'draw']))
+    test = test.loc[test.cov_a > test.cov_b]
+    issue_locs = list(test.location_id.unique())
+    # if no logically ordered draws are possible, exclude from analysis
+    excepts = (cov_a.set_index('location_id')['value_025_percentile'] > cov_b.set_index('location_id')[
+        'value_975_percentile'])
+    excepts = list(excepts.loc[excepts == True].reset_index().location_id.unique())
+    locs = [loc for loc in issue_locs if loc not in excepts]
+    if len(excepts) > 0:
+        print(f'Excluded {excepts}/{nutrient}/{vehicle} due to impossible logical values')
+
+    # for locations/nutrients/vehicles with overlapping parameter distributions, run the following
+    # to select logical draws only
+    if len(locs) > 0:
+        reruns = pd.DataFrame()
+        for loc in locs:
+            cov_a_sub = generate_coverage_parameter_draws(cov_a.loc[cov_a.location_id == loc], 234, 5_000)
+            cov_b_sub = generate_coverage_parameter_draws(cov_b.loc[cov_b.location_id == loc], 341, 5_000)
+            check = (cov_a_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_a'})
+                     .merge(cov_b_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_b'}),
+                            on=['location_id', 'draw']))
+            check['logical'] = np.where(check.cov_a < check.cov_b, 1, 0)
+            check = check.loc[check.logical == 1]
+            while len(check) < 1000:
+                cov_a_sub = generate_coverage_parameter_draws(cov_a.loc[cov_a.location_id == loc], 565, 1_000)
+                cov_b_sub = generate_coverage_parameter_draws(cov_b.loc[cov_b.location_id == loc], 333, 1_000)
+                check_sub = (cov_a_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_a'})
+                             .merge(cov_b_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_b'}),
+                                    on=['location_id', 'draw']))
+                check_sub['logical'] = np.where(check_sub.cov_a < check_sub.cov_b, 1, 0)
+                check_sub = check_sub.loc[check_sub.logical == 1]
+                check = pd.concat([check, check_sub])
+
+            out = check[0:1_000].drop(columns=['draw', 'logical']).set_index('location_id')
+            draws = []
+            for i in list(range(0, 1000)):
+                draws.append(f'draw_{i}')
+            out['draw'] = draws
+            reruns = reruns.append(out)
+
+        reruns_a = pd.pivot_table(reruns[['cov_a', 'draw']].reset_index(), index='location_id',
+                                  columns='draw', values='cov_a').reset_index()
+        reruns_b = pd.pivot_table(reruns[['cov_b', 'draw']].reset_index(), index='location_id',
+                                  columns='draw', values='cov_b').reset_index()
+
+        cov_a_draws_sub = (cov_a_draws.reset_index()
+            .loc[cov_a_draws.reset_index()
+            .location_id
+            .isin([loc for loc in location_ids if loc not in issue_locs])])
+        cov_b_draws_sub = (cov_b_draws.reset_index()
+            .loc[cov_b_draws.reset_index()
+            .location_id
+            .isin([loc for loc in location_ids if loc not in issue_locs])])
+
+        cov_a_final = pd.concat([cov_a_draws_sub, reruns_a], ignore_index=True).set_index('location_id')
+        cov_b_final = pd.concat([cov_b_draws_sub, reruns_b], ignore_index=True).set_index('location_id')
+    else:
+        cov_a_final = (cov_a_draws.reset_index()
+            .loc[cov_a_draws.reset_index()
+            .location_id
+            .isin([loc for loc in location_ids if loc not in excepts])]).set_index('location_id')
+        cov_b_final = (cov_b_draws.reset_index()
+            .loc[cov_b_draws.reset_index()
+            .location_id
+            .isin([loc for loc in location_ids if loc not in excepts])]).set_index('location_id')
+
+    assert np.all(cov_a_final <= cov_b_final), "Illogically ordered"
+
+    return cov_a_final, cov_b_final
+
+
+def generate_coverage_dfs(cov_a, cov_b, years, coverage_levels):
     baseline_coverage = pd.DataFrame()
     for year in years:
         temp = cov_a.copy()
@@ -89,6 +137,16 @@ def generate_overall_coverage_rates(filepath,
     counterfactual_coverage = (counterfactual_coverage.reset_index()
                                .set_index(['location_id', 'year', 'coverage_level']).sort_index())
 
+    return baseline_coverage, counterfactual_coverage
+
+def get_baseline_and_counterfactual_coverage(coverage_data_dir,
+                                             location_ids,
+                                             nutrient,
+                                             vehicle,
+                                             years,
+                                             coverage_levels):
+    cov_a, cov_b = generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, vehicle)
+    baseline_coverage, counterfactual_coverage = generate_coverage_dfs(cov_a, cov_b, years, coverage_levels)
     return baseline_coverage, counterfactual_coverage
 
 def generate_rr_deficiency_nofort_draws(mean, std, location_ids):
