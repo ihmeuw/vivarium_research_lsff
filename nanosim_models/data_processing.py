@@ -8,28 +8,62 @@ from lsff_interventions import IronFortificationIntervention
 # Assumes the path to vivarium_research_lsff is in sys.path
 from multiplication_models import mult_model_fns
 
-def get_default_fortification_input_data(vivarium_research_lsff_path='..'):
-#     locations = pd.read_csv(f'{vivarium_research_lsff_path}/gbd_data_summary/input_data/bmgf_top_25_countries_20201203.csv')
-#     location_ids = locations.location_id.to_list()
-    locations_path = f'{vivarium_research_lsff_path}/gbd_data_summary/input_data/bmgf_top_25_countries_20201203.csv'
-    coverage_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
-    consumption_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
-    concentration_data_path = '/share/scratch/users/ndbs/vivarium_lsff/gfdx_data/gfdx_full_dataset.csv'
-    return get_fortification_input_data(locations_path, coverage_data_path, consumption_data_path, concentration_data_path)
+# def get_default_fortification_input_data(vivarium_research_lsff_path='..'):
+# #     locations = pd.read_csv(f'{vivarium_research_lsff_path}/gbd_data_summary/input_data/bmgf_top_25_countries_20201203.csv')
+# #     location_ids = locations.location_id.to_list()
+#     locations_path = f'{vivarium_research_lsff_path}/gbd_data_summary/input_data/bmgf_top_25_countries_20201203.csv'
+#     coverage_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
+#     consumption_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
+#     concentration_data_path = '/share/scratch/users/ndbs/vivarium_lsff/gfdx_data/gfdx_full_dataset.csv'
+#     return get_fortification_input_data(locations_path, coverage_data_path, consumption_data_path, concentration_data_path)
 
-def get_fortification_input_data(locations_path, coverage_data_path, consumption_data_path, concentration_data_path):
+def get_fortification_input_data(vivarium_research_lsff_path='..', locations_path=None, coverage_data_path=None, consumption_data_path=None, concentration_data_path=None):
     """Reads input data from files and returns a tuple of input dataframes."""
-#     location_ids = list(location_ids)
-#     coverage_df = (mult_model_fns.pull_coverage_data(coverage_data_path, 'iron', vehicle, location_ids, 'wra')
-#                    .pipe(mult_model_fns.create_marginal_uncertainty)
-#                   )
+    if locations_path is None:
+        locations_path = f'{vivarium_research_lsff_path}/gbd_data_summary/input_data/bmgf_top_25_countries_20201203.csv'
+    if coverage_data_path is None:
+        coverage_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
+    if consumption_data_path is None:
+        consumption_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
+    if concentration_data_path is None:
+        concentration_data_path = '/share/scratch/users/ndbs/vivarium_lsff/gfdx_data/flour_fortification_standards_mg_per_kg.csv'
+
     locations = pd.read_csv(locations_path)
     coverage_df = pd.read_csv(coverage_data_path).pipe(mult_model_fns.create_marginal_uncertainty)
     consumption_df = pd.read_csv(consumption_data_path)
-#     consumption_df = consumption_df.query("location_id in @location_ids and vehicle==@vehicle")
-    
     concentration_df = pd.read_csv(concentration_data_path)
-    return locations, coverage_df, consumption_df, concentration_df
+    FortificationInputData = namedtuple(
+        "FortificationInputData",
+        "locations, coverage_df, consumption_df, concentration_df"
+    )
+    return FortificationInputData(locations, coverage_df, consumption_df, concentration_df)
+
+def process_concentration_data(concentration_df, locations):
+    names_to_ids = locations.set_index('location_name').squeeze()
+    names_to_ids["Cote d'Ivoire"]=205
+    names_to_ids["Tanzania"]=189
+    concentration_df = (
+        concentration_df
+        .merge(names_to_ids, left_on='Country', right_index=True)
+        .merge(locations)
+        .assign(vehicle=lambda df: df['Food Vehicle'].str.lower())
+    )
+    # Could the following be done using .groupby().transform() instead?
+    vehicle_dfs = []
+    for vehicle in concentration_df.vehicle.unique():
+        df = concentration_df.query("vehicle==@vehicle")
+        # Compute a multiplier to standardize all mg/kg values to NaFeEDTA.
+        # Note: This currently assumes that for each vehicle, at least one location has NaFeEDTA and one has something else.
+        # if len(df.loc[df['NaFeEDTA']])==0 or len(df.loc[~df['NaFeEDTA']])==0:
+        absorption_multiplier = (
+            df.loc[df['NaFeEDTA'], 'Indicator Value'].mean()
+            / df.loc[~df['NaFeEDTA'], 'Indicator Value'].mean()
+        )
+        df['value'] = df['Indicator Value']
+        df.loc[~df['NaFeEDTA'], 'value'] *= absorption_multiplier
+        vehicle_dfs.append(df)
+    concentration_df = pd.concat(vehicle_dfs)
+    return concentration_df
 
 def get_gbd_input_data(location_id, hdfstore=None, exposure_key=None, rr_key=None, yll_key=None):
     if hdfstore is None:
