@@ -10,9 +10,24 @@ from multiplication_models import mult_model_fns
 
 class IronBirthweightCalculator:
     """Class to run nanosimulations for the effect of iron on low birthweight."""
+    
+    def from_stuff(location, vehicle, draws, random_seed, take_mean):
+        return
 
-    def __init__(self, location, artifact_path, year, draws, vehicle, covered_proportion_of_eats_fortifiable,
-                 take_mean=False, risk_effect_class=lbwsg.LBWSGRiskEffect, random_seed=None):
+#     def __init__(self, location, artifact_path, year, draws, vehicle, covered_proportion_of_eats_fortifiable,
+#                  take_mean=False, risk_effect_class=lbwsg.LBWSGRiskEffect, random_seed=None):
+    def __init__(
+        self,
+        global_data,
+        local_data,
+        gbd_data,
+        age, # pass an int, list of ints, or eventually enable passing an age distribution
+        gap_coverage_proportions,
+        risk_effect_class=lbwsg.LBWSGRiskEffectRBVSpline,
+        random_seed=None,
+        compute_maximum_effect=True,
+        take_mean=False
+    ):
         """
         """
         # Save input parameters so we can look them up later if necessary/desired
@@ -211,6 +226,14 @@ def main(location, num_simulants, random_seed, draws, take_mean):
     
     gap_coverage_levels = [0.2, 0.5, 0.8]
     absolute_coverage_levels = [1]
+    
+    coverage_df = fortification_data.coverage_df
+    coverage_df = coverage_df.query("location_id == @location_id and nutrient=='iron' and wra==True")
+    # Now loop through all iron vehicles for location:
+    # Actually, might need to check that vehicle exists in all input dataframes, or exclude some vehicles...
+    for vehicle in coverage_df.vehicles.unique():
+        # do stuff...
+        pass
 
 if __name__ == "main":
     import sys
