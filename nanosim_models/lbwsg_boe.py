@@ -1,7 +1,7 @@
 import pandas as pd, numpy as np
 from collections import namedtuple
 
-import demography, lbwsg, lsff_interventions
+import demography, lbwsg, lsff_interventions, data_processing
 from lbwsg import LBWSGDistribution, LBWSGRiskEffect
 from lsff_interventions import IronFortificationIntervention
 
@@ -11,8 +11,24 @@ from multiplication_models import mult_model_fns
 class IronBirthweightCalculator:
     """Class to run nanosimulations for the effect of iron on low birthweight."""
     
-    def from_stuff(location, vehicle, draws, random_seed, take_mean):
-        return
+    def from_parameters(
+        location,
+        vehicle,
+        draws,
+        gap_coverage_proportions=[0.2, 0.5, 0.8],
+        risk_effect_class=lbwsg.LBWSGRiskEffectRBVSpline,
+        effect_size_seed=5678,
+        random_seed=23,
+        compute_maximum_effect=True,
+        take_mean=False,
+        vivarium_research_lsff_path='..',
+    ):
+        mean_draws_name = f'mean_of_{len(draws)}_draws' if take_mean else None
+        global_data = data_processing.get_global_data(effect_size_seed, random_seed, draws, mean_draws_name)
+        input_data = data_processing.get_fortification_input_data(vivarium_research_lsff_path)
+        local_data = data_processing.get_local_data(global_data, input_data, location, vehicle)
+        gbd_data = data_processing.get_gbd_input_data()
+        return IronBirthweightCalculator(global_data, local_data, gbd_data, gap_coverage_proportions, risk_effect_class, compute_maximum_effect, take_mean)
 
 #     def __init__(self, location, artifact_path, year, draws, vehicle, covered_proportion_of_eats_fortifiable,
 #                  take_mean=False, risk_effect_class=lbwsg.LBWSGRiskEffect, random_seed=None):
@@ -21,23 +37,42 @@ class IronBirthweightCalculator:
         global_data,
         local_data,
         gbd_data,
-        age, # pass an int, list of ints, or eventually enable passing an age distribution
         gap_coverage_proportions,
         risk_effect_class=lbwsg.LBWSGRiskEffectRBVSpline,
-        random_seed=None,
+#         random_seed=None,
         compute_maximum_effect=True,
         take_mean=False
     ):
         """
         """
-        # Save input parameters so we can look them up later if necessary/desired
-        self.location = location
-        self.artifact_path = artifact_path
-        self.year = year
+        self.global_data = global_data
+        self.local_data = local_data
+        self.yll_data = gbd_data.yll_data.query(
+            f"location_id=={self.local_data.location_id} and cause_id==294"
+        )
+
+        exposure_data = lbwsg.preprocess_gbd_data(
+            gbd_data.exposure_data,
+            draws=global_data.draws,
+            filter_terms=[f"location_id == {self.local_data.location_id}"],
+            mean_draws_name=global_data.mean_draws_name
+        )
+        rr_data = lbwsg.preprocess_gbd_data(
+            gbd_data.rr_data,
+            draws=global_data.draws,
+            filter_terms=None,
+            mean_draws_name=global_data.mean_draws_name
+        )
+        
+        
+#         # Save input parameters so we can look them up later if necessary/desired
+#         self.location = location
+#         self.artifact_path = artifact_path
+#         self.year = year
 #         self.draws = draws # These will also be stored in global_data, unless take_mean is True
         
         # TODO: Perhaps create and save a numpy random generator, and share it via global_data
-        # random_generator = np.random.default_rng(random_seed) # Now do something with this...
+#         random_generator = np.random.default_rng(random_seed) # Now do something with this...
         np.random.seed(random_seed)
         
 #         if take_mean:
@@ -91,13 +126,13 @@ class IronBirthweightCalculator:
         self.intervention_pop = None
         self.potential_impact_fraction = None
 
-    def initialize_population_tables(self, num_simulants):
+    def initialize_population_tables(self, num_simulants, ages):
         """Creates populations for baseline scenario and iron fortification intervention scenario,
         assigns birthweights and gestational ages to each simulant, shifts birthweights appropriately,
         and assigns relative risks for mortality based on resulting LBWSG categories.
         """
         # Create baseline population and assign demographic data
-        self.baseline_pop = demography.initialize_population_table(self.global_data.draws, num_simulants, 0)
+        self.baseline_pop = demography.initialize_population_table(self.global_data.draws, num_simulants, ages)
 
         # Assign propensities to share between scenarios
 #         assign_propensity(self.baseline_pop, IronFortificationIntervention.propensity_name)
@@ -157,10 +192,10 @@ class IronBirthweightCalculator:
         self.potential_impact_fraction = potential_impact_fraction(
             self.baseline_pop, self.intervention_pop, 'lbwsg_relative_risk')
         
-    def do_back_of_envelope_calculation(self, num_simulants):
+    def do_back_of_envelope_calculation(self, num_simulants, ages):
         """
         """
-        self.initialize_population_tables(num_simulants)
+        self.initialize_population_tables(num_simulants, ages)
         self.assign_lbwsg_exposure()
         self.assign_iron_treatment_deleted_birthweights()
         self.assign_iron_treated_birthweights()
