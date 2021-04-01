@@ -143,51 +143,6 @@ def potential_impact_fraction(baseline_pop, counterfactual_pop, rr_colname, grou
     counterfactual_mean_rr = counterfactual_pop.groupby(groupby)[rr_colname].mean()
     return (baseline_mean_rr - counterfactual_mean_rr) / baseline_mean_rr
 
-def parse_args(args):
-    """"""
-    # Class to store and name the arguments passed to main()
-    ParsedArgs = namedtuple('ParsedArgs', "location, artifact_path, year, draws, take_mean, random_seed, num_simulants")
-    if len(args)>0:
-        # Don't do any parsing for now, just make args into a named tuple
-        args = ParsedArgs._make(args)
-    else:
-        # Hardcode some values for testing
-        location = "Nigeria"
-        artifact_path = f'/share/costeffectiveness/artifacts/vivarium_conic_lsff/{location.lower()}.hdf'
-        year=2017
-        draws = [0,50,100]
-        take_mean = False
-        random_seed = 191919
-        num_simulants = 10
-        args = ParsedArgs(location, artifact_path, year, draws, take_mean, random_seed, num_simulants)
-    return args
-
-# def main(args=None):
-#     """
-#     Does a back of the envelope calculation for the given arguments
-#     """
-#     if args is None:
-#         args = sys.argv[1:]
-        
-#     args = parse_args(args)
-#     # Old code:
-#     sim = IronBirthweightCalculator(args.location, args.artifact_path, args.year, args.draws, args.take_mean)
-#     baseline_pop, intervention_pop = sim.initialize_population_tables(args.num_simulants)
-#     pif = population_impact_fraction(baseline_pop, intervention_pop, IronBirthweightNanoSim.treated_lbwsg_rr_colname)
-    # do something with pif...
-    
-    # Iterate over... locations, vehicles, coverage levels
-    # (Note: different age groups and sexes can be handled in one Calculator)
-    # Parameters for calculator:
-    # global_data (including draws), location (or local_data), vehicle, coverage levels
-    # whether to take mean (or mean_draws_name)
-    # "compliance" multiplier for iron concentration
-    # ages or age groups, with ratios (can be passed to initialize_population_tables)
-    # sexes or sex ratio (can be passed to initialize_population_tables)
-    # 
-    # Arguments for main():
-    # location, draws, take_mean
-    
 def main(vivarium_research_lsff_path, out_dirctory, location, num_simulants, random_seed, draws, take_mean):
     """Computes the PIF for each vehicle for the specified location, for the gap_coverage levels [0.2, 0.5, 0.8]."""
 #     fortification_data = get_fortification_input_data()
