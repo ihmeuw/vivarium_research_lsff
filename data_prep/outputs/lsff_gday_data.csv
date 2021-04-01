@@ -1,0 +1,37 @@
+location_id,location_name,sub_population,vehicle,metric,mass_unit,time_unit,pop_denom,value_mean,lower,upper
+163,India,total population,rice,mean,g,day,capita,282.77,170.8001109198809,394.7398890801191
+163,India,total population,salt,mean,g,day,consumers,9.5,5.7382362122533115,13.26176378774669
+163,India,total population,wheat flour,mean,g,day,capita,169.62,113.13485976241066,226.1051402375893
+179,Ethiopia,total population,maize flour,mean,g,day,capita,113.84,68.7621905687281,158.9178094312719
+179,Ethiopia,total population,salt,mean,g,day,capita,5.8,3.5033442137967583,8.096655786203241
+179,Ethiopia,total population,wheat flour,mean,g,day,capita,97.64,65.12491278859673,130.15508721140327
+214,Nigeria,total population,maize flour,mean,g,day,capita,95.1,57.44276460897788,132.75723539102208
+214,Nigeria,total population,salt,mean,g,day,consumers,7.2,4.348979024023562,10.05102097597644
+214,Nigeria,total population,wheat flour,mean,g,day,capita,49.15,32.782563125353626,65.51743687464636
+214,Nigeria,women of reproductive age,bouillon,mean,g,day,consumers,2.668675217625471,2.7435218968364103,7.256478103163589
+214,Nigeria,women of reproductive age,rice,mean,g,day,consumers,91.36747869963301,106.9124010072459,247.0875989927541
+161,Bangladesh,women of reproductive age,wheat flour,mean,g,day,capita,77.9,51.958528330926725,103.84147166907327
+165,Pakistan,women of reproductive age,wheat flour,mean,g,day,capita,86.17526015179575,198.69634903444245,397.1036509655576
+189,United Republic of Tanzania,total population,maize flour,mean,g,day,capita,172.47,102.94485417020374,241.99514582979626
+189,United Republic of Tanzania,total population,wheat flour,mean,g,day,capita,32.96,21.983993501763088,43.93600649823691
+190,Uganda,total population,maize flour,mean,g,day,capita,126.3,75.38664742677992,177.2133525732201
+190,Uganda,total population,wheat flour,mean,g,day,capita,30.27,20.189790148615554,40.350209851384456
+196,South Africa,total population,maize flour,mean,g,day,capita,283.29,169.09171298125486,397.4882870187452
+196,South Africa,total population,wheat flour,mean,g,day,capita,156.36,104.2905711145533,208.42942888544673
+201,Burkina Faso,total population,maize flour,mean,g,day,capita,210.99,124.53859603616921,297.4414039638308
+201,Burkina Faso,total population,wheat flour,mean,g,day,capita,37.64,24.46802150395999,50.81197849604001
+180,Kenya,total population,maize flour,mean,g,day,capita,216.68,127.89716569087228,305.46283430912774
+180,Kenya,total population,wheat flour,mean,g,day,capita,100.11,65.07687653457583,135.14312346542417
+15,Myanmar,women of reproductive age,maize flour,mean,g,day,capita,12.383561643835616,2.6679674585690543,6.372032541430945
+15,Myanmar,total population,wheat flour,mean,g,day,capita,29.92,19.44960689156437,40.39039310843563
+164,Nepal,total population,wheat flour,mean,g,day,,5.7,3.705306125732517,7.694693874267482
+20,Vietnam,total population,wheat flour,mean,g,day,capita,30.36,19.735630522322673,40.984369477677326
+202,Cameroon,total population,maize flour,mean,g,day,capita,139.34,82.24658975155134,196.43341024844867
+202,Cameroon,women of reproductive age,wheat flour,,g,day,consumers,79.0,51.35424279524015,106.64575720475986
+205,Côte d'Ivoire,total population,maize flour,mean,g,day,capita,43.9,25.91233881220829,61.88766118779171
+205,Côte d'Ivoire,total population,wheat flour,mean,g,day,capita,70.08,45.5557637353219,94.60423626467812
+171,Democratic Republic of the Congo,total population,maize flour,mean,g,day,capita,60.8,35.88770386747755,85.71229613252245
+171,Democratic Republic of the Congo,total population,wheat flour,mean,g,day,capita,34.0,22.101826013141327,45.89817398685867
+11,Indonesia,total population,wheat flour,mean,g,day,capita,73.59,47.8374522443256,99.3425477556744
+184,Mozambique,total population,maize flour,mean,g,day,capita,180.6,106.60064668530336,254.59935331469657
+184,Mozambique,total population,wheat flour,mean,g,day,capita,65.92,42.851540317243426,88.98845968275657
