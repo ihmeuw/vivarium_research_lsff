@@ -28,7 +28,7 @@ class IronBirthweightCalculator:
         input_data = data_processing.get_fortification_input_data(vivarium_research_lsff_path)
         local_data = data_processing.get_local_data(global_data, input_data, location, vehicle)
         gbd_data = data_processing.get_gbd_input_data()
-        return IronBirthweightCalculator(global_data, local_data, gbd_data, gap_coverage_proportions, risk_effect_class, compute_maximum_effect, take_mean)
+        return IronBirthweightCalculator(global_data, local_data, gbd_data, gap_coverage_proportions, risk_effect_class, compute_maximum_effect)
 
 #     def __init__(self, location, artifact_path, year, draws, vehicle, covered_proportion_of_eats_fortifiable,
 #                  take_mean=False, risk_effect_class=lbwsg.LBWSGRiskEffect, random_seed=None):
@@ -41,7 +41,6 @@ class IronBirthweightCalculator:
         risk_effect_class=lbwsg.LBWSGRiskEffectRBVSpline,
 #         random_seed=None,
         compute_maximum_effect=True,
-        take_mean=False
     ):
         """
         """
@@ -63,54 +62,6 @@ class IronBirthweightCalculator:
             filter_terms=None,
             mean_draws_name=global_data.mean_draws_name
         )
-        
-        
-#         # Save input parameters so we can look them up later if necessary/desired
-#         self.location = location
-#         self.artifact_path = artifact_path
-#         self.year = year
-#         self.draws = draws # These will also be stored in global_data, unless take_mean is True
-        
-        # TODO: Perhaps create and save a numpy random generator, and share it via global_data
-#         random_generator = np.random.default_rng(random_seed) # Now do something with this...
-        np.random.seed(random_seed)
-        
-#         if take_mean:
-#             mean_draws_name = f'mean_of_{len(draws)}_draws'
-#             draws = [mean_draws_name]
-            
-        mean_draws_name = f'mean_of_{len(draws)}_draws' if take_mean else None
-
-        # Load iron intervention data
-#         flour_coverage_df = lsff_interventions.get_flour_coverage_df()
-#         baseline_coverage = flour_coverage_df.loc[location, ('eats_fortified', 'mean')] / 100
-#         intervention_coverage = flour_coverage_df.loc[location, ('eats_fortifiable', 'mean')] / 100
-        self.global_data = lsff_interventions.get_global_data(draws, mean_draws_name=mean_draws_name)
-        self.local_data = lsff_interventions.get_local_data(
-            self.global_data, location, vehicle, covered_proportion_of_eats_fortifiable)
-        
-        # Load LBWSG data
-        if year==2017:
-            exposure_data = lbwsg.read_lbwsg_data(
-                artifact_path, 'exposure', "age_end < 1", f"year_start == {year}", draws=draws)
-            rr_data = lbwsg.read_lbwsg_data(
-                artifact_path, 'relative_risk', "age_end < 1", f"year_start == {year}", draws=draws)
-        elif year==2019:
-            exposure_data = pd.read_hdf(artifact_path, f"/gbd_2019/exposure/bmgf_25_countries")
-#             location_id = id_helper.list_ids('location', location)
-            exposure_data = lbwsg.preprocess_gbd_data(
-                exposure_data, draws=draws,
-                filter_terms=[f"location_id == {self.local_data.location_id}"],
-                mean_draws_name=mean_draws_name
-            )
-            rr_data = pd.read_hdf(artifact_path, '/gbd_2019/relative_risk/diarrheal_diseases')
-            # For now we only need early neonatal RR's
-            rr_data = lbwsg.preprocess_gbd_data(
-                rr_data, draws=draws, filter_terms=["age_group_id==2"], mean_draws_name=mean_draws_name)
-        
-#         if take_mean:
-#             exposure_data = exposure_data.mean(axis=1).rename(mean_draws_name).to_frame()
-#             rr_data = rr_data.mean(axis=1).rename(mean_draws_name).to_frame()
 
         # Create model components
         self.lbwsg_distribution = LBWSGDistribution(exposure_data)
@@ -164,13 +115,17 @@ class IronBirthweightCalculator:
         self.iron_intervention.assign_treatment_deleted_birthweight(
             self.intervention_pop, self.lbwsg_distribution, self.local_data.eats_fortified)
 
-    def assign_iron_treated_birthweights(self):
+    def assign_iron_treated_birthweights(self, target_coverage_levels=None, column_names=None):
 #         self.baseline_fortification.assign_treated_birthweight(baseline_pop, self.lbwsg_distribution)
 #         self.intervention_fortification.assign_treated_birthweight(intervention_pop, self.lbwsg_distribution)
+        if target_coverage_levels is None:
+            target_coverage_levels = [self.local_data.eats_fortifiable]
         self.iron_intervention.assign_treated_birthweight(
             self.baseline_pop, self.lbwsg_distribution, self.local_data.eats_fortified)
-        self.iron_intervention.assign_treated_birthweight(
-            self.intervention_pop, self.lbwsg_distribution, self.local_data.eats_fortifiable)
+        for target_coverage in target_coverage_levels:
+            #FIXME: I need to be able to pass in a column name so columns don't get overwritten
+            self.iron_intervention.assign_treated_birthweight(
+                self.intervention_pop, self.lbwsg_distribution, target_coverage)
 
     def age_populations(self, age_increment=1/365):
         demography.increase_age(self.baseline_pop, age_increment)
@@ -192,14 +147,23 @@ class IronBirthweightCalculator:
         self.potential_impact_fraction = potential_impact_fraction(
             self.baseline_pop, self.intervention_pop, 'lbwsg_relative_risk')
         
-    def do_back_of_envelope_calculation(self, num_simulants, ages):
+    def do_back_of_envelope_calculation(self, num_simulants, ages, gap_coverage_proportions, compute_maximum_effect=True):
         """
         """
         self.initialize_population_tables(num_simulants, ages)
         self.assign_lbwsg_exposure()
         self.assign_iron_treatment_deleted_birthweights()
-        self.assign_iron_treated_birthweights()
-        self.age_populations() # Necessary because there are no relative risks for birth age group
+        target_coverage_levels = [
+            self.local_data.eats_fortifiable
+            + proportion * (self.local_data.eats_fortifiable - self.local_data.eats_fortified)
+            for proportion in gap_coverage_proportions
+        ]
+        column_names = [f"treated_birthweight_with_{proportion:.0%}_gap_coverage"]
+        if compute_maximum_effect:
+            target_coverage_levels.append(1)
+            column_names.append("treated_birthweight_with_full_coverage")
+        self.assign_iron_treated_birthweights(target_coverage_levels, column_names)
+#         self.age_populations() # Necessary because there are no relative risks for birth age group
         self.assign_lbwsg_relative_risks()
         self.calculate_potential_impact_fraction()
     
