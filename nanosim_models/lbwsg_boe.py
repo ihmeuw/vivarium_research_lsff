@@ -21,9 +21,7 @@ class IronBirthweightCalculator:
         take_mean=False,
         vivarium_research_lsff_path='..',
     ):
-         # TODO: Pass take_mean to global_data and define mean_draws_name there instead
-        mean_draws_name = f'mean_of_{len(draws)}_draws' if take_mean else None
-        global_data = data_processing.get_global_data(effect_size_seed, random_generator, draws, mean_draws_name)
+        global_data = data_processing.get_global_data(effect_size_seed, random_generator, draws, take_mean)
         fortification_input_data = data_processing.get_fortification_input_data(vivarium_research_lsff_path)
         local_data = data_processing.get_local_data(global_data, fortification_input_data, location, vehicle)
         gbd_data = data_processing.get_gbd_input_data()
@@ -202,15 +200,12 @@ def main(vivarium_research_lsff_path, out_dirctory, location, num_simulants, ran
     age_group_ids = [2,3] # demography.get_age_to_age_id_map()[ages] # 2=ENN, 3=LNN
     gap_coverage_proportions = [0.2, 0.5, 0.8] # Low, medium, high scenarios
 #     year = 2025 # Needed in index for Ali's code
-    
-#     output_index = pd.MultiIndex.from_product(draws, age_group_ids, names=['draw', 'age_group_id'])
-#     output = pd.DataFrame(index=output_index)
-    pif_index = pd.MultiIndex.from_product(draws, age_group_ids, names=['draw', 'age_group_id'])
-    pifs = pd.DataFrame(index=pif_index)
+
+    output_index = pd.MultiIndex.from_product(draws, age_group_ids, names=['draw', 'age_group_id'])
+    output = pd.DataFrame(index=output_index)
     categorical_pifs = pd.DataFrame(index=pif_index)
-    
-    mean_draws_name = f'mean_of_{len(draws)}_draws' if take_mean else None
-    global_data = data_processing.get_global_data(effect_size_seed, random_seed, draws, mean_draws_name)
+
+    global_data = data_processing.get_global_data(effect_size_seed, random_seed, draws, take_mean)
     fortification_input_data = data_processing.get_fortification_input_data(vivarium_research_lsff_path)
     gbd_data = data_processing.get_gbd_input_data()
 
@@ -247,14 +242,14 @@ def main(vivarium_research_lsff_path, out_dirctory, location, num_simulants, ran
             calc.assign_iron_treated_birthweights(target_coverage)
             calc.assign_lbwsg_relative_risks()
             calc.calculate_potential_impact_fraction(['draw', 'age_group_id'])
-            pifs[(local_data.location_id, vehicle, year, proportion, 'pif')] = calc.potential_impact_fraction
+            output[(local_data.location_id, vehicle, proportion, 'pif')] = calc.potential_impact_fraction
             
             bpop, ipop = calc.baseline_pop, calc.intervention_pop
             for pop in (bpop, ipop):
                 calc.lbwsg_effect.assign_categorical_relative_risk(
                     pop, cat_colname='treated_lbwsg_category', rr_colname='lbwsg_relative_risk_for_category'
                 )
-            categorical_pifs[(local_data.location_id, vehicle, proportion, 'categorical_pif')] = (
+            output[(local_data.location_id, vehicle, proportion, 'categorical_pif')] = (
                 potential_impact_fraction(bpop, ipop, 'lbwsg_relative_risk_for_category', ['draw', 'age_group_id'])
             )
             # Now also do YLLs...
@@ -264,11 +259,9 @@ def main(vivarium_research_lsff_path, out_dirctory, location, num_simulants, ran
             df.index = df.index.set_levels([f"draw_{n}" for n in draws], level='draw')
             df.columns = pd.MultiIndex.from_tuples(df.columns, names=['location_id', 'vehicle', 'coverage_level', 'measure'])
 
-        # Save PIFs with draws as columns
-        pifs.unstack('age_group_id').T.to_csv(
-            f"{out_directory}/iron_bw_pifs_for_location_{local_data.location_id}.csv")
-        categorical_pifs.unstack('age_group_id').T.to_csv(
-            f"{out_directory}/iron_bw_categorical_pifs_for_location_{local_data.location_id}.csv")
+        # Save output with draws as columns and all other identifiers in index
+        output.unstack('age_group_id').T.to_csv(
+            f"{out_directory}/iron_bw_results_location_id_{local_data.location_id}.csv")
 
         # And also save YLLs...
 
