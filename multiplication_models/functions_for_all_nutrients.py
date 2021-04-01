@@ -22,11 +22,13 @@ def generate_coverage_parameter_draws(df, random_seed, n_draws):
     return data_frame
 
 
-def generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, vehicle):
-    data = pd.read_csv(coverage_data_dir).sort_values(by='location_id').drop_duplicates().drop(209)
-    print('WARNING: dropped observation 209 of input data. Fix this once Vietnam data has been updated')
-    data = data.loc[data.location_id.isin(location_ids)].loc[data.sub_population != 'women of reproductive age']
-    print('WARNING: excluded all women of reproductive age observations. Fix this once WRA/U5 data update has been made')
+def generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, vehicle, sub_population):
+    data = pd.read_csv(coverage_data_dir).sort_values(by='location_id')
+    if sub_population=='WRA':
+        data = data.loc[data.wra_applicable == True]
+    elif sub_population=='U5':
+        data = data.loc[data.u5_applicable == True]
+    data = data.loc[data.location_id.isin(location_ids)]
 
     # the following is a transformation for a potential data issue and should be removed when resolved
     data['value_mean'] = data['value_mean'].replace(100, 100 - 0.00001 * 2).replace(0, 0 + 0.00001 * 2)
@@ -147,11 +149,11 @@ def get_baseline_and_counterfactual_coverage(coverage_data_dir,
                                              nutrient,
                                              vehicles,
                                              years,
-                                             coverage_levels):
+                                             coverage_levels, sub_population):
     baseline_coverage_final = pd.DataFrame()
     counterfactual_coverage_final = pd.DataFrame()
     for vehicle in vehicles:
-        cov_a, cov_b = generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, vehicle)
+        cov_a, cov_b = generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, vehicle, sub_population)
         baseline_coverage, counterfactual_coverage = generate_coverage_dfs(cov_a, cov_b, years, coverage_levels)
         baseline_coverage['vehicle'] = vehicle
         counterfactual_coverage['vehicle'] = vehicle
