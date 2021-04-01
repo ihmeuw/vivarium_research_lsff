@@ -17,8 +17,8 @@ def get_gbd_input_data(hdfstore=None, exposure_key=None, rr_key=None, yll_key=No
     exposure_data = pd.read_hdf(hdfstore, exposure_key)
     rr_data = pd.read_hdf(hdfstore, rr_key)
     yll_data = pd.read_hdf(hdfstore, yll_key)
-    GBDInputData = namedtuple("GBDInputData", "exposure_data, rr_data, yll_data")
-    return GBDInputData(exposure_data, rr_data, yll_data)
+    GBDInputData = namedtuple("GBDInputData", "lbwsg_exposure, lbwsg_rrs, lbwsg_ylls")
+    return GBDInputData(lbwsg_exposure, lbwsg_rrs, lbwsg_ylls)
 
 def get_fortification_input_data(vivarium_research_lsff_path='..', locations_path=None, coverage_data_path=None, consumption_data_path=None, concentration_data_path=None):
     """Reads input data from files and returns a tuple of input dataframes."""
