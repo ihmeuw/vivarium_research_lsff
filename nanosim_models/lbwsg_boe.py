@@ -32,21 +32,22 @@ class IronBirthweightCalculator:
     def __init__(self, global_data, local_data, gbd_data, risk_effect_class=lbwsg.LBWSGRiskEffectRBVSpline):
         """
         """
+        lbwsg_exposure, lbwsg_rrs, lbwsg_ylls
         # Store needed data
         self.global_data = global_data
         self.local_data = local_data
-        self.yll_data = gbd_data.yll_data.query(
+        self.lbwsg_ylls = gbd_data.lbwsg_ylls.query(
             f"location_id=={self.local_data.location_id} and cause_id==294"
         )
         # Preprocess GBD data for LBWSG classes
         exposure_data = lbwsg.preprocess_gbd_data(
-            gbd_data.exposure_data,
+            gbd_data.lbwsg_exposure,
             draws=global_data.draw_numbers,
             filter_terms=[f"location_id == {self.local_data.location_id}"],
             mean_draws_name=global_data.mean_draws_name
         )
         rr_data = lbwsg.preprocess_gbd_data(
-            gbd_data.rr_data,
+            gbd_data.lbwsg_rrs,
             draws=global_data.draw_numbers,
             filter_terms=None,
             mean_draws_name=global_data.mean_draws_name
@@ -54,7 +55,7 @@ class IronBirthweightCalculator:
         # Create model components
         self.lbwsg_distribution = LBWSGDistribution(exposure_data)
         self.lbwsg_effect = risk_effect_class(rr_data, paf_data=None) # We don't need PAFs to initialize the pop tables with RR's
-        self.iron_intervention = IronFortificationIntervention(self.global_data, self.local_data)
+        self.iron_intervention = IronFortificationIntervention(global_data, local_data)
     
         # Declare variables for baseline and intervention populations,
         # which will be initialized in initialize_population_tables
@@ -71,7 +72,6 @@ class IronBirthweightCalculator:
         self.baseline_pop = demography.initialize_population_table(self.global_data.draws, num_simulants, ages)
 
         # Assign propensities to share between scenarios
-#         assign_propensity(self.baseline_pop, IronFortificationIntervention.propensity_name)
 #         self.lbwsg_distribution.assign_propensities(self.baseline_pop)
 #         self.iron_intervention.assign_propensities(self.baseline_pop)
         propensity_names = [name for component in (self.lbwsg_distribution, self.iron_intervention)
