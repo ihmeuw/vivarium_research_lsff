@@ -216,7 +216,7 @@ def main(vivarium_research_lsff_path, out_dirctory, location, num_simulants, ran
     output.unstack('age_group_id').T.to_csv(
         f"{out_directory}/iron_bw_results_location_id_{local_data.location_id}.csv")
 
-if __name__ == "main":
+if __name__ == "__main__":
     import sys
     args = sys.argv[1:]
     main(*args)
