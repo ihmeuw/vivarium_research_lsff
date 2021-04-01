@@ -66,7 +66,7 @@ def get_sex_id_to_sex_map(source=None):
     return sex_id_to_sex
 
 
-def initialize_population_table(draws, num_simulants, cohort_age=0.0):
+def initialize_population_table(draws, num_simulants, age=0.0):
     """Creates populations for baseline scenario and iron fortification intervention scenario,
     assigns birthweights and gestational ages to each simulant, shifts birthweights appropriately,
     and assigns relative risks for mortality based on resulting LBWSG categories.
@@ -75,7 +75,7 @@ def initialize_population_table(draws, num_simulants, cohort_age=0.0):
     pop = pd.DataFrame(index=pd.MultiIndex.from_product(
         [draws, range(num_simulants)], names=['draw', 'simulant_id']))
     assign_sex(pop)
-    assign_age_to_cohort(pop, cohort_age)
+    assign_age_to_cohort(pop, age)
     return pop
 
 def assign_simulant_property(pop, property_name, choice_function=None):
