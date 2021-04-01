@@ -27,22 +27,22 @@ def get_fortification_input_data(vivarium_research_lsff_path='..', locations_pat
     if coverage_data_path is None:
         coverage_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
     if consumption_data_path is None:
-        consumption_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
+        consumption_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_gday_data.csv'
     if concentration_data_path is None:
         concentration_data_path = '/share/scratch/users/ndbs/vivarium_lsff/gfdx_data/flour_fortification_standards_mg_per_kg.csv'
 
     locations = pd.read_csv(locations_path)
-    coverage_df = pd.read_csv(coverage_data_path).pipe(mult_model_fns.create_marginal_uncertainty)
-    consumption_df = pd.read_csv(consumption_data_path)
-    concentration_df = (
+    coverage = pd.read_csv(coverage_data_path).pipe(mult_model_fns.create_marginal_uncertainty)
+    consumption = pd.read_csv(consumption_data_path)
+    concentration = (
         pd.read_csv(concentration_data_path)
         .pipe(process_concentration_data, locations)
     )
     FortificationInputData = namedtuple(
         "FortificationInputData",
-        "locations, coverage_df, consumption_df, concentration_df"
+        "locations, coverage, consumption, concentration"
     )
-    return FortificationInputData(locations, coverage_df, consumption_df, concentration_df)
+    return FortificationInputData(locations, coverage, consumption, concentration)
 
 def process_concentration_data(concentration_df, locations):
     names_to_ids = locations.set_index('location_name').squeeze()
@@ -197,9 +197,9 @@ def get_local_data(global_data, input_data, location, vehicle):
         location_name = location
         location_id = input_data.locations.set_index('location_name').loc[location_name, 'location_id']
     iron_concentration = get_iron_concentration(
-        input_data.concentration_df, location_id, global_data.draws, global_data.random_generator)
+        input_data.concentration, location_id, global_data.draws, global_data.random_generator)
     mean_daily_flour = get_mean_consumption_draws(
-        input_data.consumption_df, location_id, vehicle, global_data.draws, global_data.random_generator)
+        input_data.consumption, location_id, vehicle, global_data.draws, global_data.random_generator)
     # Check data dimensions (scalar vs. Series) to make sure multiplication will work
     mean_birthweight_shift = calculate_birthweight_shift(
         global_data.birthweight_dose_response, # indexed by draw
@@ -209,7 +209,7 @@ def get_local_data(global_data, input_data, location, vehicle):
     mean_birthweight_shift.rename('mean_birthweight_shift', inplace=True)
     # Load coverage data
     eats_fortified, eats_fortifiable = get_coverage_draws(
-        input_data.coverage_df, location_id, vehicle, global_data.draws, global_data.random_generator)
+        input_data.coverage, location_id, vehicle, global_data.draws, global_data.random_generator)
 
     LocalIronFortificationData = namedtuple(
         'LocalIronFortificationData',
