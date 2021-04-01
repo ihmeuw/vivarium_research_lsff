@@ -24,7 +24,7 @@ location_id,location_name,sub_population,vehicle,metric,mass_unit,time_unit,pop_
 180,Kenya,total population,wheat flour,mean,g,day,capita,100.11,65.07687653457583,135.14312346542417
 15,Myanmar,women of reproductive age,maize flour,mean,g,day,capita,12.383561643835616,2.6679674585690543,6.372032541430945
 15,Myanmar,total population,wheat flour,mean,g,day,capita,29.92,19.44960689156437,40.39039310843563
-164,Nepal,total population,wheat flour,mean,g,day,,5.7,3.705306125732517,7.694693874267482
+164,Nepal,total population,wheat flour,mean,g,day,consumers,5.7,3.705306125732517,7.694693874267482
 20,Vietnam,total population,wheat flour,mean,g,day,capita,30.36,19.735630522322673,40.984369477677326
 202,Cameroon,total population,maize flour,mean,g,day,capita,139.34,82.24658975155134,196.43341024844867
 202,Cameroon,women of reproductive age,wheat flour,,g,day,consumers,79.0,51.35424279524015,106.64575720475986
