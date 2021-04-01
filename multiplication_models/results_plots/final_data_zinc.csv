@@ -1,0 +1,511 @@
+location_id,location_name,Baseline Prevalence of Zinc deficiency in age group 1 to 4 (per 100),Baseline Number in age group 1 to 4 with Zinc deficiency (1000s),Baseline DALYs attributable to Zinc deficiency in age group 1 to 4,"Baseline DALYs attributable to Zinc deficiency per 100,000 person-years in age group 1 to 4",Percent of population eating fortifiable maize flour,Percent of population eating fortifiable wheat flour,Percent of population eating zinc fortified maize flour at baseline,Percent of population eating zinc fortified maize flour: 20% scale-up,Percent of population eating zinc fortified maize flour: 50% scale-up,Percent of population eating zinc fortified maize flour: 80% scale-up,Percent of population eating zinc fortified wheat flour at baseline,Percent of population eating zinc fortified wheat flour: 20% scale-up,Percent of population eating zinc fortified wheat flour: 50% scale-up,Percent of population eating zinc fortified wheat flour: 80% scale-up,"Zinc in maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","Zinc in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","Zinc in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up",Zinc in maize flour DALYs averted: 20.0% scale-up,Zinc in maize flour DALYs averted: 50.0% scale-up,Zinc in maize flour DALYs averted: 80.0% scale-up,Zinc in maize flour PIF (percent): 20.0% scale-up,Zinc in maize flour PIF (percent): 50.0% scale-up,Zinc in maize flour PIF (percent): 80.0% scale-up,"Zinc in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","Zinc in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","Zinc in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up",Zinc in wheat flour DALYs averted: 20.0% scale-up,Zinc in wheat flour DALYs averted: 50.0% scale-up,Zinc in wheat flour DALYs averted: 80.0% scale-up,Zinc in wheat flour PIF (percent): 20.0% scale-up,Zinc in wheat flour PIF (percent): 50.0% scale-up,Zinc in wheat flour PIF (percent): 80.0% scale-up,Annual maize flour fortification cost (millions of US dollars),Annual wheat flour fortification cost (millions of US dollars),Zinc fortified maize flour cost per DALY averted (US dollars),Zinc fortified wheat flour cost per DALY averted (US dollars)
+161,Bangladesh,"9.7
+(1.1, 23.1)","1,077
+(120, 2,568)","957
+(90, 2,850)","9
+(1, 26)",Not modeled,"38.4
+(28.4, 48.2) 38.4
+(28.4, 48.2) 38.4
+(28.4, 48.2)",Not modeled,Not modeled,Not modeled,Not modeled,"0.2
+(0.1, 0.2)","7.8
+(5.8, 9.8)","19.3
+(14.3, 24.2)","30.8
+(22.7, 38.6)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(0, 0)","0
+(0, 2)","1
+(0, 3)","38
+(2, 115)","95
+(7, 288)","153
+(11, 461)","4.0
+(2.3, 5.8)","10.0
+(5.8, 14.5)","16.0
+(9.2, 23.2)",Not estimated,0.99,Not modeled,"7774
+(4803, 14755)"
+201,Burkina Faso,"3.1
+(0.0, 9.8)","98
+(0, 310)","1,694
+(0, 6,200)","54
+(0, 196)","0.0
+(0.0, 0.0) 0.0
+(0.0, 0.0) 0.0
+(0.0, 0.0)","52.2
+(22.3, 81.1) 52.2
+(22.3, 81.1) 52.2
+(22.3, 81.1)","0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","12.9
+(1.6, 25.5)","20.7
+(5.7, 36.6)","32.5
+(11.9, 53.3)","44.3
+(18.1, 70.0)","0
+(0, 0)","0
+(0, 0)","0
+(0, 0)","0
+(0, 0)","0
+(0, 0)","0
+(0, 0)","0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","1
+(0, 7)","4
+(0, 19)","7
+(0, 30)","76
+(0, 308)","192
+(0, 771)","307
+(0, 1234)","4.5
+(2.0, 7.3)","11.2
+(4.9, 18.4)","17.9
+(7.8, 29.4)",Not estimated,0.13,Not modeled,"657
+(311, 1705)"
+202,Cameroon,"4.8
+(0.0, 13.8)","159
+(0, 460)","3,796
+(0, 13,324)","114
+(0, 399)","9.2
+(4.9, 13.3) 9.2
+(4.9, 13.3) 9.2
+(4.9, 13.3)","81.3
+(59.5, 98.9) 76.9
+(52.8, 98.1) 81.3
+(59.5, 98.9)","6.1
+(3.2, 8.8)","6.7
+(3.6, 9.7)","7.6
+(4.1, 11.1)","8.6
+(4.6, 12.4)","65.0
+(44.7, 84.6)","68.3
+(49.8, 86.0)","73.1
+(54.8, 89.0)","78.0
+(58.0, 93.5)","0
+(0, 1)","0
+(0, 2)","1
+(0, 4)","12
+(0, 45)","31
+(0, 114)","50
+(0, 183)","0.3
+(0.1, 0.6)","0.8
+(0.4, 1.4)","1.3
+(0.6, 2.2)","2
+(0, 11)","5
+(0, 28)","9
+(0, 45)","99
+(0, 476)","248
+(0, 1190)","397
+(0, 1905)","2.6
+(0.1, 6.3)","6.5
+(0.3, 15.8)","10.3
+(0.4, 25.2)",Not estimated,0.11,Not modeled,"526
+(209, 1670)"
+205,Côte d'Ivoire,"5.9
+(0.3, 16.0)","187
+(8, 507)","1,627
+(39, 6,068)","51
+(1, 192)",Not modeled,"10.2
+(7.4, 12.9) 11.5
+(9.1, 14.1) 10.7
+(8.1, 13.5)",Not modeled,Not modeled,Not modeled,Not modeled,"0.0
+(0.0, 0.0)","2.0
+(1.5, 2.6)","5.1
+(3.7, 6.4)","8.2
+(5.9, 10.3)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(0, 1)","1
+(0, 3)","1
+(0, 6)","17
+(0, 63)","43
+(0, 159)","69
+(1, 255)","1.1
+(0.6, 1.5)","2.7
+(1.5, 3.8)","4.3
+(2.4, 6.2)",3.71,0.13,Not modeled,"2767
+(1397, 5981)"
+171,Democratic Republic of the Congo,"32.5
+(18.0, 43.8)","3,519
+(1,952, 4,743)","28,540
+(4,984, 79,052)","264
+(46, 731)","2.3
+(1.7, 2.8) 2.3
+(1.7, 2.8) 2.3
+(1.7, 2.8)","0.6
+(0.4, 0.8) 0.6
+(0.4, 0.8) 0.6
+(0.4, 0.8)","0.0
+(0.0, 0.0)","0.5
+(0.3, 0.6)","1.1
+(0.9, 1.4)","1.8
+(1.4, 2.2)","0.0
+(0.0, 0.0)","0.1
+(0.1, 0.2)","0.3
+(0.2, 0.4)","0.5
+(0.3, 0.6)","0
+(0, 1)","1
+(0, 3)","1
+(0, 5)","67
+(10, 194)","168
+(26, 485)","269
+(41, 777)","0.2
+(0.1, 0.3)","0.6
+(0.4, 0.8)","0.9
+(0.6, 1.3)","0
+(0, 0)","0
+(0, 0)","0
+(0, 1)","17
+(2, 49)","43
+(6, 123)","69
+(10, 197)","0.1
+(0.0, 0.1)","0.2
+(0.1, 0.2)","0.2
+(0.1, 0.4)",Not estimated,0.12,Not modeled,"2218
+(1224, 4358)"
+179,Ethiopia,"2.9
+(0.0, 9.0)","380
+(0, 1,187)","4,195
+(0, 15,205)","32
+(0, 115)",Not modeled,"26.8
+(16.4, 36.7) 26.8
+(16.4, 36.7) 26.8
+(16.4, 36.7)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
+(0.0, 2.8)","6.2
+(3.3, 9.6)","13.9
+(8.2, 19.8)","21.6
+(13.1, 30.0)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(0, 2)","1
+(0, 6)","2
+(0, 10)","114
+(0, 432)","286
+(0, 1081)","457
+(0, 1730)","2.7
+(1.4, 4.1)","6.8
+(3.6, 10.2)","10.9
+(5.7, 16.4)",Not estimated,0.55,Not modeled,"1696
+(856, 3976)"
+163,India,"11.5
+(2.1, 24.0)","10,816
+(1,951, 22,611)","31,741
+(6,409, 72,354)","34
+(7, 77)",Not modeled,"7.1
+(5.4, 8.7) 7.1
+(5.4, 8.7) 7.1
+(5.4, 8.7)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
+(0.0, 2.6)","2.2
+(1.1, 3.8)","4.0
+(2.7, 5.6)","5.8
+(4.3, 7.5)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(0, 0)","0
+(0, 1)","0
+(0, 1)","203
+(36, 496)","508
+(90, 1240)","813
+(145, 1985)","0.6
+(0.4, 0.8)","1.6
+(1.0, 2.1)","2.6
+(1.6, 3.4)",Not estimated,10.81,Not modeled,"15273
+(9869, 22960)"
+11,Indonesia,"7.9
+(0.8, 18.9)","1,259
+(129, 3,001)","2,825
+(292, 7,660)","18
+(2, 48)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not estimated,0.19,Not modeled,Not modeled
+180,Kenya,"5.2
+(0.1, 15.0)","264
+(6, 767)","1,709
+(46, 5,584)","33
+(1, 109)","36.8
+(18.5, 54.3) 36.8
+(18.5, 54.3) 36.8
+(18.5, 54.3)","36.6
+(23.6, 52.6) 36.6
+(23.6, 52.4) 36.6
+(23.6, 52.6)","0.0
+(0.0, 0.0)","7.4
+(3.7, 10.9)","18.4
+(9.2, 27.2)","29.4
+(14.8, 43.4)","27.3
+(11.8, 41.1)","29.2
+(15.5, 42.2)","32.0
+(19.4, 44.9)","34.8
+(22.2, 49.5)","1
+(0, 3)","2
+(0, 8)","4
+(0, 13)","65
+(1, 216)","163
+(3, 540)","261
+(4, 865)","3.9
+(1.7, 6.5)","9.6
+(4.3, 16.2)","15.4
+(6.8, 25.9)","0
+(0, 1)","0
+(0, 3)","1
+(0, 5)","19
+(0, 89)","48
+(0, 223)","77
+(0, 357)","1.1
+(0.0, 3.2)","2.8
+(0.1, 8.1)","4.5
+(0.2, 13.0)",14.64,0.15,"76896
+(40100, 153961)","3407
+(1447, 10091)"
+184,Mozambique,"13.9
+(2.4, 28.9)","563
+(95, 1,166)","2,553
+(294, 7,250)","63
+(7, 180)","23.8
+(18.6, 29.3) 23.8
+(18.6, 29.3) 23.8
+(18.6, 29.3)","16.3
+(10.9, 21.2) 16.3
+(10.9, 21.2) 16.3
+(10.9, 21.2)","16.7
+(13.0, 20.5)","18.1
+(14.1, 22.3)","20.2
+(15.8, 24.9)","22.4
+(17.4, 27.6)","9.8
+(6.5, 12.7)","11.1
+(7.4, 14.4)","13.0
+(8.7, 16.9)","15.0
+(10.0, 19.5)","0
+(0, 1)","1
+(0, 3)","1
+(0, 4)","20
+(2, 62)","52
+(5, 156)","83
+(8, 251)","0.8
+(0.5, 1.2)","2.1
+(1.2, 3.0)","3.3
+(1.9, 4.8)","0
+(0, 1)","0
+(0, 2)","1
+(0, 4)","18
+(1, 58)","46
+(4, 146)","74
+(7, 233)","0.7
+(0.4, 1.1)","1.8
+(0.9, 2.7)","2.9
+(1.5, 4.4)",Not estimated,0.17,Not modeled,"2893
+(1726, 5035)"
+15,Myanmar,"6.0
+(0.2, 16.8)","241
+(8, 674)","345
+(10, 1,112)","9
+(0, 28)",Not modeled,"4.5
+(2.3, 6.9) 4.5
+(2.3, 6.9) 4.5
+(2.3, 6.9)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
+(0.1, 2.7)","1.7
+(0.5, 3.5)","2.8
+(1.2, 4.8)","3.8
+(1.8, 6.0)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(0, 0)","0
+(0, 0)","0
+(0, 0)","1
+(0, 4)","3
+(0, 10)","5
+(0, 17)","0.4
+(0.2, 0.5)","0.9
+(0.5, 1.3)","1.5
+(0.8, 2.1)",Not estimated,0.12,Not modeled,"31015
+(17091, 64893)"
+164,Nepal,"3.9
+(0.0, 12.0)","93
+(0, 288)","126
+(0, 443)","5
+(0, 18)",Not modeled,"43.3
+(20.0, 65.8) 43.3
+(20.0, 65.8) 43.3
+(20.0, 65.8)",Not modeled,Not modeled,Not modeled,Not modeled,"0.0
+(0.0, 0.0)","8.7
+(4.0, 13.2)","21.6
+(10.0, 32.9)","34.6
+(16.0, 52.7)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(0, 0)","0
+(0, 1)","0
+(0, 2)","5
+(0, 21)","14
+(0, 52)","22
+(0, 84)","4.5
+(1.9, 7.7)","11.3
+(4.7, 19.4)","18.1
+(7.5, 31.0)",Not estimated,0.21,Not modeled,"13643
+(6889, 31454)"
+214,Nigeria,"4.5
+(0.1, 13.4)","1,199
+(16, 3,534)","38,748
+(690, 123,680)","147
+(3, 468)",Not modeled,"60.0
+(57.7, 62.3) 60.0
+(57.7, 62.3) 60.0
+(57.7, 62.3)",Not modeled,Not modeled,Not modeled,Not modeled,"16.9
+(14.6, 19.1)","25.5
+(23.2, 27.8)","38.4
+(36.2, 40.7)","51.4
+(49.1, 53.6)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"5
+(0, 18)","14
+(0, 46)","22
+(0, 75)","1924
+(33, 6289)","4811
+(82, 15724)","7698
+(132, 25158)","5.0
+(3.0, 6.6)","12.4
+(7.5, 16.5)","19.9
+(12.1, 26.3)",Not estimated,0.2,Not modeled,"33
+(18, 69)"
+165,Pakistan,"26.7
+(15.7, 37.9)","6,469
+(3,797, 9,171)","41,009
+(14,736, 83,037)","170
+(61, 343)",Not modeled,"41.1
+(14.3, 66.8) 41.1
+(14.3, 66.8) 41.1
+(14.3, 66.8)",Not modeled,Not modeled,Not modeled,Not modeled,"1.9
+(0.7, 3.1)","9.8
+(3.4, 15.9)","21.5
+(7.5, 35.0)","33.3
+(11.6, 54.1)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"5
+(1, 14)","14
+(3, 35)","22
+(4, 56)","1717
+(366, 4275)","4293
+(917, 10689)","6868
+(1467, 17103)","4.2
+(1.4, 7.2)","10.4
+(3.5, 18.1)","16.6
+(5.6, 29.0)",Not estimated,4.68,Not modeled,"778
+(523, 1209)"
+196,South Africa,"3.5
+(0.0, 10.5)","142
+(1, 428)","358
+(1, 1,219)","9
+(0, 30)","96.3
+(93.2, 99.3) 96.3
+(93.2, 99.3) 96.3
+(93.2, 99.3)","11.0
+(6.4, 15.8) 11.0
+(6.4, 15.8) 11.0
+(6.4, 15.8)","57.8
+(47.7, 68.3)","65.5
+(56.8, 74.5)","77.1
+(70.4, 83.8)","88.6
+(84.1, 93.1)","5.8
+(2.9, 8.7)","6.8
+(3.6, 10.1)","8.4
+(4.7, 12.2)","9.9
+(5.7, 14.4)","0
+(0, 1)","1
+(0, 3)","1
+(0, 5)","21
+(0, 72)","52
+(0, 181)","84
+(0, 290)","5.9
+(3.1, 8.6)","14.7
+(7.7, 21.5)","23.5
+(12.3, 34.4)","0
+(0, 0)","0
+(0, 0)","0
+(0, 0)","2
+(0, 6)","5
+(0, 17)","8
+(0, 27)","0.6
+(0.3, 0.9)","1.4
+(0.7, 2.2)","2.3
+(1.2, 3.5)",89.33,0.2,"1436585
+(751719, 3280453)","33213
+(17775, 74506)"
+190,Uganda,"9.0
+(0.9, 21.7)","504
+(51, 1,213)","2,314
+(179, 7,363)","41
+(3, 132)","42.6
+(32.9, 52.1) 42.6
+(32.9, 52.1) 42.6
+(32.9, 52.1)","10.6
+(7.6, 13.6) 10.6
+(7.6, 13.6) 10.6
+(7.6, 13.6)","6.6
+(3.4, 9.7)","13.8
+(9.3, 18.2)","24.6
+(18.2, 30.9)","35.4
+(27.0, 43.6)","8.5
+(5.7, 11.4)","8.9
+(6.1, 11.8)","9.5
+(6.7, 12.5)","10.2
+(7.2, 13.2)","1
+(0, 4)","3
+(0, 10)","5
+(0, 16)","90
+(6, 288)","226
+(15, 721)","361
+(24, 1155)","3.9
+(2.3, 5.4)","9.8
+(5.8, 13.5)","15.7
+(9.3, 21.6)","0
+(0, 0)","0
+(0, 0)","0
+(0, 0)","5
+(0, 17)","13
+(0, 42)","21
+(1, 68)","0.2
+(0.1, 0.3)","0.6
+(0.4, 0.8)","0.9
+(0.6, 1.2)",2.63,Not estimated,"8909
+(5458, 18146)",Not modeled
+189,United Republic of Tanzania,"6.9
+(0.4, 18.4)","503
+(29, 1,347)","1,454
+(79, 4,598)","20
+(1, 63)","36.7
+(29.4, 44.2) 36.7
+(29.4, 44.2) 36.7
+(29.4, 44.2)","50.2
+(43.3, 57.6) 50.2
+(43.3, 57.6) 50.2
+(43.3, 57.6)","2.5
+(1.3, 3.7)","9.3
+(6.9, 11.8)","19.6
+(15.4, 24.0)","29.8
+(23.8, 36.1)","32.9
+(27.5, 38.6)","36.3
+(30.7, 42.4)","41.5
+(35.4, 48.1)","46.7
+(40.2, 53.8)","0
+(0, 1)","1
+(0, 4)","2
+(0, 7)","52
+(2, 182)","130
+(6, 456)","209
+(10, 730)","3.6
+(2.2, 4.9)","9.1
+(5.5, 12.2)","14.5
+(8.7, 19.5)","0
+(0, 1)","0
+(0, 2)","1
+(0, 4)","32
+(1, 109)","80
+(3, 273)","128
+(6, 437)","2.2
+(1.3, 3.1)","5.5
+(3.1, 7.8)","8.8
+(5.0, 12.5)",7.01,0.14,"44696
+(23889, 89619)","1472
+(792, 2903)"
+20,Viet Nam,"4.9
+(0.0, 14.2)","273
+(2, 795)","113
+(1, 351)","2
+(0, 6)",Not modeled,"21.9
+(10.0, 34.1) 21.9
+(10.0, 34.1) 21.9
+(10.0, 34.1)",Not modeled,Not modeled,Not modeled,Not modeled,"4.1
+(1.9, 6.4)","7.7
+(3.5, 11.9)","13.0
+(6.0, 20.3)","18.4
+(8.4, 28.6)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(0, 0)","0
+(0, 0)","0
+(0, 0)","2
+(0, 7)","5
+(0, 17)","8
+(0, 28)","1.9
+(0.8, 3.2)","4.8
+(2.0, 8.1)","7.7
+(3.1, 13.0)",Not estimated,0.2,Not modeled,"31678
+(16529, 70405)"
