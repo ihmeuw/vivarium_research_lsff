@@ -5,3 +5,7 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 214,Nigeria low SES,,wheat flour,percent of population eating fortified vehicle,iron,4.08,3.28,7.72,TRUE,TRUE
 214,Nigeria low SES,,wheat flour,percent of population eating fortified vehicle,zinc,4.08,3.28,7.72,TRUE,TRUE
 214,Nigeria low SES,,wheat flour,percent of population eating fortified vehicle,folic acid,4.08,3.28,7.72,TRUE,TRUE
+214,Nigeria low SES,,maize flour,percent of population eating industrially produced vehicle,na,6.508,2.496,11.66,TRUE,TRUE
+214,Nigeria low SES,,maize flour,percent of population eating fortified vehicle,iron,0.256,0.112,0.432,TRUE,TRUE
+214,Nigeria low SES,,maize flour,percent of population eating fortified vehicle,zinc,0.256,0.112,0.432,TRUE,TRUE
+214,Nigeria low SES,,maize flour,percent of population eating fortified vehicle,folic acid,0.256,0.112,0.432,TRUE,TRUE

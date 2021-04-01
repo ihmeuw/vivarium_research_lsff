@@ -199,4 +199,4 @@ def make_ses_comparison_dot_plots(data, nutrient, measure, coverage_levels, subt
     l_names['label'] = l_names.location_name + ' ' + l_names.subgroup
     l_names = list(l_names.label.values)
     ax.set_xticklabels(l_names)
-    plt.savefig(f'results_plots/{output_filename}.png', bbox_inches='tight')
+    plt.savefig(f'results_plots/low_ses/{output_filename}.png', bbox_inches='tight')
