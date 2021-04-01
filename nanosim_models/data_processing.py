@@ -1,9 +1,10 @@
 import pandas as pd, numpy as np
 from collections import namedtuple
 
-import demography, lbwsg, lsff_interventions
-from lbwsg import LBWSGDistribution, LBWSGRiskEffect
-from lsff_interventions import IronFortificationIntervention
+# # Assumes these modules are in the same directory in which main is running
+# import demography, lbwsg, lsff_interventions
+# from lbwsg import LBWSGDistribution, LBWSGRiskEffect
+# from lsff_interventions import IronFortificationIntervention
 
 # Assumes the path to vivarium_research_lsff is in sys.path
 from multiplication_models import mult_model_fns
@@ -31,7 +32,10 @@ def get_fortification_input_data(vivarium_research_lsff_path='..', locations_pat
     locations = pd.read_csv(locations_path)
     coverage_df = pd.read_csv(coverage_data_path).pipe(mult_model_fns.create_marginal_uncertainty)
     consumption_df = pd.read_csv(consumption_data_path)
-    concentration_df = pd.read_csv(concentration_data_path)
+    concentration_df = (
+        pd.read_csv(concentration_data_path)
+        .pipe(process_concentration_data, locations)
+    )
     FortificationInputData = namedtuple(
         "FortificationInputData",
         "locations, coverage_df, consumption_df, concentration_df"
@@ -52,9 +56,12 @@ def process_concentration_data(concentration_df, locations):
     vehicle_dfs = []
     for vehicle in concentration_df.vehicle.unique():
         df = concentration_df.query("vehicle==@vehicle")
+#         if len(df.loc[df['NaFeEDTA']])==0 or len(df.loc[~df['NaFeEDTA']])==0:
+#             # This may or may not make sense because it doesn't standardize if there are multiple compounds...
+#             df['value'] = df['Indicator Value']
+#             continue
         # Compute a multiplier to standardize all mg/kg values to NaFeEDTA.
-        # Note: This currently assumes that for each vehicle, at least one location has NaFeEDTA and one has something else.
-        # if len(df.loc[df['NaFeEDTA']])==0 or len(df.loc[~df['NaFeEDTA']])==0:
+        # Note: This assumes that for each vehicle, at least one location has NaFeEDTA and one has something else.
         absorption_multiplier = (
             df.loc[df['NaFeEDTA'], 'Indicator Value'].mean()
             / df.loc[~df['NaFeEDTA'], 'Indicator Value'].mean()
@@ -65,7 +72,7 @@ def process_concentration_data(concentration_df, locations):
     concentration_df = pd.concat(vehicle_dfs)
     return concentration_df
 
-def get_gbd_input_data(location_id, hdfstore=None, exposure_key=None, rr_key=None, yll_key=None):
+def get_gbd_input_data(hdfstore=None, exposure_key=None, rr_key=None, yll_key=None):
     if hdfstore is None:
         hdfstore = '/share/scratch/users/ndbs/vivarium_lsff/gbd_data/lbwsg_data.hdf'
     if exposure_key is None:
@@ -76,15 +83,15 @@ def get_gbd_input_data(location_id, hdfstore=None, exposure_key=None, rr_key=Non
         yll_key = '/gbd_2019/burden/ylls/bmgf_25_countries_all_subcauses'
         
     exposure_data = pd.read_hdf(hdfstore, exposure_key)
-    exposure_data = lbwsg.preprocess_gbd_data(
-        exposure_data, draws=draws,
-        filter_terms=[f"location_id == {location_id}"],
-        mean_draws_name=mean_draws_name
-    )
+#     exposure_data = lbwsg.preprocess_gbd_data(
+#         exposure_data, draws=draws,
+#         filter_terms=[f"location_id == {location_id}"],
+#         mean_draws_name=mean_draws_name
+#     )
     rr_data = pd.read_hdf(hdfstore, rr_key)
-    # For now we only need early neonatal RR's
-    rr_data = lbwsg.preprocess_gbd_data(
-        rr_data, draws=draws, filter_terms=["age_group_id==2"], mean_draws_name=mean_draws_name)
+#     # For now we only need early neonatal RR's
+#     rr_data = lbwsg.preprocess_gbd_data(
+#         rr_data, draws=draws, filter_terms=["age_group_id==2"], mean_draws_name=mean_draws_name)
     yll_data = pd.read_hdf(hdfstore, yll_key)
     return exposure_data, rr_data, yll_data
 
@@ -128,7 +135,7 @@ def get_mean_consumption_draws(consumption_df, location_id, vehicle, draws, rand
 
 def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
     # This line assumes Beatrix has made the appropriate update...
-    coverage_df = coverage_df.query("location_id==@location_id and vehicle==@vehicle and wra==True")
+    coverage_df = coverage_df.query("location_id==@location_id and vehicle==@vehicle and wra_applicable==True")
     fortified = coverage_df.query("nutrient=='iron' and value_description == 'percent of population eating fortified vehicle'")
     fortifiable = coverage_df.query("value_description == 'percent of population eating industrially produced vehicle'")
     assert len(fortified)==1 and len(fortifiable)==1, f"Coverage dataframe has wrong number of rows for iron!"
