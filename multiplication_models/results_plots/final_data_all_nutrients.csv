@@ -1,4 +1,4 @@
-location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency in age group 1 to 4 (per 100),Baseline Number in age group 1 to 4 with Zinc deficiency (1000s),Baseline DALYs attributable to Zinc deficiency in age group 1 to 4,"Baseline DALYs attributable to Zinc deficiency per 100,000 person-years in age group 1 to 4",Baseline Prevalence of Vitamin A deficiency in age group Under 5 (per 100),Baseline Number in age group Under 5 with Vitamin A deficiency (1000s),Baseline DALYs attributable to Vitamin A deficiency in age group Under 5 (1000s),"Baseline DALYs attributable to Vitamin A deficiency per 100,000 person-years in age group Under 5",Baseline Prevalence of Neural tube defects in age group Birth (per 1000),Baseline Number in age group Birth with Neural tube defects,Baseline DALYs attributable to Neural tube defects in age group Under 5 (1000s),"Baseline DALYs attributable to Neural tube defects per 100,000 person-years in age group Under 5",Baseline Mean hemoglobin (g/L) among WRA,Baseline Prevalence of anemia (per 100) among WRA,Baseline Prevalence of iron deficiency anemia (per 100) among WRA,Baseline Number with iron deficiency anemia (1000s) among WRA,Baseline DALYs attributable to iron deficiency (1000s) among WRA,"Baseline DALYs attributable to iron deficiency per person-year (x 100,000) among WRA",Baseline Mean hemoglobin (g/L) among Children U5,Baseline Prevalence of anemia (per 100) among Children U5,Baseline Prevalence of iron deficiency anemia (per 100) among Children U5,Baseline Number with iron deficiency anemia (1000s) among Children U5,Baseline DALYs attributable to iron deficiency (1000s) among Children U5,"Baseline DALYs attributable to iron deficiency per person-year (x 100,000) among Children U5",Percent of population eating folic acid fortified maize flour at baseline,Percent of population eating folic acid fortified maize flour: 20% scale-up,Percent of population eating folic acid fortified maize flour: 50% scale-up,Percent of population eating folic acid fortified maize flour: 80% scale-up,Percent of population eating folic acid fortified wheat flour at baseline,Percent of population eating folic acid fortified wheat flour: 20% scale-up,Percent of population eating folic acid fortified wheat flour: 50% scale-up,Percent of population eating folic acid fortified wheat flour: 80% scale-up,Percent of population eating fortifiable maize flour,Percent of population eating fortifiable oil,Percent of population eating fortifiable wheat flour,Percent of population eating iron fortified maize flour at baseline,Percent of population eating iron fortified maize flour: 20% scale-up,Percent of population eating iron fortified maize flour: 50% scale-up,Percent of population eating iron fortified maize flour: 80% scale-up,Percent of population eating iron fortified wheat flour at baseline,Percent of population eating iron fortified wheat flour: 20% scale-up,Percent of population eating iron fortified wheat flour: 50% scale-up,Percent of population eating iron fortified wheat flour: 80% scale-up,Percent of population eating vitamin a fortified oil at baseline,Percent of population eating vitamin a fortified oil: 20% scale-up,Percent of population eating vitamin a fortified oil: 50% scale-up,Percent of population eating vitamin a fortified oil: 80% scale-up,Percent of population eating zinc fortified maize flour at baseline,Percent of population eating zinc fortified maize flour: 20% scale-up,Percent of population eating zinc fortified maize flour: 50% scale-up,Percent of population eating zinc fortified maize flour: 80% scale-up,Percent of population eating zinc fortified wheat flour at baseline,Percent of population eating zinc fortified wheat flour: 20% scale-up,Percent of population eating zinc fortified wheat flour: 50% scale-up,Percent of population eating zinc fortified wheat flour: 80% scale-up,"Iron in maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","Iron in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","Iron in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up",Iron in maize flour DALYs averted: 20.0% scale-up,Iron in maize flour DALYs averted: 50.0% scale-up,Iron in maize flour DALYs averted: 80.0% scale-up,Iron in maize flour PIF (percent): 20.0% scale-up,Iron in maize flour PIF (percent): 50.0% scale-up,Iron in maize flour PIF (percent): 80.0% scale-up,"Iron in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","Iron in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","Iron in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up",Iron in wheat flour DALYs averted: 20.0% scale-up,Iron in wheat flour DALYs averted: 50.0% scale-up,Iron in wheat flour DALYs averted: 80.0% scale-up,Iron in wheat flour PIF (percent): 20.0% scale-up,Iron in wheat flour PIF (percent): 50.0% scale-up,Iron in wheat flour PIF (percent): 80.0% scale-up,"Vitamin A in oil DALYs averted per 100,000 person-years: 20.0% scale-up","Vitamin A in oil DALYs averted per 100,000 person-years: 50.0% scale-up","Vitamin A in oil DALYs averted per 100,000 person-years: 80.0% scale-up",Vitamin A in oil DALYs averted: 20.0% scale-up,Vitamin A in oil DALYs averted: 50.0% scale-up,Vitamin A in oil DALYs averted: 80.0% scale-up,Vitamin A in oil PIF (percent): 20.0% scale-up,Vitamin A in oil PIF (percent): 50.0% scale-up,Vitamin A in oil PIF (percent): 80.0% scale-up,"Zinc in maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","Zinc in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","Zinc in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up",Zinc in maize flour DALYs averted: 20.0% scale-up,Zinc in maize flour DALYs averted: 50.0% scale-up,Zinc in maize flour DALYs averted: 80.0% scale-up,Zinc in maize flour PIF (percent): 20.0% scale-up,Zinc in maize flour PIF (percent): 50.0% scale-up,Zinc in maize flour PIF (percent): 80.0% scale-up,"Zinc in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","Zinc in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","Zinc in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up",Zinc in wheat flour DALYs averted: 20.0% scale-up,Zinc in wheat flour DALYs averted: 50.0% scale-up,Zinc in wheat flour DALYs averted: 80.0% scale-up,Zinc in wheat flour PIF (percent): 20.0% scale-up,Zinc in wheat flour PIF (percent): 50.0% scale-up,Zinc in wheat flour PIF (percent): 80.0% scale-up,location_id_y,Annual maize flour fortification cost (millions of US dollars),Annual oil fortification cost (millions of US dollars),Annual wheat flour fortification cost (millions of US dollars),Iron fortified maize flour cost per DALY averted (US dollars),Iron fortified wheat flour cost per DALY averted (US dollars),Vitamin A fortified oil cost per DALY averted (US dollars),Zinc fortified maize flour cost per DALY averted (US dollars),Zinc fortified wheat flour cost per DALY averted (US dollars)
+location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency in age group 1 to 4 (per 100),Baseline Number in age group 1 to 4 with Zinc deficiency (1000s),Baseline DALYs attributable to Zinc deficiency in age group 1 to 4,"Baseline DALYs attributable to Zinc deficiency per 100,000 person-years in age group 1 to 4",Baseline Prevalence of Vitamin A deficiency in age group Under 5 (per 100),Baseline Number in age group Under 5 with Vitamin A deficiency (1000s),Baseline DALYs attributable to Vitamin A deficiency in age group Under 5 (1000s),"Baseline DALYs attributable to Vitamin A deficiency per 100,000 person-years in age group Under 5",Baseline Prevalence of Neural tube defects in age group Birth (per 1000),Baseline Number in age group Birth with Neural tube defects,Baseline DALYs attributable to Neural tube defects in age group Under 5 (1000s),"Baseline DALYs attributable to Neural tube defects per 100,000 person-years in age group Under 5",Baseline Mean hemoglobin (g/L) among WRA,Baseline Prevalence of anemia (per 100) among WRA,Baseline Prevalence of iron deficiency anemia (per 100) among WRA,Baseline Number with iron deficiency anemia (1000s) among WRA,Baseline DALYs attributable to iron deficiency (1000s) among WRA,"Baseline DALYs attributable to iron deficiency per person-year (x 100,000) among WRA",Baseline Mean hemoglobin (g/L) among Children U5,Baseline Prevalence of anemia (per 100) among Children U5,Baseline Prevalence of iron deficiency anemia (per 100) among Children U5,Baseline Number with iron deficiency anemia (1000s) among Children U5,Baseline DALYs attributable to iron deficiency (1000s) among Children U5,"Baseline DALYs attributable to iron deficiency per person-year (x 100,000) among Children U5",Percent of population eating folic acid fortified maize flour at baseline,Percent of population eating folic acid fortified maize flour: 20% scale-up,Percent of population eating folic acid fortified maize flour: 50% scale-up,Percent of population eating folic acid fortified maize flour: 80% scale-up,Percent of population eating folic acid fortified wheat flour at baseline,Percent of population eating folic acid fortified wheat flour: 20% scale-up,Percent of population eating folic acid fortified wheat flour: 50% scale-up,Percent of population eating folic acid fortified wheat flour: 80% scale-up,Percent of population eating fortifiable maize flour,Percent of population eating fortifiable oil,Percent of population eating fortifiable wheat flour,Percent of population eating iron fortified maize flour at baseline,Percent of population eating iron fortified maize flour: 20% scale-up,Percent of population eating iron fortified maize flour: 50% scale-up,Percent of population eating iron fortified maize flour: 80% scale-up,Percent of population eating iron fortified wheat flour at baseline,Percent of population eating iron fortified wheat flour: 20% scale-up,Percent of population eating iron fortified wheat flour: 50% scale-up,Percent of population eating iron fortified wheat flour: 80% scale-up,Percent of population eating vitamin a fortified oil at baseline,Percent of population eating vitamin a fortified oil: 20% scale-up,Percent of population eating vitamin a fortified oil: 50% scale-up,Percent of population eating vitamin a fortified oil: 80% scale-up,Percent of population eating zinc fortified maize flour at baseline,Percent of population eating zinc fortified maize flour: 20% scale-up,Percent of population eating zinc fortified maize flour: 50% scale-up,Percent of population eating zinc fortified maize flour: 80% scale-up,Percent of population eating zinc fortified wheat flour at baseline,Percent of population eating zinc fortified wheat flour: 20% scale-up,Percent of population eating zinc fortified wheat flour: 50% scale-up,Percent of population eating zinc fortified wheat flour: 80% scale-up,Folic acid in maize flour coverage data confidence score,Folic acid in wheat flour coverage data confidence score,Iron in maize flour coverage data confidence score,Iron in wheat flour coverage data confidence score,Vitamin a in maize flour coverage data confidence score,Vitamin a in oil coverage data confidence score,Vitamin a in wheat flour coverage data confidence score,Zinc in maize flour coverage data confidence score,Zinc in wheat flour coverage data confidence score,"Iron in maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","Iron in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","Iron in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up",Iron in maize flour DALYs averted: 20.0% scale-up,Iron in maize flour DALYs averted: 50.0% scale-up,Iron in maize flour DALYs averted: 80.0% scale-up,Iron in maize flour PIF (percent): 20.0% scale-up,Iron in maize flour PIF (percent): 50.0% scale-up,Iron in maize flour PIF (percent): 80.0% scale-up,"Iron in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","Iron in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","Iron in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up",Iron in wheat flour DALYs averted: 20.0% scale-up,Iron in wheat flour DALYs averted: 50.0% scale-up,Iron in wheat flour DALYs averted: 80.0% scale-up,Iron in wheat flour PIF (percent): 20.0% scale-up,Iron in wheat flour PIF (percent): 50.0% scale-up,Iron in wheat flour PIF (percent): 80.0% scale-up,"Vitamin A in oil DALYs averted per 100,000 person-years: 20.0% scale-up","Vitamin A in oil DALYs averted per 100,000 person-years: 50.0% scale-up","Vitamin A in oil DALYs averted per 100,000 person-years: 80.0% scale-up",Vitamin A in oil DALYs averted: 20.0% scale-up,Vitamin A in oil DALYs averted: 50.0% scale-up,Vitamin A in oil DALYs averted: 80.0% scale-up,Vitamin A in oil PIF (percent): 20.0% scale-up,Vitamin A in oil PIF (percent): 50.0% scale-up,Vitamin A in oil PIF (percent): 80.0% scale-up,Vitamin A in oil vitamin A deficiency prevalence 20.0% scale-up,Vitamin A in oil vitamin A deficiency prevalence 50.0% scale-up,Vitamin A in oil vitamin A deficiency prevalence 80.0% scale-up,"Zinc in maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","Zinc in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","Zinc in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up",Zinc in maize flour DALYs averted: 20.0% scale-up,Zinc in maize flour DALYs averted: 50.0% scale-up,Zinc in maize flour DALYs averted: 80.0% scale-up,Zinc in maize flour PIF (percent): 20.0% scale-up,Zinc in maize flour PIF (percent): 50.0% scale-up,Zinc in maize flour PIF (percent): 80.0% scale-up,Zinc in maize flour zinc deficiency prevalence 20.0% scale-up,Zinc in maize flour zinc deficiency prevalence 50.0% scale-up,Zinc in maize flour zinc deficiency prevalence 80.0% scale-up,"Zinc in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","Zinc in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","Zinc in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up",Zinc in wheat flour DALYs averted: 20.0% scale-up,Zinc in wheat flour DALYs averted: 50.0% scale-up,Zinc in wheat flour DALYs averted: 80.0% scale-up,Zinc in wheat flour PIF (percent): 20.0% scale-up,Zinc in wheat flour PIF (percent): 50.0% scale-up,Zinc in wheat flour PIF (percent): 80.0% scale-up,Zinc in wheat flour zinc deficiency prevalence 20.0% scale-up,Zinc in wheat flour zinc deficiency prevalence 50.0% scale-up,Zinc in wheat flour zinc deficiency prevalence 80.0% scale-up,location_id_y,Annual maize flour fortification cost (millions of US dollars),Annual oil fortification cost (millions of US dollars),Annual wheat flour fortification cost (millions of US dollars),Iron fortified maize flour cost per DALY averted (US dollars),Iron fortified wheat flour cost per DALY averted (US dollars),Vitamin A fortified oil cost per DALY averted (US dollars),Zinc fortified maize flour cost per DALY averted (US dollars),Zinc fortified wheat flour cost per DALY averted (US dollars)
 161,Bangladesh,161,"9.7
 (1.1, 23.1)","1,077
 (120, 2,568)","957
@@ -25,55 +25,58 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (80, 227)","1,027
 (584, 1,653)",Not modeled,Not modeled,Not modeled,Not modeled,"0.2
 (0.1, 0.2)","7.8
-(5.8, 9.8)","19.3
-(14.3, 24.2)","30.8
+(5.8, 9.8)","0.2
+(0.1, 0.2)","30.8
 (22.7, 38.6)",Not modeled,"88.5
-(84.5, 92.4)","38.4
-(28.4, 48.2) 38.4
-(28.4, 48.2) 38.4
-(28.4, 48.2)",Not modeled,Not modeled,Not modeled,Not modeled,"0.2
+(84.5, 92.4)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0.2
 (0.1, 0.2)","7.8
-(5.8, 9.8)","19.3
-(14.3, 24.2)","30.8
+(5.8, 9.8)","0.2
+(0.1, 0.2)","30.8
 (22.7, 38.6)","42.9
-(41.3, 44.4)","52.0
-(50.0, 54.0)","65.7
-(62.9, 68.4)","79.4
-(75.8, 82.8)",Not modeled,Not modeled,Not modeled,Not modeled,"0.2
+(41.3, 44.4)","42.9
+(41.3, 44.4)","65.7
+(62.9, 68.4)","42.9
+(41.3, 44.4)",Not modeled,Not modeled,Not modeled,Not modeled,"0.2
 (0.1, 0.2)","7.8
-(5.8, 9.8)","19.3
-(14.3, 24.2)","30.8
-(22.7, 38.6)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"39
-(0, 82)","97
-(1, 201)","154
-(1, 313)","13976
-(159, 28974)","34397
-(399, 70591)","54175
-(639, 110035)","5.1
+(5.8, 9.8)","0.2
+(0.1, 0.2)","30.8
+(22.7, 38.6)",Not modeled,5,Not modeled,5,Not modeled,5,5,Not modeled,5,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"40
+(0, 83)","98
+(1, 202)","154
+(2, 314)","13,977
+(160, 28,974)","34,397
+(400, 70,592)","54,175
+(640, 110,035)","5.1
 (0.1, 11.5)","12.6
 (0.1, 28.1)","19.8
 (0.2, 43.9)","3
-(0, 7)","7
-(0, 17)","12
-(0, 28)","424
-(-17, 971)","1061
-(-43, 2429)","1699
-(-70, 3886)","5.2
+(-0, 7)","8
+(-0, 18)","12
+(-1, 28)","425
+(-18, 972)","1,062
+(-44, 2,429)","1,699
+(-70, 3,887)","5.2
 (-0.2, 9.4)","13.0
 (-0.6, 23.5)","20.9
-(-0.9, 37.5)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
-(0, 0)","0
+(-0.9, 37.5)","7.9
+(5.0, 12.2)","7.2
+(4.6, 11.3)","6.5
+(3.9, 10.5)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(0, 1)","1
 (0, 2)","1
 (0, 3)","38
-(2, 115)","95
-(7, 288)","153
-(11, 461)","4.0
+(3, 115)","96
+(7, 289)","154
+(12, 462)","4.0
 (2.3, 5.8)","10.0
 (5.8, 14.5)","16.0
-(9.2, 23.2)",161,Not estimated,27.77,0.99,Not modeled,"18
-(12, 26)","16054
-(11553, 24016)",Not modeled,"7774
-(4803, 14755)"
+(9.2, 23.2)","7.5
+(0.8, 18.0)","7.0
+(0.8, 16.9)","6.6
+(0.8, 15.9)",161,Not estimated,27.77,0.99,Not modeled,"18
+(13, 27)","16,054
+(11,553, 24,016)",Not modeled,"7,774
+(4,804, 14,755)"
 201,Burkina Faso,201,"3.1
 (0.0, 9.8)","98
 (0, 310)","1,694
@@ -105,35 +108,30 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (0.0, 0.0)","32.1
 (13.7, 50.0)","36.1
 (15.4, 56.2)","42.1
-(18.0, 65.6)","48.1
-(20.6, 74.9)","0.0
+(18.0, 65.6)","32.1
+(13.7, 50.0)","0.0
 (0.0, 0.0) 0.0
 (0.0, 0.0) 0.0
-(0.0, 0.0)","66.0
-(43.2, 88.3)","52.2
-(22.3, 81.1) 52.2
-(22.3, 81.1) 52.2
-(22.3, 81.1)","0.0
+(0.0, 0.0)",Not modeled,Not modeled,"0.0
 (0.0, 0.0)","0.0
 (0.0, 0.0)","0.0
 (0.0, 0.0)","0.0
 (0.0, 0.0)","17.4
 (7.4, 27.0)","24.3
 (10.4, 37.8)","34.8
-(14.8, 54.1)","45.2
-(19.3, 70.3)","55.5
-(32.8, 78.5)","57.6
-(35.2, 79.9)","60.8
-(39.6, 82.6)","63.9
-(41.9, 84.9)","0.0
+(14.8, 54.1)","17.4
+(7.4, 27.0)",Not modeled,"57.6
+(35.2, 79.9)","55.5
+(32.8, 78.5)","55.5
+(32.8, 78.5)","0.0
 (0.0, 0.0)","0.0
 (0.0, 0.0)","0.0
 (0.0, 0.0)","0.0
 (0.0, 0.0)","12.9
 (1.6, 25.5)","20.7
 (5.7, 36.6)","32.5
-(11.9, 53.3)","44.3
-(18.1, 70.0)","0
+(11.9, 53.3)","12.9
+(1.6, 25.5)",5,5,5,5,3,5,3,5,3,"0
 (0, 0)","0
 (0, 0)","0
 (0, 0)","0
@@ -143,24 +141,27 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (0.0, 0.0)","0.0
 (0.0, 0.0)","0.0
 (0.0, 0.0)","58
-(0, 138)","144
-(1, 341)","228
-(2, 539)","3174
-(38, 7527)","7874
-(95, 18577)","12500
-(153, 29335)","4.5
+(1, 138)","144
+(2, 341)","229
+(3, 540)","3,175
+(38, 7,528)","7,875
+(96, 18,577)","12,501
+(153, 29,336)","4.5
 (0.1, 11.6)","11.2
 (0.1, 28.6)","17.7
 (0.2, 45.1)","20
-(-1, 84)","50
-(-3, 211)","80
-(-5, 338)","814
-(-53, 3426)","2035
-(-133, 8565)","3257
-(-213, 13705)","1.2
+(-1, 85)","50
+(-3, 212)","81
+(-5, 339)","814
+(-53, 3,426)","2,036
+(-134, 8,566)","3,257
+(-214, 13,705)","1.2
 (-0.0, 4.2)","3.0
 (-0.1, 10.5)","4.8
-(-0.2, 16.8)","0
+(-0.2, 16.8)","34.9
+(25.7, 44.8)","34.2
+(25.0, 43.8)","33.5
+(24.1, 43.3)","0
 (0, 0)","0
 (0, 0)","0
 (0, 0)","0
@@ -169,19 +170,25 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (0, 0)","0.0
 (0.0, 0.0)","0.0
 (0.0, 0.0)","0.0
-(0.0, 0.0)","1
-(0, 7)","4
-(0, 19)","7
-(0, 30)","76
-(0, 308)","192
+(0.0, 0.0)","2.4
+(0.0, 7.7)","2.4
+(0.0, 7.7)","2.4
+(0.0, 7.7)","2
+(0, 8)","5
+(0, 19)","8
+(0, 31)","77
+(0, 309)","192
 (0, 771)","307
-(0, 1234)","4.5
+(0, 1,234)","4.5
 (2.0, 7.3)","11.2
 (4.9, 18.4)","17.9
-(7.8, 29.4)",201,Not estimated,3.47,0.13,Not modeled,"10
-(7, 16)","1456
-(680, 3948)",Not modeled,"657
-(311, 1705)"
+(7.8, 29.4)","2.3
+(0.0, 7.3)","2.1
+(0.0, 6.9)","2.0
+(0.0, 6.4)",201,Not estimated,3.47,0.13,Not modeled,"11
+(7, 17)","1,457
+(681, 3,949)",Not modeled,"658
+(312, 1,706)"
 202,Cameroon,202,"4.8
 (0.0, 13.8)","159
 (0, 460)","3,796
@@ -207,13 +214,17 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (2,051, 2,590)","53
 (33, 80)","1,248
 (780, 1,906)","6.1
-(3.2, 8.8)","6.7
-(3.6, 9.7)","7.6
-(4.1, 11.1)","8.6
+(3.2, 8.8) 6.1
+(3.2, 8.8)","6.1
+(3.2, 8.8) 6.7
+(3.6, 9.7)","6.1
+(3.2, 8.8) 7.6
+(4.1, 11.1)","6.1
+(3.2, 8.8) 8.6
 (4.6, 12.4)","65.0
-(44.7, 84.6)","68.3
-(49.8, 86.0)","73.1
-(54.8, 89.0)","78.0
+(44.7, 84.6)","65.0
+(44.7, 84.6)","65.0
+(44.7, 84.6)","78.0
 (58.0, 93.5)","9.2
 (4.9, 13.3) 9.2
 (4.9, 13.3) 9.2
@@ -222,74 +233,92 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (59.5, 98.9) 76.9
 (52.8, 98.1) 81.3
 (59.5, 98.9)","6.1
-(3.2, 8.8)","6.7
-(3.6, 9.7)","7.6
-(4.1, 11.1)","8.6
+(3.2, 8.8) 6.1
+(3.2, 8.8)","6.1
+(3.2, 8.8) 6.7
+(3.6, 9.7)","6.1
+(3.2, 8.8) 7.6
+(4.1, 11.1)","6.1
+(3.2, 8.8) 8.6
 (4.6, 12.4)","52.5
-(35.8, 69.5)","57.4
-(42.0, 73.0)","64.7
-(47.6, 79.7)","72.0
+(35.8, 69.5)","52.5
+(35.8, 69.5)","52.5
+(35.8, 69.5)","72.0
 (51.8, 89.5)","30.5
-(30.2, 30.8)","39.2
-(38.6, 39.7)","52.2
+(30.2, 30.8) 30.5
+(30.2, 30.8)","30.5
+(30.2, 30.8)","52.2
 (51.3, 53.1)","65.2
 (64.0, 66.4)","6.1
-(3.2, 8.8)","6.7
-(3.6, 9.7)","7.6
-(4.1, 11.1)","8.6
+(3.2, 8.8) 6.1
+(3.2, 8.8)","6.1
+(3.2, 8.8) 6.7
+(3.6, 9.7)","6.1
+(3.2, 8.8) 7.6
+(4.1, 11.1)","6.1
+(3.2, 8.8) 8.6
 (4.6, 12.4)","65.0
-(44.7, 84.6)","68.3
-(49.8, 86.0)","73.1
-(54.8, 89.0)","78.0
-(58.0, 93.5)","3
-(0, 8)","8
+(44.7, 84.6)","65.0
+(44.7, 84.6)","65.0
+(44.7, 84.6)","78.0
+(58.0, 93.5)",0,3,0,3,0,3,1,0,3,"4
+(0, 9)","9
 (0, 21)","14
-(0, 33)","242
-(2, 575)","605
-(6, 1436)","968
-(9, 2293)","0.5
+(0, 34)","243
+(2, 576)","606
+(6, 1,436)","968
+(10, 2,294)","0.5
 (0.0, 1.1)","1.1
 (0.0, 2.8)","1.8
-(0.0, 4.5)","27
-(0, 82)","68
-(0, 202)","109
-(0, 319)","1888
-(1, 5553)","4674
-(3, 13659)","7404
-(5, 21499)","3.5
+(0.0, 4.5)","28
+(0, 82)","69
+(0, 203)","109
+(0, 319)","1,889
+(1, 5,553)","4,675
+(4, 13,660)","7,404
+(6, 21,500)","3.5
 (0.0, 10.9)","8.8
 (0.0, 26.8)","13.9
-(0.0, 42.2)","64
+(0.0, 42.2)","65
 (-6, 182)","162
-(-15, 455)","259
-(-25, 728)","2728
-(-264, 7661)","6821
-(-661, 19154)","10913
-(-1058, 30646)","4.3
+(-16, 455)","259
+(-25, 728)","2,728
+(-265, 7,662)","6,821
+(-661, 19,154)","10,914
+(-1,058, 30,647)","4.3
 (-0.2, 7.5)","10.7
 (-0.5, 18.7)","17.1
-(-0.8, 29.9)","0
-(0, 1)","0
-(0, 2)","1
-(0, 4)","12
-(0, 45)","31
-(0, 114)","50
-(0, 183)","0.3
+(-0.8, 29.9)","26.6
+(18.3, 36.5)","24.6
+(16.8, 34.0)","22.6
+(15.1, 32.4)","0
+(0, 1)","1
+(0, 3)","1
+(0, 4)","13
+(0, 46)","32
+(0, 115)","51
+(0, 184)","0.3
 (0.1, 0.6)","0.8
 (0.4, 1.4)","1.3
-(0.6, 2.2)","2
-(0, 11)","5
+(0.6, 2.2)","3.8
+(0.0, 10.9)","3.7
+(0.0, 10.9)","3.7
+(0.0, 10.8)","2
+(0, 11)","6
 (0, 28)","9
 (0, 45)","99
 (0, 476)","248
-(0, 1190)","397
-(0, 1905)","2.6
+(0, 1,191)","398
+(0, 1,906)","2.6
 (0.1, 6.3)","6.5
 (0.3, 15.8)","10.3
-(0.4, 25.2)",202,Not estimated,3.9,0.11,Not modeled,"16
-(9, 35)","381
-(236, 627)",Not modeled,"526
-(209, 1670)"
+(0.4, 25.2)","3.7
+(0.0, 10.6)","3.5
+(0.0, 10.2)","3.4
+(0.0, 9.9)",202,Not estimated,3.9,0.11,Not modeled,"17
+(10, 35)","382
+(236, 628)",Not modeled,"526
+(209, 1,670)"
 205,Côte d'Ivoire,205,"5.9
 (0.3, 16.0)","187
 (8, 507)","1,627
@@ -315,56 +344,78 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (2,767, 3,233)","75
 (48, 113)","1,861
 (1,191, 2,812)",Not modeled,Not modeled,Not modeled,Not modeled,"7.8
-(2.9, 11.7)","8.4
-(4.4, 12.0)","9.3
-(6.2, 12.3)","10.1
+(2.9, 11.7) 7.8
+(2.9, 11.7)","7.8
+(2.9, 11.7) 8.4
+(4.4, 12.0)","7.8
+(2.9, 11.7) 9.3
+(6.2, 12.3)","7.8
+(2.9, 11.7) 10.1
 (7.6, 12.8)",Not modeled,"98.0
 (97.0, 99.0)","10.2
 (7.4, 12.9) 11.5
 (9.1, 14.1) 10.7
 (8.1, 13.5)",Not modeled,Not modeled,Not modeled,Not modeled,"10.3
-(7.3, 13.1)","10.5
-(7.7, 13.2)","10.9
-(8.4, 13.4)","11.3
+(7.3, 13.1) 10.3
+(7.3, 13.1)","10.3
+(7.3, 13.1) 10.5
+(7.7, 13.2)","10.3
+(7.3, 13.1) 10.9
+(8.4, 13.4)","10.3
+(7.3, 13.1) 11.3
 (8.9, 13.7)","75.0
-(74.3, 75.7)","79.6
-(78.8, 80.3)","86.5
-(85.6, 87.3)","93.4
+(74.3, 75.7) 75.0
+(74.3, 75.7)","75.0
+(74.3, 75.7) 79.6
+(78.8, 80.3)","75.0
+(74.3, 75.7) 86.5
+(85.6, 87.3)","75.0
+(74.3, 75.7) 93.4
 (92.4, 94.3)",Not modeled,Not modeled,Not modeled,Not modeled,"0.0
-(0.0, 0.0)","2.0
-(1.5, 2.6)","5.1
-(3.7, 6.4)","8.2
-(5.9, 10.3)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"1
-(0, 6)","4
-(0, 15)","7
-(0, 25)","111
-(0, 379)","278
-(0, 947)","445
-(0, 1515)","0.2
+(0.0, 0.0) 0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0) 2.0
+(1.5, 2.6)","0.0
+(0.0, 0.0) 5.1
+(3.7, 6.4)","0.0
+(0.0, 0.0) 8.2
+(5.9, 10.3)",0,3,0,5,0,5,3,0,5,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"2
+(0, 6)","5
+(0, 16)","7
+(0, 25)","112
+(0, 380)","279
+(0, 948)","446
+(1, 1,516)","0.2
 (0.0, 0.7)","0.4
 (0.0, 1.8)","0.7
-(0.0, 2.8)","16
-(0, 48)","42
-(-1, 122)","67
-(-2, 195)","678
-(-21, 1963)","1695
-(-52, 4908)","2712
-(-84, 7853)","3.4
+(0.0, 2.8)","17
+(-1, 49)","42
+(-1, 122)","68
+(-2, 196)","678
+(-21, 1,963)","1,695
+(-53, 4,908)","2,712
+(-84, 7,853)","3.4
 (-0.1, 7.0)","8.6
 (-0.3, 17.6)","13.8
-(-0.4, 28.2)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
-(0, 1)","1
-(0, 3)","1
+(-0.4, 28.2)","25.2
+(17.5, 35.2)","23.7
+(16.2, 33.0)","22.3
+(14.6, 31.6)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(0, 2)","1
+(0, 4)","2
 (0, 6)","17
-(0, 63)","43
-(0, 159)","69
+(0, 64)","43
+(1, 159)","69
 (1, 255)","1.1
 (0.6, 1.5)","2.7
 (1.5, 3.8)","4.3
-(2.4, 6.2)",205,3.71,0.69,0.13,Not modeled,"402
-(187, 881)","281
-(176, 477)",Not modeled,"2767
-(1397, 5981)"
+(2.4, 6.2)","4.6
+(0.2, 12.5)","4.5
+(0.2, 12.4)","4.5
+(0.2, 12.2)",205,3.71,0.69,0.13,Not modeled,"402
+(187, 882)","281
+(177, 478)",Not modeled,"2,767
+(1,397, 5,982)"
 171,Democratic Republic of the Congo,171,"32.5
 (18.0, 43.8)","3,519
 (1,952, 4,743)","28,540
@@ -391,88 +442,95 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (123, 284)","1,413
 (899, 2,081)","0.0
 (0.0, 0.0)","0.5
-(0.3, 0.6)","1.1
-(0.9, 1.4)","1.8
+(0.3, 0.6)","0.0
+(0.0, 0.0)","1.8
 (1.4, 2.2)","0.0
-(0.0, 0.0)","0.1
-(0.1, 0.2)","0.3
-(0.2, 0.4)","0.5
-(0.3, 0.6)","2.3
-(1.7, 2.8) 2.3
-(1.7, 2.8) 2.3
-(1.7, 2.8)","41.3
+(0.0, 0.0)","0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","0.5
+(0.3, 0.6)",Not modeled,"41.3
 (40.5, 42.1)","0.6
 (0.4, 0.8) 0.6
 (0.4, 0.8) 0.6
 (0.4, 0.8)","0.0
 (0.0, 0.0)","0.5
-(0.3, 0.6)","1.1
-(0.9, 1.4)","1.8
-(1.4, 2.2)","0.0
-(0.0, 0.0)","0.1
-(0.1, 0.2)","0.3
-(0.2, 0.4)","0.5
 (0.3, 0.6)","0.0
-(0.0, 0.0)","8.3
-(8.1, 8.4)","20.7
+(0.0, 0.0)","1.8
+(1.4, 2.2)","0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","0.5
+(0.3, 0.6)","0.0
+(0.0, 0.0) 0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","20.7
 (20.3, 21.1)","33.1
 (32.4, 33.7)","0.0
 (0.0, 0.0)","0.5
-(0.3, 0.6)","1.1
-(0.9, 1.4)","1.8
+(0.3, 0.6)","0.0
+(0.0, 0.0)","1.8
 (1.4, 2.2)","0.0
-(0.0, 0.0)","0.1
-(0.1, 0.2)","0.3
-(0.2, 0.4)","0.5
-(0.3, 0.6)","2
-(0, 5)","7
-(0, 14)","11
-(0, 23)","610
-(5, 1252)","1525
-(14, 3128)","2439
-(22, 5000)","0.3
+(0.0, 0.0)","0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","0.5
+(0.3, 0.6)",5,5,5,5,3,3,3,5,5,"3
+(0, 6)","7
+(0, 15)","12
+(0, 24)","611
+(6, 1,253)","1,526
+(14, 3,129)","2,440
+(23, 5,001)","0.3
 (0.0, 0.7)","0.8
 (0.0, 1.8)","1.3
-(0.0, 2.8)","0
-(0, 1)","1
+(0.0, 2.8)","1
+(0, 2)","2
 (0, 4)","3
-(0, 6)","156
-(1, 340)","392
-(4, 852)","627
-(7, 1362)","0.1
+(0, 6)","157
+(2, 341)","392
+(5, 852)","628
+(7, 1,363)","0.1
 (0.0, 0.2)","0.2
 (0.0, 0.5)","0.3
-(0.0, 0.8)","42
-(-2, 117)","107
-(-7, 294)","171
-(-11, 470)","5844
-(-385, 16030)","14610
-(-964, 40077)","23376
-(-1543, 64123)","3.3
+(0.0, 0.8)","43
+(-3, 118)","107
+(-7, 294)","172
+(-11, 470)","5,844
+(-386, 16,031)","14,610
+(-964, 40,077)","23,376
+(-1,543, 64,124)","3.3
 (-0.2, 5.4)","8.4
 (-0.5, 13.6)","13.4
-(-0.8, 21.8)","0
+(-0.8, 21.8)","49.5
+(38.5, 60.2)","46.6
+(36.0, 58.0)","43.6
+(33.3, 55.8)","0
 (0, 1)","1
-(0, 3)","1
-(0, 5)","67
-(10, 194)","168
-(26, 485)","269
-(41, 777)","0.2
+(0, 4)","2
+(0, 6)","67
+(10, 194)","169
+(26, 486)","270
+(42, 777)","0.2
 (0.1, 0.3)","0.6
 (0.4, 0.8)","0.9
-(0.6, 1.3)","0
+(0.6, 1.3)","25.8
+(14.3, 34.7)","25.7
+(14.3, 34.6)","25.6
+(14.2, 34.5)","0
 (0, 0)","0
-(0, 0)","0
+(0, 1)","1
 (0, 1)","17
-(2, 49)","43
-(6, 123)","69
-(10, 197)","0.1
+(3, 49)","43
+(7, 124)","70
+(11, 198)","0.1
 (0.0, 0.1)","0.2
 (0.1, 0.2)","0.2
-(0.1, 0.4)",171,Not estimated,2.39,0.12,Not modeled,"189
-(137, 286)","107
-(71, 171)",Not modeled,"2218
-(1224, 4358)"
+(0.1, 0.4)","25.8
+(14.3, 34.8)","25.8
+(14.3, 34.7)","25.8
+(14.3, 34.7)",171,Not estimated,2.39,0.12,Not modeled,"190
+(138, 287)","107
+(71, 172)",Not modeled,"2,219
+(1,225, 4,358)"
 179,Ethiopia,179,"2.9
 (0.0, 9.0)","380
 (0, 1,187)","4,195
@@ -500,54 +558,55 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (1,175, 2,622)",Not modeled,Not modeled,Not modeled,Not modeled,"1.5
 (0.1, 3.6)","6.5
 (3.3, 10.2)","14.1
-(8.2, 20.2)","21.7
-(13.2, 30.1)",Not modeled,"69.8
-(59.4, 79.7)","26.8
-(16.4, 36.7) 26.8
-(16.4, 36.7) 26.8
-(16.4, 36.7)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
+(8.2, 20.2)","1.5
+(0.1, 3.6)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"1.0
 (0.0, 2.8)","6.2
 (3.3, 9.6)","13.9
-(8.2, 19.8)","21.6
-(13.1, 30.0)","1.5
-(0.1, 3.6)","15.1
-(11.9, 18.8)","35.6
-(29.7, 41.7)","56.1
-(47.6, 64.5)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
+(8.2, 19.8)","1.0
+(0.0, 2.8)",Not modeled,"15.1
+(11.9, 18.8)","1.5
+(0.1, 3.6)","1.5
+(0.1, 3.6)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
 (0.0, 2.8)","6.2
 (3.3, 9.6)","13.9
-(8.2, 19.8)","21.6
-(13.1, 30.0)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"24
-(0, 51)","61
-(0, 128)","97
-(1, 202)","5852
-(60, 12208)","14504
-(151, 30113)","23007
-(242, 47535)","2.9
+(8.2, 19.8)","1.0
+(0.0, 2.8)",Not modeled,2,Not modeled,2,Not modeled,2,Not modeled,Not modeled,2,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"25
+(0, 52)","61
+(1, 128)","97
+(1, 202)","5,852
+(61, 12,208)","14,505
+(151, 30,114)","23,007
+(242, 47,535)","2.9
 (0.0, 6.7)","7.1
 (0.1, 16.6)","11.2
 (0.1, 26.2)","51
 (-4, 127)","128
-(-10, 317)","204
-(-16, 508)","8547
-(-691, 21214)","21368
-(-1729, 53037)","34189
-(-2766, 84859)","5.6
+(-10, 318)","205
+(-17, 509)","8,547
+(-692, 21,215)","21,368
+(-1,729, 53,037)","34,189
+(-2,767, 84,860)","5.6
 (-0.3, 9.1)","14.0
 (-0.8, 22.8)","22.3
-(-1.3, 36.5)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
-(0, 2)","1
-(0, 6)","2
+(-1.3, 36.5)","33.5
+(24.3, 44.7)","30.1
+(21.4, 41.3)","26.8
+(17.9, 39.5)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"1
+(0, 3)","2
+(0, 6)","3
 (0, 10)","114
-(0, 432)","286
-(0, 1081)","457
-(0, 1730)","2.7
+(0, 433)","286
+(0, 1,082)","458
+(0, 1,731)","2.7
 (1.4, 4.1)","6.8
 (3.6, 10.2)","10.9
-(5.7, 16.4)",179,Not estimated,2.12,0.55,Not modeled,"23
-(16, 35)","62
-(43, 99)",Not modeled,"1696
-(856, 3976)"
+(5.7, 16.4)","2.2
+(0.0, 6.9)","2.1
+(0.0, 6.7)","2.0
+(0.0, 6.5)",179,Not estimated,2.12,0.55,Not modeled,"24
+(17, 36)","62
+(43, 99)",Not modeled,"1,697
+(856, 3,976)"
 163,India,163,"11.5
 (2.1, 24.0)","10,816
 (1,951, 22,611)","31,741
@@ -573,56 +632,57 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (64,546, 67,502)","1,888
 (1,264, 2,749)","1,613
 (1,080, 2,348)",Not modeled,Not modeled,Not modeled,Not modeled,"6.3
-(4.8, 7.7)","6.4
-(4.9, 7.9)","6.7
-(5.1, 8.2)","6.9
-(5.3, 8.5)",Not modeled,"89.3
-(87.1, 91.6)","7.1
-(5.4, 8.7) 7.1
-(5.4, 8.7) 7.1
-(5.4, 8.7)",Not modeled,Not modeled,Not modeled,Not modeled,"6.3
-(4.8, 7.7)","6.4
-(4.9, 7.9)","6.7
-(5.1, 8.2)","6.9
-(5.3, 8.5)","24.2
-(21.0, 27.3)","37.3
-(34.2, 40.2)","56.8
-(54.1, 59.4)","76.3
-(73.9, 78.7)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
-(0.0, 2.6)","2.2
-(1.1, 3.8)","4.0
-(2.7, 5.6)","5.8
-(4.3, 7.5)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"1
-(0, 2)","2
-(0, 5)","4
-(0, 8)","3306
-(29, 6928)","8263
-(74, 17315)","13219
-(118, 27695)","0.1
+(4.8, 7.7)","6.3
+(4.8, 7.7)","6.7
+(5.1, 8.2)","6.3
+(4.8, 7.7)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"6.3
+(4.8, 7.7)","6.3
+(4.8, 7.7)","6.7
+(5.1, 8.2)","6.3
+(4.8, 7.7)",Not modeled,"37.3
+(34.2, 40.2)","24.2
+(21.0, 27.3)","24.2
+(21.0, 27.3)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
+(0.0, 2.6)","1.0
+(0.0, 2.6)","4.0
+(2.7, 5.6)","1.0
+(0.0, 2.6)",Not modeled,2,Not modeled,2,Not modeled,2,2,Not modeled,2,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"1
+(0, 2)","3
+(0, 6)","4
+(0, 9)","3,306
+(30, 6,928)","8,264
+(74, 17,315)","13,219
+(119, 27,696)","0.1
 (0.0, 0.2)","0.2
 (0.0, 0.4)","0.3
 (0.0, 0.7)","13
-(0, 28)","32
-(-1, 70)","52
-(-2, 112)","15440
-(-719, 33000)","38601
-(-1799, 82501)","61763
-(-2878, 132001)","6.2
+(-1, 28)","33
+(-2, 70)","53
+(-2, 113)","15,441
+(-720, 33,000)","38,602
+(-1,799, 82,501)","61,763
+(-2,878, 132,002)","6.2
 (-0.3, 10.5)","15.5
 (-0.8, 26.4)","24.7
-(-1.3, 42.2)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(-1.3, 42.2)","15.6
+(10.3, 23.3)","13.9
+(8.8, 21.4)","12.1
+(7.0, 19.9)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
 (0, 0)","0
-(0, 1)","0
-(0, 1)","203
-(36, 496)","508
-(90, 1240)","813
-(145, 1985)","0.6
+(0, 1)","1
+(0, 2)","203
+(36, 496)","509
+(91, 1,241)","814
+(145, 1,985)","0.6
 (0.4, 0.8)","1.6
 (1.0, 2.1)","2.6
-(1.6, 3.4)",163,Not estimated,181.48,10.81,Not modeled,"797
-(585, 1175)","2897
-(2101, 4197)",Not modeled,"15273
-(9869, 22960)"
+(1.6, 3.4)","9.2
+(1.7, 19.2)","9.1
+(1.6, 19.1)","9.0
+(1.6, 19.0)",163,Not estimated,181.48,10.81,Not modeled,"798
+(585, 1,176)","2,898
+(2,102, 4,197)",Not modeled,"15,273
+(9,870, 22,960)"
 11,Indonesia,11,"7.9
 (0.8, 18.9)","1,259
 (129, 3,001)","2,825
@@ -647,22 +707,24 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (12.6, 21.8)","3,768
 (2,879, 4,902)","67
 (39, 112)","339
-(196, 568)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"64.5
-(63.2, 65.7)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"21.8
+(196, 568)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"21.8
 (21.3, 22.2)","30.3
-(29.7, 30.9)","43.1
-(42.3, 43.9)","55.9
-(54.8, 57.0)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"5
-(0, 12)","14
-(0, 30)","22
-(-1, 49)","1116
-(-54, 2438)","2790
-(-136, 6095)","4464
-(-219, 9753)","3.8
+(29.7, 30.9)","21.8
+(21.3, 22.2)","55.9
+(54.8, 57.0)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,2,Not modeled,2,Not modeled,0,0,Not modeled,2,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"6
+(-0, 12)","14
+(-1, 31)","23
+(-1, 49)","1,116
+(-55, 2,438)","2,790
+(-137, 6,096)","4,464
+(-219, 9,753)","3.8
 (-0.2, 6.3)","9.6
 (-0.5, 15.8)","15.4
-(-0.8, 25.3)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,11,Not estimated,24.11,0.19,Not modeled,Not modeled,"5243
-(3837, 8061)",Not modeled,Not modeled
+(-0.8, 25.3)","15.9
+(10.3, 22.7)","14.8
+(9.4, 21.3)","13.6
+(8.3, 20.2)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,11,Not estimated,24.11,0.19,Not modeled,Not modeled,"5,243
+(3,838, 8,062)",Not modeled,Not modeled
 180,Kenya,180,"5.2
 (0.1, 15.0)","264
 (6, 767)","1,709
@@ -688,91 +750,98 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (2,526, 2,725)","52
 (33, 76)","806
 (520, 1,190)","0.0
-(0.0, 0.0)","7.4
-(3.7, 10.9)","18.4
-(9.2, 27.2)","29.4
-(14.8, 43.4)","27.3
-(11.8, 41.1)","29.2
-(15.5, 42.2)","32.0
-(19.4, 44.9)","34.8
-(22.2, 49.5)","36.8
-(18.5, 54.3) 36.8
-(18.5, 54.3) 36.8
-(18.5, 54.3)","9.3
+(0.0, 0.0)","0.0
+(0.0, 0.0)","18.4
+(9.2, 27.2)","0.0
+(0.0, 0.0)","27.3
+(11.8, 41.1)","27.3
+(11.8, 41.1)","27.3
+(11.8, 41.1)","34.8
+(22.2, 49.5)",Not modeled,"9.3
 (4.7, 14.0)","36.6
 (23.6, 52.6) 36.6
 (23.6, 52.4) 36.6
 (23.6, 52.6)","5.3
-(2.7, 7.9)","11.6
-(5.8, 17.2)","21.1
-(10.6, 31.1)","30.5
-(15.3, 45.0)","27.1
-(11.7, 41.2)","29.0
-(15.4, 42.2)","31.9
-(19.5, 44.7)","34.7
+(2.7, 7.9)","5.3
+(2.7, 7.9)","21.1
+(10.6, 31.1)","5.3
+(2.7, 7.9)","27.1
+(11.7, 41.2)","27.1
+(11.7, 41.2)","27.1
+(11.7, 41.2)","34.7
 (22.3, 49.2)","0.0
-(0.0, 0.0)","1.9
-(0.9, 2.8)","4.6
+(0.0, 0.0) 0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","4.6
 (2.3, 7.0)","7.4
 (3.7, 11.2)","0.0
-(0.0, 0.0)","7.4
-(3.7, 10.9)","18.4
-(9.2, 27.2)","29.4
-(14.8, 43.4)","27.3
-(11.8, 41.1)","29.2
-(15.5, 42.2)","32.0
-(19.4, 44.9)","34.8
-(22.2, 49.5)","25
-(0, 57)","61
-(0, 139)","97
-(0, 218)","2858
-(28, 6526)","7046
-(70, 15937)","11117
-(112, 24896)","4.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","18.4
+(9.2, 27.2)","0.0
+(0.0, 0.0)","27.3
+(11.8, 41.1)","27.3
+(11.8, 41.1)","27.3
+(11.8, 41.1)","34.8
+(22.2, 49.5)",5,5,5,5,5,3,5,5,5,"25
+(0, 57)","62
+(1, 140)","98
+(1, 218)","2,858
+(28, 6,526)","7,046
+(71, 15,938)","11,117
+(113, 24,897)","4.0
 (0.0, 10.2)","9.8
 (0.1, 24.8)","15.5
-(0.2, 38.8)","7
+(0.2, 38.8)","8
 (0, 27)","19
-(0, 66)","30
-(0, 105)","876
-(0, 3083)","2177
-(1, 7626)","3462
-(2, 12072)","1.2
+(0, 67)","30
+(0, 106)","876
+(1, 3,084)","2,177
+(2, 7,627)","3,462
+(3, 12,072)","1.2
 (0.0, 4.3)","3.0
 (0.0, 10.6)","4.8
-(0.0, 16.7)","5
-(0, 15)","14
-(-1, 37)","23
-(-2, 60)","382
+(0.0, 16.7)","6
+(-1, 15)","15
+(-1, 38)","24
+(-2, 61)","383
 (-33, 972)","956
-(-83, 2430)","1530
-(-133, 3889)","0.7
+(-84, 2,431)","1,530
+(-134, 3,889)","0.7
 (-0.0, 1.4)","1.8
 (-0.1, 3.6)","2.9
-(-0.2, 5.7)","1
-(0, 3)","2
+(-0.2, 5.7)","46.4
+(34.9, 57.8)","45.8
+(34.5, 57.1)","45.2
+(34.1, 56.5)","1
+(0, 3)","3
 (0, 8)","4
 (0, 13)","65
 (1, 216)","163
-(3, 540)","261
-(4, 865)","3.9
+(3, 541)","261
+(5, 865)","3.9
 (1.7, 6.5)","9.6
 (4.3, 16.2)","15.4
-(6.8, 25.9)","0
-(0, 1)","0
+(6.8, 25.9)","4.0
+(0.1, 11.5)","3.7
+(0.1, 10.9)","3.5
+(0.1, 10.3)","0
+(0, 1)","1
 (0, 3)","1
-(0, 5)","19
+(0, 6)","19
 (0, 89)","48
-(0, 223)","77
-(0, 357)","1.1
+(0, 224)","77
+(0, 358)","1.1
 (0.0, 3.2)","2.8
 (0.1, 8.1)","4.5
-(0.2, 13.0)",180,14.64,2.84,0.15,"1359
-(926, 2041)","55
-(27, 132)","1904
-(1276, 3011)","76896
-(40100, 153961)","3407
-(1447, 10091)"
+(0.2, 13.0)","4.1
+(0.1, 11.7)","4.0
+(0.1, 11.4)","3.9
+(0.1, 11.2)",180,14.64,2.84,0.15,"1,359
+(927, 2,042)","55
+(27, 132)","1,905
+(1,277, 3,011)","76,896
+(40,100, 153,962)","3,408
+(1,448, 10,092)"
 184,Mozambique,184,"13.9
 (2.4, 28.9)","563
 (95, 1,166)","2,553
@@ -798,89 +867,93 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (3,184, 3,710)","100
 (64, 147)","1,956
 (1,253, 2,871)","16.7
-(13.0, 20.5)","18.1
-(14.1, 22.3)","20.2
-(15.8, 24.9)","22.4
+(13.0, 20.5)","16.7
+(13.0, 20.5)","16.7
+(13.0, 20.5)","22.4
 (17.4, 27.6)","9.8
 (6.5, 12.7)","11.1
 (7.4, 14.4)","13.0
-(8.7, 16.9)","15.0
-(10.0, 19.5)","23.8
+(8.7, 16.9)","9.8
+(6.5, 12.7)","23.8
 (18.6, 29.3) 23.8
 (18.6, 29.3) 23.8
-(18.6, 29.3)","43.4
-(42.6, 44.2)","16.3
-(10.9, 21.2) 16.3
-(10.9, 21.2) 16.3
-(10.9, 21.2)","16.7
-(13.0, 20.5)","18.1
-(14.1, 22.3)","20.2
-(15.8, 24.9)","22.4
+(18.6, 29.3)",Not modeled,Not modeled,"16.7
+(13.0, 20.5)","16.7
+(13.0, 20.5)","16.7
+(13.0, 20.5)","22.4
 (17.4, 27.6)","12.6
 (8.5, 16.4)","13.4
 (8.9, 17.4)","14.5
-(9.7, 18.8)","15.6
-(10.4, 20.2)","37.6
-(37.2, 37.9)","38.7
-(38.3, 39.2)","40.5
-(39.9, 41.1)","42.3
-(41.5, 43.0)","16.7
-(13.0, 20.5)","18.1
-(14.1, 22.3)","20.2
-(15.8, 24.9)","22.4
+(9.7, 18.8)","12.6
+(8.5, 16.4)",Not modeled,"38.7
+(38.3, 39.2)","37.6
+(37.2, 37.9)","37.6
+(37.2, 37.9)","16.7
+(13.0, 20.5)","16.7
+(13.0, 20.5)","16.7
+(13.0, 20.5)","22.4
 (17.4, 27.6)","9.8
 (6.5, 12.7)","11.1
 (7.4, 14.4)","13.0
-(8.7, 16.9)","15.0
-(10.0, 19.5)","9
-(0, 19)","23
+(8.7, 16.9)","9.8
+(6.5, 12.7)",5,5,5,5,5,3,5,5,5,"9
+(0, 20)","23
 (0, 49)","37
-(0, 78)","674
-(7, 1405)","1683
-(19, 3502)","2688
-(31, 5584)","1.0
+(0, 78)","675
+(8, 1,406)","1,684
+(20, 3,502)","2,689
+(32, 5,584)","1.0
 (0.0, 2.2)","2.4
 (0.0, 5.5)","3.8
-(0.0, 8.8)","4
-(0, 10)","11
-(0, 25)","19
-(0, 41)","344
-(3, 747)","861
-(8, 1865)","1377
-(13, 2979)","0.5
+(0.0, 8.8)","5
+(0, 10)","12
+(0, 26)","19
+(0, 41)","345
+(3, 747)","862
+(9, 1,865)","1,377
+(14, 2,980)","0.5
 (0.0, 1.2)","1.2
 (0.0, 2.9)","2.0
 (0.0, 4.6)","4
-(0, 10)","10
-(0, 26)","16
-(0, 42)","215
-(-8, 540)","538
-(-21, 1351)","861
-(-34, 2161)","0.6
+(-0, 11)","11
+(-0, 26)","17
+(-1, 42)","215
+(-9, 540)","539
+(-22, 1,351)","862
+(-35, 2,162)","0.6
 (-0.0, 1.0)","1.5
 (-0.1, 2.6)","2.4
-(-0.1, 4.2)","0
+(-0.1, 4.2)","41.0
+(30.2, 52.2)","40.6
+(29.9, 51.5)","40.2
+(29.5, 51.1)","0
 (0, 1)","1
-(0, 3)","1
-(0, 4)","20
-(2, 62)","52
-(5, 156)","83
+(0, 3)","2
+(0, 5)","21
+(2, 63)","52
+(5, 157)","84
 (8, 251)","0.8
 (0.5, 1.2)","2.1
 (1.2, 3.0)","3.3
-(1.9, 4.8)","0
-(0, 1)","0
-(0, 2)","1
-(0, 4)","18
-(1, 58)","46
-(4, 146)","74
-(7, 233)","0.7
+(1.9, 4.8)","10.9
+(1.8, 22.7)","10.8
+(1.8, 22.4)","10.7
+(1.8, 22.2)","0
+(0, 1)","1
+(0, 3)","1
+(0, 5)","19
+(2, 58)","46
+(5, 146)","74
+(7, 234)","0.7
 (0.4, 1.1)","1.8
 (0.9, 2.7)","2.9
-(1.5, 4.4)",184,Not estimated,2.94,0.17,Not modeled,"123
-(88, 186)","3490
-(2407, 5551)",Not modeled,"2893
-(1726, 5035)"
+(1.5, 4.4)","10.9
+(1.9, 22.7)","10.8
+(1.8, 22.5)","10.7
+(1.8, 22.3)",184,Not estimated,2.94,0.17,Not modeled,"123
+(89, 186)","3,491
+(2,407, 5,552)",Not modeled,"2,894
+(1,726, 5,035)"
 15,Myanmar,15,"6.0
 (0.2, 16.8)","241
 (8, 674)","345
@@ -907,55 +980,58 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (53, 130)","1,682
 (1,058, 2,596)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
 (0.1, 2.7)","1.7
-(0.5, 3.5)","2.8
-(1.2, 4.8)","3.8
+(0.5, 3.5)","1.0
+(0.1, 2.7)","3.8
 (1.8, 6.0)",Not modeled,"10.4
-(2.3, 19.4)","4.5
-(2.3, 6.9) 4.5
-(2.3, 6.9) 4.5
-(2.3, 6.9)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
+(2.3, 19.4)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"1.0
 (0.1, 2.7)","1.7
-(0.5, 3.5)","2.8
-(1.2, 4.8)","3.8
+(0.5, 3.5)","1.0
+(0.1, 2.7)","3.8
 (1.8, 6.0)","1.0
-(0.1, 2.7)","2.9
-(0.5, 6.0)","5.7
-(1.2, 11.0)","8.5
-(1.9, 16.0)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
+(0.1, 2.7)","1.0
+(0.1, 2.7)","5.7
+(1.2, 11.0)","1.0
+(0.1, 2.7)",Not modeled,Not modeled,Not modeled,Not modeled,"1.0
 (0.1, 2.7)","1.7
-(0.5, 3.5)","2.8
-(1.2, 4.8)","3.8
-(1.8, 6.0)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"4
-(0, 9)","10
-(0, 23)","17
-(0, 36)","507
-(5, 1079)","1266
-(13, 2694)","2024
-(22, 4303)","0.4
+(0.5, 3.5)","1.0
+(0.1, 2.7)","3.8
+(1.8, 6.0)",Not modeled,5,Not modeled,5,Not modeled,4,3,Not modeled,5,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"4
+(0, 9)","11
+(0, 23)","18
+(0, 37)","507
+(6, 1,080)","1,267
+(14, 2,694)","2,024
+(22, 4,303)","0.4
 (0.0, 0.9)","0.9
 (0.0, 2.1)","1.5
 (0.0, 3.4)","1
-(0, 4)","3
-(0, 10)","5
-(0, 16)","71
-(-4, 204)","179
+(-0, 4)","4
+(-0, 10)","6
+(-0, 16)","72
+(-5, 204)","180
 (-11, 510)","287
 (-18, 816)","0.8
 (-0.1, 1.8)","1.9
 (-0.1, 4.5)","3.0
-(-0.2, 7.2)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(-0.2, 7.2)","14.5
+(8.9, 21.7)","14.3
+(8.8, 21.5)","14.1
+(8.8, 21.2)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
 (0, 0)","0
 (0, 0)","0
 (0, 0)","1
 (0, 4)","3
-(0, 10)","5
+(0, 11)","5
 (0, 17)","0.4
 (0.2, 0.5)","0.9
 (0.5, 1.3)","1.5
-(0.8, 2.1)",15,Not estimated,9.81,0.12,Not modeled,"59
-(41, 88)","37300
-(23187, 62561)",Not modeled,"31015
-(17091, 64893)"
+(0.8, 2.1)","4.8
+(0.1, 13.4)","4.8
+(0.1, 13.3)","4.7
+(0.1, 13.2)",15,Not estimated,9.81,0.12,Not modeled,"59
+(42, 89)","37,301
+(23,188, 62,561)",Not modeled,"31,015
+(17,091, 64,893)"
 164,Nepal,164,"3.9
 (0.0, 12.0)","93
 (0, 288)","126
@@ -981,56 +1057,63 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (1,347, 1,887)","39
 (24, 61)","1,305
 (798, 2,022)",Not modeled,Not modeled,Not modeled,Not modeled,"5.2
-(2.4, 7.9)","12.8
-(5.9, 19.5)","24.2
-(11.2, 36.9)","35.7
+(2.4, 7.9)","5.2
+(2.4, 7.9)","5.2
+(2.4, 7.9)","35.7
 (16.5, 54.2)",Not modeled,"68.0
 (25.7, 97.4)","43.3
 (20.0, 65.8) 43.3
 (20.0, 65.8) 43.3
 (20.0, 65.8)",Not modeled,Not modeled,Not modeled,Not modeled,"7.4
-(3.4, 11.2)","14.6
-(6.7, 22.1)","25.3
-(11.7, 38.5)","36.1
+(3.4, 11.2)","7.4
+(3.4, 11.2)","7.4
+(3.4, 11.2)","36.1
 (16.7, 54.9)","0.0
-(0.0, 0.0)","13.6
-(5.1, 19.5)","34.0
+(0.0, 0.0) 0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","34.0
 (12.8, 48.7)","54.4
 (20.5, 77.9)",Not modeled,Not modeled,Not modeled,Not modeled,"0.0
-(0.0, 0.0)","8.7
-(4.0, 13.2)","21.6
-(10.0, 32.9)","34.6
-(16.0, 52.7)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"40
-(0, 96)","100
-(0, 235)","159
-(0, 369)","2880
-(13, 6647)","7103
-(34, 16185)","11209
-(55, 25238)","3.9
+(0.0, 0.0)","0.0
+(0.0, 0.0)","0.0
+(0.0, 0.0)","34.6
+(16.0, 52.7)",Not modeled,5,Not modeled,5,Not modeled,3,5,Not modeled,5,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"41
+(0, 96)","101
+(0, 236)","159
+(1, 370)","2,881
+(14, 6,648)","7,104
+(35, 16,185)","11,210
+(55, 25,238)","3.9
 (0.0, 9.6)","9.6
 (0.0, 23.4)","15.1
 (0.1, 36.4)","7
-(0, 19)","18
-(-1, 49)","29
-(-1, 79)","222
-(-14, 596)","556
-(-36, 1491)","890
-(-58, 2386)","5.8
+(-0, 20)","19
+(-1, 50)","30
+(-2, 80)","223
+(-15, 597)","557
+(-37, 1,492)","891
+(-59, 2,387)","5.8
 (-0.3, 11.6)","14.5
 (-0.8, 29.1)","23.3
-(-1.3, 46.6)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
-(0, 0)","0
+(-1.3, 46.6)","9.0
+(5.9, 13.2)","8.1
+(5.0, 12.4)","7.2
+(3.9, 11.9)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
 (0, 1)","0
-(0, 2)","5
+(0, 2)","1
+(0, 3)","6
 (0, 21)","14
-(0, 52)","22
+(0, 53)","23
 (0, 84)","4.5
 (1.9, 7.7)","11.3
 (4.7, 19.4)","18.1
-(7.5, 31.0)",164,Not estimated,1.13,0.21,Not modeled,"19
-(13, 30)","1335
-(872, 2302)",Not modeled,"13643
-(6889, 31454)"
+(7.5, 31.0)","3.0
+(0.0, 9.2)","2.8
+(0.0, 8.7)","2.5
+(0.0, 8.0)",164,Not estimated,1.13,0.21,Not modeled,"19
+(13, 30)","1,335
+(873, 2,302)",Not modeled,"13,644
+(6,889, 31,454)"
 214,Nigeria,214,"4.5
 (0.1, 13.4)","1,199
 (16, 3,534)","38,748
@@ -1056,56 +1139,78 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (22,925, 25,641)","709
 (455, 1,028)","2,114
 (1,356, 3,067)",Not modeled,Not modeled,Not modeled,Not modeled,"16.9
-(14.6, 19.1)","25.5
-(23.2, 27.8)","38.4
-(36.2, 40.7)","51.4
+(14.6, 19.1) 16.9
+(14.6, 19.1)","16.9
+(14.6, 19.1) 25.5
+(23.2, 27.8)","16.9
+(14.6, 19.1) 38.4
+(36.2, 40.7)","16.9
+(14.6, 19.1) 51.4
 (49.1, 53.6)",Not modeled,"31.5
 (28.5, 34.4)","60.0
 (57.7, 62.3) 60.0
 (57.7, 62.3) 60.0
 (57.7, 62.3)",Not modeled,Not modeled,Not modeled,Not modeled,"16.9
-(14.6, 19.1)","25.5
-(23.2, 27.8)","38.4
-(36.2, 40.7)","51.4
+(14.6, 19.1) 16.9
+(14.6, 19.1)","16.9
+(14.6, 19.1) 25.5
+(23.2, 27.8)","16.9
+(14.6, 19.1) 38.4
+(36.2, 40.7)","16.9
+(14.6, 19.1) 51.4
 (49.1, 53.6)","7.5
-(5.8, 9.2)","12.3
-(10.4, 14.2)","19.5
-(17.2, 21.8)","26.7
+(5.8, 9.2) 7.5
+(5.8, 9.2)","7.5
+(5.8, 9.2) 12.3
+(10.4, 14.2)","7.5
+(5.8, 9.2) 19.5
+(17.2, 21.8)","7.5
+(5.8, 9.2) 26.7
 (24.0, 29.4)",Not modeled,Not modeled,Not modeled,Not modeled,"16.9
-(14.6, 19.1)","25.5
-(23.2, 27.8)","38.4
-(36.2, 40.7)","51.4
-(49.1, 53.6)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"64
-(0, 129)","160
-(1, 319)","253
-(2, 502)","34110
-(399, 67838)","84354
-(997, 166721)","133497
-(1595, 261949)","5.3
+(14.6, 19.1) 16.9
+(14.6, 19.1)","16.9
+(14.6, 19.1) 25.5
+(23.2, 27.8)","16.9
+(14.6, 19.1) 38.4
+(36.2, 40.7)","16.9
+(14.6, 19.1) 51.4
+(49.1, 53.6)",Not modeled,2,Not modeled,2,Not modeled,2,2,Not modeled,2,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"65
+(1, 130)","160
+(2, 319)","254
+(3, 502)","34,110
+(399, 67,838)","84,355
+(998, 166,722)","133,497
+(1,596, 261,950)","5.3
 (0.1, 11.6)","13.1
 (0.2, 28.6)","20.8
-(0.3, 44.9)","13
-(-1, 36)","34
-(-2, 90)","55
-(-4, 145)","4635
-(-366, 12178)","11589
-(-915, 30446)","18542
-(-1465, 48714)","2.0
+(0.3, 44.9)","14
+(-1, 36)","35
+(-3, 91)","55
+(-4, 145)","4,636
+(-366, 12,179)","11,589
+(-916, 30,447)","18,543
+(-1,465, 48,715)","2.0
 (-0.1, 3.3)","5.0
 (-0.3, 8.3)","8.0
-(-0.5, 13.2)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"5
-(0, 18)","14
-(0, 46)","22
-(0, 75)","1924
-(33, 6289)","4811
-(82, 15724)","7698
-(132, 25158)","5.0
+(-0.5, 13.2)","7.9
+(5.1, 11.9)","7.6
+(4.9, 11.5)","7.3
+(4.7, 11.0)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"6
+(0, 19)","14
+(0, 47)","23
+(0, 75)","1,925
+(33, 6,290)","4,811
+(83, 15,724)","7,698
+(133, 25,159)","5.0
 (3.0, 6.6)","12.4
 (7.5, 16.5)","19.9
-(12.1, 26.3)",214,Not estimated,17.92,0.2,Not modeled,"1
-(1, 2)","978
-(655, 1610)",Not modeled,"33
-(18, 69)"
+(12.1, 26.3)","3.4
+(0.0, 9.9)","3.1
+(0.0, 9.1)","2.9
+(0.0, 8.4)",214,Not estimated,17.92,0.2,Not modeled,"1
+(1, 2)","979
+(656, 1,611)",Not modeled,"34
+(18, 70)"
 165,Pakistan,165,"26.7
 (15.7, 37.9)","6,469
 (3,797, 9,171)","41,009
@@ -1133,54 +1238,55 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (875, 2,294)",Not modeled,Not modeled,Not modeled,Not modeled,"1.9
 (0.7, 3.1)","9.8
 (3.4, 15.9)","21.5
-(7.5, 35.0)","33.3
-(11.6, 54.1)",Not modeled,"74.9
-(36.0, 98.5)","41.1
-(14.3, 66.8) 41.1
-(14.3, 66.8) 41.1
-(14.3, 66.8)",Not modeled,Not modeled,Not modeled,Not modeled,"3.8
+(7.5, 35.0)","1.9
+(0.7, 3.1)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"3.8
 (1.3, 6.2)","11.3
 (3.9, 18.3)","22.5
-(7.8, 36.5)","33.7
-(11.7, 54.7)","28.2
-(13.0, 42.8)","37.6
-(17.6, 54.0)","51.6
-(24.5, 70.7)","65.6
-(31.4, 87.4)",Not modeled,Not modeled,Not modeled,Not modeled,"1.9
+(7.8, 36.5)","3.8
+(1.3, 6.2)",Not modeled,"37.6
+(17.6, 54.0)","28.2
+(13.0, 42.8)","28.2
+(13.0, 42.8)",Not modeled,Not modeled,Not modeled,Not modeled,"1.9
 (0.7, 3.1)","9.8
 (3.4, 15.9)","21.5
-(7.5, 35.0)","33.3
-(11.6, 54.1)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"46
-(0, 114)","116
-(1, 280)","183
-(2, 440)","25411
-(361, 61179)","62861
-(903, 150233)","99517
-(1445, 236041)","3.5
+(7.5, 35.0)","1.9
+(0.7, 3.1)",Not modeled,5,Not modeled,5,Not modeled,5,5,Not modeled,5,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"47
+(1, 114)","116
+(2, 280)","184
+(3, 441)","25,411
+(362, 61,180)","62,862
+(904, 150,233)","99,517
+(1,446, 236,042)","3.5
 (0.0, 8.9)","8.6
 (0.1, 21.8)","13.6
-(0.1, 34.3)","6
-(0, 18)","17
-(0, 46)","27
-(-1, 74)","2080
-(-93, 5651)","5200
-(-232, 14129)","8321
-(-372, 22606)","4.6
+(0.1, 34.3)","7
+(-0, 19)","17
+(-1, 46)","27
+(-1, 74)","2,080
+(-93, 5,652)","5,201
+(-233, 14,129)","8,321
+(-372, 22,607)","4.6
 (-0.2, 9.2)","11.4
 (-0.6, 22.9)","18.2
-(-1.0, 36.6)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"5
+(-1.0, 36.6)","6.5
+(4.3, 9.9)","6.0
+(3.8, 9.3)","5.5
+(3.3, 8.8)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"6
 (1, 14)","14
-(3, 35)","22
-(4, 56)","1717
-(366, 4275)","4293
-(917, 10689)","6868
-(1467, 17103)","4.2
+(3, 35)","23
+(5, 56)","1,717
+(367, 4,276)","4,293
+(917, 10,690)","6,869
+(1,468, 17,104)","4.2
 (1.4, 7.2)","10.4
 (3.5, 18.1)","16.6
-(5.6, 29.0)",165,Not estimated,37.99,4.68,Not modeled,"49
-(32, 81)","4904
-(3118, 7776)",Not modeled,"778
-(523, 1209)"
+(5.6, 29.0)","20.3
+(12.0, 28.8)","19.0
+(11.2, 27.2)","17.7
+(10.1, 25.6)",165,Not estimated,37.99,4.68,Not modeled,"49
+(32, 81)","4,904
+(3,118, 7,776)",Not modeled,"778
+(524, 1,209)"
 196,South Africa,196,"3.5
 (0.0, 10.5)","142
 (1, 428)","358
@@ -1208,89 +1314,96 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (174, 539)","57.8
 (47.7, 68.3)","65.5
 (56.8, 74.5)","77.1
-(70.4, 83.8)","88.6
-(84.1, 93.1)","5.8
-(2.9, 8.7)","6.8
-(3.6, 10.1)","8.4
-(4.7, 12.2)","9.9
-(5.7, 14.4)","96.3
-(93.2, 99.3) 96.3
-(93.2, 99.3) 96.3
-(93.2, 99.3)","74.7
+(70.4, 83.8)","57.8
+(47.7, 68.3)","5.8
+(2.9, 8.7)","5.8
+(2.9, 8.7)","5.8
+(2.9, 8.7)","9.9
+(5.7, 14.4)",Not modeled,"74.7
 (39.7, 98.6)","11.0
 (6.4, 15.8) 11.0
 (6.4, 15.8) 11.0
 (6.4, 15.8)","57.8
 (47.7, 68.3)","65.5
 (56.8, 74.5)","77.1
-(70.4, 83.8)","88.6
-(84.1, 93.1)","5.8
-(2.9, 8.7)","6.8
-(3.6, 10.1)","8.4
-(4.7, 12.2)","9.9
+(70.4, 83.8)","57.8
+(47.7, 68.3)","5.8
+(2.9, 8.7)","5.8
+(2.9, 8.7)","5.8
+(2.9, 8.7)","9.9
 (5.7, 14.4)","34.3
-(17.4, 51.8)","42.4
-(21.9, 61.1)","54.5
+(17.4, 51.8) 34.3
+(17.4, 51.8)","34.3
+(17.4, 51.8)","54.5
 (28.6, 75.2)","66.6
 (35.3, 89.2)","57.8
 (47.7, 68.3)","65.5
 (56.8, 74.5)","77.1
-(70.4, 83.8)","88.6
-(84.1, 93.1)","5.8
-(2.9, 8.7)","6.8
-(3.6, 10.1)","8.4
-(4.7, 12.2)","9.9
-(5.7, 14.4)","21
-(0, 44)","54
-(0, 109)","85
-(0, 171)","3332
-(34, 6886)","8218
-(86, 16851)","12971
-(138, 26390)","4.5
+(70.4, 83.8)","57.8
+(47.7, 68.3)","5.8
+(2.9, 8.7)","5.8
+(2.9, 8.7)","5.8
+(2.9, 8.7)","9.9
+(5.7, 14.4)",5,5,5,5,5,0,5,5,5,"22
+(0, 45)","54
+(1, 110)","85
+(1, 171)","3,332
+(35, 6,887)","8,218
+(86, 16,852)","12,971
+(138, 26,390)","4.5
 (0.0, 10.2)","11.0
 (0.1, 24.7)","17.3
 (0.2, 38.6)","3
-(0, 6)","7
-(0, 16)","12
+(0, 7)","8
+(0, 17)","12
 (0, 26)","458
-(4, 1005)","1143
-(11, 2504)","1826
-(18, 3995)","0.6
+(5, 1,005)","1,143
+(11, 2,505)","1,826
+(18, 3,995)","0.6
 (0.0, 1.5)","1.5
 (0.0, 3.8)","2.4
-(0.0, 6.0)","5
-(0, 14)","13
-(0, 37)","22
-(0, 59)","282
-(-11, 760)","707
-(-29, 1901)","1131
-(-47, 3042)","3.6
+(0.0, 6.0)","6
+(-0, 15)","14
+(-1, 37)","22
+(-1, 60)","283
+(-12, 761)","707
+(-30, 1,901)","1,131
+(-48, 3,042)","3.6
 (-0.3, 7.6)","9.0
 (-0.7, 19.1)","14.3
-(-1.1, 30.6)","0
+(-1.1, 30.6)","10.3
+(6.6, 15.6)","9.6
+(6.0, 14.8)","8.8
+(5.3, 14.1)","0
 (0, 1)","1
-(0, 3)","1
-(0, 5)","21
-(0, 72)","52
-(0, 181)","84
-(0, 290)","5.9
+(0, 4)","2
+(0, 6)","21
+(0, 73)","53
+(0, 182)","84
+(0, 291)","5.9
 (3.1, 8.6)","14.7
 (7.7, 21.5)","23.5
-(12.3, 34.4)","0
+(12.3, 34.4)","2.6
+(0.0, 7.9)","2.4
+(0.0, 7.2)","2.1
+(0.0, 6.6)","0
 (0, 0)","0
 (0, 0)","0
-(0, 0)","2
-(0, 6)","5
+(0, 1)","2
+(0, 7)","5
 (0, 17)","8
-(0, 27)","0.6
+(0, 28)","0.6
 (0.3, 0.9)","1.4
 (0.7, 2.2)","2.3
-(1.2, 3.5)",196,89.33,11.31,0.2,"6697
-(5025, 9690)","109
-(78, 164)","10635
-(6774, 18461)","1436585
-(751719, 3280453)","33213
-(17775, 74506)"
+(1.2, 3.5)","2.8
+(0.0, 8.4)","2.7
+(0.0, 8.3)","2.7
+(0.0, 8.3)",196,89.33,11.31,0.2,"6,698
+(5,026, 9,690)","109
+(78, 165)","10,636
+(6,775, 18,461)","1,436,586
+(751,720, 3,280,453)","33,214
+(17,776, 74,506)"
 190,Uganda,190,"9.0
 (0.9, 21.7)","504
 (51, 1,213)","2,314
@@ -1316,89 +1429,93 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (3,134, 4,010)","77
 (48, 116)","1,088
 (676, 1,640)","6.6
-(3.4, 9.7)","13.8
-(9.3, 18.2)","24.6
-(18.2, 30.9)","35.4
+(3.4, 9.7)","6.6
+(3.4, 9.7)","6.6
+(3.4, 9.7)","35.4
 (27.0, 43.6)","8.5
 (5.7, 11.4)","8.9
 (6.1, 11.8)","9.5
-(6.7, 12.5)","10.2
-(7.2, 13.2)","42.6
+(6.7, 12.5)","8.5
+(5.7, 11.4)","42.6
 (32.9, 52.1) 42.6
 (32.9, 52.1) 42.6
-(32.9, 52.1)","89.0
-(84.8, 93.3)","10.6
-(7.6, 13.6) 10.6
-(7.6, 13.6) 10.6
-(7.6, 13.6)","6.6
-(3.4, 9.7)","13.8
-(9.3, 18.2)","24.6
-(18.2, 30.9)","35.4
+(32.9, 52.1)",Not modeled,Not modeled,"6.6
+(3.4, 9.7)","6.6
+(3.4, 9.7)","6.6
+(3.4, 9.7)","35.4
 (27.0, 43.6)","8.5
 (5.7, 11.4)","8.9
 (6.1, 11.8)","9.5
-(6.7, 12.5)","10.2
-(7.2, 13.2)","54.4
-(48.4, 60.5)","61.3
-(55.7, 67.1)","71.7
-(66.6, 76.9)","82.1
-(77.5, 86.8)","6.6
-(3.4, 9.7)","13.8
-(9.3, 18.2)","24.6
-(18.2, 30.9)","35.4
+(6.7, 12.5)","8.5
+(5.7, 11.4)",Not modeled,"61.3
+(55.7, 67.1)","54.4
+(48.4, 60.5)","54.4
+(48.4, 60.5)","6.6
+(3.4, 9.7)","6.6
+(3.4, 9.7)","6.6
+(3.4, 9.7)","35.4
 (27.0, 43.6)","8.5
 (5.7, 11.4)","8.9
 (6.1, 11.8)","9.5
-(6.7, 12.5)","10.2
-(7.2, 13.2)","36
+(6.7, 12.5)","8.5
+(5.7, 11.4)",5,5,5,5,5,5,5,5,5,"36
 (0, 73)","89
-(1, 179)","140
-(1, 282)","3556
-(41, 7258)","8788
-(102, 17812)","13897
-(164, 27939)","6.2
+(1, 180)","141
+(2, 282)","3,557
+(41, 7,258)","8,789
+(103, 17,812)","13,898
+(164, 27,939)","6.2
 (0.1, 13.8)","15.3
 (0.2, 33.9)","24.2
 (0.3, 53.2)","2
 (0, 4)","5
-(0, 10)","8
-(0, 16)","209
-(2, 420)","522
-(5, 1050)","834
-(9, 1679)","0.4
+(0, 11)","8
+(0, 17)","209
+(2, 421)","522
+(6, 1,051)","835
+(9, 1,679)","0.4
 (0.0, 0.8)","0.9
 (0.0, 2.0)","1.5
 (0.0, 3.2)","26
-(-1, 77)","65
-(-3, 194)","104
-(-5, 311)","1859
-(-91, 5519)","4648
-(-229, 13797)","7437
-(-367, 22076)","4.5
+(-1, 78)","66
+(-3, 195)","105
+(-5, 311)","1,859
+(-92, 5,519)","4,648
+(-230, 13,798)","7,437
+(-368, 22,077)","4.5
 (-0.2, 8.5)","11.3
 (-0.5, 21.4)","18.1
-(-0.7, 34.2)","1
+(-0.7, 34.2)","20.5
+(15.1, 27.2)","19.0
+(13.6, 25.5)","17.4
+(11.8, 24.3)","1
 (0, 4)","3
 (0, 10)","5
 (0, 16)","90
-(6, 288)","226
-(15, 721)","361
-(24, 1155)","3.9
+(6, 289)","226
+(16, 722)","362
+(25, 1,155)","3.9
 (2.3, 5.4)","9.8
 (5.8, 13.5)","15.7
-(9.3, 21.6)","0
+(9.3, 21.6)","6.8
+(0.7, 16.5)","6.4
+(0.6, 15.5)","6.0
+(0.6, 14.8)","0
 (0, 0)","0
-(0, 0)","0
-(0, 0)","5
+(0, 1)","0
+(0, 1)","5
 (0, 17)","13
-(0, 42)","21
-(1, 68)","0.2
+(1, 43)","21
+(1, 69)","0.2
 (0.1, 0.3)","0.6
 (0.4, 0.8)","0.9
-(0.6, 1.2)",190,2.63,1.87,Not estimated,"185
-(135, 270)",Not modeled,"277
-(174, 489)","8909
-(5458, 18146)",Not modeled
+(0.6, 1.2)","7.1
+(0.7, 17.1)","7.1
+(0.7, 17.0)","7.0
+(0.7, 16.9)",190,2.63,1.87,Not estimated,"185
+(136, 271)",Not modeled,"278
+(175, 490)","8,910
+(5,459, 18,147)",Not modeled
 189,United Republic of Tanzania,189,"6.9
 (0.4, 18.4)","503
 (29, 1,347)","1,454
@@ -1426,89 +1543,96 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (954, 2,223)","2.5
 (1.3, 3.7)","9.3
 (6.9, 11.8)","19.6
-(15.4, 24.0)","29.8
-(23.8, 36.1)","32.9
-(27.5, 38.6)","36.3
-(30.7, 42.4)","41.5
-(35.4, 48.1)","46.7
-(40.2, 53.8)","36.7
-(29.4, 44.2) 36.7
-(29.4, 44.2) 36.7
-(29.4, 44.2)","92.5
+(15.4, 24.0)","2.5
+(1.3, 3.7)","32.9
+(27.5, 38.6)","32.9
+(27.5, 38.6)","32.9
+(27.5, 38.6)","46.7
+(40.2, 53.8)",Not modeled,"92.5
 (89.0, 96.2)","50.2
 (43.3, 57.6) 50.2
 (43.3, 57.6) 50.2
 (43.3, 57.6)","2.5
 (1.3, 3.7)","9.3
 (6.9, 11.8)","19.6
-(15.4, 24.0)","29.8
-(23.8, 36.1)","32.9
-(27.5, 38.6)","36.3
-(30.7, 42.4)","41.5
-(35.4, 48.1)","46.7
+(15.4, 24.0)","2.5
+(1.3, 3.7)","32.9
+(27.5, 38.6)","32.9
+(27.5, 38.6)","32.9
+(27.5, 38.6)","46.7
 (40.2, 53.8)","53.3
-(46.4, 60.7)","61.1
-(54.9, 67.8)","72.9
+(46.4, 60.7) 53.3
+(46.4, 60.7)","53.3
+(46.4, 60.7)","72.9
 (67.7, 78.4)","84.6
 (80.4, 89.1)","2.5
 (1.3, 3.7)","9.3
 (6.9, 11.8)","19.6
-(15.4, 24.0)","29.8
-(23.8, 36.1)","32.9
-(27.5, 38.6)","36.3
-(30.7, 42.4)","41.5
-(35.4, 48.1)","46.7
-(40.2, 53.8)","43
-(0, 87)","107
-(1, 215)","170
-(1, 339)","6171
-(63, 12406)","15279
-(157, 30576)","24208
-(252, 48216)","4.2
+(15.4, 24.0)","2.5
+(1.3, 3.7)","32.9
+(27.5, 38.6)","32.9
+(27.5, 38.6)","32.9
+(27.5, 38.6)","46.7
+(40.2, 53.8)",5,5,5,5,5,5,5,5,5,"44
+(0, 87)","108
+(1, 215)","171
+(2, 340)","6,171
+(63, 12,407)","15,279
+(158, 30,576)","24,208
+(252, 48,217)","4.2
 (0.0, 9.4)","10.5
 (0.1, 23.1)","16.6
 (0.2, 36.5)","22
-(0, 44)","54
-(0, 110)","87
-(1, 174)","3131
-(38, 6291)","7791
-(96, 15604)","12405
-(153, 24771)","2.2
+(0, 44)","55
+(1, 110)","87
+(1, 175)","3,132
+(38, 6,291)","7,791
+(96, 15,605)","12,405
+(154, 24,771)","2.2
 (0.0, 4.8)","5.3
 (0.1, 12.0)","8.5
 (0.1, 19.0)","20
-(-1, 57)","50
-(-2, 143)","80
-(-4, 230)","1874
-(-95, 5357)","4686
-(-238, 13393)","7498
-(-382, 21429)","4.9
+(-1, 58)","50
+(-3, 144)","81
+(-4, 230)","1,875
+(-96, 5,357)","4,687
+(-239, 13,393)","7,499
+(-382, 21,429)","4.9
 (-0.2, 9.3)","12.4
 (-0.5, 23.2)","19.8
-(-0.7, 37.1)","0
-(0, 1)","1
-(0, 4)","2
-(0, 7)","52
-(2, 182)","130
-(6, 456)","209
-(10, 730)","3.6
+(-0.7, 37.1)","20.4
+(14.9, 27.1)","18.7
+(13.3, 25.8)","17.0
+(11.3, 24.8)","1
+(0, 2)","1
+(0, 5)","2
+(0, 8)","52
+(3, 183)","131
+(7, 456)","210
+(11, 730)","3.6
 (2.2, 4.9)","9.1
 (5.5, 12.2)","14.5
-(8.7, 19.5)","0
-(0, 1)","0
-(0, 2)","1
-(0, 4)","32
-(1, 109)","80
-(3, 273)","128
-(6, 437)","2.2
+(8.7, 19.5)","5.2
+(0.3, 14.0)","4.9
+(0.3, 13.2)","4.6
+(0.3, 12.4)","0
+(0, 1)","1
+(0, 3)","1
+(0, 5)","32
+(2, 109)","80
+(4, 274)","128
+(6, 438)","2.2
 (1.3, 3.1)","5.5
 (3.1, 7.8)","8.8
-(5.0, 12.5)",189,7.01,4.94,0.14,"285
-(206, 419)","10
-(8, 16)","703
-(449, 1203)","44696
-(23889, 89619)","1472
-(792, 2903)"
+(5.0, 12.5)","5.3
+(0.3, 14.1)","5.1
+(0.3, 13.7)","4.9
+(0.3, 13.2)",189,7.01,4.94,0.14,"285
+(207, 420)","11
+(8, 16)","704
+(449, 1,204)","44,697
+(23,889, 89,619)","1,472
+(792, 2,903)"
 20,Viet Nam,20,"4.9
 (0.0, 14.2)","273
 (2, 795)","113
@@ -1534,53 +1658,58 @@ location_id,location_name,location_id_x,Baseline Prevalence of Zinc deficiency i
 (1,103, 2,018)","29
 (16, 51)","421
 (227, 734)",Not modeled,Not modeled,Not modeled,Not modeled,"4.1
-(1.9, 6.4)","7.7
-(3.5, 11.9)","13.0
-(6.0, 20.3)","18.4
-(8.4, 28.6)",Not modeled,"84.4
-(61.7, 99.1)","21.9
+(1.9, 6.4)","4.1
+(1.9, 6.4)","13.0
+(6.0, 20.3)","4.1
+(1.9, 6.4)",Not modeled,Not modeled,"21.9
 (10.0, 34.1) 21.9
 (10.0, 34.1) 21.9
 (10.0, 34.1)",Not modeled,Not modeled,Not modeled,Not modeled,"4.1
-(1.9, 6.4)","7.7
-(3.5, 11.9)","13.0
-(6.0, 20.3)","18.4
-(8.4, 28.6)","0.0
+(1.9, 6.4)","4.1
+(1.9, 6.4)","13.0
+(6.0, 20.3)","4.1
+(1.9, 6.4)","0.0
 (0.0, 0.0)","16.9
-(12.3, 19.8)","42.2
-(30.8, 49.6)","67.5
+(12.3, 19.8)","0.0
+(0.0, 0.0)","67.5
 (49.3, 79.3)",Not modeled,Not modeled,Not modeled,Not modeled,"4.1
-(1.9, 6.4)","7.7
-(3.5, 11.9)","13.0
-(6.0, 20.3)","18.4
-(8.4, 28.6)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"7
-(0, 19)","19
-(0, 47)","30
-(0, 75)","1528
-(11, 3752)","3775
-(27, 9183)","5971
-(44, 14371)","2.3
+(1.9, 6.4)","4.1
+(1.9, 6.4)","13.0
+(6.0, 20.3)","4.1
+(1.9, 6.4)",Not modeled,5,Not modeled,5,Not modeled,3,5,Not modeled,5,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"8
+(0, 20)","19
+(0, 48)","31
+(0, 75)","1,528
+(11, 3,753)","3,776
+(28, 9,183)","5,972
+(44, 14,372)","2.3
 (0.0, 5.5)","5.7
 (0.0, 13.6)","9.1
 (0.1, 21.4)","2
-(0, 5)","5
-(0, 12)","9
-(0, 20)","157
-(-7, 354)","394
+(-0, 5)","6
+(-0, 13)","9
+(-0, 20)","158
+(-8, 355)","395
 (-19, 887)","631
-(-30, 1419)","7.4
+(-30, 1,419)","7.4
 (-0.4, 12.7)","18.5
 (-1.0, 31.8)","29.7
-(-1.6, 50.9)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
+(-1.6, 50.9)","7.9
+(5.0, 11.9)","6.9
+(4.2, 10.9)","5.9
+(3.3, 10.3)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0
 (0, 0)","0
 (0, 0)","0
 (0, 0)","2
 (0, 7)","5
-(0, 17)","8
-(0, 28)","1.9
+(0, 18)","9
+(0, 29)","1.9
 (0.8, 3.2)","4.8
 (2.0, 8.1)","7.7
-(3.1, 13.0)",20,Not estimated,4.34,0.2,Not modeled,"33
-(23, 55)","6867
-(4968, 9734)",Not modeled,"31678
-(16529, 70405)"
+(3.1, 13.0)","3.9
+(0.0, 11.3)","3.8
+(0.0, 11.1)","3.6
+(0.0, 10.8)",20,Not estimated,4.34,0.2,Not modeled,"34
+(24, 55)","6,867
+(4,969, 9,735)",Not modeled,"31,678
+(16,530, 70,406)"
