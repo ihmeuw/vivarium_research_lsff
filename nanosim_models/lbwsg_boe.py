@@ -158,7 +158,6 @@ def main(vivarium_research_lsff_path, out_dirctory, location, num_simulants, ran
 
     output_index = pd.MultiIndex.from_product(draws, age_group_ids, names=['draw', 'age_group_id'])
     output = pd.DataFrame(index=output_index)
-    categorical_pifs = pd.DataFrame(index=pif_index)
 
     global_data = data_processing.get_global_data(effect_size_seed, random_seed, draws, take_mean)
     fortification_input_data = data_processing.get_fortification_input_data(vivarium_research_lsff_path)
@@ -209,16 +208,13 @@ def main(vivarium_research_lsff_path, out_dirctory, location, num_simulants, ran
             )
             # Now also do YLLs...
 
-        # Make sure index level names and values match plotting function in Ali's code
-        for df in (pifs, categorical_pifs):
-            df.index = df.index.set_levels([f"draw_{n}" for n in draws], level='draw')
-            df.columns = pd.MultiIndex.from_tuples(df.columns, names=['location_id', 'vehicle', 'coverage_level', 'measure'])
+    # Make sure index level names and values match plotting function in Ali's code
+    output.index = output.index.set_levels([f"draw_{n}" for n in draws], level='draw') # age_group_id level stays the same
+    output.columns = pd.MultiIndex.from_tuples(output.columns, names=['location_id', 'vehicle', 'coverage_level', 'measure'])
 
-        # Save output with draws as columns and all other identifiers in index
-        output.unstack('age_group_id').T.to_csv(
-            f"{out_directory}/iron_bw_results_location_id_{local_data.location_id}.csv")
-
-        # And also save YLLs...
+    # Save output with draws as columns and all other identifiers in index
+    output.unstack('age_group_id').T.to_csv(
+        f"{out_directory}/iron_bw_results_location_id_{local_data.location_id}.csv")
 
 if __name__ == "main":
     import sys
