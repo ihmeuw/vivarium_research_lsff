@@ -1,22 +1,24 @@
 import pandas as pd, numpy as np
 from collections import namedtuple
 
-# # Assumes these modules are in the same directory in which main is running
-# import demography, lbwsg, lsff_interventions
-# from lbwsg import LBWSGDistribution, LBWSGRiskEffect
-# from lsff_interventions import IronFortificationIntervention
-
 # Assumes the path to vivarium_research_lsff is in sys.path
 from multiplication_models import mult_model_fns
 
-# def get_default_fortification_input_data(vivarium_research_lsff_path='..'):
-# #     locations = pd.read_csv(f'{vivarium_research_lsff_path}/gbd_data_summary/input_data/bmgf_top_25_countries_20201203.csv')
-# #     location_ids = locations.location_id.to_list()
-#     locations_path = f'{vivarium_research_lsff_path}/gbd_data_summary/input_data/bmgf_top_25_countries_20201203.csv'
-#     coverage_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
-#     consumption_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
-#     concentration_data_path = '/share/scratch/users/ndbs/vivarium_lsff/gfdx_data/gfdx_full_dataset.csv'
-#     return get_fortification_input_data(locations_path, coverage_data_path, consumption_data_path, concentration_data_path)
+def get_gbd_input_data(hdfstore=None, exposure_key=None, rr_key=None, yll_key=None):
+    if hdfstore is None:
+        hdfstore = '/share/scratch/users/ndbs/vivarium_lsff/gbd_data/lbwsg_data.hdf'
+    if exposure_key is None:
+        exposure_key = '/gbd_2019/exposure/bmgf_25_countries'
+    if rr_key is None:
+        rr_key = '/gbd_2019/relative_risk/diarrheal_diseases'
+    if yll_key is None:
+        yll_key = '/gbd_2019/burden/ylls/bmgf_25_countries_all_subcauses'
+
+    exposure_data = pd.read_hdf(hdfstore, exposure_key)
+    rr_data = pd.read_hdf(hdfstore, rr_key)
+    yll_data = pd.read_hdf(hdfstore, yll_key)
+    GBDInputData = namedtuple("GBDInputData", "exposure_data, rr_data, yll_data")
+    return GBDInputData(exposure_data, rr_data, yll_data)
 
 def get_fortification_input_data(vivarium_research_lsff_path='..', locations_path=None, coverage_data_path=None, consumption_data_path=None, concentration_data_path=None):
     """Reads input data from files and returns a tuple of input dataframes."""
@@ -72,32 +74,6 @@ def process_concentration_data(concentration_df, locations):
     concentration_df = pd.concat(vehicle_dfs)
     return concentration_df
 
-def get_gbd_input_data(hdfstore=None, exposure_key=None, rr_key=None, yll_key=None):
-    if hdfstore is None:
-        hdfstore = '/share/scratch/users/ndbs/vivarium_lsff/gbd_data/lbwsg_data.hdf'
-    if exposure_key is None:
-        exposure_key = '/gbd_2019/exposure/bmgf_25_countries'
-    if rr_key is None:
-        rr_key = '/gbd_2019/relative_risk/diarrheal_diseases'
-    if yll_key is None:
-        yll_key = '/gbd_2019/burden/ylls/bmgf_25_countries_all_subcauses'
-        
-    exposure_data = pd.read_hdf(hdfstore, exposure_key)
-#     exposure_data = lbwsg.preprocess_gbd_data(
-#         exposure_data, draws=draws,
-#         filter_terms=[f"location_id == {location_id}"],
-#         mean_draws_name=mean_draws_name
-#     )
-    rr_data = pd.read_hdf(hdfstore, rr_key)
-#     # For now we only need early neonatal RR's
-#     rr_data = lbwsg.preprocess_gbd_data(
-#         rr_data, draws=draws, filter_terms=["age_group_id==2"], mean_draws_name=mean_draws_name)
-    yll_data = pd.read_hdf(hdfstore, yll_key)
-    return exposure_data, rr_data, yll_data
-
-def get_input_data():
-    return locations, coverage_df, consumption_df, concentration_df, exposure_data, rr_data, yll_data
-
 def create_bw_dose_response_distribution():
     """Define normal distribution representing parameter uncertainty of dose-response on birthweight.
     mean = 16.7 g per 10 mg daily iron, 95% CI = (7.29,26.11).
@@ -147,20 +123,18 @@ def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
     # Use rejection sampling to get valid draws with fortified <= fortifiable
     data = pd.concat(fortified, fortifiable)
     values = np.empty(shape=(0,len(data)))
-    while(True):
+    while(len(values) < len(draws)):
         values = np.append(values, generate_truncnorm_draws(
             data.value_mean, data.value_025_percentile, data.value_975_percentile,
             shape=(len(draws)**2,len(data)), interval=(0,100), random_state=random_state
         ), axis=0)
         values = values[values[:,0] <= values[:,1]] #1st column is fortified, 2nd column is fortifiable
-        if len(values) >= len(draws):
-            break
     values = values[:len(draws)]
     eats_fortified = pd.Series(values[:,0], index=draws, name='eats_fortified')
     eats_fortifiable = pd.Series(values[:,1], index=draws, name='eats_fortifiable')
     return eats_fortified, eats_fortifiable
 
-def get_global_data(effect_size_seed, random_generator, draws, mean_draws_name=None):
+def get_global_data(effect_size_seed, random_generator, draws, take_mean=False):#mean_draws_name=None):
     """
     Information shared between locations and scenarios. May vary by draw.
     
@@ -171,11 +145,18 @@ def get_global_data(effect_size_seed, random_generator, draws, mean_draws_name=N
     dose-response of birthweight for iron (g per additional 10mg iron per day)
     """
     draw_numbers = tuple(draws) # Save original values in case we take the mean over draws
-    if mean_draws_name is None:
-        draws = pd.Index(draws, dtype='int64', name='draw')
-    else:
+#     if mean_draws_name is None:
+#         draws = pd.Index(draws, dtype='int64', name='draw')
+#     else:
+#         # Use the single mean value as the only "draw", labeled by `mean_draws_name`
+#         draws = pd.CategoricalIndex([mean_draws_name], name='draw')
+    if take_mean:
         # Use the single mean value as the only "draw", labeled by `mean_draws_name`
+        mean_draws_name = f'mean_of_{len(draws)}_draws'
         draws = pd.CategoricalIndex([mean_draws_name], name='draw')
+    else:
+        mean_draws_name = None
+        draws = pd.Index(draws, dtype='int64', name='draw')
 
     bw_dose_response_distribution = create_bw_dose_response_distribution()
 
@@ -190,10 +171,10 @@ def get_global_data(effect_size_seed, random_generator, draws, mean_draws_name=N
     random_generator = np.default_rng(random_generator)
     GlobalIronFortificationData = namedtuple(
         'GlobalIronFortificationData',
-        "effect_size_seed, draw_numbers, draws, birthweight_dose_response, random_generator"
+        "effect_size_seed, draws, draw_numbers, mean_draws_name, birthweight_dose_response, random_generator"
     )
     return GlobalIronFortificationData(
-        effect_size_seed, draw_numbers, draws, birthweight_dose_response, random_generator
+        effect_size_seed, draws, draw_numbers, mean_draws_name, birthweight_dose_response, random_generator
     )
 
 def get_local_data(global_data, input_data, location, vehicle):
