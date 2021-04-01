@@ -1,0 +1,7 @@
+location_id,location_name,sub_population,vehicle,value_description,nutrient,value_mean,value_025_percentile,value_975_percentile,u5_applicable,wra_applicable
+214,Nigeria low SES,,oil,percent of population eating industrially produced vehicle,na,20.484,13.276,29.46,TRUE,TRUE
+214,Nigeria low SES,,oil,percent of population eating fortified vehicle,vitamin a,5.36,1.984,9.828,TRUE,TRUE
+214,Nigeria low SES,,wheat flour,percent of population eating industrially produced vehicle,na,22.096,16.444,29.428,TRUE,TRUE
+214,Nigeria low SES,,wheat flour,percent of population eating fortified vehicle,iron,4.08,3.28,7.72,TRUE,TRUE
+214,Nigeria low SES,,wheat flour,percent of population eating fortified vehicle,zinc,4.08,3.28,7.72,TRUE,TRUE
+214,Nigeria low SES,,wheat flour,percent of population eating fortified vehicle,folic acid,4.08,3.28,7.72,TRUE,TRUE
