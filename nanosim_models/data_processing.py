@@ -34,11 +34,8 @@ def get_fortification_input_data(vivarium_research_lsff_path='..', locations_pat
 
     locations = pd.read_csv(locations_path)
     coverage = pd.read_csv(coverage_data_path).pipe(mult_model_fns.create_marginal_uncertainty)
-    consumption = pd.read_csv(consumption_data_path)
-    concentration = (
-        pd.read_csv(concentration_data_path)
-        .pipe(process_concentration_data, locations)
-    )
+    consumption = pd.read_csv(consumption_data_path).pipe(process_consumption_data, coverage)
+    concentration = pd.read_csv(concentration_data_path).pipe(process_concentration_data, locations)
     FortificationInputData = namedtuple(
         "FortificationInputData",
         "locations, coverage, consumption, concentration"
@@ -58,11 +55,7 @@ def process_consumption_data(consumption_df, coverage_df):
     consumption_df = (
         consumption_df
         .drop(columns='location_name') # Use location name from coverage to replace 'Vietnam' with 'Viet Nam'
-        .merge(
-            percent_eating_vehicle,
-            on=['location_id', 'vehicle'],
-            suffixes=('_gday', '_coverage')
-        )
+        .merge(percent_eating_vehicle, on=['location_id', 'vehicle'], suffixes=('_gday', '_coverage'))
     )
     assert consumption_df.pop_denom.isin(['capita', 'consumers']).all(), \
         f"Unexpected population denominator in g/day data! {consumption_df.pop_denom.unique()=}"
@@ -117,33 +110,63 @@ def create_bw_dose_response_distribution():
 
 def generate_normal_draws(mean, lower, upper, shape=1, quantile_ranks=(0.025,0.975), random_state=None):
     random_state = np.random.default_rng(random_state)
-    stdev = (upper - lower) / (stats.norm.ppf(quantile_ranks[1]) - stats.norm.ppf(quantile_ranks[0]))
-    return stats.norm.rvs(mean, stdev, size=shape, random_state=rng)
+    std_quantiles = stats.norm.ppf(quantile_ranks)
+    stdev = (upper - lower) / (std_quantiles[1] - std_quantiles[0])
+    return stats.norm.rvs(mean, stdev, size=shape, random_state=random_state)
 
 def generate_truncnorm_draws(mean, lower, upper, shape=1, interval=(0,1), quantile_ranks=(0.025,0.975), random_state=None):
     random_state = np.random.default_rng(random_state) # Create a generator object if random_state is a seed
-    stdev = (upper-lower) / (stats.norm.ppf(quantile_ranks[1]) - stats.norm.ppf(quantile_ranks[0]))
-    a = (interval[0] - mean) / stdev
-    b = (interval[1] - mean) / stdev
+    std_quantiles = stats.norm.ppf(quantile_ranks)
+    stdev = (upper - lower) / (std_quantiles[1] - std_quantiles[0])
+    a = (interval[0] - mean) / stdev # a = left endpoint of standardized distribution
+    b = (interval[1] - mean) / stdev # b = right endpoint of standardized distribution
     return stats.truncnorm.rvs(a, b, mean, stdev, size=shape, random_state=random_state)
 
 def get_mean_consumption_draws(consumption_df, location_id, vehicle, draws, random_state):
-    consumption_df = consumption_df.query("location_id==@location_id and vehicle==@vehicle")
-    values = generate_normal_draws(
-        consumption_df['value_mean'], consumption_df['lower'], consumption_df['upper'],
-        shape=len(draws), random_state=random_state
-    )
-    assert (values >= 0).all(), f"Negative {vehicle} consumption values!"
+    consumption = consumption_df.query("location_id==@location_id and vehicle==@vehicle")
+    assert len(consumption)==1, \
+        f"Consumption data has wrong number of rows for iron vehicle! {consumption=}"
+    consumption = consumption.squeeze() # Convert single row to Series
+    # Use rejection sampling to guarantee positive draws
+    consumption_draws = np.empty(0)
+    while(len(consumption_draws) < len(draws)):
+        more_consumption_draws = generate_normal_draws(
+            consumption['value_mean_gday'], consumption['lower'], consumption['upper'],
+            shape=len(draws), random_state=random_state
+        )
+        # If consumption is per capita, convert to consumption among consumers
+        if consumption['pop_denom'] == 'capita':
+            coverage_draws = generate_normal_draws(
+                consumption['value_mean_coverage'],
+                consumption['value_025_percentile'],
+                consumption['value_975_percentile'],
+                shape=len(draws), random_state=random_state
+            ) / 100 # convert percent to proportion
+            more_consumption_draws /= coverage_draws
+        more_consumption_draws = more_consumption_draws[more_consumption_draws>=0]
+        consumption_draws = np.append(consumption_draws, more_consumption_draws)
+    consumption_draws = consumption_draws[:len(draws)]
+#     consumption_df['value'] = consumption_df['value_mean_gday']
+#     consumption_df.loc[consumption_df.pop_denom=='capita', 'value'] = (
+#         consumption_df.loc[consumption_df.pop_denom=='capita', 'value']
+#         / (consumption_df.loc[consumption_df.pop_denom=='capita', 'value_mean_coverage'] / 100)
+#     )
+#     values = generate_normal_draws(
+#         consumption_df['value_mean'], consumption_df['lower'], consumption_df['upper'],
+#         shape=len(draws), random_state=random_state
+#     )
+    # TODO: Replace assert statement with rejection sampling
+    assert (consumption_draws >= 0).all(), f"Negative {vehicle} consumption values for {location_id=}!"
     mean_consumption = pd.Series(
-        values, index=draws, name=f"mean_{vehicle.lower().replace(' ', '_')}_consumption")
+        consumption_draws, index=draws, name=f"mean_{vehicle.lower().replace(' ', '_')}_consumption")
     return mean_consumption
 
 def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
-    # This line assumes Beatrix has made the appropriate update...
     coverage_df = coverage_df.query("location_id==@location_id and vehicle==@vehicle and wra_applicable==True")
     fortified = coverage_df.query("nutrient=='iron' and value_description == 'percent of population eating fortified vehicle'")
     fortifiable = coverage_df.query("value_description == 'percent of population eating industrially produced vehicle'")
-    assert len(fortified)==1 and len(fortifiable)==1, f"Coverage dataframe has wrong number of rows for iron!"
+    assert len(fortified)==1 and len(fortifiable)==1, \
+        f"Coverage data has wrong number of rows for iron vehicle! {fortified=}, {fortifiable=}"
     
 #     fortified_draws = generate_truncnorm_draws(
 #         fortified.value_mean, fortified.value_025_percentile, fortified.value_975_percentile,
