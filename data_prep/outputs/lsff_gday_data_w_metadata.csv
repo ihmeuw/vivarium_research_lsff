@@ -1,15 +1,9 @@
 data_choice_notes,location_id,location_name,lower,mass_unit,mean_value_source_citation,mean_value_source_link,metric,pop_denom,sub_population,time_unit,upper,value_mean,vehicle
-,163,India,170.8001109198809,g,,,mean,capita,total population,day,394.7398890801191,282.77,rice
-,163,India,5.7382362122533115,g,,,mean,consumers,total population,day,13.26176378774669,9.5,salt
 ,163,India,113.13485976241066,g,,,mean,capita,total population,day,226.1051402375893,169.62,wheat flour
 ,179,Ethiopia,68.7621905687281,g,,,mean,capita,total population,day,158.9178094312719,113.84,maize flour
-,179,Ethiopia,3.5033442137967583,g,,,mean,capita,total population,day,8.096655786203241,5.8,salt
 ,179,Ethiopia,65.12491278859673,g,,,mean,capita,total population,day,130.15508721140327,97.64,wheat flour
 ,214,Nigeria,57.44276460897788,g,,,mean,capita,total population,day,132.75723539102208,95.1,maize flour
-,214,Nigeria,4.348979024023562,g,,,mean,consumers,total population,day,10.05102097597644,7.2,salt
 ,214,Nigeria,32.782563125353626,g,,,mean,capita,total population,day,65.51743687464636,49.15,wheat flour
-,214,Nigeria,2.7435218968364103,g,,,mean,consumers,women of reproductive age,day,7.256478103163589,2.668675217625471,bouillon
-,214,Nigeria,106.9124010072459,g,,,mean,consumers,women of reproductive age,day,247.0875989927541,91.36747869963301,rice
 "Chose data from The National Micronutrients Status Survey December 2011 (78 g/day), which sampled WRA, over GFDx total pop data from 2017 (49.5 g.day). The GFDx timeseries estimated from 52 gday in 1995, going up to 50-60 gday through 2006, and back down into around 45gday from 2007-2017. Due to lack in fluctuation, taking survey data.",161,Bangladesh,51.958528330926725,g,"Leyvraz M, Laillou A, Rahman S, et al. An Assessment of the Potential Impact of Fortification of Staples and Condiments on Micronutrient Intake of Young Children and Women of Reproductive Age in Bangladesh. Nutrients 2016; 8: 541.",https://www.mdpi.com/2072-6643/8/9/541/htm,mean,capita,women of reproductive age,day,103.84147166907327,77.9,wheat flour
 Chose 2017 FACT survey data (on the order of 100g) with CIs sampled from WRA over GFDx total pop data (on the order of 280g),165,Pakistan,57.47804487833196,g,"Global Alliance for Improved Nutrition and Oxford Policy Management (2018). Fortification Assessment Coverage Toolkit (FACT) Survey in Pakistan, 2017. Global Alliance for Improved Nutrition: Geneva, Switzerland.",https://www.gainhealth.org/sites/default/files/publications/documents/pakistan-fact-survey-2017-final-report-aug2018-corrected.pdf,mean,capita,women of reproductive age,day,114.87247542525957,86.17526015179575,wheat flour
 Chose 2017 GFDx estimate (172 g/day) over number from 2007 paper (162 g/day) that estimated from FAO balance sheets.,189,United Republic of Tanzania,102.94485417020374,g,GFDx,https://fortificationdata.org/country-fortification-dashboard/?alpha3_code=TZA&lang=en,mean,capita,total population,day,241.99514582979626,172.47,maize flour
