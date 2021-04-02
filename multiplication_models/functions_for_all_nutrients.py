@@ -28,14 +28,16 @@ def generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, v
         data = data.loc[data.wra_applicable == True]
     elif sub_population=='U5':
         data = data.loc[data.u5_applicable == True]
-    data = data.loc[data.location_id.isin(location_ids)]
+    data = data.loc[data.vehicle == vehicle].loc[data.nutrient.isin([nutrient, 'na'])].loc[data.location_id.isin(location_ids)]
+    drops = data.drop(columns='sub_population').loc[data.value_mean.isna()].location_id.values
+    data = data.loc[np.logical_not(data.location_id.isin(list(drops)))]
+    print(f'Excluded location IDs {drops} due to missing data')
 
     # the following is a transformation for a potential data issue and should be removed when resolved
     data['value_mean'] = data['value_mean'].replace(100, 100 - 0.00001 * 2).replace(0, 0 + 0.00001 * 2)
     data['value_025_percentile'] = data['value_025_percentile'].replace(100, 100 - 0.00001 * 3).replace(0, 0 + 0.00001)
     data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001).replace(0, 0 + 0.00001 * 3)
 
-    data = data.loc[data.vehicle == vehicle].loc[data.nutrient.isin([nutrient, 'na'])]
     data['value_std'] = (data.value_975_percentile - data.value_025_percentile) / (2 * 1.96)
     data['a'] = (0 - data.value_mean) / data.value_std
     data['b'] = (100 - data.value_mean) / data.value_std
@@ -119,6 +121,7 @@ def generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, v
     assert np.all(cov_a_final <= cov_b_final), "Illogically ordered"
 
     return cov_a_final, cov_b_final
+
 
 
 def generate_coverage_dfs(cov_a, cov_b, years, coverage_levels):
