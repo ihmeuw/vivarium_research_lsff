@@ -104,9 +104,9 @@ def create_bw_dose_response_distribution():
     # mean and 0.975-quantile of normal distribution for mean difference (MD)
     mean = 16.7 # g per 10 mg daily iron
     q_025, q_975 = 7.29, 26.11 # 2.5th and 97.5th percentiles
-    std = (q_975 - q_025) / (2*stats.norm.ppf(0.975))
+    stdev = (q_975 - q_025) / (2*stats.norm.ppf(0.975))
     # Frozen normal distribution for MD, representing uncertainty in our effect size
-    return stats.norm(mean, std)
+    return stats.norm(mean, stdev)
 
 def generate_normal_draws(mean, lower, upper, shape=1, quantile_ranks=(0.025,0.975), random_state=None):
     random_state = np.random.default_rng(random_state)
@@ -141,27 +141,7 @@ def get_mean_consumption_draws(consumption_df, location_id, vehicle, draws, rand
             shape=len(draws), interval=(0,100), random_state=random_state # Truncate at 0% and 100%
         ) / 100 # convert percent to proportion
         consumption_draws /= coverage_draws
-
-#     # Use rejection sampling to guarantee positive draws
-#     consumption_draws = np.empty(0)
-#     while(len(consumption_draws) < len(draws)):
-#         more_consumption_draws = generate_normal_draws(
-#             consumption['value_mean_gday'], consumption['lower'], consumption['upper'],
-#             shape=len(draws), random_state=random_state
-#         )
-#         # If consumption is per capita, convert to consumption among consumers
-#         if consumption['pop_denom'] == 'capita':
-#             coverage_draws = generate_normal_draws(
-#                 consumption['value_mean_coverage'],
-#                 consumption['value_025_percentile'],
-#                 consumption['value_975_percentile'],
-#                 shape=len(draws), random_state=random_state
-#             ) / 100 # convert percent to proportion
-#             more_consumption_draws /= coverage_draws
-#         more_consumption_draws = more_consumption_draws[more_consumption_draws>=0]
-#         consumption_draws = np.append(consumption_draws, more_consumption_draws)
-#     consumption_draws = consumption_draws[:len(draws)]
-    # TODO: Replace assert statement with rejection sampling
+    # Note: This assert should now be unnecessary because I used truncnorm distributions
     assert (consumption_draws >= 0).all(), f"Negative {vehicle} consumption values for {location_id=}!"
     mean_consumption = pd.Series(
         consumption_draws, index=draws, name=f"mean_{vehicle.lower().replace(' ', '_')}_consumption")
