@@ -1,5 +1,6 @@
 import pandas as pd, numpy as np
 from collections import namedtuple
+from scipy import stats
 
 # Assumes the path to vivarium_research_lsff is in sys.path
 from multiplication_models import mult_model_fns
@@ -121,7 +122,7 @@ def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
 #         interval=(0,100), random_state=global_data.random_generator)
     
     # Use rejection sampling to get valid draws with fortified <= fortifiable
-    data = pd.concat(fortified, fortifiable)
+    data = pd.concat([fortified, fortifiable])
     values = np.empty(shape=(0,len(data)))
     while(len(values) < len(draws)):
         values = np.append(values, generate_truncnorm_draws(
