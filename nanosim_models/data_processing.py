@@ -45,6 +45,34 @@ def get_fortification_input_data(vivarium_research_lsff_path='..', locations_pat
     )
     return FortificationInputData(locations, coverage, consumption, concentration)
 
+def process_consumption_data(consumption_df, coverage_df):
+    """Merges percent eating vehicle from coverage_df into consumption_df so that consumption among consumers
+    can be computed from consumption per capita. The actual computation will happen in `get_mean_consumption_draws`
+    in order to properly handle uncertainty.
+    """
+    percent_eating_vehicle = (
+        coverage_df
+        .query("value_description == 'percent of population eating vehicle' and wra_applicable==True")
+        [['location_id', 'location_name', 'vehicle', 'value_mean', 'value_025_percentile', 'value_975_percentile']]
+    )
+    consumption_df = (
+        consumption_df
+        .drop(columns='location_name') # Use location name from coverage to replace 'Vietnam' with 'Viet Nam'
+        .merge(
+            percent_eating_vehicle,
+            on=['location_id', 'vehicle'],
+            suffixes=('_gday', '_coverage')
+        )
+    )
+    assert consumption_df.pop_denom.isin(['capita', 'consumers']).all(), \
+        f"Unexpected population denominator in g/day data! {consumption_df.pop_denom.unique()=}"
+#     consumption_df['value'] = consumption_df['value_mean_gday']
+#     consumption_df.loc[consumption_df.pop_denom=='capita', 'value'] = (
+#         consumption_df.loc[consumption_df.pop_denom=='capita', 'value']
+#         / (consumption_df.loc[consumption_df.pop_denom=='capita', 'value_mean_coverage'] / 100)
+#     )
+    return consumption_df
+
 def process_concentration_data(concentration_df, locations):
     names_to_ids = locations.set_index('location_name').squeeze()
     names_to_ids["Cote d'Ivoire"]=205
