@@ -128,33 +128,39 @@ def get_mean_consumption_draws(consumption_df, location_id, vehicle, draws, rand
         f"Consumption data has wrong number of rows for iron vehicle! {consumption=}"
     consumption = consumption.squeeze() # Convert single row to Series
     # Use rejection sampling to guarantee positive draws
-    consumption_draws = np.empty(0)
-    while(len(consumption_draws) < len(draws)):
-        more_consumption_draws = generate_normal_draws(
-            consumption['value_mean_gday'], consumption['lower'], consumption['upper'],
-            shape=len(draws), random_state=random_state
-        )
-        # If consumption is per capita, convert to consumption among consumers
-        if consumption['pop_denom'] == 'capita':
-            coverage_draws = generate_normal_draws(
-                consumption['value_mean_coverage'],
-                consumption['value_025_percentile'],
-                consumption['value_975_percentile'],
-                shape=len(draws), random_state=random_state
-            ) / 100 # convert percent to proportion
-            more_consumption_draws /= coverage_draws
-        more_consumption_draws = more_consumption_draws[more_consumption_draws>=0]
-        consumption_draws = np.append(consumption_draws, more_consumption_draws)
-    consumption_draws = consumption_draws[:len(draws)]
-#     consumption_df['value'] = consumption_df['value_mean_gday']
-#     consumption_df.loc[consumption_df.pop_denom=='capita', 'value'] = (
-#         consumption_df.loc[consumption_df.pop_denom=='capita', 'value']
-#         / (consumption_df.loc[consumption_df.pop_denom=='capita', 'value_mean_coverage'] / 100)
-#     )
-#     values = generate_normal_draws(
-#         consumption_df['value_mean'], consumption_df['lower'], consumption_df['upper'],
-#         shape=len(draws), random_state=random_state
-#     )
+    consumption_draws = generate_truncnorm_draws(
+        consumption['value_mean_gday'], consumption['lower'], consumption['upper'],
+        shape=len(draws), interval=(0,np.inf), random_state=random_state # Truncate at 0 to ensure positive consumption
+    )
+    # If consumption is per capita, convert to consumption among consumers
+    if consumption['pop_denom'] == 'capita':
+        coverage_draws = generate_truncnorm_draws(
+            consumption['value_mean_coverage'],
+            consumption['value_025_percentile'],
+            consumption['value_975_percentile'],
+            shape=len(draws), interval=(0,100), random_state=random_state # Truncate at 0% and 100%
+        ) / 100 # convert percent to proportion
+        consumption_draws /= coverage_draws
+
+#     # Use rejection sampling to guarantee positive draws
+#     consumption_draws = np.empty(0)
+#     while(len(consumption_draws) < len(draws)):
+#         more_consumption_draws = generate_normal_draws(
+#             consumption['value_mean_gday'], consumption['lower'], consumption['upper'],
+#             shape=len(draws), random_state=random_state
+#         )
+#         # If consumption is per capita, convert to consumption among consumers
+#         if consumption['pop_denom'] == 'capita':
+#             coverage_draws = generate_normal_draws(
+#                 consumption['value_mean_coverage'],
+#                 consumption['value_025_percentile'],
+#                 consumption['value_975_percentile'],
+#                 shape=len(draws), random_state=random_state
+#             ) / 100 # convert percent to proportion
+#             more_consumption_draws /= coverage_draws
+#         more_consumption_draws = more_consumption_draws[more_consumption_draws>=0]
+#         consumption_draws = np.append(consumption_draws, more_consumption_draws)
+#     consumption_draws = consumption_draws[:len(draws)]
     # TODO: Replace assert statement with rejection sampling
     assert (consumption_draws >= 0).all(), f"Negative {vehicle} consumption values for {location_id=}!"
     mean_consumption = pd.Series(
