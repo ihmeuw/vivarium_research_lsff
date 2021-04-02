@@ -304,36 +304,21 @@ location_id,location_name,sub_population,vehicle,value_description,nutrient,valu
 181,Madagascar,,wheat flour,percent of population eating fortified vehicle,iron,32.62599444545928,,,True,True,regression,,,modeling,
 181,Madagascar,,wheat flour,percent of population eating fortified vehicle,vitamin a,32.62599444545928,,,True,True,regression,,,modeling,
 181,Madagascar,,wheat flour,percent of population eating fortified vehicle,zinc,32.62599444545928,,,True,True,regression,,,modeling,
-213,Niger,,maize flour,percent of population eating vehicle,na,70.42632016882723,,,False,True,regression,,,modeling,
-25344,Niger,,maize flour,percent of population eating vehicle,na,70.42632016882723,,,False,True,regression,,,modeling,
-213,Niger,,maize flour,percent of population eating industrially produced vehicle,na,3.8304728787751965,,,False,True,regression,,,modeling,
-25344,Niger,,maize flour,percent of population eating industrially produced vehicle,na,3.8304728787751965,,,False,True,regression,,,modeling,
-213,Niger,,maize flour,percent of population eating fortified vehicle,folic acid,6.220913500147378,,,False,True,regression,,,modeling,
-25344,Niger,,maize flour,percent of population eating fortified vehicle,folic acid,6.220913500147378,,,False,True,regression,,,modeling,
-213,Niger,,maize flour,percent of population eating fortified vehicle,iron,6.220913500147378,,,False,True,regression,,,modeling,
-25344,Niger,,maize flour,percent of population eating fortified vehicle,iron,6.220913500147378,,,False,True,regression,,,modeling,
-213,Niger,,maize flour,percent of population eating fortified vehicle,vitamin a,6.220913500147378,,,False,True,regression,,,modeling,
-25344,Niger,,maize flour,percent of population eating fortified vehicle,vitamin a,6.220913500147378,,,False,True,regression,,,modeling,
-213,Niger,,maize flour,percent of population eating fortified vehicle,zinc,6.220913500147378,,,False,True,regression,,,modeling,
-25344,Niger,,maize flour,percent of population eating fortified vehicle,zinc,6.220913500147378,,,False,True,regression,,,modeling,
-213,Niger,women of reproductive age,oil,percent of population eating vehicle,na,85.0,,,False,True,na,"Hess, S. Y., Brown, K. H., Sablah, M., Engle-Stone, R., Aaron, G. J., & Baker, S. K. (2013). Results of Fortification Rapid Assessment Tool (FRAT) surveys in sub-Saharan Africa and suggestions for future modifications of the survey instrument. Food and nutrition bulletin, 34(1), 21-38.",https://journals.sagepub.com/doi/pdf/10.1177/156482651303400104,modeling,Only one source. Discarded urban and rural specific estimates in lieu of the total estimate
-25344,Niger,women of reproductive age,oil,percent of population eating vehicle,na,85.0,,,False,True,na,"Hess, S. Y., Brown, K. H., Sablah, M., Engle-Stone, R., Aaron, G. J., & Baker, S. K. (2013). Results of Fortification Rapid Assessment Tool (FRAT) surveys in sub-Saharan Africa and suggestions for future modifications of the survey instrument. Food and nutrition bulletin, 34(1), 21-38.",https://journals.sagepub.com/doi/pdf/10.1177/156482651303400104,modeling,Only one source. Discarded urban and rural specific estimates in lieu of the total estimate
-213,Niger,,oil,percent of population eating industrially produced vehicle,na,54.403013547871076,,,False,True,regression,,,modeling,
-25344,Niger,,oil,percent of population eating industrially produced vehicle,na,54.403013547871076,,,False,True,regression,,,modeling,
-213,Niger,total population,oil,percent of population eating fortified vehicle,vitamin a,75.0,,,False,True,na,"Sablah M, Klopp J, Steinberg D, Touaoro Z, Laillou A, Baker S. Thriving public-private partnership to fortify cooking oil in the West African Economic and Monetary Union (UEMOA) to control vitamin A deficiency: Faire Tache d'Huile en Afrique de l'Ouest. Food Nutr Bull. 2012 Dec;33(4 Suppl):S310-20. doi: 10.1177/15648265120334S307. PMID: 23444712.",https://pubmed.ncbi.nlm.nih.gov/23444712/,modeling,"From two sources, we had an estimate of 55% in 2010. The latter source additionally projected 75% by 2013, which we are using here."
-25344,Niger,total population,oil,percent of population eating fortified vehicle,vitamin a,75.0,,,False,True,na,"Sablah M, Klopp J, Steinberg D, Touaoro Z, Laillou A, Baker S. Thriving public-private partnership to fortify cooking oil in the West African Economic and Monetary Union (UEMOA) to control vitamin A deficiency: Faire Tache d'Huile en Afrique de l'Ouest. Food Nutr Bull. 2012 Dec;33(4 Suppl):S310-20. doi: 10.1177/15648265120334S307. PMID: 23444712.",https://pubmed.ncbi.nlm.nih.gov/23444712/,modeling,"From two sources, we had an estimate of 55% in 2010. The latter source additionally projected 75% by 2013, which we are using here."
-213,Niger,,wheat flour,percent of population eating vehicle,na,41.46439645029093,,,False,True,regression,,,modeling,
-25344,Niger,,wheat flour,percent of population eating vehicle,na,41.46439645029093,,,False,True,regression,,,modeling,
-213,Niger,,wheat flour,percent of population eating industrially produced vehicle,na,44.59570620427173,,,False,True,regression,,,modeling,
-25344,Niger,,wheat flour,percent of population eating industrially produced vehicle,na,44.59570620427173,,,False,True,regression,,,modeling,
-213,Niger,total population,wheat flour,percent of population eating fortified vehicle,folic acid,30.0,,,False,True,na,"Corner, S. S. Nutrition and Business.",http://www.unscn.org/files/Publications/SCN_News/SCNNEWS3909.01b_lowdef.pdf,modeling,Only one source.
-25344,Niger,total population,wheat flour,percent of population eating fortified vehicle,folic acid,30.0,,,False,True,na,"Corner, S. S. Nutrition and Business.",http://www.unscn.org/files/Publications/SCN_News/SCNNEWS3909.01b_lowdef.pdf,modeling,Only one source.
-213,Niger,total population,wheat flour,percent of population eating fortified vehicle,iron,30.0,,,False,True,na,"Corner, S. S. Nutrition and Business.",http://www.unscn.org/files/Publications/SCN_News/SCNNEWS3909.01b_lowdef.pdf,modeling,Only one source.
-25344,Niger,total population,wheat flour,percent of population eating fortified vehicle,iron,30.0,,,False,True,na,"Corner, S. S. Nutrition and Business.",http://www.unscn.org/files/Publications/SCN_News/SCNNEWS3909.01b_lowdef.pdf,modeling,Only one source.
-213,Niger,,wheat flour,percent of population eating fortified vehicle,vitamin a,30.0,,,False,True,regression,,,modeling,
-25344,Niger,,wheat flour,percent of population eating fortified vehicle,vitamin a,30.0,,,False,True,regression,,,modeling,
-213,Niger,,wheat flour,percent of population eating fortified vehicle,zinc,30.0,,,False,True,regression,,,modeling,
-25344,Niger,,wheat flour,percent of population eating fortified vehicle,zinc,30.0,,,False,True,regression,,,modeling,
+213,Niger,,maize flour,percent of population eating vehicle,na,70.42632016882723,,,True,True,regression,,,modeling,
+213,Niger,,maize flour,percent of population eating industrially produced vehicle,na,3.8304728787751965,,,True,True,regression,,,modeling,
+213,Niger,,maize flour,percent of population eating fortified vehicle,folic acid,6.220913500147378,,,True,True,regression,,,modeling,
+213,Niger,,maize flour,percent of population eating fortified vehicle,iron,6.220913500147378,,,True,True,regression,,,modeling,
+213,Niger,,maize flour,percent of population eating fortified vehicle,vitamin a,6.220913500147378,,,True,True,regression,,,modeling,
+213,Niger,,maize flour,percent of population eating fortified vehicle,zinc,6.220913500147378,,,True,True,regression,,,modeling,
+213,Niger,women of reproductive age,oil,percent of population eating vehicle,na,85.0,,,True,True,na,"Hess, S. Y., Brown, K. H., Sablah, M., Engle-Stone, R., Aaron, G. J., & Baker, S. K. (2013). Results of Fortification Rapid Assessment Tool (FRAT) surveys in sub-Saharan Africa and suggestions for future modifications of the survey instrument. Food and nutrition bulletin, 34(1), 21-38.",https://journals.sagepub.com/doi/pdf/10.1177/156482651303400104,modeling,Only one source. Discarded urban and rural specific estimates in lieu of the total estimate
+213,Niger,,oil,percent of population eating industrially produced vehicle,na,54.403013547871076,,,True,True,regression,,,modeling,
+213,Niger,total population,oil,percent of population eating fortified vehicle,vitamin a,75.0,,,True,True,na,"Sablah M, Klopp J, Steinberg D, Touaoro Z, Laillou A, Baker S. Thriving public-private partnership to fortify cooking oil in the West African Economic and Monetary Union (UEMOA) to control vitamin A deficiency: Faire Tache d'Huile en Afrique de l'Ouest. Food Nutr Bull. 2012 Dec;33(4 Suppl):S310-20. doi: 10.1177/15648265120334S307. PMID: 23444712.",https://pubmed.ncbi.nlm.nih.gov/23444712/,modeling,"From two sources, we had an estimate of 55% in 2010. The latter source additionally projected 75% by 2013, which we are using here."
+213,Niger,,wheat flour,percent of population eating vehicle,na,41.46439645029093,,,True,True,regression,,,modeling,
+213,Niger,,wheat flour,percent of population eating industrially produced vehicle,na,44.59570620427173,,,True,True,regression,,,modeling,
+213,Niger,total population,wheat flour,percent of population eating fortified vehicle,folic acid,30.0,,,True,True,na,"Corner, S. S. Nutrition and Business.",http://www.unscn.org/files/Publications/SCN_News/SCNNEWS3909.01b_lowdef.pdf,modeling,Only one source.
+213,Niger,total population,wheat flour,percent of population eating fortified vehicle,iron,30.0,,,True,True,na,"Corner, S. S. Nutrition and Business.",http://www.unscn.org/files/Publications/SCN_News/SCNNEWS3909.01b_lowdef.pdf,modeling,Only one source.
+213,Niger,,wheat flour,percent of population eating fortified vehicle,vitamin a,30.0,,,True,True,regression,,,modeling,
+213,Niger,,wheat flour,percent of population eating fortified vehicle,zinc,30.0,,,True,True,regression,,,modeling,
 522,Sudan,,maize flour,percent of population eating vehicle,na,54.46358646715185,,,True,True,regression,,,modeling,
 522,Sudan,,maize flour,percent of population eating industrially produced vehicle,na,10.95624464506746,,,True,True,regression,,,modeling,
 522,Sudan,,maize flour,percent of population eating fortified vehicle,folic acid,6.210501683407572,,,True,True,regression,,,modeling,
