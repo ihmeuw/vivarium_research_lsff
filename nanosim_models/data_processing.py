@@ -110,6 +110,17 @@ def create_bw_dose_response_distribution():
     # Frozen normal distribution for MD, representing uncertainty in our effect size
     return stats.norm(mean, stdev)
 
+def calculate_birthweight_shift(dose_response, iron_concentration, daily_consumption):
+    """
+    Computes the increase in birthweight (in grams) given the following:
+
+    dose_response: g of birthweight increase per 10 mg daily iron
+    iron_concentration: mg iron as NaFeEDTA per kg vehicle (wheat flour or maize flour)
+    daily_consumption: g of vehicle eaten per day by pregnant mother
+    """
+    # TODO: Update this to handle different consumption units for salt and bouillon if necessary
+    return (dose_response/10)*(iron_concentration)*(daily_consumption/1_000)
+
 def generate_normal_draws(mean, lower, upper, shape=1, quantile_ranks=(0.025,0.975), random_state=None):
     random_state = np.random.default_rng(random_state)
     std_quantiles = stats.norm.ppf(quantile_ranks)
