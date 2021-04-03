@@ -1,0 +1,41 @@
+This dir contains (almost all of) the data prep pipeline for the population coverage data
+
+- 00_clean_data, 01_gen_data_counts, and 01_gen_cleaned_rows
+    - prep the data
+- 02b_first_pass_fill_data_gaps
+    - generates multiplicative estimates
+- 03a_combine_cleaned_rows_with_data_guesses
+    - generates cleaned data with guessed data, which later goes into a regression model.
+    
+    
+    
+- interim (needs to be renamed): contains a different notebook for each data tier (detailed below).
+    - these go through, line by line, selecting the extracted data to use for our models
+    - where extracted data is not available, it pulls multiplication model estimates
+    - where multiplicative estimates nor extracted data is available, pulls regression estimates
+
+
+- data tiers
+    - 1: Ethiopia, India, Nigeria
+    - 2: Pakistan, Bangladesh, South Africa Uganda, Tanzania
+    - 3: Burkina Faso, Kenya, Myanmar, Vietnam, Nepal
+    - 4: Cameroon, Cote d'Ivoire, DRC, Indonesia, Mozambique
+    - 5: Angola, China, Ghana, Niger, Egypt, Sudan, Madagascar
+
+
+NOTE
+- the remainder of the pipeline is housed (need to move these) in data_prep/gen_outputs/MICE/
+    - regression estimates are produced by
+        - 2021_03_14_pct_pop_eating_vehicle_gradient_boosted.ipynb
+        - 2021_03_15_pct_pop_eating_fortifiable_gradient_boosted_general.ipynb
+        - 2021_03_31_fortified_gb.ipynb
+    - then 2021_03_31_compile_results_run_rejection_sampling.ipynb does way too much, which this needs to be fixed. this includes:
+        - pulls together all tiers
+        - for any rows where data is missing or the row contains a regression estimate, this script
+        replaces that row with the current regression estimates (because some tiers were generated before
+        updates were made to the regression)
+        - for any rows with missing CIs, CIs are added using the vehicle-stratified scale/mean ratio
+        - for any rows estimated via regression, the CI width is then doubled
+        - for any location-vehicle-nutrient tuple in which our data indicates that there a higher percentage of the population
+        eating fortified vehicle than fortifiable vehicle, we use rejection sampling to determine a new mean and new CIs
+        - we then widen these CIs by 75%
