@@ -5,6 +5,8 @@ from scipy import stats
 # Assumes the path to vivarium_research_lsff is in sys.path
 from multiplication_models import mult_model_fns
 
+COMPLIANCE_MULTIPLIER = 0.5 # Value by which to scale iron concentration to account for non-compliance to standards
+
 def get_gbd_input_data(hdfstore=None, exposure_key=None, rr_key=None, yll_key=None):
     if hdfstore is None:
         hdfstore = '/share/scratch/users/ndbs/vivarium_lsff/gbd_data/lbwsg_data.hdf'
@@ -93,7 +95,7 @@ def process_concentration_data(concentration_df, locations):
         df['value'] = df['Indicator Value']
         df.loc[~df['NaFeEDTA'], 'value'] *= absorption_multiplier
         vehicle_dfs.append(df)
-    concentration_df = pd.concat(vehicle_dfs)
+    concentration_df = pd.concat(vehicle_dfs, ignore_index=True)
     return concentration_df
 
 def create_bw_dose_response_distribution():
@@ -108,6 +110,17 @@ def create_bw_dose_response_distribution():
     # Frozen normal distribution for MD, representing uncertainty in our effect size
     return stats.norm(mean, stdev)
 
+def calculate_birthweight_shift(dose_response, iron_concentration, daily_consumption):
+    """
+    Computes the increase in birthweight (in grams) given the following:
+
+    dose_response: g of birthweight increase per 10 mg daily iron
+    iron_concentration: mg iron as NaFeEDTA per kg vehicle (wheat flour or maize flour)
+    daily_consumption: g of vehicle eaten per day by pregnant mother
+    """
+    # TODO: Update this to handle different consumption units for salt and bouillon if necessary
+    return (dose_response/10)*(iron_concentration)*(daily_consumption/1_000)
+
 def generate_normal_draws(mean, lower, upper, shape=1, quantile_ranks=(0.025,0.975), random_state=None):
     random_state = np.random.default_rng(random_state)
     std_quantiles = stats.norm.ppf(quantile_ranks)
@@ -121,6 +134,29 @@ def generate_truncnorm_draws(mean, lower, upper, shape=1, interval=(0,1), quanti
     a = (interval[0] - mean) / stdev # a = left endpoint of standardized distribution
     b = (interval[1] - mean) / stdev # b = right endpoint of standardized distribution
     return stats.truncnorm.rvs(a, b, mean, stdev, size=shape, random_state=random_state)
+
+def get_iron_concentration_draws(concentration_df, location_id, vehicle, compliance_multiplier, draws, random_state):
+    """
+    Get the iron concentration in specified vehicle for specified location (mg iron as NaFeEDTA per kg flour),
+    with parameter uncertainty if there is any.
+
+    Returns
+    -------
+    scalar if there is no uncertainty, or pandas Series indexed by draw if there is uncertainty.
+    """
+    concentration = concentration_df.query("location_id==@location_id and vehicle==@vehicle")
+    assert len(concentration) <= 1, \
+        f"Unexpected extra rows of iron concentration in {vehicle} for {location}! {concentration=}"
+    if len(concentration) == 1:
+        # Return the single value we have for iron concentration
+        concentration_draws = concentration.squeeze()['value'] # scalar
+    elif len(concentration) == 0:
+        # Sample from emperical distribution for vehicle over locations
+        rng = np.random.default_rng(random_state)
+        possible_values = concentration_df.query("vehicle==@vehicle")['value']
+        values = rng.choice(possible_values, size=len(draws), replace=True)
+        concentration_draws = pd.Series(values, index=draws, name='iron_concentration')
+    return compliance_multiplier * concentration_draws
 
 def get_mean_consumption_draws(consumption_df, location_id, vehicle, draws, random_state):
     consumption = consumption_df.query("location_id==@location_id and vehicle==@vehicle")
@@ -234,8 +270,10 @@ def get_local_data(global_data, input_data, location, vehicle):
     else:
         location_name = location
         location_id = input_data.locations.set_index('location_name').loc[location_name, 'location_id']
-    iron_concentration = get_iron_concentration(
-        input_data.concentration, location_id, global_data.draws, global_data.random_generator)
+    iron_concentration = get_iron_concentration_draws(
+        input_data.concentration, location_id, vehicle, COMPLIANCE_MULTIPLIER,
+        global_data.draws, global_data.random_generator
+    )
     mean_daily_flour = get_mean_consumption_draws(
         input_data.consumption, location_id, vehicle, global_data.draws, global_data.random_generator)
     # Check data dimensions (scalar vs. Series) to make sure multiplication will work
