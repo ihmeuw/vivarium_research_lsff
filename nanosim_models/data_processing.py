@@ -1,5 +1,6 @@
 import pandas as pd, numpy as np
 from collections import namedtuple
+from scipy import stats
 
 # Assumes the path to vivarium_research_lsff is in sys.path
 from multiplication_models import mult_model_fns
@@ -17,8 +18,8 @@ def get_gbd_input_data(hdfstore=None, exposure_key=None, rr_key=None, yll_key=No
     exposure_data = pd.read_hdf(hdfstore, exposure_key)
     rr_data = pd.read_hdf(hdfstore, rr_key)
     yll_data = pd.read_hdf(hdfstore, yll_key)
-    GBDInputData = namedtuple("GBDInputData", "exposure_data, rr_data, yll_data")
-    return GBDInputData(exposure_data, rr_data, yll_data)
+    GBDInputData = namedtuple("GBDInputData", "lbwsg_exposure, lbwsg_rrs, lbwsg_ylls")
+    return GBDInputData(lbwsg_exposure, lbwsg_rrs, lbwsg_ylls)
 
 def get_fortification_input_data(vivarium_research_lsff_path='..', locations_path=None, coverage_data_path=None, consumption_data_path=None, concentration_data_path=None):
     """Reads input data from files and returns a tuple of input dataframes."""
@@ -27,22 +28,43 @@ def get_fortification_input_data(vivarium_research_lsff_path='..', locations_pat
     if coverage_data_path is None:
         coverage_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
     if consumption_data_path is None:
-        consumption_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_input_coverage_data.csv'
+        consumption_data_path = f'{vivarium_research_lsff_path}/data_prep/outputs/lsff_gday_data.csv'
     if concentration_data_path is None:
         concentration_data_path = '/share/scratch/users/ndbs/vivarium_lsff/gfdx_data/flour_fortification_standards_mg_per_kg.csv'
 
     locations = pd.read_csv(locations_path)
-    coverage_df = pd.read_csv(coverage_data_path).pipe(mult_model_fns.create_marginal_uncertainty)
-    consumption_df = pd.read_csv(consumption_data_path)
-    concentration_df = (
-        pd.read_csv(concentration_data_path)
-        .pipe(process_concentration_data, locations)
-    )
+    coverage = pd.read_csv(coverage_data_path).pipe(mult_model_fns.create_marginal_uncertainty)
+    consumption = pd.read_csv(consumption_data_path).pipe(process_consumption_data, coverage)
+    concentration = pd.read_csv(concentration_data_path).pipe(process_concentration_data, locations)
     FortificationInputData = namedtuple(
         "FortificationInputData",
-        "locations, coverage_df, consumption_df, concentration_df"
+        "locations, coverage, consumption, concentration"
     )
-    return FortificationInputData(locations, coverage_df, consumption_df, concentration_df)
+    return FortificationInputData(locations, coverage, consumption, concentration)
+
+def process_consumption_data(consumption_df, coverage_df):
+    """Merges percent eating vehicle from coverage_df into consumption_df so that consumption among consumers
+    can be computed from consumption per capita. The actual computation will happen in `get_mean_consumption_draws`
+    in order to properly handle uncertainty.
+    """
+    percent_eating_vehicle = (
+        coverage_df
+        .query("value_description == 'percent of population eating vehicle' and wra_applicable==True")
+        [['location_id', 'location_name', 'vehicle', 'value_mean', 'value_025_percentile', 'value_975_percentile']]
+    )
+    consumption_df = (
+        consumption_df
+        .drop(columns='location_name') # Use location name from coverage to replace 'Vietnam' with 'Viet Nam'
+        .merge(percent_eating_vehicle, on=['location_id', 'vehicle'], suffixes=('_gday', '_coverage'))
+    )
+    assert consumption_df.pop_denom.isin(['capita', 'consumers']).all(), \
+        f"Unexpected population denominator in g/day data! {consumption_df.pop_denom.unique()=}"
+#     consumption_df['value'] = consumption_df['value_mean_gday']
+#     consumption_df.loc[consumption_df.pop_denom=='capita', 'value'] = (
+#         consumption_df.loc[consumption_df.pop_denom=='capita', 'value']
+#         / (consumption_df.loc[consumption_df.pop_denom=='capita', 'value_mean_coverage'] / 100)
+#     )
+    return consumption_df
 
 def process_concentration_data(concentration_df, locations):
     names_to_ids = locations.set_index('location_name').squeeze()
@@ -82,46 +104,62 @@ def create_bw_dose_response_distribution():
     # mean and 0.975-quantile of normal distribution for mean difference (MD)
     mean = 16.7 # g per 10 mg daily iron
     q_025, q_975 = 7.29, 26.11 # 2.5th and 97.5th percentiles
-    std = (q_975 - q_025) / (2*stats.norm.ppf(0.975))
+    stdev = (q_975 - q_025) / (2*stats.norm.ppf(0.975))
     # Frozen normal distribution for MD, representing uncertainty in our effect size
-    return stats.norm(mean, std)
+    return stats.norm(mean, stdev)
 
 def generate_normal_draws(mean, lower, upper, shape=1, quantile_ranks=(0.025,0.975), random_state=None):
     random_state = np.random.default_rng(random_state)
-    stdev = (upper - lower) / (stats.norm.ppf(quantile_ranks[1]) - stats.norm.ppf(quantile_ranks[0]))
-    return stats.norm.rvs(mean, stdev, size=shape, random_state=rng)
+    std_quantiles = stats.norm.ppf(quantile_ranks)
+    stdev = (upper - lower) / (std_quantiles[1] - std_quantiles[0])
+    return stats.norm.rvs(mean, stdev, size=shape, random_state=random_state)
 
 def generate_truncnorm_draws(mean, lower, upper, shape=1, interval=(0,1), quantile_ranks=(0.025,0.975), random_state=None):
     random_state = np.random.default_rng(random_state) # Create a generator object if random_state is a seed
-    stdev = (upper-lower) / (stats.norm.ppf(quantile_ranks[1]) - stats.norm.ppf(quantile_ranks[0]))
-    a = (interval[0] - mean) / stdev
-    b = (interval[1] - mean) / stdev
+    std_quantiles = stats.norm.ppf(quantile_ranks)
+    stdev = (upper - lower) / (std_quantiles[1] - std_quantiles[0])
+    a = (interval[0] - mean) / stdev # a = left endpoint of standardized distribution
+    b = (interval[1] - mean) / stdev # b = right endpoint of standardized distribution
     return stats.truncnorm.rvs(a, b, mean, stdev, size=shape, random_state=random_state)
 
 def get_mean_consumption_draws(consumption_df, location_id, vehicle, draws, random_state):
-    consumption_df = consumption_df.query("location_id==@location_id and vehicle==@vehicle")
-    values = generate_normal_draws(
-        consumption_df['value_mean'], consumption_df['lower'], consumption_df['upper'],
-        shape=len(draws), random_state=random_state
+    consumption = consumption_df.query("location_id==@location_id and vehicle==@vehicle")
+    assert len(consumption)==1, \
+        f"Consumption data has wrong number of rows for iron vehicle! {consumption=}"
+    consumption = consumption.squeeze() # Convert single row to Series
+    # Use rejection sampling to guarantee positive draws
+    consumption_draws = generate_truncnorm_draws(
+        consumption['value_mean_gday'], consumption['lower'], consumption['upper'],
+        shape=len(draws), interval=(0,np.inf), random_state=random_state # Truncate at 0 to ensure positive consumption
     )
-    assert (values >= 0).all(), f"Negative {vehicle} consumption values!"
+    # If consumption is per capita, convert to consumption among consumers
+    if consumption['pop_denom'] == 'capita':
+        coverage_draws = generate_truncnorm_draws(
+            consumption['value_mean_coverage'],
+            consumption['value_025_percentile'],
+            consumption['value_975_percentile'],
+            shape=len(draws), interval=(0,100), random_state=random_state # Truncate at 0% and 100%
+        ) / 100 # convert percent to proportion
+        consumption_draws /= coverage_draws
+    # Note: This assert should now be unnecessary because I used truncnorm distributions
+    assert (consumption_draws >= 0).all(), f"Negative {vehicle} consumption values for {location_id=}!"
     mean_consumption = pd.Series(
-        values, index=draws, name=f"mean_{vehicle.lower().replace(' ', '_')}_consumption")
+        consumption_draws, index=draws, name=f"mean_{vehicle.lower().replace(' ', '_')}_consumption")
     return mean_consumption
 
 def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
-    # This line assumes Beatrix has made the appropriate update...
     coverage_df = coverage_df.query("location_id==@location_id and vehicle==@vehicle and wra_applicable==True")
     fortified = coverage_df.query("nutrient=='iron' and value_description == 'percent of population eating fortified vehicle'")
     fortifiable = coverage_df.query("value_description == 'percent of population eating industrially produced vehicle'")
-    assert len(fortified)==1 and len(fortifiable)==1, f"Coverage dataframe has wrong number of rows for iron!"
+    assert len(fortified)==1 and len(fortifiable)==1, \
+        f"Coverage data has wrong number of rows for iron vehicle! {fortified=}, {fortifiable=}"
     
 #     fortified_draws = generate_truncnorm_draws(
 #         fortified.value_mean, fortified.value_025_percentile, fortified.value_975_percentile,
 #         interval=(0,100), random_state=global_data.random_generator)
     
     # Use rejection sampling to get valid draws with fortified <= fortifiable
-    data = pd.concat(fortified, fortifiable)
+    data = pd.concat([fortified, fortifiable])
     values = np.empty(shape=(0,len(data)))
     while(len(values) < len(draws)):
         values = np.append(values, generate_truncnorm_draws(
@@ -197,9 +235,9 @@ def get_local_data(global_data, input_data, location, vehicle):
         location_name = location
         location_id = input_data.locations.set_index('location_name').loc[location_name, 'location_id']
     iron_concentration = get_iron_concentration(
-        input_data.concentration_df, location_id, global_data.draws, global_data.random_generator)
+        input_data.concentration, location_id, global_data.draws, global_data.random_generator)
     mean_daily_flour = get_mean_consumption_draws(
-        input_data.consumption_df, location_id, vehicle, global_data.draws, global_data.random_generator)
+        input_data.consumption, location_id, vehicle, global_data.draws, global_data.random_generator)
     # Check data dimensions (scalar vs. Series) to make sure multiplication will work
     mean_birthweight_shift = calculate_birthweight_shift(
         global_data.birthweight_dose_response, # indexed by draw
@@ -209,7 +247,7 @@ def get_local_data(global_data, input_data, location, vehicle):
     mean_birthweight_shift.rename('mean_birthweight_shift', inplace=True)
     # Load coverage data
     eats_fortified, eats_fortifiable = get_coverage_draws(
-        input_data.coverage_df, location_id, vehicle, global_data.draws, global_data.random_generator)
+        input_data.coverage, location_id, vehicle, global_data.draws, global_data.random_generator)
 
     LocalIronFortificationData = namedtuple(
         'LocalIronFortificationData',
