@@ -169,3 +169,52 @@ def duplicate_over_simulation_years(df, years):
         temp['year'] = year
         data_years = pd.concat([data_years, temp], ignore_index=True)
     return data_years
+
+def calculate_counterfactual_anemia_prevalence(location_ids, sex_ids, age_group_ids,
+                                              anemia_data):
+    anemia_cols = ['mild','moderate','severe','anemic','mild_ylds','moderate_ylds','severe_ylds','anemic_ylds']
+    anemia_diff = anemia_data.drop(columns=[c for c in anemia_cols if c != 'anemic']).dropna()
+    pop = get_population(location_id=location_ids,
+                        sex_id=sex_ids,
+                        age_group_id=age_group_ids,
+                        year_id=2019,
+                        gbd_round_id=6,
+                        decomp_step='step4')
+    anemia_diff = anemia_diff.merge(pop, on=['location_id','age_group_id','sex_id'])
+    anemia_diff['anemic'] = anemia_diff['anemic'] * anemia_diff['population']
+    anemia_diff = anemia_diff.groupby(['location_id','draw','vehicle','coverage_level','year']).sum()
+    anemia_diff['anemic'] = anemia_diff['anemic'] / anemia_diff['population'] * 100
+    anemia_diff = anemia_diff.filter(['anemic'])
+    anemia_diff = anemia_diff.stack().reset_index().rename(columns={'level_4':'measure',0:'value'})
+    anemia_diff = pd.pivot_table(anemia_diff, index=['location_id','vehicle','coverage_level','year'],
+                                columns='draw',
+                                values='value')
+    return anemia_diff
+
+def calculate_counterfactual_iron_responsive_anemia_prevalence(ira_prevalence_data,
+                                                              averted_anemia_data,
+                                                              location_ids,
+                                                              sex_ids,
+                                                              age_group_ids):
+    averted_anemia_prepped = averted_anemia_data.filter(['anemic']).reset_index()
+    averted_anemia_prepped = averted_anemia_prepped.pivot_table(index=['location_id','age_group_id','sex_id','year','coverage_level','vehicle'],
+                                                           columns='draw', values='anemic')
+    ira_diff = (ira_prev
+            .set_index(['location_id','age_group_id','sex_id'])
+            .drop(columns=['measure_id','sequela_id','year_id','metric_id'])
+            - averted_anemia_prepped)
+    pop = get_population(location_id=location_ids,
+                        age_group_id=age_group_ids,
+                        sex_id=sex_ids,
+                        year_id=2019,
+                        gbd_round_id=6,
+                        decomp_step='step4')
+    ira_diff = ira_diff.reset_index().merge(pop, on=['location_id','age_group_id','sex_id'])
+    for i in list(range(0,1000)):
+        ira_diff[f'draw_{i}'] = ira_diff[f'draw_{i}'] * ira_diff['population'] * 100
+    ira_diff = ira_diff.groupby(['location_id','year','vehicle','coverage_level']).sum()
+    for i in list(range(0,1000)):
+        ira_diff[f'draw_{i}'] = ira_diff[f'draw_{i}'] / ira_diff['population']
+    ira_diff = ira_diff.filter([c for c in ira_diff if 'draw' in c])
+    return ira_diff
+
