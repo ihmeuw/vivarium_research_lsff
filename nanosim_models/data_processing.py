@@ -200,7 +200,10 @@ def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
     while(len(values) < len(draws)):
         values = np.append(values, generate_truncnorm_draws(
             data.value_mean, data.value_025_percentile, data.value_975_percentile,
-            shape=(len(draws)**2,len(data)), interval=(0,100), random_state=random_state
+            # The number of failures before reaching r successful draws is Negative-Binomial(r,p),
+            # where p is the probability of success on one trial. Expected value is r*(1-p)/p,
+            # i.e. proportional to r=len(draws), so start with a constant times len(draws) trials.
+            shape=(10*len(draws),len(data)), interval=(0,100), random_state=random_state
         ), axis=0)
         values = values[values[:,0] <= values[:,1]] #1st column is fortified, 2nd column is fortifiable
     values = values[:len(draws)]
