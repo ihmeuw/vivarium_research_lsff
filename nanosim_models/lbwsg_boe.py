@@ -35,26 +35,26 @@ class IronBirthweightCalculator:
         # Store needed data
         self.global_data = global_data
         self.local_data = local_data
-        self.yll_data = gbd_data.yll_data.query(
+        self.lbwsg_ylls = gbd_data.lbwsg_ylls.query(
             f"location_id=={self.local_data.location_id} and cause_id==294"
         )
         # Preprocess GBD data for LBWSG classes
         exposure_data = lbwsg.preprocess_gbd_data(
-            gbd_data.exposure_data,
+            gbd_data.lbwsg_exposure,
             draws=global_data.draw_numbers,
             filter_terms=[f"location_id == {self.local_data.location_id}"],
             mean_draws_name=global_data.mean_draws_name
         )
         rr_data = lbwsg.preprocess_gbd_data(
-            gbd_data.rr_data,
+            gbd_data.lbwsg_rrs,
             draws=global_data.draw_numbers,
             filter_terms=None,
             mean_draws_name=global_data.mean_draws_name
         )
         # Create model components
         self.lbwsg_distribution = LBWSGDistribution(exposure_data)
-        self.lbwsg_effect = risk_effect_class(rr_data, paf_data=None) # We don't need PAFs to initialize the pop tables with RR's
-        self.iron_intervention = IronFortificationIntervention(self.global_data, self.local_data)
+        self.lbwsg_effect = risk_effect_class(rr_data, paf_data=None) # We don't need PAFs to initialize the pop tables with RRs
+        self.iron_intervention = IronFortificationIntervention(global_data, local_data)
     
         # Declare variables for baseline and intervention populations,
         # which will be initialized in initialize_population_tables
@@ -71,7 +71,6 @@ class IronBirthweightCalculator:
         self.baseline_pop = demography.initialize_population_table(self.global_data.draws, num_simulants, ages)
 
         # Assign propensities to share between scenarios
-#         assign_propensity(self.baseline_pop, IronFortificationIntervention.propensity_name)
 #         self.lbwsg_distribution.assign_propensities(self.baseline_pop)
 #         self.iron_intervention.assign_propensities(self.baseline_pop)
         propensity_names = [name for component in (self.lbwsg_distribution, self.iron_intervention)
@@ -126,7 +125,10 @@ class IronBirthweightCalculator:
         self.potential_impact_fraction = potential_impact_fraction(
             self.baseline_pop, self.intervention_pop, 'lbwsg_relative_risk', groupby)
         
-    def do_back_of_envelope_calculation(self, num_simulants, ages, target_coverage):
+    def calculate_averted_ylls(self, groupby='draw'):
+        pass
+
+    def do_back_of_envelope_calculation(self, num_simulants, ages, target_coverage=None):
         """
         """
         self.initialize_population_tables(num_simulants, ages)
@@ -143,32 +145,38 @@ def potential_impact_fraction(baseline_pop, counterfactual_pop, rr_colname, grou
     counterfactual_mean_rr = counterfactual_pop.groupby(groupby)[rr_colname].mean()
     return (baseline_mean_rr - counterfactual_mean_rr) / baseline_mean_rr
 
-def main(vivarium_research_lsff_path, out_dirctory, location, num_simulants, random_seed, draws, take_mean):
+def main(vivarium_research_lsff_path, out_directory, location, num_simulants, random_seed, draws, take_mean):
     """Computes the PIF for each vehicle for the specified location, for the gap_coverage levels [0.2, 0.5, 0.8]."""
 #     fortification_data = get_fortification_input_data()
 #     gbd_data = get_gbd_input_data()
     effect_size_seed = 5678
     if draws=='all':
         draws = range(1000)
-    vehicles = ['wheat flour', 'maize flour'] # Restrict to these vehicles for now
+#     vehicles = ['wheat flour', 'maize flour'] # Restrict to these vehicles for now
     ages = [4/365, 14/365] # Choose one age in ENN (0-7 days) and one in LNN (7-28 days)
     age_group_ids = [2,3] # demography.get_age_to_age_id_map()[ages] # 2=ENN, 3=LNN
     gap_coverage_proportions = [0.2, 0.5, 0.8] # Low, medium, high scenarios
 #     year = 2025 # Needed in index for Ali's code
 
-    output_index = pd.MultiIndex.from_product(draws, age_group_ids, names=['draw', 'age_group_id'])
-    output = pd.DataFrame(index=output_index)
-
     global_data = data_processing.get_global_data(effect_size_seed, random_seed, draws, take_mean)
     fortification_input_data = data_processing.get_fortification_input_data(vivarium_research_lsff_path)
     gbd_data = data_processing.get_gbd_input_data()
 
+    # If take_mean==True, global_data.draws will consist of a single value
+    output_index = pd.MultiIndex.from_product([global_data.draws, age_group_ids], names=['draw', 'age_group_id'])
+    output = pd.DataFrame(index=output_index)
+
     # Now loop through all iron vehicles for location:
     # coverage_df = coverage_df.query("location_id == @location_id and nutrient=='iron' and wra==True")
+    # for vehicle in coverage_df.vehicles.unique():
     # Actually, might need to check that vehicle exists in all input dataframes, or exclude some vehicles...
-    for vehicle in coverage_df.vehicles.unique():
-        if vehicle not in vehicles:
-            continue
+
+    # Use consumption df to determine which location-vehicle pairs we have data for,
+    # since it has been inner joined with coverage df
+    vehicles_for_location = fortification_input_data.consumption.query("location_name==@location")['vehicle'].unique()
+    for vehicle in vehicles_for_location:
+#         if vehicle not in vehicles:
+#             continue
         # Get local data for vehicle
         local_data = data_processing.get_local_data(global_data, fortification_input_data, location, vehicle)
         # Create a calculator and set up its populations
@@ -188,11 +196,11 @@ def main(vivarium_research_lsff_path, out_dirctory, location, num_simulants, ran
         target_coverage_levels.append(1)
         # Compute the corresponding proportion to use as an index key (we could potentially get NaN's...)
         proportions = gap_coverage_proportions + [
-            (1 - local_data.eats_fortified) / (local_data.eats_fortifiable - local_data.eats_fortified)
+            ((1 - local_data.eats_fortified) / (local_data.eats_fortifiable - local_data.eats_fortified)).mean()
         ]
 
         # Compute the PIF for each coverage level
-        for proportion, target_coverage in zip(proporions, target_coverage_levels):
+        for proportion, target_coverage in zip(proportions, target_coverage_levels):
             calc.assign_iron_treated_birthweights(target_coverage)
             calc.assign_lbwsg_relative_risks()
             calc.calculate_potential_impact_fraction(['draw', 'age_group_id'])
@@ -209,14 +217,15 @@ def main(vivarium_research_lsff_path, out_dirctory, location, num_simulants, ran
             # Now also do YLLs...
 
     # Make sure index level names and values match plotting function in Ali's code
-    output.index = output.index.set_levels([f"draw_{n}" for n in draws], level='draw') # age_group_id level stays the same
+    if not take_mean:
+        output.index = output.index.set_levels([f"draw_{n}" for n in draws], level='draw') # age_group_id level stays the same
     output.columns = pd.MultiIndex.from_tuples(output.columns, names=['location_id', 'vehicle', 'coverage_level', 'measure'])
 
     # Save output with draws as columns and all other identifiers in index
     output.unstack('age_group_id').T.to_csv(
         f"{out_directory}/iron_bw_results_location_id_{local_data.location_id}.csv")
 
-if __name__ == "main":
+if __name__ == "__main__":
     import sys
     args = sys.argv[1:]
     main(*args)
