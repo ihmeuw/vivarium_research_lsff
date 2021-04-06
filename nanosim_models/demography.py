@@ -1,4 +1,5 @@
 import numpy as np, pandas as pd
+from numbers import Number
 from db_queries import get_ids, get_population
 
 # Values of age_start and age_end used in Artifacts:
@@ -65,17 +66,24 @@ def get_sex_id_to_sex_map(source=None):
         raise ValueError(f"Unknown source: {source}")
     return sex_id_to_sex
 
-
 def initialize_population_table(draws, num_simulants, age=0.0):
     """Creates populations for baseline scenario and iron fortification intervention scenario,
     assigns birthweights and gestational ages to each simulant, shifts birthweights appropriately,
     and assigns relative risks for mortality based on resulting LBWSG categories.
     """
     # Create baseline population and assign demographic data
+    simulant_index=pd.Index(range(num_simulants), name='simulant_id')
     pop = pd.DataFrame(index=pd.MultiIndex.from_product(
         [draws, range(num_simulants)], names=['draw', 'simulant_id']))
     assign_sex(pop)
-    assign_age_to_cohort(pop, age)
+#     assign_age(pop, age)
+    if isinstance(age, Number):
+        assign_age_to_cohort(pop, age)
+    elif isinstance(age, list):
+        cohort_size = num_simulants / len(age)
+        ages = pd.Series( (age[int(j/cohort_size)] for j in simulant_index), index=simulant_index)
+        pop['age'] = ages.reindex(pop.index, level='simulant_id')
+        pop['age_group_id'] = get_age_to_age_id_map().reindex(pop['age']).array
     return pop
 
 def assign_simulant_property(pop, property_name, choice_function=None):
@@ -98,6 +106,16 @@ def assign_sex(pop):
     def choose_random_sex(size): return np.random.choice(['Male', 'Female'], size=size)
     assign_simulant_property(pop, 'sex', choose_random_sex)
     pop['sex'] = pop['sex'].astype('category', copy=False)
+
+def assign_age(pop, age):
+    if isinstance(age, Number):
+        pop['age'] = age
+    elif isinstance(age, list):
+        def distribute_ages_evenly(size):
+            cohort_size = size/len(age)
+            for j in range(size): yield age[int(j/cohort_size)]
+        assign_simulant_property(pop, 'age', distribute_ages_evenly)
+    pop['age_group_id'] = get_age_to_age_id_map().reindex(pop['age']).array
 
 def assign_age_to_cohort(pop, cohort_age=0.0):
     pop['age'] = cohort_age
