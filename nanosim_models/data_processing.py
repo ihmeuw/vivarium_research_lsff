@@ -277,13 +277,13 @@ def get_local_data(global_data, input_data, location, vehicle):
         input_data.concentration, location_id, vehicle, COMPLIANCE_MULTIPLIER,
         global_data.draws, global_data.random_generator
     )
-    mean_daily_flour = get_mean_consumption_draws(
+    mean_daily_consumption = get_mean_consumption_draws(
         input_data.consumption, location_id, vehicle, global_data.draws, global_data.random_generator)
     # Check data dimensions (scalar vs. Series) to make sure multiplication will work
     mean_birthweight_shift = calculate_birthweight_shift(
         global_data.birthweight_dose_response, # indexed by draw
         iron_concentration, # scalar or indexed by draw
-        mean_daily_flour # indexed by draw
+        mean_daily_consumption # indexed by draw
     ) # returns a Series since global_data.birthweight_dose_response is a Series
     mean_birthweight_shift.rename('mean_birthweight_shift', inplace=True)
     # Load coverage data
@@ -296,7 +296,7 @@ def get_local_data(global_data, input_data, location, vehicle):
          'location_id',
          'vehicle',
          'iron_concentration', # scalar or indexed by draw
-         'mean_daily_flour', # indexed by draw
+         'mean_daily_consumption', # indexed by draw
          'mean_birthweight_shift', # indexed by draw
          'eats_fortified', # scalar or indexed by draw
          'eats_fortifiable', # scalar or indexed by draw
@@ -307,7 +307,7 @@ def get_local_data(global_data, input_data, location, vehicle):
         location_id,
         vehicle,
         iron_concentration,
-        mean_daily_flour,
+        mean_daily_consumption,
         mean_birthweight_shift,
         eats_fortified,
         eats_fortifiable,
