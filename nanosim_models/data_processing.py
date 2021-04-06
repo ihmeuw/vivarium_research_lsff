@@ -168,15 +168,17 @@ def get_mean_consumption_draws(consumption_df, location_id, vehicle, draws, rand
         consumption['value_mean_gday'], consumption['lower'], consumption['upper'],
         shape=len(draws), interval=(0,np.inf), random_state=random_state # Truncate at 0 to ensure positive consumption
     )
-    # If consumption is per capita, convert to consumption among consumers
-    if consumption['pop_denom'] == 'capita':
-        coverage_draws = generate_truncnorm_draws(
-            consumption['value_mean_coverage'],
-            consumption['value_025_percentile'],
-            consumption['value_975_percentile'],
-            shape=len(draws), interval=(0,100), random_state=random_state # Truncate at 0% and 100%
-        ) / 100 # convert percent to proportion
-        consumption_draws /= coverage_draws
+    # For now, just use per capita values to be conservative, since dividing by coverage sometimes gives
+    # unreasonable values.
+#     # If consumption is per capita, convert to consumption among consumers
+#     if consumption['pop_denom'] == 'capita':
+#         coverage_draws = generate_truncnorm_draws(
+#             consumption['value_mean_coverage'],
+#             consumption['value_025_percentile'],
+#             consumption['value_975_percentile'],
+#             shape=len(draws), interval=(0,100), random_state=random_state # Truncate at 0% and 100%
+#         ) / 100 # convert percent to proportion
+#         consumption_draws /= coverage_draws
     # Note: This assert should now be unnecessary because I used truncnorm distributions
     assert (consumption_draws >= 0).all(), f"Negative {vehicle} consumption values for {location_id=}!"
     mean_consumption = pd.Series(
@@ -206,7 +208,8 @@ def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
             shape=(10*len(draws),len(data)), interval=(0,100), random_state=random_state
         ), axis=0)
         values = values[values[:,0] <= values[:,1]] #1st column is fortified, 2nd column is fortifiable
-    values = values[:len(draws)]
+    # Filter to len(draws) values and convert percent to proportion
+    values = values[:len(draws)] / 100
     eats_fortified = pd.Series(values[:,0], index=draws, name='eats_fortified')
     eats_fortifiable = pd.Series(values[:,1], index=draws, name='eats_fortifiable')
     return eats_fortified, eats_fortifiable
