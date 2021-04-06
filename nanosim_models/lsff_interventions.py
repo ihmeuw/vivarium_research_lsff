@@ -1,5 +1,10 @@
 import pandas as pd, numpy as np
 
+# Is data_processing actually the right place for calculate_birthweight_shift, or should it be here?
+# In addition to getting used in the intervention, it gets used to create local_data.
+# Maybe creating global_data and local_data should be moved back to this module.
+from data_processing import calculate_birthweight_shift
+
 # Convenience function for testing. Not used below.
 def sample_consumption(mean_consumption, sample_size, rng=321):
     """Sample from distribution of daily vehicle consumption (based on flour consumption in Ethiopia).
@@ -85,13 +90,14 @@ class IronFortificationIntervention:
         """
         Assigns birthweights resulting after iron fortification is implemented.
         Assumes `assign_propensities` and `assign_treatment_deleted_birthweight` have already been called on pop.
-        `target_coverage` is assumed to be either a single number or a named Series indexed by draw.
+        `target_coverage` is assumed to be either a single number or a Series indexed by draw.
         """
         # We need to make sure the Series indices are lined up with pop by broadcasting draws over simulant ids
         if isinstance(target_coverage, pd.Series):
         # The level argument of .reindex is not implemented for CategoricalIndex, so we can't always do this:
         #    target_coverage = target_coverage.reindex(pop.index, level='draw')
-            target_coverage = pop[[]].join(target_coverage).squeeze()
+        # Need to ensure the Series has a name so that .join will work
+            target_coverage = pop[[]].join(target_coverage.rename('target_coverage')).squeeze()
 
         pop['mother_is_iron_fortified'] = pop['iron_fortification_propensity'] < target_coverage
         pop['mother_daily_consumption'] = pop['mother_is_iron_fortified'].astype(float)
