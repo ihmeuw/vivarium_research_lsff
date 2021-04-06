@@ -17,9 +17,9 @@ def get_gbd_input_data(hdfstore=None, exposure_key=None, rr_key=None, yll_key=No
     if yll_key is None:
         yll_key = '/gbd_2019/burden/ylls/bmgf_25_countries_all_subcauses'
 
-    exposure_data = pd.read_hdf(hdfstore, exposure_key)
-    rr_data = pd.read_hdf(hdfstore, rr_key)
-    yll_data = pd.read_hdf(hdfstore, yll_key)
+    lbwsg_exposure = pd.read_hdf(hdfstore, exposure_key)
+    lbwsg_rrs = pd.read_hdf(hdfstore, rr_key)
+    lbwsg_ylls = pd.read_hdf(hdfstore, yll_key)
     GBDInputData = namedtuple("GBDInputData", "lbwsg_exposure, lbwsg_rrs, lbwsg_ylls")
     return GBDInputData(lbwsg_exposure, lbwsg_rrs, lbwsg_ylls)
 
@@ -168,15 +168,17 @@ def get_mean_consumption_draws(consumption_df, location_id, vehicle, draws, rand
         consumption['value_mean_gday'], consumption['lower'], consumption['upper'],
         shape=len(draws), interval=(0,np.inf), random_state=random_state # Truncate at 0 to ensure positive consumption
     )
-    # If consumption is per capita, convert to consumption among consumers
-    if consumption['pop_denom'] == 'capita':
-        coverage_draws = generate_truncnorm_draws(
-            consumption['value_mean_coverage'],
-            consumption['value_025_percentile'],
-            consumption['value_975_percentile'],
-            shape=len(draws), interval=(0,100), random_state=random_state # Truncate at 0% and 100%
-        ) / 100 # convert percent to proportion
-        consumption_draws /= coverage_draws
+    # For now, just use per capita values to be conservative, since dividing by coverage sometimes gives
+    # unreasonable values.
+#     # If consumption is per capita, convert to consumption among consumers
+#     if consumption['pop_denom'] == 'capita':
+#         coverage_draws = generate_truncnorm_draws(
+#             consumption['value_mean_coverage'],
+#             consumption['value_025_percentile'],
+#             consumption['value_975_percentile'],
+#             shape=len(draws), interval=(0,100), random_state=random_state # Truncate at 0% and 100%
+#         ) / 100 # convert percent to proportion
+#         consumption_draws /= coverage_draws
     # Note: This assert should now be unnecessary because I used truncnorm distributions
     assert (consumption_draws >= 0).all(), f"Negative {vehicle} consumption values for {location_id=}!"
     mean_consumption = pd.Series(
@@ -200,10 +202,14 @@ def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
     while(len(values) < len(draws)):
         values = np.append(values, generate_truncnorm_draws(
             data.value_mean, data.value_025_percentile, data.value_975_percentile,
-            shape=(len(draws)**2,len(data)), interval=(0,100), random_state=random_state
+            # The number of failures before reaching r successful draws is Negative-Binomial(r,p),
+            # where p is the probability of success on one trial. Expected value is r*(1-p)/p,
+            # i.e. proportional to r=len(draws), so start with a constant times len(draws) trials.
+            shape=(10*len(draws),len(data)), interval=(0,100), random_state=random_state
         ), axis=0)
         values = values[values[:,0] <= values[:,1]] #1st column is fortified, 2nd column is fortifiable
-    values = values[:len(draws)]
+    # Filter to len(draws) values and convert percent to proportion
+    values = values[:len(draws)] / 100
     eats_fortified = pd.Series(values[:,0], index=draws, name='eats_fortified')
     eats_fortifiable = pd.Series(values[:,1], index=draws, name='eats_fortifiable')
     return eats_fortified, eats_fortifiable
@@ -235,14 +241,14 @@ def get_global_data(effect_size_seed, random_generator, draws, take_mean=False):
     bw_dose_response_distribution = create_bw_dose_response_distribution()
 
     # Use our best guess if there's only one draw or we took the mean
-    effect_size_rng = np.default_rng(effect_size_seed)
+    effect_size_rng = np.random.default_rng(effect_size_seed)
     birthweight_dose_response = pd.Series(
         bw_dose_response_distribution.rvs(size=len(draws), random_state=effect_size_rng) if len(draws)>1
         else bw_dose_response_distribution.mean(),
         index=draws,
         name='birthweight_dose_response'
     )
-    random_generator = np.default_rng(random_generator)
+    random_generator = np.random.default_rng(random_generator)
     GlobalIronFortificationData = namedtuple(
         'GlobalIronFortificationData',
         "effect_size_seed, draws, draw_numbers, mean_draws_name, birthweight_dose_response, random_generator"
@@ -274,13 +280,13 @@ def get_local_data(global_data, input_data, location, vehicle):
         input_data.concentration, location_id, vehicle, COMPLIANCE_MULTIPLIER,
         global_data.draws, global_data.random_generator
     )
-    mean_daily_flour = get_mean_consumption_draws(
+    mean_daily_consumption = get_mean_consumption_draws(
         input_data.consumption, location_id, vehicle, global_data.draws, global_data.random_generator)
     # Check data dimensions (scalar vs. Series) to make sure multiplication will work
     mean_birthweight_shift = calculate_birthweight_shift(
         global_data.birthweight_dose_response, # indexed by draw
         iron_concentration, # scalar or indexed by draw
-        mean_daily_flour # indexed by draw
+        mean_daily_consumption # indexed by draw
     ) # returns a Series since global_data.birthweight_dose_response is a Series
     mean_birthweight_shift.rename('mean_birthweight_shift', inplace=True)
     # Load coverage data
@@ -293,7 +299,7 @@ def get_local_data(global_data, input_data, location, vehicle):
          'location_id',
          'vehicle',
          'iron_concentration', # scalar or indexed by draw
-         'mean_daily_flour', # indexed by draw
+         'mean_daily_consumption', # indexed by draw
          'mean_birthweight_shift', # indexed by draw
          'eats_fortified', # scalar or indexed by draw
          'eats_fortifiable', # scalar or indexed by draw
@@ -304,7 +310,7 @@ def get_local_data(global_data, input_data, location, vehicle):
         location_id,
         vehicle,
         iron_concentration,
-        mean_daily_flour,
+        mean_daily_consumption,
         mean_birthweight_shift,
         eats_fortified,
         eats_fortifiable,
