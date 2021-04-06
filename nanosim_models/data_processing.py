@@ -17,9 +17,9 @@ def get_gbd_input_data(hdfstore=None, exposure_key=None, rr_key=None, yll_key=No
     if yll_key is None:
         yll_key = '/gbd_2019/burden/ylls/bmgf_25_countries_all_subcauses'
 
-    exposure_data = pd.read_hdf(hdfstore, exposure_key)
-    rr_data = pd.read_hdf(hdfstore, rr_key)
-    yll_data = pd.read_hdf(hdfstore, yll_key)
+    lbwsg_exposure = pd.read_hdf(hdfstore, exposure_key)
+    lbwsg_rrs = pd.read_hdf(hdfstore, rr_key)
+    lbwsg_ylls = pd.read_hdf(hdfstore, yll_key)
     GBDInputData = namedtuple("GBDInputData", "lbwsg_exposure, lbwsg_rrs, lbwsg_ylls")
     return GBDInputData(lbwsg_exposure, lbwsg_rrs, lbwsg_ylls)
 
@@ -238,14 +238,14 @@ def get_global_data(effect_size_seed, random_generator, draws, take_mean=False):
     bw_dose_response_distribution = create_bw_dose_response_distribution()
 
     # Use our best guess if there's only one draw or we took the mean
-    effect_size_rng = np.default_rng(effect_size_seed)
+    effect_size_rng = np.random.default_rng(effect_size_seed)
     birthweight_dose_response = pd.Series(
         bw_dose_response_distribution.rvs(size=len(draws), random_state=effect_size_rng) if len(draws)>1
         else bw_dose_response_distribution.mean(),
         index=draws,
         name='birthweight_dose_response'
     )
-    random_generator = np.default_rng(random_generator)
+    random_generator = np.random.default_rng(random_generator)
     GlobalIronFortificationData = namedtuple(
         'GlobalIronFortificationData',
         "effect_size_seed, draws, draw_numbers, mean_draws_name, birthweight_dose_response, random_generator"
