@@ -32,6 +32,8 @@ GBD_2019_ROUND_ID = 6
 # Note: In GBD 2019, this category is `cat124`, meid=20224.
 MISSING_CATEGORY_GBD_2017 = {'cat212': 'Birth prevalence - [37, 38) wks, [1000, 1500) g'}
 
+TMREL_CATEGORIES = ('cat53', 'cat54', 'cat55', 'cat56')
+
 # Category to indicate that birthweight and gestational age are outside the domain of the risk distribution
 # OUTSIDE_BOUNDS_CATEGORY = 'cat_outside_bounds'
 
@@ -232,7 +234,7 @@ def rescale_prevalence(exposure):
     return exposure
 
 def preprocess_gbd_data(df, draws=None, filter_terms=None, mean_draws_name=None):
-    """df can be exposure or rr data?
+    """df can be exposure or rr data, or burden (DALYs/YLLs/YLDs) attributable to LBWSG.
     Note that location_id for rr data will always be 1 (Global), so it won't
     match location_id for exposure data.
     """
@@ -242,22 +244,32 @@ def preprocess_gbd_data(df, draws=None, filter_terms=None, mean_draws_name=None)
         df = df.query(query_string)
 
     # Determine what data we got and process accordingly
-    if 'cause_id' in df:
+    if 'parameter' in df and 'cause_id' in df and 'mortality' in df:
         measure = 'relative_risk' # df is RR data
         if len(cause_ids:=df['cause_id'].unique())>1: # Note: walrus operator := requires Python 3.8 or higher
             # Filter to a single cause id - all affected causes have the same RR's
             df = df.loc[df['cause_id']==cause_ids[0]]
-    elif 'measure_id' in df and list(df['measure_id'].unique()) == [5]: # measure_id 5 is Prevalence
+    elif 'parameter' in df and 'measure_id' in df and (df['measure_id'] == 5).all(): # measure_id 5 is Prevalence
         measure = 'prevalence' # df is exposure data
         df = rescale_prevalence(df) # Fix prevalence because GBD 2019 data was messed up
+    elif 'cause_id' in df and 'measure_id' in df and df['measure_id'].isin([2,3,4]).all(): #[2,3,4] = [DALYs,YLDs,YLLs]
+        measure = 'burden'
     else:
         raise ValueError("Unexpected GBD LBWSG data format...")
 
-    # Add 'sex' column and rename 'parameter' column, and convert to Categorical
+    # Add 'sex' column
     sex_id_to_sex = demography.get_sex_id_to_sex_map()
-    df = df.join(sex_id_to_sex, on='sex_id').rename(columns={'parameter': 'lbwsg_category'})
+    df = df.join(sex_id_to_sex, on='sex_id')
     df['sex'] = df['sex'].cat.remove_unused_categories()
-    df['lbwsg_category'] = df['lbwsg_category'].astype(get_lbwsg_category_dtype())
+
+    if measure in ['prevalence', 'relative_risk']:
+        # Rename 'parameter' column and convert to Categorical
+        df = df.rename(columns={'parameter': 'lbwsg_category'})
+        df['lbwsg_category'] = df['lbwsg_category'].astype(get_lbwsg_category_dtype())
+        index_cols = ['location_id', 'year_id', 'sex', 'age_group_id', 'lbwsg_category']
+    elif measure == 'burden':
+        # Set index to everything except draws, 'sex_id', and 'rei_id'
+        index_cols = ['location_id', 'year_id', 'sex', 'age_group_id', 'cause_id', 'measure_id', 'metric_id']
     
     # Find draw columns or filter to requested draws
     if draws is None:
@@ -266,21 +278,20 @@ def preprocess_gbd_data(df, draws=None, filter_terms=None, mean_draws_name=None)
         draw_cols = [f"draw_{i}" for i in draws]
 
     # Set index columns and rename draw columns
-    index_cols = ['location_id', 'year_id', 'sex', 'age_group_id', 'lbwsg_category']
     df = df.set_index(index_cols)[draw_cols]
     df.columns = df.columns.str.replace('draw_', '').astype(int).rename('draw')
 #     df.columns.rename('draw', inplace=True)
     
     # Take mean over draws if this was requested by specifying a name for the mean
     if mean_draws_name is not None:
-        if measure == 'prevalence': # Take arithmetic mean of prevalence
+        if measure in ['prevalence', 'burden']: # Take arithmetic mean of prevalence or DALYs/YLLs/YLDs
             df = df.mean(axis=1).rename(mean_draws_name).to_frame().rename_axis(columns='draw')
         elif measure == 'relative_risk': # Take geometric mean of RR's
             df = np.exp(np.log(df).mean(axis=1)).rename(mean_draws_name).to_frame().rename_axis(columns='draw')
 #             df = df.mean(axis=1).rename(mean_draws_name).to_frame().rename_axis(columns='draw')
     # Reshape draws to long form
-    df = df.stack('draw').rename(measure)
-    return df
+    series = df.stack('draw').rename(measure)
+    return series
 
 def preprocess_artifact_data(df):
     pass
@@ -755,17 +766,25 @@ class LBWSGRiskEffectRBVSpline(LBWSGRiskEffect):
         )
         return pop_interpolators
 
-    def assign_relative_risk(self, pop, bw_colname='birthweight', ga_colname='gestational_age', rr_colname='lbwsg_relative_risk', logrr_colname='log_lbwsg_relative_risk', inplace=True):
+    # TODO: Passing cat_colname is sort of a hack -- ideally this would be unncessary, as the category could be
+    # looked up from bw_colname and ga_colname (though perhaps it's faster to use the precomputed category if it exists),
+    # but that would take a bit more code to implement. Ideally, I think the common functionality of converting
+    # (bw,ga) <--> category for population tables in both LBWSGDistribution and LBWSGRiskEffect should be abstracted
+    # into a separate class, e.g. LBWSGCategoryConverter.
+    def assign_relative_risk(self, pop, bw_colname='birthweight', ga_colname='gestational_age', cat_colname='lbwsg_category', rr_colname='lbwsg_relative_risk', logrr_colname='log_lbwsg_relative_risk', inplace=True):
         pop_log_rr_interpolators = self.get_interpolators_for_population(pop)
 
         def interpolate(row):
             # row will correspond to a row of the population table, joined with the correct interpolator for each simulant
             # 'log_rr_interpolator' = pop_log_rr_interpolators.name...
             # interpolator returns a 0-D, 1-D or 2-D array with 1 element, so access 1st element
-            return row['log_rr_interpolator'](row[ga_colname], row[bw_colname]).flat[0]
+            log_rr = row['log_rr_interpolator'](row[ga_colname], row[bw_colname]).flat[0]
+            if row[cat_colname] in TMREL_CATEGORIES:
+                log_rr = 0 # Explicitly set RR's in TMREL categories to 1, since interpolation can make them higher
+            return log_rr
 
         log_rr = (
-            pop[[bw_colname, ga_colname]]
+            pop[[bw_colname, ga_colname, cat_colname]] # ideally this wouldn't need cat_colname...
             .join(pop_log_rr_interpolators)
             .apply(interpolate, axis=1)
             .rename(logrr_colname)
@@ -774,6 +793,9 @@ class LBWSGRiskEffectRBVSpline(LBWSGRiskEffect):
         assert log_rr.min()>=0 and log_rr.max()<7.4, f"log(RR)'s out of range! {log_rr.min()=} {log_rr.max()=}"
 
         rr = np.exp(log_rr).rename(rr_colname)
+        # If we want to reset the rr's but not the log_rr's:
+        # (Not sure if it will work to index rr by pop...)
+#         rr.loc[pop[cat_colname].isin(TMREL_CATEGORIES)] = 1
         if inplace:
             if logrr_colname is not None:
                 pop[logrr_colname] = log_rr
@@ -783,7 +805,6 @@ class LBWSGRiskEffectRBVSpline(LBWSGRiskEffect):
             return pd.concat([log_rr, rr], axis=1)
         else:
             return rr
-
 
     def assign_categorical_relative_risk(self, pop, cat_colname='lbwsg_category', rr_colname='lbwsg_relative_risk_for_category', inplace=True):
         super().assign_relative_risk(pop, cat_colname, rr_colname, inplace)
