@@ -1,12 +1,12 @@
 import pandas as pd, numpy as np
-from collections import namedtuple
+# from collections import namedtuple
 
 import demography, lbwsg, lsff_interventions, data_processing
 from lbwsg import LBWSGDistribution, LBWSGRiskEffect
 from lsff_interventions import IronFortificationIntervention
 
 # Assumes the path to vivarium_research_lsff is in sys.path
-from multiplication_models import mult_model_fns
+# from multiplication_models import mult_model_fns
 
 class IronBirthweightCalculator:
     """Class to run nanosimulations for the effect of iron on low birthweight."""
@@ -35,8 +35,19 @@ class IronBirthweightCalculator:
         # Store needed data
         self.global_data = global_data
         self.local_data = local_data
-        self.lbwsg_ylls = gbd_data.lbwsg_ylls.query(
-            f"location_id=={self.local_data.location_id} and cause_id==294"
+#         self.lbwsg_dalys = gbd_data.lbwsg_dalys.query(
+#             f"location_id=={self.local_data.location_id} and cause_id==294"
+#         )
+        self.lbwsg_dalys = lbwsg.preprocess_gbd_data(
+            gbd_data.lbwsg_dalys,
+            draws=global_data.draw_numbers,
+            filter_terms=[
+                f"location_id == {self.local_data.location_id}",
+                "cause_id==294",
+                "metric_id==1",
+                f"age_group_id in [164,2,3]"
+            ],
+            mean_draws_name=global_data.mean_draws_name
         )
         # Preprocess GBD data for LBWSG classes
         exposure_data = lbwsg.preprocess_gbd_data(
@@ -112,21 +123,37 @@ class IronBirthweightCalculator:
     def assign_lbwsg_relative_risks(self):
         # Compute the LBWSG relative risks in both scenarios - these will be used to compute the PIF
         # TODO: Maybe have lbwsg return the RR values instead, and assign them to the appropriate column here
+#         if type(self.lbwsg_effect) == lbwsg.LBWSGRiskEffect:
+#             self.lbwsg_effect.assign_relative_risk(self.baseline_pop, cat_colname='treated_lbwsg_category')
+#             self.lbwsg_effect.assign_relative_risk(self.intervention_pop, cat_colname='treated_lbwsg_category')
+#         else:
+#             self.lbwsg_effect.assign_relative_risk(
+#                 self.baseline_pop, bw_colname='treated_treatment_deleted_birthweight')
+#             self.lbwsg_effect.assign_relative_risk(
+#                 self.intervention_pop, bw_colname='treated_treatment_deleted_birthweight')
         if type(self.lbwsg_effect) == lbwsg.LBWSGRiskEffect:
-            self.lbwsg_effect.assign_relative_risk(self.baseline_pop, cat_colname='treated_lbwsg_category')
-            self.lbwsg_effect.assign_relative_risk(self.intervention_pop, cat_colname='treated_lbwsg_category')
+            kwargs = dict(cat_colname='treated_lbwsg_category')
         else:
-            self.lbwsg_effect.assign_relative_risk(
-                self.baseline_pop, bw_colname='treated_treatment_deleted_birthweight')
-            self.lbwsg_effect.assign_relative_risk(
-                self.intervention_pop, bw_colname='treated_treatment_deleted_birthweight')
-    
+            kwargs = dict(bw_colname='treated_treatment_deleted_birthweight',
+                          cat_colname='treated_lbwsg_category') # Really this shouldn't be necessary...
+        self.lbwsg_effect.assign_relative_risk(self.baseline_pop, **kwargs)
+        self.lbwsg_effect.assign_relative_risk(self.intervention_pop, **kwargs)
+
     def calculate_potential_impact_fraction(self, groupby='draw'):
         self.potential_impact_fraction = potential_impact_fraction(
             self.baseline_pop, self.intervention_pop, 'lbwsg_relative_risk', groupby)
         
-    def calculate_averted_ylls(self, groupby='draw'):
-        pass
+    def calculate_averted_dalys(self, groupby='draw', drop_non_groupby_levels=False):
+        pif = self.calculate_potential_impact_fraction(['draw', 'age_group_id', 'sex'])
+        averted_dalys = (
+            (self.lbwsg_dalys * pif)
+            .groupby(groupby)
+            .sum()
+            .rename('averted_dalys')
+        )
+        if drop_non_groupby_levels:
+            averted_dalys.index = averted_dalys.index.droplevel(averted_dalys.index.names.difference(groupby))
+        return averted_dalys
 
     def do_back_of_envelope_calculation(self, num_simulants, ages, target_coverage=None):
         """
@@ -214,7 +241,12 @@ def main(vivarium_research_lsff_path, out_directory, location, num_simulants, ra
             output[(local_data.location_id, vehicle, proportion, 'categorical_pif')] = (
                 potential_impact_fraction(bpop, ipop, 'lbwsg_relative_risk_for_category', ['draw', 'age_group_id'])
             )
-            # Now also do YLLs...
+            # Now also do DALYs...
+            averted_dalys = calc.calculate_averted_dalys(['draw', 'age_group_id'], drop_non_groupby_levels=True)
+#             averted_dalys.index = averted_dalys.index.droplevel(
+#                 averted_dalys.index.names.difference(['draw', 'age_group_id'])
+#             )
+            output[(local_data.location_id, vehicle, proportion, 'averted_dalys')] = averted_dalys
 
     # Make sure index level names and values match plotting function in Ali's code
     if not take_mean:
