@@ -71,7 +71,7 @@ class IronBirthweightCalculator:
         # which will be initialized in initialize_population_tables
         self.baseline_pop = None
         self.intervention_pop = None
-        self.potential_impact_fraction = None
+#         self.potential_impact_fraction = None
 
     def initialize_population_tables(self, num_simulants, ages):
         """Creates populations for baseline scenario and iron fortification intervention scenario,
@@ -91,8 +91,8 @@ class IronBirthweightCalculator:
         # Create intervention population - all the above data will be the same in intervention scenario
         self.intervention_pop = self.baseline_pop.copy()
         
-        # Reset PIF to None until we're ready to recompute it
-        self.potential_impact_fraction = None
+#         # Reset PIF to None until we're ready to recompute it
+#         self.potential_impact_fraction = None
 
     def assign_lbwsg_exposure(self):
         # Assign baseline exposure
@@ -140,8 +140,9 @@ class IronBirthweightCalculator:
         self.lbwsg_effect.assign_relative_risk(self.intervention_pop, **kwargs)
 
     def calculate_potential_impact_fraction(self, groupby='draw'):
-        self.potential_impact_fraction = potential_impact_fraction(
+        pif = potential_impact_fraction(
             self.baseline_pop, self.intervention_pop, 'lbwsg_relative_risk', groupby)
+        return pif
         
     def calculate_averted_dalys(self, groupby='draw', drop_non_groupby_levels=False):
         pif = self.calculate_potential_impact_fraction(['draw', 'age_group_id', 'sex'])
@@ -164,7 +165,8 @@ class IronBirthweightCalculator:
         self.assign_iron_treated_birthweights(target_coverage)
 #         self.age_populations() # Necessary because there are no relative risks for birth age group
         self.assign_lbwsg_relative_risks()
-        self.calculate_potential_impact_fraction()
+        # TODO: Maybe concatenate PIF and DALYs averted and return that...
+        return self.calculate_potential_impact_fraction()
     
 def potential_impact_fraction(baseline_pop, counterfactual_pop, rr_colname, groupby='draw'):
     """Computes the population impact fraction for the specified baseline and counterfactual populations."""
@@ -172,13 +174,17 @@ def potential_impact_fraction(baseline_pop, counterfactual_pop, rr_colname, grou
     counterfactual_mean_rr = counterfactual_pop.groupby(groupby)[rr_colname].mean()
     return (baseline_mean_rr - counterfactual_mean_rr) / baseline_mean_rr
 
-def main(vivarium_research_lsff_path, out_directory, location, num_simulants, random_seed, draws, take_mean):
+def main(vivarium_research_lsff_path, out_directory, location, num_simulants, num_draws=1000, draw_start_idx=0, random_seed=43, take_mean=False):
     """Computes the PIF for each vehicle for the specified location, for the gap_coverage levels [0.2, 0.5, 0.8]."""
 #     fortification_data = get_fortification_input_data()
 #     gbd_data = get_gbd_input_data()
-    effect_size_seed = 5678
-    if draws=='all':
-        draws = range(1000)
+    # Use the same random sequence of draws on all runs, starting at the specified location in the sequence
+    # That way, we can add more draws to existing results if we want
+    draws = np.random.default_rng(1234).permutation(1000)[draw_start_idx:num_draws]
+    draws.sort()
+    # Make sure the effect size is consistent across locations by setting the effect size seed
+    # TODO: Hmm, will this work correctly if we try adding to existing draws as above...?
+    effect_size_seed = draw_start_idx+5678
 #     vehicles = ['wheat flour', 'maize flour'] # Restrict to these vehicles for now
     ages = [4/365, 14/365] # Choose one age in ENN (0-7 days) and one in LNN (7-28 days)
     age_group_ids = [2,3] # demography.get_age_to_age_id_map()[ages] # 2=ENN, 3=LNN
@@ -230,8 +236,8 @@ def main(vivarium_research_lsff_path, out_directory, location, num_simulants, ra
         for proportion, target_coverage in zip(proportions, target_coverage_levels):
             calc.assign_iron_treated_birthweights(target_coverage)
             calc.assign_lbwsg_relative_risks()
-            calc.calculate_potential_impact_fraction(['draw', 'age_group_id'])
-            output[(local_data.location_id, vehicle, proportion, 'pif')] = calc.potential_impact_fraction
+            pif = calc.calculate_potential_impact_fraction(['draw', 'age_group_id'])
+            output[(local_data.location_id, vehicle, proportion, 'pif')] = pif
             
             bpop, ipop = calc.baseline_pop, calc.intervention_pop
             for pop in (bpop, ipop):
