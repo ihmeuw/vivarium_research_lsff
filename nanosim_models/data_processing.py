@@ -235,8 +235,10 @@ def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
         values = values[values[:,0] <= values[:,1]] #1st column is fortified, 2nd column is fortifiable
     # Filter to len(draws) values and convert percent to proportion
     values = values[:len(draws)] / 100
+    assert len(values) == len(draws), f"Wrong number of coverage draws! {len(values)=} {len(draws)=}"
     eats_fortified = pd.Series(values[:,0], index=draws, name='eats_fortified')
     eats_fortifiable = pd.Series(values[:,1], index=draws, name='eats_fortifiable')
+    assert (eats_fortified <= eats_fortifiable).all(), f"Coverage draws are improperly ordered!"
     return eats_fortified, eats_fortifiable
 
 def get_global_data(effect_size_seed, random_generator, draws, take_mean=False):#mean_draws_name=None):
