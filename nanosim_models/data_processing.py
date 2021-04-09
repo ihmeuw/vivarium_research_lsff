@@ -2,8 +2,8 @@ import pandas as pd, numpy as np
 from collections import namedtuple
 from scipy import stats
 
-# Assumes the path to vivarium_research_lsff is in sys.path
-from multiplication_models import mult_model_fns
+# # Assumes the path to vivarium_research_lsff is in sys.path
+# from multiplication_models import mult_model_fns
 
 COMPLIANCE_MULTIPLIER = 0.5 # Value by which to scale iron concentration to account for non-compliance to standards
 
@@ -37,7 +37,7 @@ def get_fortification_input_data(vivarium_research_lsff_path='..', locations_pat
         concentration_data_path = '/share/scratch/users/ndbs/vivarium_lsff/gfdx_data/flour_fortification_standards_mg_per_kg.csv'
 
     locations = pd.read_csv(locations_path)
-    coverage = pd.read_csv(coverage_data_path).pipe(mult_model_fns.create_marginal_uncertainty)
+    coverage = pd.read_csv(coverage_data_path).pipe(create_marginal_uncertainty)
     consumption = pd.read_csv(consumption_data_path).pipe(process_consumption_data, coverage)
     concentration = pd.read_csv(concentration_data_path).pipe(process_concentration_data, locations)
     FortificationInputData = namedtuple(
@@ -45,6 +45,29 @@ def get_fortification_input_data(vivarium_research_lsff_path='..', locations_pat
         "locations, coverage, consumption, concentration"
     )
     return FortificationInputData(locations, coverage, consumption, concentration)
+
+def create_marginal_uncertainty(data):
+    """
+    Replace any rows of data with mean = 100, CIs = 0 with CIs=epislon>0
+    This is a transformation for a potential data issue and should be removed when resolved
+    ----
+    INPUT:
+    - pd.DataFrame() with columns ['value_mean','value_025_percentile','value_975_percentile']
+    ---
+    OUTPUT:
+    - input dataframe, with all rows with (100,100,100) replaced with marginal confidence intervals|
+    """
+    # the following is a transformation for a potential data issue and should be removed when resolved
+    data['value_mean'] = data['value_mean'].replace(100, 100 - 0.00001 * 2)
+    data['value_025_percentile'] = data['value_025_percentile'].replace(100, 100 - 0.00001 * 3)
+    data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001)
+
+    # the following is a transformation for a potential data issue and should be removed when resolved
+    data['value_mean'] = data['value_mean'].replace(0, 0 + 0.00001 * 2)
+    data['value_025_percentile'] = data['value_025_percentile'].replace(0, 0 + 0.00001)
+    data['value_975_percentile'] = data['value_975_percentile'].replace(0, 0 + 0.00001 * 3)
+
+    return data
 
 def process_consumption_data(consumption_df, coverage_df):
     """Merges percent eating vehicle from coverage_df into consumption_df so that consumption among consumers
