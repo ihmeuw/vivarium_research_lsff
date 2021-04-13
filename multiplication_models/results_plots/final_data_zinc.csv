@@ -1,4 +1,4 @@
-,Location name,Baseline Prevalence of Zinc deficiency in age group 1 to 4 (per 100),Baseline Number in age group 1 to 4 with Zinc deficiency (1000s),Baseline DALYs attributable to Zinc deficiency in age group 1 to 4,"Baseline DALYs attributable to Zinc deficiency per 100,000 person-years in age group 1 to 4",Percent of population eating zinc fortified maize flour at baseline,Percent of population eating zinc fortified maize flour: 20% scale-up,Percent of population eating zinc fortified maize flour: 50% scale-up,Percent of population eating zinc fortified maize flour: 80% scale-up,Percent of population eating zinc fortified wheat flour at baseline,Percent of population eating zinc fortified wheat flour: 20% scale-up,Percent of population eating zinc fortified wheat flour: 50% scale-up,Percent of population eating zinc fortified wheat flour: 80% scale-up,"Zinc in maize flour DALYs averted per 100,000 person-years: 20% scale-up","Zinc in maize flour DALYs averted per 100,000 person-years: 50% scale-up","Zinc in maize flour DALYs averted per 100,000 person-years: 80% scale-up",Zinc in maize flour DALYs averted: 20% scale-up,Zinc in maize flour DALYs averted: 50% scale-up,Zinc in maize flour DALYs averted: 80% scale-up,Zinc in maize flour PIF (percent): 20% scale-up,Zinc in maize flour PIF (percent): 50% scale-up,Zinc in maize flour PIF (percent): 80% scale-up,Zinc in maize flour zinc deficiency prevalence 20% scale-up,Zinc in maize flour zinc deficiency prevalence 50% scale-up,Zinc in maize flour zinc deficiency prevalence 80% scale-up,"Zinc in wheat flour DALYs averted per 100,000 person-years: 20% scale-up","Zinc in wheat flour DALYs averted per 100,000 person-years: 50% scale-up","Zinc in wheat flour DALYs averted per 100,000 person-years: 80% scale-up",Zinc in wheat flour DALYs averted: 20% scale-up,Zinc in wheat flour DALYs averted: 50% scale-up,Zinc in wheat flour DALYs averted: 80% scale-up,Zinc in wheat flour PIF (percent): 20% scale-up,Zinc in wheat flour PIF (percent): 50% scale-up,Zinc in wheat flour PIF (percent): 80% scale-up,Zinc in wheat flour zinc deficiency prevalence 20% scale-up,Zinc in wheat flour zinc deficiency prevalence 50% scale-up,Zinc in wheat flour zinc deficiency prevalence 80% scale-up,Annual maize flour fortification cost (millions of US dollars),Annual wheat flour fortification cost (millions of US dollars),"Zinc fortified maize flour cost per DALY averted (US dollars), median and IQR","Zinc fortified wheat flour cost per DALY averted (US dollars), median and IQR"
+,Location name,Baseline Prevalence of Zinc deficiency in age group 1 to 4 (per 100),Baseline Number in age group 1 to 4 with Zinc deficiency (1000s),Baseline DALYs attributable to Zinc deficiency in age group 1 to 4,"Baseline DALYs attributable to Zinc deficiency per 100,000 person-years in age group 1 to 4",Percent of population eating zinc fortified maize flour at baseline,Percent of population eating zinc fortified maize flour: 20% scale-up,Percent of population eating zinc fortified maize flour: 50% scale-up,Percent of population eating zinc fortified maize flour: 80% scale-up,Percent of population eating zinc fortified wheat flour at baseline,Percent of population eating zinc fortified wheat flour: 20% scale-up,Percent of population eating zinc fortified wheat flour: 50% scale-up,Percent of population eating zinc fortified wheat flour: 80% scale-up,"Zinc in maize flour DALYs averted per 100,000 person-years: 20% scale-up","Zinc in maize flour DALYs averted per 100,000 person-years: 50% scale-up","Zinc in maize flour DALYs averted per 100,000 person-years: 80% scale-up",Zinc in maize flour DALYs averted: 20% scale-up,Zinc in maize flour DALYs averted: 50% scale-up,Zinc in maize flour DALYs averted: 80% scale-up,Zinc in maize flour PIF (percent): 20% scale-up,Zinc in maize flour PIF (percent): 50% scale-up,Zinc in maize flour PIF (percent): 80% scale-up,Zinc in maize flour zinc deficiency prevalence 20% scale-up,Zinc in maize flour zinc deficiency prevalence 50% scale-up,Zinc in maize flour zinc deficiency prevalence 80% scale-up,"Zinc in wheat flour DALYs averted per 100,000 person-years: 20% scale-up","Zinc in wheat flour DALYs averted per 100,000 person-years: 50% scale-up","Zinc in wheat flour DALYs averted per 100,000 person-years: 80% scale-up",Zinc in wheat flour DALYs averted: 20% scale-up,Zinc in wheat flour DALYs averted: 50% scale-up,Zinc in wheat flour DALYs averted: 80% scale-up,Zinc in wheat flour PIF (percent): 20% scale-up,Zinc in wheat flour PIF (percent): 50% scale-up,Zinc in wheat flour PIF (percent): 80% scale-up,Zinc in wheat flour zinc deficiency prevalence 20% scale-up,Zinc in wheat flour zinc deficiency prevalence 50% scale-up,Zinc in wheat flour zinc deficiency prevalence 80% scale-up
 0,Angola,"14.1
 (2.5, 28.7)","577
 (103, 1,173)","5,150
@@ -35,9 +35,7 @@
 (1.6, 7.6)","11.1
 (2.0, 22.5)","10.9
 (2.0, 22.2)","10.7
-(2.0, 21.8)",4.38,0.14,"83,463
-(51,248, 143,820)","811
-(466, 1,402)"
+(2.0, 21.8)"
 1,Bangladesh,"9.7
 (1.1, 23.1)","1,077
 (120, 2,568)","957
@@ -58,8 +56,7 @@
 (9.2, 22.9)","7.5
 (0.8, 18.0)","7.1
 (0.8, 17.0)","6.6
-(0.7, 15.8)",Not estimated,0.99,Not modeled,"8,019
-(4,851, 14,785)"
+(0.7, 15.8)"
 2,Burkina Faso,"3.1
 (0.0, 9.8)","98
 (0, 310)","1,694
@@ -96,8 +93,7 @@
 (6.6, 31.2)","2.3
 (0.0, 7.3)","2.1
 (0.0, 6.9)","2.0
-(0.0, 6.5)",Not estimated,0.13,Not modeled,"628
-(314, 1,629)"
+(0.0, 6.5)"
 3,Cameroon,"4.8
 (0.0, 13.8)","159
 (0, 460)","3,796
@@ -134,8 +130,7 @@
 (0.4, 26.9)","3.7
 (0.0, 10.9)","3.5
 (0.0, 10.7)","3.4
-(0.0, 10.1)",Not estimated,0.11,Not modeled,"500
-(222, 1,885)"
+(0.0, 10.1)"
 4,China,"1.1
 (0.0, 3.4)","758
 (0, 2,247)","222
@@ -156,8 +151,7 @@
 (8.5, 34.2)","0.9
 (0.0, 2.6)","0.8
 (0.0, 2.4)","0.7
-(0.0, 2.2)",Not estimated,51.37,Not modeled,"1,566,006
-(812,384, 4,284,156)"
+(0.0, 2.2)"
 5,Côte d'Ivoire,"5.9
 (0.3, 16.0)","187
 (8, 507)","1,627
@@ -194,9 +188,7 @@
 (2.7, 7.5)","4.6
 (0.2, 12.5)","4.5
 (0.2, 12.3)","4.4
-(0.2, 12.2)",3.71,0.13,"327,960
-(175,295, 724,232)","2,444
-(1,270, 5,363)"
+(0.2, 12.2)"
 6,Democratic Republic of the Congo,"32.5
 (18.0, 43.8)","3,519
 (1,952, 4,743)","28,540
@@ -233,8 +225,7 @@
 (0.1, 0.4)","25.8
 (14.3, 34.8)","25.8
 (14.3, 34.7)","25.8
-(14.3, 34.7)",Not estimated,0.12,Not modeled,"2,292
-(1,204, 4,348)"
+(14.3, 34.7)"
 7,Egypt,"2.9
 (0.0, 9.2)","250
 (0, 804)","719
@@ -271,7 +262,7 @@
 (10.3, 39.6)","2.2
 (0.0, 7.1)","2.0
 (0.0, 6.5)","1.8
-(0.0, 5.9)",Not estimated,Not estimated,Not modeled,Not modeled
+(0.0, 5.9)"
 8,Ethiopia,"2.9
 (0.0, 9.0)","380
 (0, 1,187)","4,195
@@ -308,8 +299,7 @@
 (6.9, 15.2)","2.2
 (0.0, 7.0)","2.1
 (0.0, 6.7)","2.0
-(0.0, 6.5)",Not estimated,0.55,Not modeled,"1,598
-(808, 3,696)"
+(0.0, 6.5)"
 9,Ghana,"4.2
 (0.0, 12.6)","133
 (0, 396)","674
@@ -346,9 +336,7 @@
 (5.4, 26.5)","3.2
 (0.0, 9.7)","3.0
 (0.0, 9.3)","2.9
-(0.0, 8.6)",5.71,0.16,"417,632
-(194,240, 961,682)","2,532
-(1,221, 5,609)"
+(0.0, 8.6)"
 10,India,"11.5
 (2.1, 24.0)","10,816
 (1,951, 22,611)","31,741
@@ -369,13 +357,12 @@
 (1.3, 2.9)","9.2
 (1.7, 19.2)","9.1
 (1.6, 19.1)","9.0
-(1.6, 19.1)",Not estimated,10.81,Not modeled,"18,705
-(12,200, 28,189)"
+(1.6, 19.1)"
 11,Indonesia,"7.9
 (0.8, 18.9)","1,259
 (129, 3,001)","2,825
 (292, 7,660)","18
-(2, 48)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not estimated,0.19,Not modeled,Not modeled
+(2, 48)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled
 12,Kenya,"5.2
 (0.1, 15.0)","264
 (6, 767)","1,709
@@ -412,9 +399,7 @@
 (2.2, 6.1)","4.1
 (0.1, 11.8)","4.0
 (0.1, 11.6)","3.9
-(0.1, 11.4)",14.64,0.15,"73,971
-(41,747, 157,529)","2,649
-(1,485, 5,396)"
+(0.1, 11.4)"
 13,Madagascar,"6.9
 (0.4, 18.4)","216
 (14, 573)","3,975
@@ -451,8 +436,7 @@
 (4.4, 17.2)","5.3
 (0.3, 14.2)","5.1
 (0.3, 13.5)","4.9
-(0.3, 12.8)",Not estimated,0.12,Not modeled,"398
-(217, 819)"
+(0.3, 12.8)"
 14,Mozambique,"13.9
 (2.4, 28.9)","563
 (95, 1,166)","2,553
@@ -489,8 +473,7 @@
 (1.6, 4.3)","10.9
 (1.9, 22.7)","10.8
 (1.8, 22.4)","10.7
-(1.8, 22.2)",Not estimated,0.17,Not modeled,"2,854
-(1,725, 5,061)"
+(1.8, 22.2)"
 15,Myanmar,"6.0
 (0.2, 16.8)","241
 (8, 674)","345
@@ -511,8 +494,7 @@
 (0.7, 2.1)","4.8
 (0.1, 13.4)","4.8
 (0.1, 13.3)","4.7
-(0.1, 13.2)",Not estimated,0.12,Not modeled,"31,432
-(17,132, 63,617)"
+(0.1, 13.2)"
 16,Nepal,"3.9
 (0.0, 12.0)","93
 (0, 288)","126
@@ -533,8 +515,7 @@
 (7.0, 31.3)","3.0
 (0.0, 9.3)","2.8
 (0.0, 8.6)","2.5
-(0.0, 8.0)",Not estimated,0.21,Not modeled,"13,674
-(7,028, 31,261)"
+(0.0, 8.0)"
 17,Niger,"4.2
 (0.0, 12.7)","160
 (0, 478)","6,971
@@ -571,8 +552,7 @@
 (0.9, 4.5)","3.3
 (0.0, 9.8)","3.3
 (0.0, 9.7)","3.2
-(0.0, 9.7)",Not estimated,0.13,Not modeled,"1,129
-(568, 2,851)"
+(0.0, 9.7)"
 18,Nigeria,"4.5
 (0.1, 13.4)","1,199
 (16, 3,534)","38,748
@@ -609,8 +589,7 @@
 (12.6, 27.6)","3.4
 (0.0, 9.9)","3.1
 (0.0, 9.0)","2.8
-(0.0, 8.4)",Not estimated,0.2,Not modeled,"32
-(17, 67)"
+(0.0, 8.4)"
 19,Pakistan,"26.7
 (15.7, 37.9)","6,469
 (3,797, 9,171)","41,009
@@ -631,8 +610,7 @@
 (5.7, 29.5)","20.3
 (11.9, 28.9)","18.9
 (11.1, 27.1)","17.6
-(10.3, 25.8)",Not estimated,4.68,Not modeled,"755
-(519, 1,200)"
+(10.3, 25.8)"
 20,South Africa,"3.5
 (0.0, 10.5)","142
 (1, 428)","358
@@ -669,9 +647,7 @@
 (1.2, 3.4)","2.8
 (0.0, 8.3)","2.7
 (0.0, 8.3)","2.7
-(0.0, 8.2)",89.33,0.2,"1,449,403
-(755,336, 3,150,493)","33,441
-(18,095, 77,312)"
+(0.0, 8.2)"
 21,Sudan,"33.8
 (18.9, 44.0)","1,477
 (825, 1,925)","7,363
@@ -708,7 +684,7 @@
 (8.6, 38.1)","25.3
 (14.2, 33.1)","23.0
 (13.1, 31.0)","20.7
-(11.6, 29.0)",Not modeled,Not modeled,Not modeled,Not modeled
+(11.6, 29.0)"
 22,Uganda,"9.0
 (0.9, 21.7)","504
 (51, 1,213)","2,314
@@ -745,8 +721,7 @@
 (0.6, 1.2)","7.1
 (0.7, 17.1)","7.1
 (0.7, 17.0)","7.0
-(0.7, 17.0)",2.63,Not estimated,"9,203
-(5,321, 18,416)",Not modeled
+(0.7, 17.0)"
 23,United Republic of Tanzania,"6.9
 (0.4, 18.4)","503
 (29, 1,347)","1,454
@@ -783,9 +758,7 @@
 (5.0, 12.7)","5.3
 (0.3, 14.2)","5.1
 (0.3, 13.7)","4.9
-(0.3, 13.2)",7.01,0.14,"44,526
-(24,120, 91,273)","1,461
-(791, 2,966)"
+(0.3, 13.2)"
 24,Viet Nam,"4.9
 (0.0, 14.2)","273
 (2, 795)","113
@@ -806,5 +779,4 @@
 (2.9, 12.9)","3.9
 (0.0, 11.3)","3.8
 (0.0, 11.0)","3.6
-(0.0, 10.7)",Not estimated,0.2,Not modeled,"31,998
-(17,250, 69,391)"
+(0.0, 10.7)"

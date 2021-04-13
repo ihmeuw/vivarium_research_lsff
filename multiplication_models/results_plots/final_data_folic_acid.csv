@@ -1,4 +1,4 @@
-,Location name,Baseline Prevalence of Neural tube defects in age group Birth (per 1000),Baseline Number in age group Birth with Neural tube defects,Baseline DALYs attributable to Neural tube defects in age group Under 5 (1000s),"Baseline DALYs attributable to Neural tube defects per 100,000 person-years in age group Under 5",Percent of population eating folic acid fortified maize flour at baseline,Percent of population eating folic acid fortified maize flour: 20% scale-up,Percent of population eating folic acid fortified maize flour: 50% scale-up,Percent of population eating folic acid fortified maize flour: 80% scale-up,Percent of population eating folic acid fortified wheat flour at baseline,Percent of population eating folic acid fortified wheat flour: 20% scale-up,Percent of population eating folic acid fortified wheat flour: 50% scale-up,Percent of population eating folic acid fortified wheat flour: 80% scale-up,"Folic acid in maize flour DALYs averted per 100,000 person-years: 20% scale-up","Folic acid in maize flour DALYs averted per 100,000 person-years: 50% scale-up","Folic acid in maize flour DALYs averted per 100,000 person-years: 80% scale-up",Folic acid in maize flour DALYs averted: 20% scale-up,Folic acid in maize flour DALYs averted: 50% scale-up,Folic acid in maize flour DALYs averted: 80% scale-up,Folic acid in maize flour PIF (percent): 20% scale-up,Folic acid in maize flour PIF (percent): 50% scale-up,Folic acid in maize flour PIF (percent): 80% scale-up,"Folic acid in wheat flour DALYs averted per 100,000 person-years: 20% scale-up","Folic acid in wheat flour DALYs averted per 100,000 person-years: 50% scale-up","Folic acid in wheat flour DALYs averted per 100,000 person-years: 80% scale-up",Folic acid in wheat flour DALYs averted: 20% scale-up,Folic acid in wheat flour DALYs averted: 50% scale-up,Folic acid in wheat flour DALYs averted: 80% scale-up,Folic acid in wheat flour PIF (percent): 20% scale-up,Folic acid in wheat flour PIF (percent): 50% scale-up,Folic acid in wheat flour PIF (percent): 80% scale-up,"Folic acid in maize flour neural tube defects birth prevalence per 1,000: 20% scale-up","Folic acid in maize flour neural tube defects birth prevalence per 1,000: 50% scale-up","Folic acid in maize flour neural tube defects birth prevalence per 1,000: 80% scale-up","Folic acid in wheat flour neural tube defects birth prevalence per 1,000: 20% scale-up","Folic acid in wheat flour neural tube defects birth prevalence per 1,000: 50% scale-up","Folic acid in wheat flour neural tube defects birth prevalence per 1,000: 80% scale-up",Annual maize flour fortification cost (millions of US dollars),Annual wheat flour fortification cost (millions of US dollars),"Folic acid fortified maize flour cost per DALY averted (US dollars), median and IQR","Folic acid fortified wheat flour cost per DALY averted (US dollars), median and IQR"
+,Location name,Baseline Prevalence of Neural tube defects in age group Birth (per 1000),Baseline Number in age group Birth with Neural tube defects,Baseline DALYs attributable to Neural tube defects in age group Under 5 (1000s),"Baseline DALYs attributable to Neural tube defects per 100,000 person-years in age group Under 5",Percent of population eating folic acid fortified maize flour at baseline,Percent of population eating folic acid fortified maize flour: 20% scale-up,Percent of population eating folic acid fortified maize flour: 50% scale-up,Percent of population eating folic acid fortified maize flour: 80% scale-up,Percent of population eating folic acid fortified wheat flour at baseline,Percent of population eating folic acid fortified wheat flour: 20% scale-up,Percent of population eating folic acid fortified wheat flour: 50% scale-up,Percent of population eating folic acid fortified wheat flour: 80% scale-up,"Folic acid in maize flour DALYs averted per 100,000 person-years: 20% scale-up","Folic acid in maize flour DALYs averted per 100,000 person-years: 50% scale-up","Folic acid in maize flour DALYs averted per 100,000 person-years: 80% scale-up",Folic acid in maize flour DALYs averted: 20% scale-up,Folic acid in maize flour DALYs averted: 50% scale-up,Folic acid in maize flour DALYs averted: 80% scale-up,Folic acid in maize flour PIF (percent): 20% scale-up,Folic acid in maize flour PIF (percent): 50% scale-up,Folic acid in maize flour PIF (percent): 80% scale-up,"Folic acid in wheat flour DALYs averted per 100,000 person-years: 20% scale-up","Folic acid in wheat flour DALYs averted per 100,000 person-years: 50% scale-up","Folic acid in wheat flour DALYs averted per 100,000 person-years: 80% scale-up",Folic acid in wheat flour DALYs averted: 20% scale-up,Folic acid in wheat flour DALYs averted: 50% scale-up,Folic acid in wheat flour DALYs averted: 80% scale-up,Folic acid in wheat flour PIF (percent): 20% scale-up,Folic acid in wheat flour PIF (percent): 50% scale-up,Folic acid in wheat flour PIF (percent): 80% scale-up,"Folic acid in maize flour neural tube defects birth prevalence per 1,000: 20% scale-up","Folic acid in maize flour neural tube defects birth prevalence per 1,000: 50% scale-up","Folic acid in maize flour neural tube defects birth prevalence per 1,000: 80% scale-up","Folic acid in wheat flour neural tube defects birth prevalence per 1,000: 20% scale-up","Folic acid in wheat flour neural tube defects birth prevalence per 1,000: 50% scale-up","Folic acid in wheat flour neural tube defects birth prevalence per 1,000: 80% scale-up"
 0,Angola,"1.82
 (1.42, 2.29)","2,009
 (1,565, 2,531)","101.7
@@ -29,15 +29,13 @@
 (1,002, 6,218)","0.7
 (0.3, 1.2)","1.7
 (0.8, 3.0)","2.8
-(1.3, 4.8)","1.8
+(1.3, 4.8)","1.7
+(1.3, 2.2)","1.6
+(1.2, 2.0)","1.4
+(1.1, 1.8)","1.8
 (1.4, 2.3)","1.8
 (1.4, 2.3)","1.8
-(1.4, 2.3)","1.8
-(1.4, 2.3)","1.8
-(1.4, 2.3)","1.8
-(1.4, 2.2)",4.38,0.14,"5,635
-(4,358, 7,307)","55
-(40, 76)"
+(1.4, 2.2)"
 1,Bangladesh,"0.82
 (0.64, 1.02)","2,169
 (1,710, 2,711)","105.0
@@ -55,11 +53,13 @@
 (4,040, 27,493)","2.9
 (1.9, 4.0)","7.3
 (4.6, 9.9)","11.6
-(7.4, 15.9)",Not modeled,Not modeled,Not modeled,"0.8
+(7.4, 15.9)","0.8
+(0.6, 1.0)","0.7
+(0.5, 0.9)","0.6
+(0.5, 0.8)","0.8
 (0.6, 1.0)","0.8
 (0.6, 0.9)","0.7
-(0.6, 0.9)",Not estimated,0.99,Not modeled,"90
-(64, 135)"
+(0.6, 0.9)"
 2,Burkina Faso,"2.47
 (1.91, 3.15)","2,315
 (1,794, 2,953)","215.0
@@ -90,14 +90,13 @@
 (3,181, 31,616)","1.5
 (0.5, 2.8)","3.8
 (1.3, 6.9)","6.0
-(2.1, 11.1)","2.5
-(1.9, 3.2)","2.5
-(1.9, 3.2)","2.5
-(1.9, 3.2)","2.4
+(2.1, 11.1)","2.3
+(1.8, 3.0)","2.1
+(1.6, 2.7)","1.9
+(1.5, 2.4)","2.4
 (1.9, 3.1)","2.4
 (1.8, 3.0)","2.3
-(1.8, 2.9)",Not estimated,0.13,Not modeled,"12
-(8, 18)"
+(1.8, 2.9)"
 3,Cameroon,"1.83
 (1.43, 2.40)","1,657
 (1,294, 2,172)","100.9
@@ -128,14 +127,13 @@
 (748, 4,084)","0.5
 (0.3, 0.8)","1.3
 (0.7, 2.0)","2.0
-(1.0, 3.2)","1.8
+(1.0, 3.2)","1.7
+(1.4, 2.3)","1.6
+(1.2, 2.1)","1.4
+(1.1, 1.9)","1.8
 (1.4, 2.4)","1.8
 (1.4, 2.4)","1.8
-(1.4, 2.3)","1.8
-(1.4, 2.4)","1.8
-(1.4, 2.4)","1.8
-(1.4, 2.3)",Not estimated,0.11,Not modeled,"59
-(44, 80)"
+(1.4, 2.3)"
 4,China,"0.26
 (0.21, 0.33)","3,936
 (3,179, 4,856)","225.9
@@ -153,11 +151,13 @@
 (8,631, 33,167)","2.2
 (1.0, 3.6)","5.5
 (2.6, 9.0)","8.8
-(4.1, 14.4)",Not modeled,Not modeled,Not modeled,"0.3
+(4.1, 14.4)","0.2
 (0.2, 0.3)","0.2
 (0.2, 0.3)","0.2
-(0.2, 0.3)",Not estimated,51.37,Not modeled,"2,631
-(2,155, 3,355)"
+(0.2, 0.3)","0.3
+(0.2, 0.3)","0.2
+(0.2, 0.3)","0.2
+(0.2, 0.3)"
 5,Côte d'Ivoire,"2.21
 (1.76, 2.84)","1,973
 (1,574, 2,536)","106.9
@@ -188,15 +188,13 @@
 (1,368, 6,123)","0.8
 (0.4, 1.2)","1.9
 (1.1, 3.0)","3.1
-(1.7, 4.8)","2.2
-(1.8, 2.8)","2.2
-(1.8, 2.8)","2.2
-(1.8, 2.8)","2.2
+(1.7, 4.8)","2.1
+(1.7, 2.7)","1.9
+(1.5, 2.4)","1.7
+(1.3, 2.2)","2.2
 (1.8, 2.8)","2.2
 (1.7, 2.8)","2.1
-(1.7, 2.7)",3.71,0.13,"5,806
-(4,229, 8,172)","43
-(33, 56)"
+(1.7, 2.7)"
 6,Democratic Republic of the Congo,"2.62
 (2.02, 3.33)","7,692
 (5,937, 9,788)","285.1
@@ -227,14 +225,13 @@
 (206, 900)","0.0
 (0.0, 0.1)","0.1
 (0.1, 0.2)","0.2
-(0.1, 0.2)","2.6
+(0.1, 0.2)","2.5
+(1.9, 3.1)","2.2
+(1.7, 2.9)","2.0
+(1.5, 2.6)","2.6
 (2.0, 3.3)","2.6
 (2.0, 3.3)","2.6
-(2.0, 3.3)","2.6
-(2.0, 3.3)","2.6
-(2.0, 3.3)","2.6
-(2.0, 3.3)",Not estimated,0.12,Not modeled,"259
-(202, 350)"
+(2.0, 3.3)"
 7,Egypt,"0.86
 (0.69, 1.07)","1,808
 (1,450, 2,251)","30.2
@@ -266,12 +263,12 @@
 (1.7, 6.1)","9.1
 (4.3, 15.1)","14.6
 (6.9, 24.2)","0.8
-(0.7, 1.0)","0.8
-(0.6, 1.0)","0.8
-(0.6, 1.0)","0.8
+(0.6, 1.0)","0.7
+(0.6, 0.9)","0.7
+(0.5, 0.8)","0.8
 (0.7, 1.0)","0.8
 (0.6, 1.0)","0.7
-(0.5, 0.9)",Not estimated,Not estimated,Not modeled,Not modeled
+(0.5, 0.9)"
 8,Ethiopia,"1.12
 (0.87, 1.43)","4,120
 (3,189, 5,268)","257.8
@@ -303,13 +300,12 @@
 (1.0, 1.8)","3.5
 (2.5, 4.6)","5.6
 (4.0, 7.3)","1.1
-(0.8, 1.4)","1.1
 (0.8, 1.4)","1.0
-(0.8, 1.3)","1.1
+(0.7, 1.2)","0.9
+(0.7, 1.1)","1.1
 (0.9, 1.4)","1.1
 (0.8, 1.4)","1.0
-(0.8, 1.3)",Not estimated,0.55,Not modeled,"40
-(32, 48)"
+(0.8, 1.3)"
 9,Ghana,"1.40
 (1.12, 1.75)","1,200
 (960, 1,495)","69.3
@@ -340,15 +336,13 @@
 (2,093, 13,194)","2.3
 (1.0, 4.0)","5.9
 (2.4, 10.0)","9.4
-(3.9, 16.0)","1.4
-(1.1, 1.7)","1.4
-(1.1, 1.7)","1.4
-(1.1, 1.7)","1.4
+(3.9, 16.0)","1.3
+(1.1, 1.7)","1.2
+(1.0, 1.5)","1.1
+(0.9, 1.4)","1.4
 (1.1, 1.7)","1.3
 (1.0, 1.6)","1.2
-(1.0, 1.6)",5.71,0.16,"4,524
-(3,285, 6,284)","28
-(20, 37)"
+(1.0, 1.6)"
 10,India,"0.94
 (0.74, 1.20)","22,132
 (17,467, 28,078)","700.9
@@ -366,16 +360,21 @@
 (672, 3,675)","0.1
 (0.0, 0.1)","0.2
 (0.1, 0.3)","0.3
-(0.1, 0.4)",Not modeled,Not modeled,Not modeled,"0.9
+(0.1, 0.4)","0.9
+(0.7, 1.1)","0.8
+(0.6, 1.0)","0.7
+(0.6, 0.9)","0.9
 (0.7, 1.2)","0.9
 (0.7, 1.2)","0.9
-(0.7, 1.2)",Not estimated,10.81,Not modeled,"6,490
-(4,933, 8,972)"
+(0.7, 1.2)"
 11,Indonesia,"0.38
 (0.30, 0.48)","1,466
 (1,162, 1,843)","126.0
 (82.1, 174.8)","639
-(416, 887)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not estimated,0.19,Not modeled,Not modeled
+(416, 887)",Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,Not modeled,"0.4
+(0.3, 0.5)","0.3
+(0.3, 0.4)","0.3
+(0.2, 0.4)",Not modeled,Not modeled,Not modeled
 12,Kenya,"0.95
 (0.75, 1.19)","1,278
 (1,013, 1,601)","47.6
@@ -407,14 +406,12 @@
 (0.4, 1.0)","1.8
 (1.1, 2.5)","2.9
 (1.8, 4.0)","0.9
-(0.7, 1.2)","0.9
 (0.7, 1.1)","0.8
-(0.7, 1.1)","0.9
+(0.6, 1.0)","0.7
+(0.6, 0.9)","0.9
 (0.8, 1.2)","0.9
 (0.7, 1.2)","0.9
-(0.7, 1.2)",14.64,0.15,"3,062
-(2,395, 3,996)","112
-(92, 135)"
+(0.7, 1.2)"
 13,Madagascar,"1.46
 (1.14, 1.86)","1,256
 (983, 1,599)","55.8
@@ -445,14 +442,13 @@
 (1,296, 8,243)","1.8
 (0.8, 2.9)","4.4
 (2.0, 7.3)","7.0
-(3.2, 11.6)","1.5
-(1.1, 1.9)","1.5
-(1.1, 1.8)","1.4
-(1.1, 1.8)","1.4
+(3.2, 11.6)","1.4
+(1.1, 1.7)","1.2
+(1.0, 1.6)","1.1
+(0.9, 1.4)","1.4
 (1.1, 1.8)","1.4
 (1.1, 1.8)","1.3
-(1.0, 1.7)",Not estimated,0.12,Not modeled,"34
-(25, 46)"
+(1.0, 1.7)"
 14,Mozambique,"1.72
 (1.34, 2.19)","1,938
 (1,506, 2,464)","103.5
@@ -483,14 +479,13 @@
 (844, 4,276)","0.5
 (0.3, 0.7)","1.3
 (0.7, 1.8)","2.0
-(1.2, 2.9)","1.7
+(1.2, 2.9)","1.6
+(1.3, 2.1)","1.5
+(1.1, 1.9)","1.3
+(1.0, 1.7)","1.7
 (1.3, 2.2)","1.7
 (1.3, 2.2)","1.7
-(1.3, 2.1)","1.7
-(1.3, 2.2)","1.7
-(1.3, 2.2)","1.7
-(1.3, 2.1)",Not estimated,0.17,Not modeled,"88
-(68, 117)"
+(1.3, 2.1)"
 15,Myanmar,"1.01
 (0.79, 1.30)","1,068
 (830, 1,366)","71.1
@@ -508,11 +503,13 @@
 (186, 1,130)","0.2
 (0.1, 0.3)","0.5
 (0.2, 0.7)","0.8
-(0.4, 1.0)",Not modeled,Not modeled,Not modeled,"1.0
+(0.4, 1.0)","1.0
+(0.7, 1.2)","0.9
+(0.7, 1.1)","0.8
+(0.6, 1.0)","1.0
 (0.8, 1.3)","1.0
 (0.8, 1.3)","1.0
-(0.8, 1.3)",Not estimated,0.12,Not modeled,"245
-(177, 338)"
+(0.8, 1.3)"
 16,Nepal,"0.69
 (0.54, 0.87)","427
 (336, 539)","15.4
@@ -530,11 +527,13 @@
 (484, 4,863)","3.0
 (1.1, 5.0)","7.5
 (2.7, 12.6)","12.0
-(4.3, 20.1)",Not modeled,Not modeled,Not modeled,"0.7
+(4.3, 20.1)","0.7
+(0.5, 0.8)","0.6
+(0.5, 0.7)","0.5
+(0.4, 0.7)","0.7
 (0.5, 0.8)","0.6
 (0.5, 0.8)","0.6
-(0.5, 0.8)",Not estimated,0.21,Not modeled,"134
-(89, 193)"
+(0.5, 0.8)"
 17,Niger,"1.79
 (1.37, 2.30)","2,050
 (1,563, 2,623)","193.2
@@ -565,14 +564,13 @@
 (684, 5,662)","0.3
 (0.1, 0.6)","0.8
 (0.3, 1.6)","1.4
-(0.5, 2.5)","1.8
+(0.5, 2.5)","1.7
+(1.3, 2.2)","1.5
+(1.2, 2.0)","1.4
+(1.1, 1.8)","1.8
 (1.4, 2.3)","1.8
 (1.4, 2.3)","1.8
-(1.4, 2.3)","1.8
-(1.4, 2.3)","1.8
-(1.4, 2.3)","1.8
-(1.3, 2.3)",Not estimated,0.13,Not modeled,"59
-(43, 86)"
+(1.3, 2.3)"
 18,Nigeria,"2.39
 (1.82, 3.08)","18,158
 (13,842, 23,348)","1,481.2
@@ -603,14 +601,13 @@
 (87,407, 355,969)","3.2
 (2.3, 4.2)","8.0
 (5.7, 10.6)","12.8
-(9.1, 16.9)","2.4
-(1.8, 3.1)","2.4
-(1.8, 3.0)","2.3
-(1.8, 3.0)","2.3
+(9.1, 16.9)","2.3
+(1.7, 2.9)","2.0
+(1.6, 2.6)","1.8
+(1.4, 2.4)","2.3
 (1.8, 2.9)","2.2
 (1.6, 2.8)","2.0
-(1.5, 2.6)",Not estimated,0.2,Not modeled,"1
-(1, 2)"
+(1.5, 2.6)"
 19,Pakistan,"0.90
 (0.70, 1.14)","6,010
 (4,650, 7,619)","271.4
@@ -628,11 +625,13 @@
 (13,990, 60,997)","2.9
 (1.9, 4.1)","7.3
 (4.8, 10.1)","11.7
-(7.7, 16.2)",Not modeled,Not modeled,Not modeled,"0.9
+(7.7, 16.2)","0.8
+(0.7, 1.1)","0.8
+(0.6, 1.0)","0.7
+(0.5, 0.9)","0.9
 (0.7, 1.1)","0.8
 (0.6, 1.1)","0.8
-(0.6, 1.0)",Not estimated,4.68,Not modeled,"162
-(121, 212)"
+(0.6, 1.0)"
 20,South Africa,"0.54
 (0.43, 0.67)","563
 (448, 694)","20.8
@@ -665,13 +664,11 @@
 (0.5, 1.3)","1.5
 (0.9, 2.1)","0.5
 (0.4, 0.6)","0.5
-(0.4, 0.6)","0.5
-(0.4, 0.6)","0.5
+(0.4, 0.6)","0.4
+(0.3, 0.5)","0.5
 (0.4, 0.7)","0.5
 (0.4, 0.7)","0.5
-(0.4, 0.7)",89.33,0.2,"30,808
-(26,306, 37,411)","655
-(558, 799)"
+(0.4, 0.7)"
 21,Sudan,"2.28
 (1.71, 2.94)","2,747
 (2,069, 3,547)","141.8
@@ -702,13 +699,13 @@
 (5,150, 48,037)","3.3
 (1.5, 5.6)","8.3
 (3.8, 14.1)","13.3
-(6.0, 22.5)","2.2
-(1.7, 2.9)","2.2
-(1.6, 2.8)","2.1
-(1.5, 2.7)","2.2
+(6.0, 22.5)","2.1
+(1.6, 2.8)","1.9
+(1.5, 2.5)","1.8
+(1.3, 2.3)","2.2
 (1.6, 2.8)","2.0
 (1.5, 2.6)","1.9
-(1.4, 2.5)",Not modeled,Not modeled,Not modeled,Not modeled
+(1.4, 2.5)"
 22,Uganda,"2.05
 (1.59, 2.58)","3,264
 (2,534, 4,112)","99.5
@@ -739,14 +736,13 @@
 (259, 1,103)","0.1
 (0.1, 0.2)","0.4
 (0.3, 0.5)","0.6
-(0.4, 0.8)","2.0
-(1.5, 2.5)","1.9
+(0.4, 0.8)","1.9
 (1.5, 2.4)","1.8
-(1.4, 2.3)","2.0
+(1.4, 2.2)","1.6
+(1.2, 2.0)","2.0
 (1.6, 2.6)","2.0
 (1.6, 2.6)","2.0
-(1.6, 2.6)",2.63,Not estimated,"283
-(218, 367)",Not modeled
+(1.6, 2.6)"
 23,United Republic of Tanzania,"1.80
 (1.39, 2.28)","3,755
 (2,898, 4,766)","192.0
@@ -778,14 +774,12 @@
 (0.9, 1.8)","3.4
 (2.2, 4.6)","5.4
 (3.5, 7.3)","1.7
-(1.4, 2.2)","1.7
-(1.3, 2.1)","1.6
-(1.2, 2.0)","1.8
+(1.3, 2.1)","1.5
+(1.2, 1.9)","1.4
+(1.1, 1.8)","1.8
 (1.4, 2.2)","1.7
 (1.3, 2.2)","1.7
-(1.3, 2.1)",7.01,0.14,"427
-(331, 554)","14
-(11, 19)"
+(1.3, 2.1)"
 24,Viet Nam,"0.37
 (0.31, 0.46)","498
 (412, 611)","19.2
@@ -803,8 +797,10 @@
 (274, 2,838)","1.4
 (0.6, 2.3)","3.4
 (1.4, 5.8)","5.5
-(2.3, 9.2)",Not modeled,Not modeled,Not modeled,"0.4
+(2.3, 9.2)","0.4
+(0.3, 0.4)","0.3
+(0.3, 0.4)","0.3
+(0.2, 0.4)","0.4
 (0.3, 0.4)","0.4
 (0.3, 0.4)","0.3
-(0.3, 0.4)",Not estimated,0.2,Not modeled,"222
-(151, 325)"
+(0.3, 0.4)"
