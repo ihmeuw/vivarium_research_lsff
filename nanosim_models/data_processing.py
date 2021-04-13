@@ -2,26 +2,28 @@ import pandas as pd, numpy as np
 from collections import namedtuple
 from scipy import stats
 
-# Assumes the path to vivarium_research_lsff is in sys.path
-from multiplication_models import mult_model_fns
+# # Assumes the path to vivarium_research_lsff is in sys.path
+# from multiplication_models import mult_model_fns
 
 COMPLIANCE_MULTIPLIER = 0.5 # Value by which to scale iron concentration to account for non-compliance to standards
 
-def get_gbd_input_data(hdfstore=None, exposure_key=None, rr_key=None, yll_key=None):
+def get_gbd_input_data(hdfstore=None, exposure_key=None, rr_key=None, daly_key=None):
     if hdfstore is None:
         hdfstore = '/share/scratch/users/ndbs/vivarium_lsff/gbd_data/lbwsg_data.hdf'
     if exposure_key is None:
         exposure_key = '/gbd_2019/exposure/bmgf_25_countries'
     if rr_key is None:
         rr_key = '/gbd_2019/relative_risk/diarrheal_diseases'
-    if yll_key is None:
-        yll_key = '/gbd_2019/burden/ylls/bmgf_25_countries_all_subcauses'
+#     if yll_key is None:
+#         yll_key = '/gbd_2019/burden/ylls/bmgf_25_countries_all_subcauses'
+    if daly_key is None:
+        daly_key = '/gbd_2019/burden/dalys/bmgf_25_countries_all_causes_u5'
 
     lbwsg_exposure = pd.read_hdf(hdfstore, exposure_key)
     lbwsg_rrs = pd.read_hdf(hdfstore, rr_key)
-    lbwsg_ylls = pd.read_hdf(hdfstore, yll_key)
-    GBDInputData = namedtuple("GBDInputData", "lbwsg_exposure, lbwsg_rrs, lbwsg_ylls")
-    return GBDInputData(lbwsg_exposure, lbwsg_rrs, lbwsg_ylls)
+    lbwsg_dalys = pd.read_hdf(hdfstore, daly_key)
+    GBDInputData = namedtuple("GBDInputData", "lbwsg_exposure, lbwsg_rrs, lbwsg_dalys")
+    return GBDInputData(lbwsg_exposure, lbwsg_rrs, lbwsg_dalys)
 
 def get_fortification_input_data(vivarium_research_lsff_path='..', locations_path=None, coverage_data_path=None, consumption_data_path=None, concentration_data_path=None):
     """Reads input data from files and returns a tuple of input dataframes."""
@@ -35,7 +37,7 @@ def get_fortification_input_data(vivarium_research_lsff_path='..', locations_pat
         concentration_data_path = '/share/scratch/users/ndbs/vivarium_lsff/gfdx_data/flour_fortification_standards_mg_per_kg.csv'
 
     locations = pd.read_csv(locations_path)
-    coverage = pd.read_csv(coverage_data_path).pipe(mult_model_fns.create_marginal_uncertainty)
+    coverage = pd.read_csv(coverage_data_path).pipe(create_marginal_uncertainty)
     consumption = pd.read_csv(consumption_data_path).pipe(process_consumption_data, coverage)
     concentration = pd.read_csv(concentration_data_path).pipe(process_concentration_data, locations)
     FortificationInputData = namedtuple(
@@ -43,6 +45,29 @@ def get_fortification_input_data(vivarium_research_lsff_path='..', locations_pat
         "locations, coverage, consumption, concentration"
     )
     return FortificationInputData(locations, coverage, consumption, concentration)
+
+def create_marginal_uncertainty(data):
+    """
+    Replace any rows of data with mean = 100, CIs = 0 with CIs=epislon>0
+    This is a transformation for a potential data issue and should be removed when resolved
+    ----
+    INPUT:
+    - pd.DataFrame() with columns ['value_mean','value_025_percentile','value_975_percentile']
+    ---
+    OUTPUT:
+    - input dataframe, with all rows with (100,100,100) replaced with marginal confidence intervals|
+    """
+    # the following is a transformation for a potential data issue and should be removed when resolved
+    data['value_mean'] = data['value_mean'].replace(100, 100 - 0.00001 * 2)
+    data['value_025_percentile'] = data['value_025_percentile'].replace(100, 100 - 0.00001 * 3)
+    data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001)
+
+    # the following is a transformation for a potential data issue and should be removed when resolved
+    data['value_mean'] = data['value_mean'].replace(0, 0 + 0.00001 * 2)
+    data['value_025_percentile'] = data['value_025_percentile'].replace(0, 0 + 0.00001)
+    data['value_975_percentile'] = data['value_975_percentile'].replace(0, 0 + 0.00001 * 3)
+
+    return data
 
 def process_consumption_data(consumption_df, coverage_df):
     """Merges percent eating vehicle from coverage_df into consumption_df so that consumption among consumers
@@ -210,8 +235,10 @@ def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
         values = values[values[:,0] <= values[:,1]] #1st column is fortified, 2nd column is fortifiable
     # Filter to len(draws) values and convert percent to proportion
     values = values[:len(draws)] / 100
+    assert len(values) == len(draws), f"Wrong number of coverage draws! {len(values)=} {len(draws)=}"
     eats_fortified = pd.Series(values[:,0], index=draws, name='eats_fortified')
     eats_fortifiable = pd.Series(values[:,1], index=draws, name='eats_fortifiable')
+    assert (eats_fortified <= eats_fortifiable).all(), f"Coverage draws are improperly ordered!"
     return eats_fortified, eats_fortifiable
 
 def get_global_data(effect_size_seed, random_generator, draws, take_mean=False):#mean_draws_name=None):
