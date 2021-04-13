@@ -1,12 +1,21 @@
+from loguru import logger
+
+# logger.info("pre-imports")
+import sys
+
 import pandas as pd, numpy as np
-from collections import namedtuple
+# from collections import namedtuple
+
+# logger.info("pd, np imported")
 
 import demography, lbwsg, lsff_interventions, data_processing
 from lbwsg import LBWSGDistribution, LBWSGRiskEffect
 from lsff_interventions import IronFortificationIntervention
 
+# logger.info("made it past imports")
+
 # Assumes the path to vivarium_research_lsff is in sys.path
-from multiplication_models import mult_model_fns
+# from multiplication_models import mult_model_fns
 
 class IronBirthweightCalculator:
     """Class to run nanosimulations for the effect of iron on low birthweight."""
@@ -35,8 +44,19 @@ class IronBirthweightCalculator:
         # Store needed data
         self.global_data = global_data
         self.local_data = local_data
-        self.lbwsg_ylls = gbd_data.lbwsg_ylls.query(
-            f"location_id=={self.local_data.location_id} and cause_id==294"
+#         self.lbwsg_dalys = gbd_data.lbwsg_dalys.query(
+#             f"location_id=={self.local_data.location_id} and cause_id==294"
+#         )
+        self.lbwsg_dalys = lbwsg.preprocess_gbd_data(
+            gbd_data.lbwsg_dalys,
+            draws=global_data.draw_numbers,
+            filter_terms=[
+                f"location_id == {self.local_data.location_id}",
+                "cause_id==294",
+                "metric_id==1",
+                f"age_group_id in [164,2,3]"
+            ],
+            mean_draws_name=global_data.mean_draws_name
         )
         # Preprocess GBD data for LBWSG classes
         exposure_data = lbwsg.preprocess_gbd_data(
@@ -60,7 +80,7 @@ class IronBirthweightCalculator:
         # which will be initialized in initialize_population_tables
         self.baseline_pop = None
         self.intervention_pop = None
-        self.potential_impact_fraction = None
+#         self.potential_impact_fraction = None
 
     def initialize_population_tables(self, num_simulants, ages):
         """Creates populations for baseline scenario and iron fortification intervention scenario,
@@ -80,8 +100,8 @@ class IronBirthweightCalculator:
         # Create intervention population - all the above data will be the same in intervention scenario
         self.intervention_pop = self.baseline_pop.copy()
         
-        # Reset PIF to None until we're ready to recompute it
-        self.potential_impact_fraction = None
+#         # Reset PIF to None until we're ready to recompute it
+#         self.potential_impact_fraction = None
 
     def assign_lbwsg_exposure(self):
         # Assign baseline exposure
@@ -112,21 +132,38 @@ class IronBirthweightCalculator:
     def assign_lbwsg_relative_risks(self):
         # Compute the LBWSG relative risks in both scenarios - these will be used to compute the PIF
         # TODO: Maybe have lbwsg return the RR values instead, and assign them to the appropriate column here
+#         if type(self.lbwsg_effect) == lbwsg.LBWSGRiskEffect:
+#             self.lbwsg_effect.assign_relative_risk(self.baseline_pop, cat_colname='treated_lbwsg_category')
+#             self.lbwsg_effect.assign_relative_risk(self.intervention_pop, cat_colname='treated_lbwsg_category')
+#         else:
+#             self.lbwsg_effect.assign_relative_risk(
+#                 self.baseline_pop, bw_colname='treated_treatment_deleted_birthweight')
+#             self.lbwsg_effect.assign_relative_risk(
+#                 self.intervention_pop, bw_colname='treated_treatment_deleted_birthweight')
         if type(self.lbwsg_effect) == lbwsg.LBWSGRiskEffect:
-            self.lbwsg_effect.assign_relative_risk(self.baseline_pop, cat_colname='treated_lbwsg_category')
-            self.lbwsg_effect.assign_relative_risk(self.intervention_pop, cat_colname='treated_lbwsg_category')
+            kwargs = dict(cat_colname='treated_lbwsg_category')
         else:
-            self.lbwsg_effect.assign_relative_risk(
-                self.baseline_pop, bw_colname='treated_treatment_deleted_birthweight')
-            self.lbwsg_effect.assign_relative_risk(
-                self.intervention_pop, bw_colname='treated_treatment_deleted_birthweight')
-    
+            kwargs = dict(bw_colname='treated_treatment_deleted_birthweight',
+                          cat_colname='treated_lbwsg_category') # Really this shouldn't be necessary...
+        self.lbwsg_effect.assign_relative_risk(self.baseline_pop, **kwargs)
+        self.lbwsg_effect.assign_relative_risk(self.intervention_pop, **kwargs)
+
     def calculate_potential_impact_fraction(self, groupby='draw'):
-        self.potential_impact_fraction = potential_impact_fraction(
+        pif = potential_impact_fraction(
             self.baseline_pop, self.intervention_pop, 'lbwsg_relative_risk', groupby)
+        return pif
         
-    def calculate_averted_ylls(self, groupby='draw'):
-        pass
+    def calculate_averted_dalys(self, groupby='draw', drop_non_groupby_levels=False):
+        pif = self.calculate_potential_impact_fraction(['draw', 'age_group_id', 'sex'])
+        averted_dalys = (
+            (self.lbwsg_dalys * pif)
+            .groupby(groupby)
+            .sum()
+            .rename('averted_dalys')
+        )
+        if drop_non_groupby_levels:
+            averted_dalys.index = averted_dalys.index.droplevel(averted_dalys.index.names.difference(groupby))
+        return averted_dalys
 
     def do_back_of_envelope_calculation(self, num_simulants, ages, target_coverage=None):
         """
@@ -137,7 +174,8 @@ class IronBirthweightCalculator:
         self.assign_iron_treated_birthweights(target_coverage)
 #         self.age_populations() # Necessary because there are no relative risks for birth age group
         self.assign_lbwsg_relative_risks()
-        self.calculate_potential_impact_fraction()
+        # TODO: Maybe concatenate PIF and DALYs averted and return that...
+        return self.calculate_potential_impact_fraction()
     
 def potential_impact_fraction(baseline_pop, counterfactual_pop, rr_colname, groupby='draw'):
     """Computes the population impact fraction for the specified baseline and counterfactual populations."""
@@ -145,13 +183,22 @@ def potential_impact_fraction(baseline_pop, counterfactual_pop, rr_colname, grou
     counterfactual_mean_rr = counterfactual_pop.groupby(groupby)[rr_colname].mean()
     return (baseline_mean_rr - counterfactual_mean_rr) / baseline_mean_rr
 
-def main(vivarium_research_lsff_path, out_directory, location, num_simulants, random_seed, draws, take_mean):
+def main(vivarium_research_lsff_path, out_directory, location, num_simulants, num_draws=1000, random_seed=43, take_mean=False):
     """Computes the PIF for each vehicle for the specified location, for the gap_coverage levels [0.2, 0.5, 0.8]."""
 #     fortification_data = get_fortification_input_data()
 #     gbd_data = get_gbd_input_data()
-    effect_size_seed = 5678
-    if draws=='all':
-        draws = range(1000)
+    # Use the same random sequence of draws on all runs, starting at the specified location in the sequence
+    # That way, we can add more draws to existing results if we want
+#     print(num_draws, draw_start_idx)
+#     print(type(num_draws), type(draw_start_idx), type(num_simulants))
+    with open(f'{out_directory}/{location}_parallel.txt', 'w+') as outfile:
+        outfile.write(f'{vivarium_research_lsff_path}, {out_directory}, {location}, {num_simulants}, {random_seed}, {num_draws}, {take_mean}')
+    draw_start_idx = 0
+    draws = np.random.default_rng(1234).permutation(1000)[draw_start_idx:draw_start_idx+num_draws]
+    draws.sort()
+    # Make sure the effect size is consistent across locations by setting the effect size seed
+    # TODO: Hmm, will this work correctly if we try adding to existing draws as above...?
+    effect_size_seed = draw_start_idx+5678
 #     vehicles = ['wheat flour', 'maize flour'] # Restrict to these vehicles for now
     ages = [4/365, 14/365] # Choose one age in ENN (0-7 days) and one in LNN (7-28 days)
     age_group_ids = [2,3] # demography.get_age_to_age_id_map()[ages] # 2=ENN, 3=LNN
@@ -203,8 +250,8 @@ def main(vivarium_research_lsff_path, out_directory, location, num_simulants, ra
         for proportion, target_coverage in zip(proportions, target_coverage_levels):
             calc.assign_iron_treated_birthweights(target_coverage)
             calc.assign_lbwsg_relative_risks()
-            calc.calculate_potential_impact_fraction(['draw', 'age_group_id'])
-            output[(local_data.location_id, vehicle, proportion, 'pif')] = calc.potential_impact_fraction
+            pif = calc.calculate_potential_impact_fraction(['draw', 'age_group_id'])
+            output[(local_data.location_id, vehicle, proportion, 'pif')] = pif
             
             bpop, ipop = calc.baseline_pop, calc.intervention_pop
             for pop in (bpop, ipop):
@@ -214,7 +261,12 @@ def main(vivarium_research_lsff_path, out_directory, location, num_simulants, ra
             output[(local_data.location_id, vehicle, proportion, 'categorical_pif')] = (
                 potential_impact_fraction(bpop, ipop, 'lbwsg_relative_risk_for_category', ['draw', 'age_group_id'])
             )
-            # Now also do YLLs...
+            # Now also do DALYs...
+            averted_dalys = calc.calculate_averted_dalys(['draw', 'age_group_id'], drop_non_groupby_levels=True)
+#             averted_dalys.index = averted_dalys.index.droplevel(
+#                 averted_dalys.index.names.difference(['draw', 'age_group_id'])
+#             )
+            output[(local_data.location_id, vehicle, proportion, 'averted_dalys')] = averted_dalys
 
     # Make sure index level names and values match plotting function in Ali's code
     if not take_mean:
@@ -223,12 +275,20 @@ def main(vivarium_research_lsff_path, out_directory, location, num_simulants, ra
 
     # Save output with draws as columns and all other identifiers in index
     output.unstack('age_group_id').T.to_csv(
-        f"{out_directory}/iron_bw_results_location_id_{local_data.location_id}.csv")
+        f"{out_directory}/iron_bw_results__{location}.csv")
+
 
 if __name__ == "__main__":
-    import sys
+#     main(*sys.argv[1:])
     args = sys.argv[1:]
-    main(*args)
+    vivarium_research_lsff_path, out_directory, location, num_simulants, num_draws, random_seed, take_mean = args
+    main(vivarium_research_lsff_path, out_directory, location, int(num_simulants), int(num_draws), int(random_seed), eval(take_mean))
+
+# def main2(vivarium_research_lsff_path, out_dirctory, location, num_simulants, random_seed, draws, take_mean):
+#     with open(f'{out_dirctory}/{location}_parallel.txt', 'w+') as outfile:
+#         outfile.write(f'{vivarium_research_lsff_path}, {out_dirctory}, {location}, {num_simulants}, {random_seed}, {draws}, {take_mean}')
+# if __name__ == '__main__':
+#     main2(*sys.argv[1:])
     
     
 
