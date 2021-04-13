@@ -3,7 +3,7 @@ import pandas as pd, numpy as np
 # Is data_processing actually the right place for calculate_birthweight_shift, or should it be here?
 # In addition to getting used in the intervention, it gets used to create local_data.
 # Maybe creating global_data and local_data should be moved back to this module.
-from data_processing import calculate_birthweight_shift
+import data_processing
 
 # Convenience function for testing. Not used below.
 def sample_consumption(mean_consumption, sample_size, rng=321):
@@ -108,7 +108,7 @@ class IronFortificationIntervention:
             pop.loc[pop.mother_is_iron_fortified, 'mother_iron_vehicle_consumption_propensity']
         )
         # This broadcasts draws of dose response and iron concentration over simulant ids indexing daily consumption
-        pop['birthweight_shift'] = calculate_birthweight_shift(
+        pop['birthweight_shift'] = data_processing.calculate_birthweight_shift(
             self.global_data.birthweight_dose_response, self.local_data.iron_concentration, pop['mother_daily_consumption'])
         # Note: The new columns will be called 'treated_treatment_deleted_birthweight' and 'treated_lbwsg_cat'...
         # TODO: Update to enable passing entire column names instead of just a prefix
