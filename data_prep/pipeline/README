@@ -9,22 +9,21 @@ This dir contains (almost all of) the data prep pipeline for the population cove
     
     
     
-- interim (needs to be renamed): contains a different notebook for each data tier (detailed below).
+- handle_tiers: contains a different notebook for each data tier (detailed below).
     - these go through, line by line, selecting the extracted data to use for our models
     - where extracted data is not available, it pulls multiplication model estimates
     - where multiplicative estimates nor extracted data is available, pulls regression estimates
 
 
-- data tiers
-    - 1: Ethiopia, India, Nigeria
-    - 2: Pakistan, Bangladesh, South Africa Uganda, Tanzania
-    - 3: Burkina Faso, Kenya, Myanmar, Vietnam, Nepal
-    - 4: Cameroon, Cote d'Ivoire, DRC, Indonesia, Mozambique
-    - 5: Angola, China, Ghana, Niger, Egypt, Sudan, Madagascar
+    - data tiers:
+        - 1: Ethiopia, India, Nigeria
+        - 2: Pakistan, Bangladesh, South Africa Uganda, Tanzania
+        - 3: Burkina Faso, Kenya, Myanmar, Vietnam, Nepal
+        - 4: Cameroon, Cote d'Ivoire, DRC, Indonesia, Mozambique
+        - 5: Angola, China, Ghana, Niger, Egypt, Sudan, Madagascar
 
 
-NOTE
-- the remainder of the pipeline is housed (need to move these) in data_prep/gen_outputs/MICE/
+- model_data contains the remainer of the pipeline (requires more cleanup)
     - regression estimates are produced by
         - 2021_03_14_pct_pop_eating_vehicle_gradient_boosted.ipynb
         - 2021_03_15_pct_pop_eating_fortifiable_gradient_boosted_general.ipynb
