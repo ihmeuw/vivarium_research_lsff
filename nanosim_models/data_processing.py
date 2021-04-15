@@ -69,6 +69,14 @@ def create_marginal_uncertainty(data):
 
     return data
 
+def append_duplicate_vehicle_data(df, vehicle, duplicated_vehicle_name):
+    """Duplicates the data for `vehicle` and appends the duplicated data to df but with the
+    vehicle renamed `duplicated_vehicle_name`. Used to add an "industry wheat" vehicle
+    to the consumption and concentration dataframes.
+    """
+    vehicle_df = df.query("vehicle == @vehicle").assign(vehicle=duplicated_vehicle_name)
+    return pd.concat([df, vehicle_df], ignore_index=True)
+
 def process_consumption_data(consumption_df, coverage_df):
     """Merges percent eating vehicle from coverage_df into consumption_df so that consumption among consumers
     can be computed from consumption per capita. The actual computation will happen in `get_mean_consumption_draws`
@@ -83,6 +91,7 @@ def process_consumption_data(consumption_df, coverage_df):
         consumption_df
         .drop(columns='location_name') # Use location name from coverage to replace 'Vietnam' with 'Viet Nam'
         .merge(percent_eating_vehicle, on=['location_id', 'vehicle'], suffixes=('_gday', '_coverage'))
+        .pipe(append_duplicate_vehicle_data, 'wheat flour', 'industry wheat')
     )
     assert consumption_df.pop_denom.isin(['capita', 'consumers']).all(), \
         f"Unexpected population denominator in g/day data! {consumption_df.pop_denom.unique()=}"
@@ -102,6 +111,7 @@ def process_concentration_data(concentration_df, locations):
         .merge(names_to_ids, left_on='Country', right_index=True)
         .merge(locations)
         .assign(vehicle=lambda df: df['Food Vehicle'].str.lower())
+        .pipe(append_duplicate_vehicle_data, 'wheat flour', 'industry wheat')
     )
     # Could the following be done using .groupby().transform() instead?
     vehicle_dfs = []
