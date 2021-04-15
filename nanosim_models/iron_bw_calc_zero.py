@@ -18,7 +18,7 @@ def get_name_and_id_for_location(location_df, location):
         location_name = location
         location_id = location_df.set_index('location_name').loc[location_name, 'location_id']
     else:
-        raise ValueError(f"What kind of input are you giving me?! {location=} {type(location)=}")
+        raise TypeError(f"What kind of input are you giving me?! {location=} {type(location)=}")
     return location_name, location_id
 
 def main(vivarium_research_lsff_path, out_directory, location, num_simulants, num_draws=1000, random_seed=43, take_mean=False):
