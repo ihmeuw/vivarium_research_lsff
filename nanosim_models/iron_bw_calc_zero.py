@@ -7,6 +7,11 @@ import data_processing, lbwsg_boe
 # from lbwsg import LBWSGDistribution, LBWSGRiskEffect
 # from lsff_interventions import IronFortificationIntervention
 
+'''
+Actual run parallel (takes ~ 90 minutes):
+run_lsff -m 50 -r 6:00:00 --num_simulants 80_000 --draws 250 --random_seed 3456 --take_mean False  `pwd`/iron_bw_calc_zero.py /ihme/homes/ndbs/vivarium_research_lsff `pwd`/results_zero
+'''
+
 def get_name_and_id_for_location(location_df, location):
     """Returns (location_name, location_id) if location is either a name or an id,
     using the one-to-one mapping specified by locaiton_df.
