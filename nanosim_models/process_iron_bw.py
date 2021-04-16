@@ -29,7 +29,7 @@ def filter_by_draw_count(locations_outputs:dict, num_draws:int)->dict:
     return {location: output_df for location, output_df in locations_outputs.items()
             if len(output_df.filter(like='draw').columns) == num_draws}
 
-def merge_location_outputs(locations_outputs: dict, copy=True) -> pd.DataFrame:
+def merge_location_outputs(locations_outputs: dict) -> pd.DataFrame:
     """
     Concatenate the output DataFrames for all locations stored in locations_outputs into a single DataFrame.
     """
@@ -43,17 +43,11 @@ def load_and_merge_location_outputs(*directories, num_draws=250):
         locations_outputs.update(filter_by_draw_count(load_iron_bw_results(directory), num_draws))
     return merge_location_outputs(locations_outputs)
 
-def filter_measures_and_coverage(data):
-    """Filter to coverage levels [0.2, 0.5, 0.8] and measure == 'averted_dalys'
-    Leaving out coverage level corresponding to 100% population coverage
-    and measure == 'categorical_pif' because these are unneeded for results.
-    Leaving out measure=='pif' because we'll compute an aggregate PIF using averted DALYs.
-    """
-    return data.query("coverage_level in [0.2, 0.5, 0.8] and measure in ['averted_dalys']")
-
 def filter_data(data, filters):
-    query_string = " and ".join(filters)
-    return data.query(query_string)
+    """Filter the data by calling data.query(" and ".join(filters)) if `filters` is a nonempty list."""
+    if filters is not None and len(filters)>0:
+        data = data.query(" and ".join(filters))
+    return data
 
 def aggregate_over_age_groups(data):
     """Add draws over different age groups."""
@@ -88,8 +82,8 @@ def compute_aggregate_pif(dalys_averted):
         .query('age_group_id in [2,3] and metric_id==1')
         .query("location_id in @location_ids") # Filter to locations in data
         .groupby(['location_id'])
-        .sum() # Aggregate over age_group and sex
         [dalys_averted.columns] # Filter to draws that exist in data
+        .sum() # Aggregate over age_group and sex
     )
     pif = (dalys_averted / lbwsg_dalys) * 100 # convert to percent
     pif.index = pif.index.set_levels(['pif'], level='measure') # measure was still counts_averted, so rename
@@ -129,13 +123,13 @@ def compute_averted_daly_rate(dalys_averted):
 # Master function to perform all steps
 
 def read_output_and_compute_final_results(*directories, num_draws=250, filters=None):
-    # .csv's in 'results3/' used 40_000 simulants per location, while .csv's in 'results2/' and 'results/'
-    # used 80_000 simulants per location.
-    # Read .csv's in opposite order they were generated in order to overwrite results from smaller populations
-    # if results for larger populations exist.
+    """Read output from parallel runs from directories, and process the results to compute
+    1. DALYs averted (sum of averted DALYs in age groups 2=ENN and 3=LNN)
+    2. PIFs (%) = (DALYs averted) / (DALYs attributable to LBWSG in age groups 2=ENN and 3=LNN)
+    3. DALYs averted per 100K person-years in age group 1='Under 5'
+    """
     data = load_and_merge_location_outputs(*directories, num_draws=num_draws)
-    if filters is not None:
-        data = filter_data(data, filters)
+    data = filter_data(data, filters)
     dalys_averted = get_dalys_averted_u5(data)
     pif = compute_aggregate_pif(dalys_averted)
     averted_daly_rate = compute_averted_daly_rate(dalys_averted)
