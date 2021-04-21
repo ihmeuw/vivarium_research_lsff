@@ -1,0 +1,352 @@
+location_name,vehicle,nutrient,standard,A,B,B_estimate,C,C_estimate
+Angola,wheat flour,iron,Unknown,,,,,
+Angola,wheat flour,zinc,Unknown,,,,,
+Angola,wheat flour,folic acid,Unknown,,,,,
+Angola,wheat flour,vitamin b12,Unknown,,,,,
+Angola,wheat flour,vitamin b1,Unknown,,,,,
+Angola,oil,vitamin a,Unknown,,,,,
+Angola,oil,vitamin d,Unknown,,,,,
+Angola,maize flour,iron,Unknown,,,,,
+Angola,maize flour,zinc,Unknown,,,,,
+Angola,maize flour,folic acid,Unknown,,,,,
+Angola,maize flour,vitamin b12,Unknown,,,,,
+Angola,maize flour,vitamin b1,Unknown,,,,,
+Bangladesh,wheat flour,iron,Voluntary,62.35,38.241333333333344,1.0,0.0,1.0
+Bangladesh,wheat flour,zinc,Voluntary,62.35,38.241333333333344,1.0,0.0,1.0
+Bangladesh,wheat flour,folic acid,Voluntary,62.35,38.241333333333344,1.0,0.0,1.0
+Bangladesh,wheat flour,vitamin b12,Voluntary,62.35,38.241333333333344,1.0,0.0,1.0
+Bangladesh,wheat flour,vitamin b1,Voluntary,62.35,38.241333333333344,1.0,0.0,1.0
+Bangladesh,wheat flour,vitamin a,Voluntary,62.35,38.241333333333344,1.0,0.0,1.0
+Bangladesh,oil,vitamin a,Mandatory,80.78,87.95,0.0,25.623416000000006,1.0
+Bangladesh,oil,vitamin d,Unknown,80.78,87.95,0.0,0.0,1.0
+Burkina Faso,wheat flour,iron,Mandatory,52.3,52.300000000000004,1.0,17.38975,1.0
+Burkina Faso,wheat flour,folic acid,Mandatory,52.3,52.300000000000004,1.0,32.164500000000004,1.0
+Burkina Faso,wheat flour,zinc,Mandatory,52.3,52.300000000000004,1.0,,
+Burkina Faso,wheat flour,vitamin b12,Mandatory,52.3,52.300000000000004,1.0,,
+Burkina Faso,wheat flour,vitamin b1,Unknown,52.3,52.300000000000004,1.0,0.0,1.0
+Burkina Faso,oil,vitamin a,Mandatory,48.906000000000006,,,72.5,0.0
+Burkina Faso,oil,vitamin d,Unknown,48.906000000000006,,,0.0,1.0
+Burkina Faso,maize flour,iron,Unknown,31.15,0.0,1.0,0.0,1.0
+Burkina Faso,maize flour,zinc,Unknown,31.15,0.0,1.0,0.0,1.0
+Burkina Faso,maize flour,folic acid,Unknown,31.15,0.0,1.0,0.0,1.0
+Burkina Faso,maize flour,vitamin b12,Unknown,31.15,0.0,1.0,0.0,1.0
+Burkina Faso,maize flour,vitamin b1,Unknown,31.15,0.0,1.0,0.0,1.0
+Burkina Faso,bouillon,iron,Unknown,80.83333333333333,,,0.0,1.0
+Burkina Faso,bouillon,zinc,Unknown,80.83333333333333,,,0.0,1.0
+Burkina Faso,bouillon,folic acid,Unknown,80.83333333333333,,,0.0,1.0
+Burkina Faso,bouillon,vitamin a,Unknown,80.83333333333333,,,0.0,1.0
+Cameroon,wheat flour,iron,Mandatory,94.46363636363635,75.57090909090908,1.0,53.088563636363624,1.0
+Cameroon,wheat flour,zinc,Mandatory,94.46363636363635,75.57090909090908,1.0,69.52523636363635,1.0
+Cameroon,wheat flour,folic acid,Mandatory,94.46363636363635,75.57090909090908,1.0,69.52523636363635,1.0
+Cameroon,wheat flour,vitamin b12,Mandatory,94.46363636363635,75.57090909090908,1.0,69.52523636363635,1.0
+Cameroon,wheat flour,vitamin b1,Unknown,94.46363636363635,75.57090909090908,1.0,0.0,1.0
+Cameroon,oil,vitamin a,Mandatory,68.79,,,30.49690000000001,1.0
+Cameroon,oil,vitamin d,Unknown,68.79,,,0.0,1.0
+Cameroon,maize flour,iron,Unknown,,,,,
+Cameroon,maize flour,zinc,Unknown,,,,,
+Cameroon,maize flour,folic acid,Unknown,,,,,
+Cameroon,maize flour,vitamin b12,Unknown,,,,,
+Cameroon,maize flour,vitamin b1,Unknown,,,,,
+Cameroon,bouillon,iron,Voluntary,95.25714285714285,,,0.0,1.0
+Cameroon,bouillon,zinc,Unknown,95.25714285714285,,,0.0,1.0
+Cameroon,bouillon,folic acid,Unknown,95.25714285714285,,,0.0,1.0
+Cameroon,bouillon,vitamin a,Unknown,95.25714285714285,,,0.0,1.0
+China,wheat flour,iron,Voluntary,,,,,
+China,wheat flour,zinc,Voluntary,,,,,
+China,wheat flour,folic acid,Voluntary,,,,,
+China,wheat flour,vitamin a,Voluntary,,,,,
+China,wheat flour,vitamin b1,Voluntary,,,,,
+China,wheat flour,vitamin b12,Unknown,,,,,
+China,oil,vitamin a,Voluntary,,,,,
+China,oil,vitamin d,Unknown,,,,,
+Côte d'Ivoire,wheat flour,iron,Mandatory,54.7,10.2,0.0,13.4015,1.0
+Côte d'Ivoire,wheat flour,folic acid,Mandatory,54.7,10.2,0.0,,
+Côte d'Ivoire,wheat flour,zinc,Unknown,54.7,10.2,0.0,0.0,1.0
+Côte d'Ivoire,wheat flour,vitamin b12,Unknown,54.7,10.2,0.0,0.0,1.0
+Côte d'Ivoire,wheat flour,vitamin b1,Unknown,54.7,10.2,0.0,0.0,1.0
+Côte d'Ivoire,oil,vitamin a,Mandatory,98.5,98.0,0.0,81.0,0.0
+Côte d'Ivoire,oil,vitamin d,Unknown,98.5,98.0,0.0,0.0,1.0
+Côte d'Ivoire,maize flour,iron,Unknown,,,,,
+Côte d'Ivoire,maize flour,zinc,Unknown,,,,,
+Côte d'Ivoire,maize flour,folic acid,Unknown,,,,,
+Côte d'Ivoire,maize flour,vitamin b12,Unknown,,,,,
+Côte d'Ivoire,maize flour,vitamin b1,Unknown,,,,,
+Côte d'Ivoire,bouillon,iron,Voluntary,,,,,
+Côte d'Ivoire,bouillon,zinc,Unknown,,,,,
+Côte d'Ivoire,bouillon,folic acid,Unknown,,,,,
+Côte d'Ivoire,bouillon,vitamin a,Unknown,,,,,
+Democratic Republic of the Congo,wheat flour,iron,Voluntary,0.58,0.58,1.0,0.0,1.0
+Democratic Republic of the Congo,wheat flour,folic acid,Voluntary,0.58,0.58,1.0,0.0,1.0
+Democratic Republic of the Congo,wheat flour,zinc,Unknown,0.58,0.58,1.0,0.0,1.0
+Democratic Republic of the Congo,wheat flour,vitamin b12,Unknown,0.58,0.58,1.0,0.0,1.0
+Democratic Republic of the Congo,wheat flour,vitamin b1,Unknown,0.58,0.58,1.0,0.0,1.0
+Democratic Republic of the Congo,oil,vitamin a,Unknown,95.882,,,0.0,1.0
+Democratic Republic of the Congo,oil,vitamin d,Unknown,95.882,,,0.0,1.0
+Democratic Republic of the Congo,maize flour,iron,Unknown,45.255,2.26275,1.0,0.0,1.0
+Democratic Republic of the Congo,maize flour,zinc,Unknown,45.255,2.26275,1.0,0.0,1.0
+Democratic Republic of the Congo,maize flour,folic acid,Unknown,45.255,2.26275,1.0,0.0,1.0
+Democratic Republic of the Congo,maize flour,vitamin b12,Unknown,45.255,2.26275,1.0,0.0,1.0
+Democratic Republic of the Congo,maize flour,vitamin b1,Unknown,45.255,2.26275,1.0,0.0,1.0
+Democratic Republic of the Congo,bouillon,iron,Unknown,,,,,
+Democratic Republic of the Congo,bouillon,zinc,Unknown,,,,,
+Democratic Republic of the Congo,bouillon,folic acid,Unknown,,,,,
+Democratic Republic of the Congo,bouillon,vitamin a,Unknown,,,,,
+Egypt,wheat flour,iron,Unknown,,,,,
+Egypt,wheat flour,zinc,Unknown,,,,,
+Egypt,wheat flour,folic acid,Unknown,,,,,
+Egypt,wheat flour,vitamin b12,Unknown,,,,,
+Egypt,wheat flour,vitamin b1,Unknown,,,,,
+Egypt,oil,vitamin a,Unknown,,,,,
+Egypt,oil,vitamin d,Unknown,,,,,
+Egypt,maize flour,iron,Unknown,,,,,
+Egypt,maize flour,zinc,Unknown,,,,,
+Egypt,maize flour,folic acid,Unknown,,,,,
+Egypt,maize flour,vitamin b12,Unknown,,,,,
+Egypt,maize flour,vitamin b1,Unknown,,,,,
+Ethiopia,wheat flour,iron,Voluntary,28.0,36.4,0.0,0.0,0.0
+Ethiopia,wheat flour,zinc,Voluntary,28.0,36.4,0.0,0.0,0.0
+Ethiopia,wheat flour,folic acid,Voluntary,28.0,36.4,0.0,0.0,0.0
+Ethiopia,wheat flour,vitamin b12,Voluntary,28.0,36.4,0.0,0.0,1.0
+Ethiopia,wheat flour,vitamin b1,Voluntary,28.0,36.4,0.0,0.0,1.0
+Ethiopia,oil,vitamin a,Voluntary,29.35,57.2,0.0,0.0,0.0
+Ethiopia,oil,vitamin d,Voluntary,29.35,57.2,0.0,0.0,1.0
+Ethiopia,maize flour,iron,None,,,,0.0,0.0
+Ethiopia,maize flour,zinc,None,,,,0.0,0.0
+Ethiopia,maize flour,folic acid,None,,,,0.0,0.0
+Ethiopia,maize flour,vitamin b12,None,,,,,
+Ethiopia,maize flour,vitamin b1,None,,,,,
+Ethiopia,salt,folic acid,Unknown,,,,0.0,0.0
+Ghana,wheat flour,iron,Mandatory,,,,,
+Ghana,wheat flour,zinc,Mandatory,,,,,
+Ghana,wheat flour,folic acid,Mandatory,,,,,
+Ghana,wheat flour,vitamin b12,Mandatory,,,,,
+Ghana,wheat flour,vitamin b1,Mandatory,,,,,
+Ghana,wheat flour,vitamin a,Mandatory,,,,,
+Ghana,oil,vitamin a,Mandatory,96.275,,,29.066666666666666,0.0
+Ghana,oil,vitamin d,None,96.275,,,0.0,1.0
+Ghana,maize flour,iron,None,,,,,
+Ghana,maize flour,zinc,None,,,,,
+Ghana,maize flour,folic acid,None,,,,,
+Ghana,maize flour,vitamin b12,None,,,,,
+Ghana,maize flour,vitamin b1,None,,,,,
+Ghana,bouillon,iron,Unknown,,,,,
+Ghana,bouillon,zinc,Unknown,,,,,
+Ghana,bouillon,folic acid,Unknown,,,,,
+Ghana,bouillon,vitamin a,Unknown,,,,,
+Ghana,rice,iron,None,,,,,
+Ghana,rice,zinc,None,,,,,
+Ghana,rice,folic acid,None,,,,,
+Ghana,rice,vitamin b12,None,,,,,
+Ghana,rice,vitamin b1,None,,,,,
+India,wheat flour,iron,Voluntary,83.2,7.1,0.0,3.2,0.0
+India,wheat flour,zinc,Voluntary,83.2,7.1,0.0,0.0,1.0
+India,wheat flour,folic acid,Voluntary,83.2,7.1,0.0,3.2,0.0
+India,wheat flour,vitamin b12,Voluntary,83.2,7.1,0.0,3.2,0.0
+India,wheat flour,vitamin b1,Voluntary,83.2,7.1,0.0,0.0,1.0
+India,wheat flour,vitamin a,Voluntary,83.2,7.1,0.0,0.0,0.0
+India,oil,vitamin a,Voluntary,100.0,89.4,0.0,24.3,0.0
+India,oil,vitamin d,Voluntary,100.0,89.4,0.0,24.3,0.0
+India,rice,iron,Voluntary,50.0,25.0,1.0,0.0,0.0
+India,rice,zinc,Voluntary,50.0,25.0,1.0,0.0,0.0
+India,rice,folic acid,Voluntary,50.0,25.0,1.0,0.0,0.0
+India,rice,vitamin b12,Voluntary,50.0,25.0,1.0,0.0,1.0
+India,rice,vitamin b1,Voluntary,50.0,25.0,1.0,0.0,1.0
+India,salt,iron,Mandatory,99.875,98.25,0.0,0.0,0.0
+Indonesia,wheat flour,iron,Mandatory,,,,73.1,0.0
+Indonesia,wheat flour,zinc,Mandatory,,,,73.1,0.0
+Indonesia,wheat flour,folic acid,Mandatory,,,,73.1,0.0
+Indonesia,wheat flour,vitamin b1,Mandatory,,,,73.1,0.0
+Indonesia,wheat flour,vitamin b12,Unknown,,,,,
+Indonesia,oil,vitamin a,Voluntary,,,,,
+Indonesia,oil,vitamin d,Unknown,,,,,
+Kenya,wheat flour,iron,Mandatory,36.58,30.95,0.0,35.6655,1.0
+Kenya,wheat flour,zinc,Mandatory,36.58,30.95,0.0,36.58,1.0
+Kenya,wheat flour,folic acid,Mandatory,36.58,30.95,0.0,36.58,1.0
+Kenya,wheat flour,vitamin b12,Mandatory,36.58,30.95,0.0,36.58,1.0
+Kenya,wheat flour,vitamin b1,Mandatory,36.58,30.95,0.0,36.58,1.0
+Kenya,wheat flour,vitamin a,Mandatory,36.58,30.95,0.0,36.58,1.0
+Kenya,oil,vitamin a,Mandatory,29.705384615384613,9.39,0.0,,
+Kenya,oil,vitamin d,Unknown,29.705384615384613,9.39,0.0,0.0,1.0
+Kenya,maize flour,iron,Mandatory,53.10583333333333,36.67,0.0,3.3828415833333336,1.0
+Kenya,maize flour,zinc,Mandatory,53.10583333333333,36.67,0.0,0.0,1.0
+Kenya,maize flour,folic acid,Mandatory,53.10583333333333,36.67,0.0,0.0,1.0
+Kenya,maize flour,vitamin b12,Mandatory,53.10583333333333,36.67,0.0,0.0,1.0
+Kenya,maize flour,vitamin b1,Mandatory,53.10583333333333,36.67,0.0,0.0,1.0
+Kenya,maize flour,vitamin a,Mandatory,53.10583333333333,36.67,0.0,0.0,1.0
+Madagascar,wheat flour,iron,Unknown,,,,,
+Madagascar,wheat flour,zinc,Unknown,,,,,
+Madagascar,wheat flour,folic acid,Unknown,,,,,
+Madagascar,wheat flour,vitamin b12,Unknown,,,,,
+Madagascar,wheat flour,vitamin b1,Unknown,,,,,
+Madagascar,oil,vitamin a,Unknown,,,,,
+Madagascar,oil,vitamin d,Unknown,,,,,
+Madagascar,maize flour,iron,Unknown,,,,,
+Madagascar,maize flour,zinc,Unknown,,,,,
+Madagascar,maize flour,folic acid,Unknown,,,,,
+Madagascar,maize flour,vitamin b12,Unknown,,,,,
+Madagascar,maize flour,vitamin b1,Unknown,,,,,
+Mozambique,wheat flour,iron,Mandatory,16.3,16.3,1.0,12.6325,1.0
+Mozambique,wheat flour,zinc,Mandatory,16.3,16.3,1.0,9.780000000000001,1.0
+Mozambique,wheat flour,folic acid,Mandatory,16.3,16.3,1.0,9.780000000000001,1.0
+Mozambique,wheat flour,vitamin b12,Mandatory,16.3,16.3,1.0,9.780000000000001,1.0
+Mozambique,wheat flour,vitamin b1,Mandatory,16.3,16.3,1.0,9.780000000000001,1.0
+Mozambique,wheat flour,vitamin a,Mandatory,16.3,16.3,1.0,9.780000000000001,1.0
+Mozambique,oil,vitamin a,Mandatory,96.6,,,37.5774,1.0
+Mozambique,oil,vitamin d,Mandatory,96.6,,,,
+Mozambique,maize flour,iron,Mandatory,79.9,23.97,1.0,16.779,1.0
+Mozambique,maize flour,zinc,Mandatory,79.9,23.97,1.0,16.779,1.0
+Mozambique,maize flour,folic acid,Mandatory,79.9,23.97,1.0,16.779,1.0
+Mozambique,maize flour,vitamin b12,Mandatory,79.9,23.97,1.0,16.779,1.0
+Mozambique,maize flour,vitamin b1,Mandatory,79.9,23.97,1.0,16.779,1.0
+Mozambique,maize flour,vitamin a,Mandatory,79.9,23.97,1.0,16.779,1.0
+Myanmar,wheat flour,iron,Unknown,5.0,4.5,1.0,0.0,0.0
+Myanmar,wheat flour,zinc,Unknown,5.0,4.5,1.0,0.0,0.0
+Myanmar,wheat flour,folic acid,Unknown,5.0,4.5,1.0,0.0,0.0
+Myanmar,wheat flour,vitamin b12,Unknown,5.0,4.5,1.0,0.0,1.0
+Myanmar,wheat flour,vitamin b1,Unknown,5.0,4.5,1.0,0.0,1.0
+Myanmar,oil,vitamin a,Unknown,,10.0,0.0,0.0,0.0
+Myanmar,oil,vitamin d,Unknown,,10.0,0.0,0.0,0.0
+Nepal,wheat flour,iron,Mandatory,27.96666666666667,40.0,0.0,2.7004613333333336,1.0
+Nepal,wheat flour,folic acid,Mandatory,27.96666666666667,40.0,0.0,1.9017333333333337,1.0
+Nepal,wheat flour,vitamin a,Mandatory,27.96666666666667,40.0,0.0,1.9017333333333337,1.0
+Nepal,wheat flour,zinc,Unknown,27.96666666666667,40.0,0.0,0.0,1.0
+Nepal,wheat flour,vitamin b12,Unknown,27.96666666666667,40.0,0.0,0.0,1.0
+Nepal,wheat flour,vitamin b1,Unknown,27.96666666666667,40.0,0.0,0.0,1.0
+Nepal,oil,vitamin a,Unknown,99.86666666666667,,,0.0,1.0
+Nepal,oil,vitamin d,Unknown,99.86666666666667,,,0.0,1.0
+Niger,wheat flour,iron,Mandatory,,,,30.0,0.0
+Niger,wheat flour,folic acid,Mandatory,,,,30.0,0.0
+Niger,wheat flour,zinc,Mandatory,,,,,
+Niger,wheat flour,vitamin b12,Mandatory,,,,,
+Niger,wheat flour,vitamin b1,Mandatory,,,,,
+Niger,oil,vitamin a,Mandatory,86.33333333333331,,,61.66666666666666,0.0
+Niger,oil,vitamin d,Unknown,86.33333333333331,,,0.0,1.0
+Niger,maize flour,iron,Voluntary,,,,,
+Niger,maize flour,zinc,Unknown,,,,,
+Niger,maize flour,folic acid,Unknown,,,,,
+Niger,maize flour,vitamin b12,Unknown,,,,,
+Niger,maize flour,vitamin b1,Unknown,,,,,
+Niger,bouillon,iron,Voluntary,91.0,,,0.0,1.0
+Niger,bouillon,zinc,Unknown,91.0,,,0.0,1.0
+Niger,bouillon,folic acid,Unknown,91.0,,,0.0,1.0
+Niger,bouillon,vitamin a,Unknown,91.0,,,0.0,1.0
+Nigeria,wheat flour,iron,Mandatory,49.05,48.8,0.0,14.05,0.0
+Nigeria,wheat flour,zinc,Mandatory,49.05,48.8,0.0,14.05,0.0
+Nigeria,wheat flour,folic acid,Mandatory,49.05,48.8,0.0,14.05,0.0
+Nigeria,wheat flour,vitamin b12,Mandatory,49.05,48.8,0.0,49.050000000000004,1.0
+Nigeria,wheat flour,vitamin b1,Mandatory,49.05,48.8,0.0,14.05,0.0
+Nigeria,wheat flour,vitamin a,Mandatory,49.05,48.8,0.0,14.05,0.0
+Nigeria,oil,vitamin a,Mandatory,98.5,29.3,0.0,7.4,0.0
+Nigeria,oil,vitamin d,None,98.5,29.3,0.0,0.0,1.0
+Nigeria,maize flour,iron,Mandatory,44.65,6.95,0.0,4.9115,1.0
+Nigeria,maize flour,zinc,Mandatory,44.65,6.95,0.0,0.95,0.0
+Nigeria,maize flour,folic acid,Mandatory,44.65,6.95,0.0,0.95,0.0
+Nigeria,maize flour,vitamin b12,Mandatory,44.65,6.95,0.0,7.144,1.0
+Nigeria,maize flour,vitamin b1,Mandatory,44.65,6.95,0.0,7.144,1.0
+Nigeria,maize flour,vitamin a,Mandatory,44.65,6.95,0.0,0.95,0.0
+Nigeria,rice,iron,None,67.35,99.5,0.0,0.0,1.0
+Nigeria,rice,zinc,None,67.35,99.5,0.0,0.0,1.0
+Nigeria,rice,folic acid,None,67.35,99.5,0.0,0.0,1.0
+Nigeria,rice,vitamin b12,None,67.35,99.5,0.0,0.0,1.0
+Nigeria,rice,vitamin b1,None,67.35,99.5,0.0,0.0,1.0
+Nigeria,salt,iron,None,,93.0,0.0,0.0,1.0
+Nigeria,bouillon,iron,Voluntary,38.0,61.5,0.0,0.0,1.0
+Nigeria,bouillon,zinc,Unknown,38.0,61.5,0.0,0.0,1.0
+Nigeria,bouillon,folic acid,Unknown,38.0,61.5,0.0,0.0,1.0
+Nigeria,bouillon,vitamin a,Unknown,38.0,61.5,0.0,0.0,1.0
+Pakistan,wheat flour,iron,Mandatory in Punjab only,97.33333333333331,48.66666666666666,0.0,5.333333333333333,0.0
+Pakistan,wheat flour,folic acid,Mandatory in Punjab only,97.33333333333331,48.66666666666666,0.0,0.0,1.0
+Pakistan,wheat flour,zinc,Unknown,97.33333333333331,48.66666666666666,0.0,0.0,1.0
+Pakistan,wheat flour,vitamin b12,Unknown,97.33333333333331,48.66666666666666,0.0,0.0,1.0
+Pakistan,wheat flour,vitamin b1,Unknown,97.33333333333331,48.66666666666666,0.0,0.0,1.0
+Pakistan,oil,vitamin a,Mandatory,100.0,95.5,0.0,30.0,0.0
+Pakistan,oil,vitamin d,Mandatory,100.0,95.5,0.0,,
+South Africa,wheat flour,iron,Mandatory,14.75,14.75,0.0,8.549999999999999,0.0
+South Africa,wheat flour,zinc,Mandatory,14.75,14.75,0.0,8.549999999999999,0.0
+South Africa,wheat flour,folic acid,Mandatory,14.75,14.75,0.0,8.549999999999999,0.0
+South Africa,wheat flour,vitamin b1,Mandatory,14.75,14.75,0.0,8.549999999999999,0.0
+South Africa,wheat flour,vitamin a,Mandatory,14.75,14.75,0.0,8.549999999999999,0.0
+South Africa,wheat flour,vitamin b12,Unknown,14.75,14.75,0.0,0.0,1.0
+South Africa,oil,vitamin a,Unknown,,,,,
+South Africa,oil,vitamin d,Unknown,,,,,
+South Africa,maize flour,iron,Mandatory,97.15,97.05,0.0,46.85,0.0
+South Africa,maize flour,zinc,Mandatory,97.15,97.05,0.0,46.85,0.0
+South Africa,maize flour,folic acid,Mandatory,97.15,97.05,0.0,46.85,0.0
+South Africa,maize flour,vitamin b1,Mandatory,97.15,97.05,0.0,46.85,0.0
+South Africa,maize flour,vitamin a,Mandatory,97.15,97.05,0.0,46.85,0.0
+South Africa,maize flour,vitamin b12,Unknown,97.15,97.05,0.0,0.0,1.0
+Sudan,wheat flour,iron,Voluntary,,,,,
+Sudan,wheat flour,zinc,Voluntary,,,,,
+Sudan,wheat flour,folic acid,Voluntary,,,,,
+Sudan,wheat flour,vitamin b12,Voluntary,,,,,
+Sudan,wheat flour,vitamin a,Voluntary,,,,,
+Sudan,wheat flour,vitamin b1,Unknown,,,,,
+Sudan,oil,vitamin a,Unknown,,80.0,0.0,80.0,0.0
+Sudan,oil,vitamin d,Unknown,,80.0,0.0,0.0,1.0
+Sudan,maize flour,iron,Unknown,,,,,
+Sudan,maize flour,zinc,Unknown,,,,,
+Sudan,maize flour,folic acid,Unknown,,,,,
+Sudan,maize flour,vitamin b12,Unknown,,,,,
+Sudan,maize flour,vitamin b1,Unknown,,,,,
+United Republic of Tanzania,wheat flour,iron,Mandatory,51.5,44.66666666666666,0.0,33.1,0.0
+United Republic of Tanzania,wheat flour,zinc,Mandatory,51.5,44.66666666666666,0.0,33.1,0.0
+United Republic of Tanzania,wheat flour,folic acid,Mandatory,51.5,44.66666666666666,0.0,33.1,0.0
+United Republic of Tanzania,wheat flour,vitamin b12,Mandatory,51.5,44.66666666666666,0.0,33.1,0.0
+United Republic of Tanzania,wheat flour,vitamin b1,Mandatory,51.5,44.66666666666666,0.0,33.1,0.0
+United Republic of Tanzania,wheat flour,vitamin a,Mandatory,51.5,44.66666666666666,0.0,33.1,0.0
+United Republic of Tanzania,oil,vitamin a,Mandatory,96.2,79.73333333333333,0.0,53.6,0.0
+United Republic of Tanzania,oil,vitamin d,Unknown,96.2,79.73333333333333,0.0,0.0,0.0
+United Republic of Tanzania,maize flour,iron,Mandatory,93.0,25.23333333333333,0.0,2.5,0.0
+United Republic of Tanzania,maize flour,zinc,Mandatory,93.0,25.23333333333333,0.0,2.5,0.0
+United Republic of Tanzania,maize flour,folic acid,Mandatory,93.0,25.23333333333333,0.0,2.5,0.0
+United Republic of Tanzania,maize flour,vitamin b12,Mandatory,93.0,25.23333333333333,0.0,2.5,0.0
+United Republic of Tanzania,maize flour,vitamin b1,Unknown,93.0,25.23333333333333,0.0,2.5,0.0
+Uganda,wheat flour,iron,Mandatory,11.2,9.9,0.0,8.5,0.0
+Uganda,wheat flour,zinc,Mandatory,11.2,9.9,0.0,8.5,0.0
+Uganda,wheat flour,folic acid,Mandatory,11.2,9.9,0.0,8.5,0.0
+Uganda,wheat flour,vitamin b12,Mandatory,11.2,9.9,0.0,8.5,0.0
+Uganda,wheat flour,vitamin b1,Mandatory,11.2,9.9,0.0,8.5,0.0
+Uganda,wheat flour,vitamin a,Mandatory,11.2,9.9,0.0,8.5,0.0
+Uganda,oil,vitamin a,Mandatory,89.9,77.33333333333333,0.0,54.4,0.0
+Uganda,oil,vitamin d,Unknown,89.9,77.33333333333333,0.0,0.0,0.0
+Uganda,maize flour,iron,Mandatory,91.8,30.43333333333333,0.0,6.5,0.0
+Uganda,maize flour,zinc,Mandatory,91.8,30.43333333333333,0.0,6.5,0.0
+Uganda,maize flour,folic acid,Mandatory,91.8,30.43333333333333,0.0,6.5,0.0
+Uganda,maize flour,vitamin b12,Mandatory,91.8,30.43333333333333,0.0,6.5,0.0
+Uganda,maize flour,vitamin b1,Mandatory,91.8,30.43333333333333,0.0,6.5,0.0
+Uganda,maize flour,vitamin a,Mandatory,91.8,30.43333333333333,0.0,6.5,0.0
+Vietnam,wheat flour,iron,Mandatory,21.93,21.93,1.0,4.111875,1.0
+Vietnam,wheat flour,zinc,Mandatory,21.93,21.93,1.0,0.0,1.0
+Vietnam,wheat flour,folic acid,Mandatory,21.93,21.93,1.0,0.0,1.0
+Vietnam,wheat flour,vitamin b12,Mandatory,21.93,21.93,1.0,0.0,1.0
+Vietnam,wheat flour,vitamin a,Mandatory,21.93,21.93,1.0,0.0,1.0
+Vietnam,wheat flour,vitamin b1,Unknown,21.93,21.93,1.0,0.0,1.0
+Vietnam,oil,vitamin a,Mandatory,54.5,90.0,0.0,,
+Vietnam,oil,vitamin d,Unknown,54.5,90.0,0.0,0.0,1.0
+Angola,maize flour,vitamin a,,,,,,
+Angola,wheat flour,vitamin a,,,,,,
+Burkina Faso,maize flour,vitamin a,,31.15,0.0,1.0,0.0,1.0
+Burkina Faso,wheat flour,vitamin a,,52.3,52.300000000000004,1.0,0.0,1.0
+Cameroon,maize flour,vitamin a,,,,,,
+Cameroon,wheat flour,vitamin a,,94.46363636363635,75.57090909090908,1.0,0.0,1.0
+Côte d'Ivoire,maize flour,vitamin a,,,,,,
+Côte d'Ivoire,wheat flour,vitamin a,,54.7,10.2,0.0,0.0,1.0
+Democratic Republic of the Congo,maize flour,vitamin a,,45.255,2.26275,1.0,0.0,1.0
+Democratic Republic of the Congo,wheat flour,vitamin a,,0.58,0.58,1.0,0.0,1.0
+Egypt,maize flour,vitamin a,,,,,,
+Egypt,wheat flour,vitamin a,,,,,,
+Ethiopia,maize flour,vitamin a,,,,,,
+Ethiopia,salt,iron,,,,,85.6,0.0
+Ethiopia,wheat flour,vitamin a,,28.0,36.4,0.0,0.0,1.0
+Ghana,maize flour,vitamin a,,,,,,
+India,salt,folic acid,,99.875,98.25,0.0,0.0,1.0
+Indonesia,wheat flour,vitamin a,,,,,,
+Madagascar,maize flour,vitamin a,,,,,,
+Madagascar,wheat flour,vitamin a,,,,,,
+Myanmar,wheat flour,vitamin a,,5.0,4.5,1.0,0.0,1.0
+Niger,maize flour,vitamin a,,,,,,
+Niger,wheat flour,vitamin a,,,,,,
+Nigeria,salt,folic acid,,,93.0,0.0,0.0,1.0
+Pakistan,wheat flour,vitamin a,,97.33333333333331,48.66666666666666,0.0,0.0,1.0
+Sudan,maize flour,vitamin a,,,,,,
+United Republic of Tanzania,maize flour,vitamin a,,93.0,25.23333333333333,0.0,2.5,0.0

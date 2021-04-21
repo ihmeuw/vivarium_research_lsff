@@ -131,3 +131,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Flag to explicitly ignore a file
+*__gitignore__*
+
