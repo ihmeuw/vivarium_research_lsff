@@ -2,6 +2,8 @@
 Percent of population eating folic acid fortified maize flour at baseline,"0.3
 (0.1, 0.4)","1.2
 (0.6, 1.9)"
+Percent of population eating folic acid fortified maize flour: 100% scale-up,"6.6
+(2.2, 10.8)",Not modeled
 Percent of population eating folic acid fortified maize flour: 20% scale-up,"1.5
 (0.5, 2.5)","2.7
 (1.8, 3.6)"
@@ -14,6 +16,8 @@ Percent of population eating folic acid fortified maize flour: 80% scale-up,"5.3
 Percent of population eating folic acid fortified wheat flour at baseline,"4.1
 (1.9, 6.1)","17.4
 (14.9, 19.8)"
+Percent of population eating folic acid fortified wheat flour: 100% scale-up,"22.2
+(15.8, 28.1)",Not modeled
 Percent of population eating folic acid fortified wheat flour: 20% scale-up,"7.7
 (4.7, 10.5)","26.4
 (23.9, 28.8)"
@@ -23,9 +27,45 @@ Percent of population eating folic acid fortified wheat flour: 50% scale-up,"13.
 Percent of population eating folic acid fortified wheat flour: 80% scale-up,"18.6
 (13.1, 23.7)","53.5
 (51.0, 55.9)"
+Percent of population eating folic acid fortified zero maize flour at baseline,"0.3
+(0.1, 0.4)",Not modeled
+Percent of population eating folic acid fortified zero maize flour: 100% scale-up,"0.0
+(0.0, 0.0)",Not modeled
+Percent of population eating folic acid fortified zero maize flour: 20% scale-up,"0.2
+(0.1, 0.3)",Not modeled
+Percent of population eating folic acid fortified zero maize flour: 50% scale-up,"0.1
+(0.1, 0.2)",Not modeled
+Percent of population eating folic acid fortified zero maize flour: 80% scale-up,"0.1
+(0.0, 0.1)",Not modeled
+Percent of population eating folic acid fortified zero wheat flour at baseline,"4.1
+(1.9, 6.1)",Not modeled
+Percent of population eating folic acid fortified zero wheat flour: 100% scale-up,"0.0
+(0.0, 0.0)",Not modeled
+Percent of population eating folic acid fortified zero wheat flour: 20% scale-up,"3.3
+(1.6, 4.9)",Not modeled
+Percent of population eating folic acid fortified zero wheat flour: 50% scale-up,"2.1
+(1.0, 3.1)",Not modeled
+Percent of population eating folic acid fortified zero wheat flour: 80% scale-up,"0.8
+(0.4, 1.2)",Not modeled
+Percent of population eating vitamin a fortified industry oil at baseline,"32.1
+(26.1, 37.7)","31.8
+(25.6, 38.0)"
+Percent of population eating vitamin a fortified industry oil: 100% scale-up,"71.1
+(58.0, 83.5)",Not modeled
+Percent of population eating vitamin a fortified industry oil: 20% scale-up,"39.9
+(32.5, 46.8)","41.1
+(33.0, 49.0)"
+Percent of population eating vitamin a fortified industry oil: 50% scale-up,"51.6
+(42.1, 60.6)","55.1
+(44.2, 65.6)"
+Percent of population eating vitamin a fortified industry oil: 80% scale-up,"63.3
+(51.6, 74.3)","69.0
+(55.4, 82.2)"
 Percent of population eating vitamin a fortified maize flour at baseline,"0.3
 (0.1, 0.4)","1.2
 (0.6, 1.9)"
+Percent of population eating vitamin a fortified maize flour: 100% scale-up,"6.6
+(2.2, 10.8)",Not modeled
 Percent of population eating vitamin a fortified maize flour: 20% scale-up,"1.5
 (0.5, 2.5)","2.7
 (1.8, 3.6)"
@@ -38,6 +78,8 @@ Percent of population eating vitamin a fortified maize flour: 80% scale-up,"5.3
 Percent of population eating vitamin a fortified oil at baseline,"5.4
 (1.7, 9.0)","7.5
 (5.7, 9.2)"
+Percent of population eating vitamin a fortified oil: 100% scale-up,"20.6
+(12.7, 28.0)",Not modeled
 Percent of population eating vitamin a fortified oil: 20% scale-up,"8.5
 (3.9, 12.8)","12.3
 (10.4, 14.3)"
@@ -50,6 +92,8 @@ Percent of population eating vitamin a fortified oil: 80% scale-up,"17.6
 Percent of population eating vitamin a fortified wheat flour at baseline,"4.1
 (1.9, 6.1)","17.5
 (15.1, 19.8)"
+Percent of population eating vitamin a fortified wheat flour: 100% scale-up,"22.2
+(15.8, 28.1)",Not modeled
 Percent of population eating vitamin a fortified wheat flour: 20% scale-up,"7.7
 (4.7, 10.5)","26.5
 (24.2, 28.8)"
@@ -59,9 +103,51 @@ Percent of population eating vitamin a fortified wheat flour: 50% scale-up,"13.2
 Percent of population eating vitamin a fortified wheat flour: 80% scale-up,"18.6
 (13.1, 23.7)","53.6
 (51.2, 55.9)"
+Percent of population eating vitamin a fortified zero industry oil at baseline,"32.1
+(26.1, 37.7)",Not modeled
+Percent of population eating vitamin a fortified zero industry oil: 100% scale-up,"0.0
+(0.0, 0.0)",Not modeled
+Percent of population eating vitamin a fortified zero industry oil: 20% scale-up,"25.7
+(20.9, 30.1)",Not modeled
+Percent of population eating vitamin a fortified zero industry oil: 50% scale-up,"16.0
+(13.1, 18.8)",Not modeled
+Percent of population eating vitamin a fortified zero industry oil: 80% scale-up,"6.4
+(5.2, 7.5)",Not modeled
+Percent of population eating vitamin a fortified zero maize flour at baseline,"0.3
+(0.1, 0.4)",Not modeled
+Percent of population eating vitamin a fortified zero maize flour: 100% scale-up,"0.0
+(0.0, 0.0)",Not modeled
+Percent of population eating vitamin a fortified zero maize flour: 20% scale-up,"0.2
+(0.1, 0.3)",Not modeled
+Percent of population eating vitamin a fortified zero maize flour: 50% scale-up,"0.1
+(0.1, 0.2)",Not modeled
+Percent of population eating vitamin a fortified zero maize flour: 80% scale-up,"0.1
+(0.0, 0.1)",Not modeled
+Percent of population eating vitamin a fortified zero oil at baseline,"5.4
+(1.7, 9.0)",Not modeled
+Percent of population eating vitamin a fortified zero oil: 100% scale-up,"0.0
+(0.0, 0.0)",Not modeled
+Percent of population eating vitamin a fortified zero oil: 20% scale-up,"4.3
+(1.3, 7.2)",Not modeled
+Percent of population eating vitamin a fortified zero oil: 50% scale-up,"2.7
+(0.8, 4.5)",Not modeled
+Percent of population eating vitamin a fortified zero oil: 80% scale-up,"1.1
+(0.3, 1.8)",Not modeled
+Percent of population eating vitamin a fortified zero wheat flour at baseline,"4.1
+(1.9, 6.1)",Not modeled
+Percent of population eating vitamin a fortified zero wheat flour: 100% scale-up,"0.0
+(0.0, 0.0)",Not modeled
+Percent of population eating vitamin a fortified zero wheat flour: 20% scale-up,"3.3
+(1.6, 4.9)",Not modeled
+Percent of population eating vitamin a fortified zero wheat flour: 50% scale-up,"2.1
+(1.0, 3.1)",Not modeled
+Percent of population eating vitamin a fortified zero wheat flour: 80% scale-up,"0.8
+(0.4, 1.2)",Not modeled
 Percent of population eating zinc fortified maize flour at baseline,"0.3
 (0.1, 0.4)","1.2
 (0.6, 1.9)"
+Percent of population eating zinc fortified maize flour: 100% scale-up,"6.6
+(2.2, 10.8)",Not modeled
 Percent of population eating zinc fortified maize flour: 20% scale-up,"1.5
 (0.5, 2.5)","2.7
 (1.8, 3.6)"
@@ -74,6 +160,8 @@ Percent of population eating zinc fortified maize flour: 80% scale-up,"5.3
 Percent of population eating zinc fortified wheat flour at baseline,"4.1
 (1.9, 6.1)","17.4
 (14.9, 19.8)"
+Percent of population eating zinc fortified wheat flour: 100% scale-up,"22.2
+(15.8, 28.1)",Not modeled
 Percent of population eating zinc fortified wheat flour: 20% scale-up,"7.7
 (4.7, 10.5)","26.4
 (23.9, 28.8)"
@@ -83,129 +171,451 @@ Percent of population eating zinc fortified wheat flour: 50% scale-up,"13.2
 Percent of population eating zinc fortified wheat flour: 80% scale-up,"18.6
 (13.1, 23.7)","53.5
 (51.0, 55.9)"
+Percent of population eating zinc fortified zero maize flour at baseline,"0.3
+(0.1, 0.4)",Not modeled
+Percent of population eating zinc fortified zero maize flour: 100% scale-up,"0.0
+(0.0, 0.0)",Not modeled
+Percent of population eating zinc fortified zero maize flour: 20% scale-up,"0.2
+(0.1, 0.3)",Not modeled
+Percent of population eating zinc fortified zero maize flour: 50% scale-up,"0.1
+(0.1, 0.2)",Not modeled
+Percent of population eating zinc fortified zero maize flour: 80% scale-up,"0.1
+(0.0, 0.1)",Not modeled
+Percent of population eating zinc fortified zero wheat flour at baseline,"4.1
+(1.9, 6.1)",Not modeled
+Percent of population eating zinc fortified zero wheat flour: 100% scale-up,"0.0
+(0.0, 0.0)",Not modeled
+Percent of population eating zinc fortified zero wheat flour: 20% scale-up,"3.3
+(1.6, 4.9)",Not modeled
+Percent of population eating zinc fortified zero wheat flour: 50% scale-up,"2.1
+(1.0, 3.1)",Not modeled
+Percent of population eating zinc fortified zero wheat flour: 80% scale-up,"0.8
+(0.4, 1.2)",Not modeled
+"Folic acid in maize flour DALYs averted per 100,000 person-years: 100.0% scale-up","170
+(44, 400)",Not modeled
 "Folic acid in maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","34
-(7, 83)","21
+(9, 80)","21
 (10, 40)"
-"Folic acid in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","86
-(18, 208)","52
+"Folic acid in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","85
+(22, 200)","52
 (24, 99)"
-"Folic acid in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up","137
-(30, 333)","83
+"Folic acid in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up","136
+(35, 320)","83
 (38, 159)"
+Folic acid in maize flour PIF (percent): 100.0% scale-up,"2.1
+(0.6, 3.8)",Not modeled
 Folic acid in maize flour PIF (percent): 20.0% scale-up,"0.4
 (0.1, 0.8)","0.5
 (0.3, 0.7)"
-Folic acid in maize flour PIF (percent): 50.0% scale-up,"1.1
-(0.3, 2.0)","1.2
+Folic acid in maize flour PIF (percent): 50.0% scale-up,"1.0
+(0.3, 1.9)","1.2
 (0.8, 1.6)"
 Folic acid in maize flour PIF (percent): 80.0% scale-up,"1.7
-(0.4, 3.2)","1.9
+(0.5, 3.0)","1.9
 (1.3, 2.6)"
-"Folic acid in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","98
-(44, 194)","137
+"Folic acid in wheat flour DALYs averted per 100,000 person-years: 100.0% scale-up","494
+(222, 980)",Not modeled
+"Folic acid in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","99
+(44, 196)","137
 (65, 265)"
-"Folic acid in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","246
-(111, 485)","343
+"Folic acid in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","247
+(111, 490)","343
 (163, 664)"
-"Folic acid in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up","394
-(178, 777)","549
+"Folic acid in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up","395
+(178, 784)","549
 (261, 1,062)"
+Folic acid in wheat flour PIF (percent): 100.0% scale-up,"6.0
+(3.7, 8.7)",Not modeled
 Folic acid in wheat flour PIF (percent): 20.0% scale-up,"1.2
-(0.8, 1.7)","3.2
+(0.7, 1.7)","3.2
 (2.3, 4.2)"
 Folic acid in wheat flour PIF (percent): 50.0% scale-up,"3.0
-(1.9, 4.3)","8.0
+(1.9, 4.4)","8.0
 (5.7, 10.6)"
 Folic acid in wheat flour PIF (percent): 80.0% scale-up,"4.8
-(3.0, 6.8)","12.8
+(3.0, 7.0)","12.8
 (9.1, 16.9)"
-"Vitamin a in maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","12
-(-1, 36)","4
+"Folic acid in zero maize flour DALYs averted per 100,000 person-years: 100.0% scale-up","-7
+(-16, -2)",Not modeled
+"Folic acid in zero maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","-1
+(-3, -0)",Not modeled
+"Folic acid in zero maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","-3
+(-8, -1)",Not modeled
+"Folic acid in zero maize flour DALYs averted per 100,000 person-years: 80.0% scale-up","-6
+(-12, -2)",Not modeled
+Folic acid in zero maize flour PIF (percent): 100.0% scale-up,"-0.1
+(-0.1, -0.0)",Not modeled
+Folic acid in zero maize flour PIF (percent): 20.0% scale-up,"-0.0
+(-0.0, -0.0)",Not modeled
+Folic acid in zero maize flour PIF (percent): 50.0% scale-up,"-0.0
+(-0.1, -0.0)",Not modeled
+Folic acid in zero maize flour PIF (percent): 80.0% scale-up,"-0.1
+(-0.1, -0.0)",Not modeled
+"Folic acid in zero wheat flour DALYs averted per 100,000 person-years: 100.0% scale-up","-113
+(-244, -37)",Not modeled
+"Folic acid in zero wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","-23
+(-49, -7)",Not modeled
+"Folic acid in zero wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","-56
+(-122, -19)",Not modeled
+"Folic acid in zero wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up","-90
+(-195, -30)",Not modeled
+Folic acid in zero wheat flour PIF (percent): 100.0% scale-up,"-1.4
+(-2.3, -0.6)",Not modeled
+Folic acid in zero wheat flour PIF (percent): 20.0% scale-up,"-0.3
+(-0.5, -0.1)",Not modeled
+Folic acid in zero wheat flour PIF (percent): 50.0% scale-up,"-0.7
+(-1.2, -0.3)",Not modeled
+Folic acid in zero wheat flour PIF (percent): 80.0% scale-up,"-1.1
+(-1.8, -0.5)",Not modeled
+"Vitamin a in industry oil DALYs averted per 100,000 person-years: 100.0% scale-up","203
+(-20, 587)","156
+(-13, 414)"
+"Vitamin a in industry oil DALYs averted per 100,000 person-years: 20.0% scale-up","41
+(-4, 117)","31
+(-3, 83)"
+"Vitamin a in industry oil DALYs averted per 100,000 person-years: 50.0% scale-up","102
+(-10, 294)","78
+(-6, 207)"
+"Vitamin a in industry oil DALYs averted per 100,000 person-years: 80.0% scale-up","163
+(-16, 470)","125
+(-10, 332)"
+Vitamin a in industry oil PIF (percent): 100.0% scale-up,"18.6
+(-1.0, 33.9)","22.5
+(-1.2, 42.7)"
+Vitamin a in industry oil PIF (percent): 20.0% scale-up,"3.7
+(-0.2, 6.8)","4.5
+(-0.2, 8.5)"
+Vitamin a in industry oil PIF (percent): 50.0% scale-up,"9.3
+(-0.5, 16.9)","11.2
+(-0.6, 21.4)"
+Vitamin a in industry oil PIF (percent): 80.0% scale-up,"14.9
+(-0.8, 27.1)","18.0
+(-0.9, 34.2)"
+"Vitamin a in industry wheat DALYs averted per 100,000 person-years: 100.0% scale-up",Not modeled,"231
+(-18, 607)"
+"Vitamin a in industry wheat DALYs averted per 100,000 person-years: 20.0% scale-up",Not modeled,"46
+(-4, 121)"
+"Vitamin a in industry wheat DALYs averted per 100,000 person-years: 50.0% scale-up",Not modeled,"116
+(-9, 303)"
+"Vitamin a in industry wheat DALYs averted per 100,000 person-years: 80.0% scale-up",Not modeled,"185
+(-14, 485)"
+Vitamin a in industry wheat PIF (percent): 100.0% scale-up,Not modeled,"33.3
+(-1.8, 56.8)"
+Vitamin a in industry wheat PIF (percent): 20.0% scale-up,Not modeled,"6.7
+(-0.4, 11.4)"
+Vitamin a in industry wheat PIF (percent): 50.0% scale-up,Not modeled,"16.7
+(-0.9, 28.4)"
+Vitamin a in industry wheat PIF (percent): 80.0% scale-up,Not modeled,"26.7
+(-1.4, 45.4)"
+"Vitamin a in maize flour DALYs averted per 100,000 person-years: 100.0% scale-up","28
+(-4, 84)","20
+(-2, 54)"
+"Vitamin a in maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","6
+(-1, 17)","4
 (-0, 11)"
-"Vitamin a in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","30
-(-2, 91)","10
+"Vitamin a in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","14
+(-2, 42)","10
 (-1, 27)"
-"Vitamin a in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up","48
-(-3, 146)","16
+"Vitamin a in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up","22
+(-3, 67)","16
 (-1, 43)"
-Vitamin a in maize flour PIF (percent): 20.0% scale-up,"2.0
-(-0.1, 4.3)","0.6
+Vitamin a in maize flour PIF (percent): 100.0% scale-up,"2.5
+(-0.2, 5.4)","2.9
+(-0.2, 5.0)"
+Vitamin a in maize flour PIF (percent): 20.0% scale-up,"0.5
+(-0.0, 1.1)","0.6
 (-0.0, 1.0)"
-Vitamin a in maize flour PIF (percent): 50.0% scale-up,"5.0
-(-0.3, 10.7)","1.5
+Vitamin a in maize flour PIF (percent): 50.0% scale-up,"1.3
+(-0.1, 2.7)","1.5
 (-0.1, 2.5)"
-Vitamin a in maize flour PIF (percent): 80.0% scale-up,"7.9
-(-0.5, 17.1)","2.3
+Vitamin a in maize flour PIF (percent): 80.0% scale-up,"2.0
+(-0.1, 4.4)","2.3
 (-0.1, 4.0)"
-"Vitamin a in oil DALYs averted per 100,000 person-years: 20.0% scale-up","29
-(-2, 77)","14
+"Vitamin a in oil DALYs averted per 100,000 person-years: 100.0% scale-up","68
+(-8, 193)","70
+(-6, 179)"
+"Vitamin a in oil DALYs averted per 100,000 person-years: 20.0% scale-up","14
+(-2, 39)","14
 (-1, 36)"
-"Vitamin a in oil DALYs averted per 100,000 person-years: 50.0% scale-up","73
-(-5, 194)","35
-(-3, 91)"
-"Vitamin a in oil DALYs averted per 100,000 person-years: 80.0% scale-up","117
-(-8, 310)","56
-(-5, 146)"
-Vitamin a in oil PIF (percent): 20.0% scale-up,"4.9
-(-0.3, 8.6)","2.0
-(-0.1, 3.3)"
-Vitamin a in oil PIF (percent): 50.0% scale-up,"12.1
-(-0.7, 21.5)","5.1
-(-0.3, 8.3)"
-Vitamin a in oil PIF (percent): 80.0% scale-up,"19.4
-(-1.1, 34.4)","8.1
-(-0.5, 13.3)"
-"Vitamin a in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","34
-(-2, 91)","28
+"Vitamin a in oil DALYs averted per 100,000 person-years: 50.0% scale-up","34
+(-4, 96)","35
+(-3, 90)"
+"Vitamin a in oil DALYs averted per 100,000 person-years: 80.0% scale-up","54
+(-6, 154)","56
+(-5, 143)"
+Vitamin a in oil PIF (percent): 100.0% scale-up,"6.2
+(-0.4, 11.0)","10.1
+(-0.6, 16.9)"
+Vitamin a in oil PIF (percent): 20.0% scale-up,"1.2
+(-0.1, 2.2)","2.0
+(-0.1, 3.4)"
+Vitamin a in oil PIF (percent): 50.0% scale-up,"3.1
+(-0.2, 5.5)","5.1
+(-0.3, 8.4)"
+Vitamin a in oil PIF (percent): 80.0% scale-up,"5.0
+(-0.3, 8.8)","8.1
+(-0.5, 13.5)"
+"Vitamin a in wheat flour DALYs averted per 100,000 person-years: 100.0% scale-up","80
+(-9, 227)","138
+(-11, 364)"
+"Vitamin a in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","16
+(-2, 45)","28
 (-2, 73)"
-"Vitamin a in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","86
-(-6, 226)","69
+"Vitamin a in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","40
+(-5, 114)","69
 (-5, 182)"
-"Vitamin a in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up","138
-(-10, 362)","110
+"Vitamin a in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up","64
+(-7, 182)","110
 (-8, 291)"
-Vitamin a in wheat flour PIF (percent): 20.0% scale-up,"5.7
-(-0.3, 9.9)","4.0
+Vitamin a in wheat flour PIF (percent): 100.0% scale-up,"7.3
+(-0.5, 12.7)","19.8
+(-1.1, 33.2)"
+Vitamin a in wheat flour PIF (percent): 20.0% scale-up,"1.5
+(-0.1, 2.5)","4.0
 (-0.2, 6.6)"
-Vitamin a in wheat flour PIF (percent): 50.0% scale-up,"14.3
-(-0.8, 24.7)","9.9
+Vitamin a in wheat flour PIF (percent): 50.0% scale-up,"3.7
+(-0.2, 6.4)","9.9
 (-0.6, 16.6)"
-Vitamin a in wheat flour PIF (percent): 80.0% scale-up,"22.9
-(-1.3, 39.5)","15.9
+Vitamin a in wheat flour PIF (percent): 80.0% scale-up,"5.9
+(-0.4, 10.2)","15.9
 (-0.9, 26.5)"
-"Zinc in maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","2
-(0, 9)","1
+"Vitamin a in zero industry oil DALYs averted per 100,000 person-years: 100.0% scale-up","-167
+(-483, 16)","-107
+(-283, 9)"
+"Vitamin a in zero industry oil DALYs averted per 100,000 person-years: 20.0% scale-up","-33
+(-97, 3)","-21
+(-57, 2)"
+"Vitamin a in zero industry oil DALYs averted per 100,000 person-years: 50.0% scale-up","-84
+(-241, 8)","-53
+(-142, 4)"
+"Vitamin a in zero industry oil DALYs averted per 100,000 person-years: 80.0% scale-up","-134
+(-386, 13)","-85
+(-227, 7)"
+Vitamin a in zero industry oil PIF (percent): 100.0% scale-up,"-15.3
+(-27.9, 0.8)","-15.4
+(-29.3, 0.8)"
+Vitamin a in zero industry oil PIF (percent): 20.0% scale-up,"-3.1
+(-5.6, 0.2)","-3.1
+(-5.9, 0.2)"
+Vitamin a in zero industry oil PIF (percent): 50.0% scale-up,"-7.6
+(-13.9, 0.4)","-7.7
+(-14.6, 0.4)"
+Vitamin a in zero industry oil PIF (percent): 80.0% scale-up,"-12.2
+(-22.3, 0.6)","-12.3
+(-23.4, 0.6)"
+"Vitamin a in zero industry wheat DALYs averted per 100,000 person-years: 100.0% scale-up",Not modeled,"-53
+(-140, 4)"
+"Vitamin a in zero industry wheat DALYs averted per 100,000 person-years: 20.0% scale-up",Not modeled,"-11
+(-28, 1)"
+"Vitamin a in zero industry wheat DALYs averted per 100,000 person-years: 50.0% scale-up",Not modeled,"-27
+(-70, 2)"
+"Vitamin a in zero industry wheat DALYs averted per 100,000 person-years: 80.0% scale-up",Not modeled,"-43
+(-112, 3)"
+Vitamin a in zero industry wheat PIF (percent): 100.0% scale-up,Not modeled,"-7.7
+(-13.5, 0.4)"
+Vitamin a in zero industry wheat PIF (percent): 20.0% scale-up,Not modeled,"-1.5
+(-2.7, 0.1)"
+Vitamin a in zero industry wheat PIF (percent): 50.0% scale-up,Not modeled,"-3.9
+(-6.7, 0.2)"
+Vitamin a in zero industry wheat PIF (percent): 80.0% scale-up,Not modeled,"-6.2
+(-10.8, 0.3)"
+"Vitamin a in zero maize flour DALYs averted per 100,000 person-years: 100.0% scale-up","-1
+(-3, 0)","-3
+(-9, 0)"
+"Vitamin a in zero maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","-0
+(-1, 0)","-1
+(-2, 0)"
+"Vitamin a in zero maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","-1
+(-2, 0)","-2
+(-5, 0)"
+"Vitamin a in zero maize flour DALYs averted per 100,000 person-years: 80.0% scale-up","-1
+(-3, 0)","-3
+(-8, 0)"
+Vitamin a in zero maize flour PIF (percent): 100.0% scale-up,"-0.1
+(-0.2, 0.0)","-0.5
+(-1.0, 0.0)"
+Vitamin a in zero maize flour PIF (percent): 20.0% scale-up,"-0.0
+(-0.0, 0.0)","-0.1
+(-0.2, 0.0)"
+Vitamin a in zero maize flour PIF (percent): 50.0% scale-up,"-0.1
+(-0.1, 0.0)","-0.2
+(-0.5, 0.0)"
+Vitamin a in zero maize flour PIF (percent): 80.0% scale-up,"-0.1
+(-0.2, 0.0)","-0.4
+(-0.8, 0.0)"
+"Vitamin a in zero oil DALYs averted per 100,000 person-years: 100.0% scale-up","-25
+(-76, 4)","-22
+(-55, 2)"
+"Vitamin a in zero oil DALYs averted per 100,000 person-years: 20.0% scale-up","-5
+(-15, 1)","-4
+(-11, 0)"
+"Vitamin a in zero oil DALYs averted per 100,000 person-years: 50.0% scale-up","-12
+(-38, 2)","-11
+(-28, 1)"
+"Vitamin a in zero oil DALYs averted per 100,000 person-years: 80.0% scale-up","-20
+(-61, 3)","-17
+(-44, 2)"
+Vitamin a in zero oil PIF (percent): 100.0% scale-up,"-2.2
+(-5.0, 0.1)","-3.1
+(-5.6, 0.2)"
+Vitamin a in zero oil PIF (percent): 20.0% scale-up,"-0.4
+(-1.0, 0.0)","-0.6
+(-1.1, 0.0)"
+Vitamin a in zero oil PIF (percent): 50.0% scale-up,"-1.1
+(-2.5, 0.1)","-1.6
+(-2.8, 0.1)"
+Vitamin a in zero oil PIF (percent): 80.0% scale-up,"-1.8
+(-4.0, 0.1)","-2.5
+(-4.5, 0.2)"
+"Vitamin a in zero wheat flour DALYs averted per 100,000 person-years: 100.0% scale-up","-18
+(-54, 2)","-53
+(-140, 4)"
+"Vitamin a in zero wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","-4
+(-11, 0)","-11
+(-28, 1)"
+"Vitamin a in zero wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","-9
+(-27, 1)","-27
+(-70, 2)"
+"Vitamin a in zero wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up","-15
+(-43, 2)","-43
+(-112, 3)"
+Vitamin a in zero wheat flour PIF (percent): 100.0% scale-up,"-1.7
+(-3.4, 0.1)","-7.7
+(-13.5, 0.4)"
+Vitamin a in zero wheat flour PIF (percent): 20.0% scale-up,"-0.3
+(-0.7, 0.0)","-1.5
+(-2.7, 0.1)"
+Vitamin a in zero wheat flour PIF (percent): 50.0% scale-up,"-0.8
+(-1.7, 0.1)","-3.9
+(-6.7, 0.2)"
+Vitamin a in zero wheat flour PIF (percent): 80.0% scale-up,"-1.3
+(-2.7, 0.1)","-6.2
+(-10.8, 0.3)"
+"Zinc in industry wheat DALYs averted per 100,000 person-years: 100.0% scale-up",Not modeled,"50
+(1, 160)"
+"Zinc in industry wheat DALYs averted per 100,000 person-years: 20.0% scale-up",Not modeled,"10
+(0, 32)"
+"Zinc in industry wheat DALYs averted per 100,000 person-years: 50.0% scale-up",Not modeled,"25
+(0, 80)"
+"Zinc in industry wheat DALYs averted per 100,000 person-years: 80.0% scale-up",Not modeled,"40
+(1, 128)"
+Zinc in industry wheat PIF (percent): 100.0% scale-up,Not modeled,"43.5
+(26.6, 58.9)"
+Zinc in industry wheat PIF (percent): 20.0% scale-up,Not modeled,"8.7
+(5.3, 11.8)"
+Zinc in industry wheat PIF (percent): 50.0% scale-up,Not modeled,"21.8
+(13.3, 29.5)"
+Zinc in industry wheat PIF (percent): 80.0% scale-up,Not modeled,"34.8
+(21.2, 47.1)"
+"Zinc in maize flour DALYs averted per 100,000 person-years: 100.0% scale-up","7
+(0, 23)","4
+(0, 15)"
+"Zinc in maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","1
+(0, 5)","1
 (0, 3)"
-"Zinc in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","6
-(0, 21)","2
+"Zinc in maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","3
+(0, 12)","2
 (0, 7)"
-"Zinc in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up","10
-(0, 34)","4
+"Zinc in maize flour DALYs averted per 100,000 person-years: 80.0% scale-up","5
+(0, 18)","4
 (0, 12)"
-Zinc in maize flour PIF (percent): 20.0% scale-up,"1.3
-(0.4, 2.3)","0.8
+Zinc in maize flour PIF (percent): 100.0% scale-up,"3.3
+(1.0, 5.9)","3.8
+(2.4, 5.3)"
+Zinc in maize flour PIF (percent): 20.0% scale-up,"0.7
+(0.2, 1.2)","0.8
 (0.5, 1.1)"
-Zinc in maize flour PIF (percent): 50.0% scale-up,"3.3
-(1.0, 5.9)","1.9
+Zinc in maize flour PIF (percent): 50.0% scale-up,"1.7
+(0.5, 2.9)","1.9
 (1.2, 2.6)"
-Zinc in maize flour PIF (percent): 80.0% scale-up,"5.3
-(1.7, 9.4)","3.1
+Zinc in maize flour PIF (percent): 80.0% scale-up,"2.6
+(0.8, 4.7)","3.1
 (1.9, 4.2)"
-"Zinc in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","7
-(0, 23)","6
+"Zinc in wheat flour DALYs averted per 100,000 person-years: 100.0% scale-up","19
+(0, 62)","30
+(1, 98)"
+"Zinc in wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","4
+(0, 12)","6
 (0, 20)"
-"Zinc in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","18
-(0, 57)","15
+"Zinc in wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","10
+(0, 31)","15
 (0, 49)"
-"Zinc in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up","28
-(0, 91)","24
+"Zinc in wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up","16
+(0, 49)","24
 (0, 79)"
-Zinc in wheat flour PIF (percent): 20.0% scale-up,"3.9
-(2.2, 5.5)","5.2
+Zinc in wheat flour PIF (percent): 100.0% scale-up,"9.7
+(5.6, 13.6)","26.1
+(15.7, 34.5)"
+Zinc in wheat flour PIF (percent): 20.0% scale-up,"1.9
+(1.1, 2.7)","5.2
 (3.1, 6.9)"
-Zinc in wheat flour PIF (percent): 50.0% scale-up,"9.7
-(5.6, 13.6)","13.0
+Zinc in wheat flour PIF (percent): 50.0% scale-up,"4.8
+(2.8, 6.8)","13.0
 (7.9, 17.2)"
-Zinc in wheat flour PIF (percent): 80.0% scale-up,"15.5
-(9.0, 21.8)","20.9
+Zinc in wheat flour PIF (percent): 80.0% scale-up,"7.7
+(4.5, 10.9)","20.9
 (12.6, 27.6)"
+"Zinc in zero industry wheat DALYs averted per 100,000 person-years: 100.0% scale-up",Not modeled,"-12
+(-36, -0)"
+"Zinc in zero industry wheat DALYs averted per 100,000 person-years: 20.0% scale-up",Not modeled,"-2
+(-7, -0)"
+"Zinc in zero industry wheat DALYs averted per 100,000 person-years: 50.0% scale-up",Not modeled,"-6
+(-18, -0)"
+"Zinc in zero industry wheat DALYs averted per 100,000 person-years: 80.0% scale-up",Not modeled,"-9
+(-29, -0)"
+Zinc in zero industry wheat PIF (percent): 100.0% scale-up,Not modeled,"-10.0
+(-13.8, -6.1)"
+Zinc in zero industry wheat PIF (percent): 20.0% scale-up,Not modeled,"-2.0
+(-2.8, -1.2)"
+Zinc in zero industry wheat PIF (percent): 50.0% scale-up,Not modeled,"-5.0
+(-6.9, -3.0)"
+Zinc in zero industry wheat PIF (percent): 80.0% scale-up,Not modeled,"-8.0
+(-11.0, -4.9)"
+"Zinc in zero maize flour DALYs averted per 100,000 person-years: 100.0% scale-up","-0
+(-1, -0)","-1
+(-3, -0)"
+"Zinc in zero maize flour DALYs averted per 100,000 person-years: 20.0% scale-up","-0
+(-0, -0)","-0
+(-1, -0)"
+"Zinc in zero maize flour DALYs averted per 100,000 person-years: 50.0% scale-up","-0
+(-0, -0)","-0
+(-1, -0)"
+"Zinc in zero maize flour DALYs averted per 100,000 person-years: 80.0% scale-up","-0
+(-1, -0)","-1
+(-2, -0)"
+Zinc in zero maize flour PIF (percent): 100.0% scale-up,"-0.1
+(-0.2, -0.1)","-0.6
+(-1.1, -0.3)"
+Zinc in zero maize flour PIF (percent): 20.0% scale-up,"-0.0
+(-0.0, -0.0)","-0.1
+(-0.2, -0.1)"
+Zinc in zero maize flour PIF (percent): 50.0% scale-up,"-0.1
+(-0.1, -0.0)","-0.3
+(-0.6, -0.1)"
+Zinc in zero maize flour PIF (percent): 80.0% scale-up,"-0.1
+(-0.2, -0.0)","-0.5
+(-0.9, -0.2)"
+"Zinc in zero wheat flour DALYs averted per 100,000 person-years: 100.0% scale-up","-4
+(-15, -0)","-12
+(-36, -0)"
+"Zinc in zero wheat flour DALYs averted per 100,000 person-years: 20.0% scale-up","-1
+(-3, -0)","-2
+(-7, -0)"
+"Zinc in zero wheat flour DALYs averted per 100,000 person-years: 50.0% scale-up","-2
+(-7, -0)","-6
+(-18, -0)"
+"Zinc in zero wheat flour DALYs averted per 100,000 person-years: 80.0% scale-up","-4
+(-12, -0)","-9
+(-29, -0)"
+Zinc in zero wheat flour PIF (percent): 100.0% scale-up,"-2.2
+(-3.7, -1.0)","-10.0
+(-13.8, -6.1)"
+Zinc in zero wheat flour PIF (percent): 20.0% scale-up,"-0.4
+(-0.7, -0.2)","-2.0
+(-2.8, -1.2)"
+Zinc in zero wheat flour PIF (percent): 50.0% scale-up,"-1.1
+(-1.8, -0.5)","-5.0
+(-6.9, -3.0)"
+Zinc in zero wheat flour PIF (percent): 80.0% scale-up,"-1.8
+(-2.9, -0.8)","-8.0
+(-11.0, -4.9)"

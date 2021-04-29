@@ -1,0 +1,361 @@
+,Location,Vehicle,All,Folic acid,Iron,Vitamin A,Zinc
+0,All modeled locations,wheat flour,"1,160,718 (340,022, 1,881,052)","343,260 (200,149, 551,231)","688,286 (104,394, 1,250,377)","108,862 (-8,731, 259,074)","20,310 (3,680, 52,963)"
+1,All modeled locations,maize flour,"326,894 (100,926, 550,511)","103,864 (61,208, 169,160)","175,599 (28,472, 319,326)","43,316 (-3,011, 102,875)","4,115 (537, 11,664)"
+2,All modeled locations,industry oil,"284,311 (-15,980, 662,723)",Not modeled,Not modeled,"284,311 (-15,980, 662,723)",Not modeled
+3,All modeled locations,industry salt,"1,314,288 (836,715, 1,991,277)","1,314,288 (836,715, 1,991,277)",Not modeled,Not modeled,Not modeled
+4,All modeled locations,industry wheat,"1,702,163 (478,710, 2,833,834)","427,103 (252,368, 721,200)","1,108,930 (157,425, 2,080,075)","138,949 (-8,541, 320,489)","27,180 (5,875, 66,615)"
+5,All modeled locations,salt,"1,095,606 (690,302, 1,678,626)","1,095,606 (690,302, 1,678,626)",Not modeled,Not modeled,Not modeled
+6,All modeled locations,zero industry oil,"-281,396 (-811,874, 13,832)",Not modeled,Not modeled,"-281,396 (-811,874, 13,832)",Not modeled
+7,All modeled locations,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+8,All modeled locations,zero industry wheat,"-340,012 (-582,855, -150,108)","-235,582 (-385,482, -132,671)","0 (0, 0)","-94,740 (-259,561, 7,080)","-9,691 (-29,290, -593)"
+9,All modeled locations,zero maize flour,"-44,969 (-76,279, -19,282)","-28,635 (-46,139, -17,182)","0 (0, 0)","-15,033 (-37,973, 1,049)","-1,301 (-3,659, -138)"
+10,All modeled locations,zero oil,"-281,396 (-811,874, 13,832)",Not modeled,Not modeled,"-281,396 (-811,874, 13,832)",Not modeled
+11,All modeled locations,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+12,All modeled locations,zero wheat flour,"-297,698 (-530,578, -122,371)","-194,718 (-329,028, -109,905)","0 (0, 0)","-94,740 (-259,561, 7,080)","-8,240 (-25,507, -478)"
+13,All modeled locations,oil,"221,312 (-11,901, 522,248)",Not modeled,Not modeled,"221,312 (-11,901, 522,248)",Not modeled
+14,Angola,wheat flour,"8,045 (2,466, 14,773)","2,793 (1,004, 6,043)","3,841 (606, 8,056)","1,189 (-88, 3,288)","222 (24, 640)"
+15,Angola,maize flour,"2,626 (821, 4,467)","822 (339, 1,566)","1,398 (240, 2,791)","342 (-23, 849)","64 (7, 188)"
+16,Angola,industry oil,"7,630 (-578, 19,176)",Not modeled,Not modeled,"7,630 (-578, 19,176)",Not modeled
+17,Angola,industry salt,"26,867 (12,145, 47,657)","26,867 (12,145, 47,657)",Not modeled,Not modeled,Not modeled
+18,Angola,industry wheat,"8,817 (2,800, 14,329)","3,086 (1,366, 5,569)","4,181 (602, 7,855)","1,305 (-96, 3,301)","245 (30, 685)"
+19,Angola,salt,"25,764 (11,559, 45,800)","25,764 (11,559, 45,800)",Not modeled,Not modeled,Not modeled
+20,Angola,zero industry oil,"-1,057 (-2,657, 80)",Not modeled,Not modeled,"-1,057 (-2,657, 80)",Not modeled
+21,Angola,zero industry salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+22,Angola,zero industry wheat,"-7,575 (-14,193, -2,793)","-5,032 (-10,889, -1,809)","nan (nan, nan)","-2,143 (-5,924, 159)","-401 (-1,153, -43)"
+23,Angola,zero maize flour,"-3,361 (-8,533, -437)","-2,248 (-5,881, -299)","nan (nan, nan)","-933 (-2,857, 75)","-180 (-658, -9)"
+24,Angola,zero oil,"-1,057 (-2,657, 80)",Not modeled,Not modeled,"-1,057 (-2,657, 80)",Not modeled
+25,Angola,zero salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+26,Angola,zero wheat flour,"-7,575 (-14,193, -2,793)","-5,032 (-10,889, -1,809)","nan (nan, nan)","-2,143 (-5,924, 159)","-401 (-1,153, -43)"
+27,Angola,oil,"3,656 (-272, 9,154)",Not modeled,Not modeled,"3,656 (-272, 9,154)",Not modeled
+28,Bangladesh,wheat flour,"74,840 (16,296, 137,860)","12,333 (4,327, 28,635)","61,281 (7,516, 118,341)","1,073 (-60, 2,364)","153 (12, 486)"
+29,Bangladesh,industry oil,"1,643 (-71, 3,797)",Not modeled,Not modeled,"1,643 (-71, 3,797)",Not modeled
+30,Bangladesh,industry salt,"30,166 (10,903, 64,646)","30,166 (10,903, 64,646)",Not modeled,Not modeled,Not modeled
+31,Bangladesh,industry wheat,"64,830 (13,894, 123,930)","10,687 (3,471, 25,677)","53,083 (6,189, 106,419)","928 (-53, 2,097)","132 (11, 421)"
+32,Bangladesh,salt,"25,690 (9,407, 55,234)","25,690 (9,407, 55,234)",Not modeled,Not modeled,Not modeled
+33,Bangladesh,zero industry oil,"-1,605 (-3,806, 70)",Not modeled,Not modeled,"-1,605 (-3,806, 70)",Not modeled
+34,Bangladesh,zero industry salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+35,Bangladesh,zero industry wheat,"-55 (-125, -21)","-50 (-117, -18)","nan (nan, nan)","-4 (-10, 0)","-1 (-2, -0)"
+36,Bangladesh,zero oil,"-1,605 (-3,806, 70)",Not modeled,Not modeled,"-1,605 (-3,806, 70)",Not modeled
+37,Bangladesh,zero salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+38,Bangladesh,zero wheat flour,"-55 (-125, -21)","-50 (-117, -18)","nan (nan, nan)","-4 (-10, 0)","-1 (-2, -0)"
+39,Bangladesh,oil,"1,697 (-67, 3,866)",Not modeled,Not modeled,"1,697 (-67, 3,866)",Not modeled
+40,Burkina Faso,wheat flour,"36,493 (6,322, 73,929)","12,682 (3,473, 30,099)","14,068 (1,223, 31,701)","9,441 (-722, 29,105)","303 (0, 1,134)"
+41,Burkina Faso,maize flour,"-0 (-0, 0)","-0 (-0, 0)","0 (0, 0)","0 (0, 0)","0 (0, 0)"
+42,Burkina Faso,industry oil,"7,085 (-427, 19,718)",Not modeled,Not modeled,"7,085 (-427, 19,718)",Not modeled
+43,Burkina Faso,industry salt,"52,155 (21,011, 103,442)","52,155 (21,011, 103,442)",Not modeled,Not modeled,Not modeled
+44,Burkina Faso,industry wheat,"30,715 (6,383, 56,280)","9,692 (3,842, 19,668)","12,295 (1,171, 24,275)","8,458 (-773, 23,521)","270 (0, 998)"
+45,Burkina Faso,salt,"45,408 (18,383, 90,295)","45,408 (18,383, 90,295)",Not modeled,Not modeled,Not modeled
+46,Burkina Faso,zero industry oil,"-15,981 (-44,476, 962)",Not modeled,Not modeled,"-15,981 (-44,476, 962)",Not modeled
+47,Burkina Faso,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+48,Burkina Faso,zero industry wheat,"-23,326 (-51,970, -6,994)","-20,298 (-48,587, -5,550)","nan (nan, nan)","-2,934 (-8,858, 229)","-94 (-351, 0)"
+49,Burkina Faso,zero maize flour,"-0 (-0, 0)","-0 (-0, 0)","nan (nan, nan)","0 (0, 0)","0 (0, 0)"
+50,Burkina Faso,zero oil,"-15,981 (-44,476, 962)",Not modeled,Not modeled,"-15,981 (-44,476, 962)",Not modeled
+51,Burkina Faso,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+52,Burkina Faso,zero wheat flour,"-23,326 (-51,970, -6,994)","-20,298 (-48,587, -5,550)","nan (nan, nan)","-2,934 (-8,858, 229)","-94 (-351, 0)"
+53,Burkina Faso,oil,"6,091 (-286, 23,691)",Not modeled,Not modeled,"6,091 (-286, 23,691)",Not modeled
+54,Cameroon,wheat flour,"22,755 (3,499, 48,745)","5,638 (218, 16,251)","8,426 (747, 21,712)","8,298 (-732, 24,971)","393 (0, 1,872)"
+55,Cameroon,maize flour,"5,557 (1,223, 11,812)","1,714 (554, 3,691)","2,330 (267, 4,988)","1,405 (-153, 4,444)","107 (0, 360)"
+56,Cameroon,industry oil,"12,089 (-1,192, 33,291)",Not modeled,Not modeled,"12,089 (-1,192, 33,291)",Not modeled
+57,Cameroon,industry salt,"25,039 (11,343, 46,853)","25,039 (11,343, 46,853)",Not modeled,Not modeled,Not modeled
+58,Cameroon,industry wheat,"14,878 (2,087, 32,246)","3,928 (125, 12,345)","4,644 (844, 9,147)","6,031 (-520, 16,965)","274 (0, 1,296)"
+59,Cameroon,salt,"17,820 (8,016, 33,151)","17,820 (8,016, 33,151)",Not modeled,Not modeled,Not modeled
+60,Cameroon,zero industry oil,"-4,650 (-12,804, 458)",Not modeled,Not modeled,"-4,650 (-12,804, 458)",Not modeled
+61,Cameroon,zero industry salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+62,Cameroon,zero industry wheat,"-39,384 (-80,781, -13,759)","-25,406 (-53,872, -9,415)","nan (nan, nan)","-12,181 (-40,393, 1,066)","-1,797 (-7,290, 0)"
+63,Cameroon,zero maize flour,"-2,594 (-5,971, -626)","-1,379 (-2,968, -445)","nan (nan, nan)","-1,130 (-3,573, 123)","-86 (-290, 0)"
+64,Cameroon,zero oil,"-4,650 (-12,804, 458)",Not modeled,Not modeled,"-4,650 (-12,804, 458)",Not modeled
+65,Cameroon,zero salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+66,Cameroon,zero wheat flour,"-39,384 (-80,781, -13,759)","-25,406 (-53,872, -9,415)","nan (nan, nan)","-12,181 (-40,393, 1,066)","-1,797 (-7,290, 0)"
+67,Cameroon,oil,"6,506 (-615, 18,109)",Not modeled,Not modeled,"6,506 (-615, 18,109)",Not modeled
+68,China,wheat flour,"150,605 (19,185, 319,063)","19,686 (8,581, 33,417)","128,773 (6,678, 284,129)","2,100 (-109, 4,586)","45 (0, 175)"
+69,China,industry oil,"3,912 (-193, 8,236)",Not modeled,Not modeled,"3,912 (-193, 8,236)",Not modeled
+70,China,industry salt,"39,842 (27,754, 54,184)","39,842 (27,754, 54,184)",Not modeled,Not modeled,Not modeled
+71,China,industry wheat,"136,972 (19,389, 265,866)","17,693 (10,107, 27,391)","117,360 (6,106, 237,598)","1,879 (-95, 3,938)","41 (0, 151)"
+72,China,salt,"28,294 (19,610, 38,692)","28,294 (19,610, 38,692)",Not modeled,Not modeled,Not modeled
+73,China,zero industry oil,"-219 (-467, 12)",Not modeled,Not modeled,"-219 (-467, 12)",Not modeled
+74,China,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+75,China,zero industry wheat,"-2,938 (-5,029, -1,312)","-2,649 (-4,498, -1,155)","nan (nan, nan)","-283 (-618, 15)","-6 (-24, 0)"
+76,China,zero oil,"-219 (-467, 12)",Not modeled,Not modeled,"-219 (-467, 12)",Not modeled
+77,China,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+78,China,zero wheat flour,"-2,938 (-5,029, -1,312)","-2,649 (-4,498, -1,155)","nan (nan, nan)","-283 (-618, 15)","-6 (-24, 0)"
+79,China,oil,"2,575 (-126, 5,399)",Not modeled,Not modeled,"2,575 (-126, 5,399)",Not modeled
+80,Côte d'Ivoire,wheat flour,"4,713 (2,117, 8,144)","3,249 (1,447, 6,389)","607 (103, 1,199)","778 (-37, 2,045)","79 (1, 304)"
+81,Côte d'Ivoire,maize flour,"1,848 (427, 3,684)","696 (196, 1,463)","969 (73, 2,126)","166 (-7, 472)","17 (0, 63)"
+82,Côte d'Ivoire,industry oil,"3,354 (-139, 8,903)",Not modeled,Not modeled,"3,354 (-139, 8,903)",Not modeled
+83,Côte d'Ivoire,industry salt,"27,925 (13,348, 52,620)","27,925 (13,348, 52,620)",Not modeled,Not modeled,Not modeled
+84,Côte d'Ivoire,industry wheat,"59,267 (18,096, 97,414)","24,442 (11,635, 46,412)","28,399 (2,121, 54,195)","5,833 (-277, 14,963)","594 (11, 2,207)"
+85,Côte d'Ivoire,salt,"11,959 (5,800, 22,509)","11,959 (5,800, 22,509)",Not modeled,Not modeled,Not modeled
+86,Côte d'Ivoire,zero industry oil,"-2,465 (-6,543, 102)",Not modeled,Not modeled,"-2,465 (-6,543, 102)",Not modeled
+87,Côte d'Ivoire,zero industry salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+88,Côte d'Ivoire,zero industry wheat,"0 (-0, 0)","0 (-0, 0)","nan (nan, nan)","0 (0, 0)","0 (0, 0)"
+89,Côte d'Ivoire,zero maize flour,"-2,464 (-5,086, -679)","-1,951 (-4,103, -550)","nan (nan, nan)","-466 (-1,323, 19)","-47 (-177, -1)"
+90,Côte d'Ivoire,zero oil,"-2,465 (-6,543, 102)",Not modeled,Not modeled,"-2,465 (-6,543, 102)",Not modeled
+91,Côte d'Ivoire,zero salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+92,Côte d'Ivoire,zero wheat flour,"0 (-0, 0)","0 (-0, 0)","nan (nan, nan)","0 (0, 0)","0 (0, 0)"
+93,Côte d'Ivoire,oil,"5,441 (-233, 14,570)",Not modeled,Not modeled,"5,441 (-233, 14,570)",Not modeled
+94,Democratic Republic of the Congo,wheat flour,"1,547 (391, 2,784)","482 (197, 936)","667 (39, 1,386)","329 (-20, 972)","70 (10, 206)"
+95,Democratic Republic of the Congo,maize flour,"6,045 (1,559, 10,956)","1,874 (824, 3,431)","2,619 (139, 5,318)","1,281 (-90, 3,518)","271 (45, 806)"
+96,Democratic Republic of the Congo,industry oil,"42,444 (-2,857, 113,818)",Not modeled,Not modeled,"42,444 (-2,857, 113,818)",Not modeled
+97,Democratic Republic of the Congo,industry salt,"79,903 (36,595, 147,212)","79,903 (36,595, 147,212)",Not modeled,Not modeled,Not modeled
+98,Democratic Republic of the Congo,industry wheat,"1,585 (387, 2,887)","498 (201, 982)","675 (21, 1,422)","340 (-21, 1,015)","72 (10, 214)"
+99,Democratic Republic of the Congo,salt,"67,034 (30,883, 122,471)","67,034 (30,883, 122,471)",Not modeled,Not modeled,Not modeled
+100,Democratic Republic of the Congo,zero industry oil,"-1,728 (-4,634, 116)",Not modeled,Not modeled,"-1,728 (-4,634, 116)",Not modeled
+101,Democratic Republic of the Congo,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+102,Democratic Republic of the Congo,zero industry wheat,"-0 (-0, 0)","-0 (-0, 0)","nan (nan, nan)","0 (0, 0)","0 (0, 0)"
+103,Democratic Republic of the Congo,zero maize flour,"-0 (-0, 0)","-0 (-0, 0)","nan (nan, nan)","0 (0, 0)","0 (0, 0)"
+104,Democratic Republic of the Congo,zero oil,"-1,728 (-4,634, 116)",Not modeled,Not modeled,"-1,728 (-4,634, 116)",Not modeled
+105,Democratic Republic of the Congo,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+106,Democratic Republic of the Congo,zero wheat flour,"-0 (-0, 0)","-0 (-0, 0)","nan (nan, nan)","0 (0, 0)","0 (0, 0)"
+107,Democratic Republic of the Congo,oil,"23,576 (-1,524, 63,087)",Not modeled,Not modeled,"23,576 (-1,524, 63,087)",Not modeled
+108,Egypt,wheat flour,"38,459 (7,656, 71,390)","4,404 (1,045, 13,171)","33,237 (4,250, 64,267)","645 (-35, 1,612)","172 (0, 638)"
+109,Egypt,maize flour,"22,016 (2,420, 48,878)","2,557 (505, 7,738)","18,986 (1,009, 42,392)","374 (-22, 1,002)","99 (0, 378)"
+110,Egypt,industry oil,"705 (-40, 1,592)",Not modeled,Not modeled,"705 (-40, 1,592)",Not modeled
+111,Egypt,industry salt,"7,781 (2,157, 20,571)","7,781 (2,157, 20,571)",Not modeled,Not modeled,Not modeled
+112,Egypt,industry wheat,"49,673 (8,674, 87,074)","5,955 (1,612, 16,465)","42,605 (5,312, 76,947)","880 (-42, 2,049)","233 (0, 827)"
+113,Egypt,salt,"7,205 (1,988, 19,341)","7,205 (1,988, 19,341)",Not modeled,Not modeled,Not modeled
+114,Egypt,zero industry oil,"-60 (-135, 3)",Not modeled,Not modeled,"-60 (-135, 3)",Not modeled
+115,Egypt,zero industry salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+116,Egypt,zero industry wheat,"-1,595 (-4,342, -434)","-1,346 (-4,137, -299)","nan (nan, nan)","-196 (-499, 11)","-53 (-207, 0)"
+117,Egypt,zero maize flour,"-0 (-0, -0)","-0 (-0, -0)","nan (nan, nan)","-0 (-0, 0)","-0 (-0, 0)"
+118,Egypt,zero oil,"-60 (-135, 3)",Not modeled,Not modeled,"-60 (-135, 3)",Not modeled
+119,Egypt,zero salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+120,Egypt,zero wheat flour,"-1,595 (-4,342, -434)","-1,346 (-4,137, -299)","nan (nan, nan)","-196 (-499, 11)","-53 (-207, 0)"
+121,Egypt,oil,"773 (-47, 1,755)",Not modeled,Not modeled,"773 (-47, 1,755)",Not modeled
+122,Ethiopia,wheat flour,"55,470 (16,707, 93,190)","14,376 (7,683, 23,172)","27,204 (6,483, 48,207)","13,419 (-1,145, 32,528)","471 (0, 1,715)"
+123,Ethiopia,maize flour,"62,899 (16,266, 125,356)","19,269 (6,851, 36,577)","29,970 (4,814, 63,111)","13,193 (-955, 35,964)","467 (0, 1,797)"
+124,Ethiopia,industry oil,"33,740 (-2,562, 82,427)",Not modeled,Not modeled,"33,740 (-2,562, 82,427)",Not modeled
+125,Ethiopia,industry salt,"70,010 (38,898, 112,284)","70,010 (38,898, 112,284)",Not modeled,Not modeled,Not modeled
+126,Ethiopia,industry wheat,"37,386 (11,516, 66,781)","11,021 (5,235, 18,762)","18,434 (4,351, 34,593)","7,663 (-685, 19,667)","268 (0, 976)"
+127,Ethiopia,salt,"59,347 (32,690, 95,008)","59,347 (32,690, 95,008)",Not modeled,Not modeled,Not modeled
+128,Ethiopia,zero industry oil,"-2,546 (-6,221, 193)",Not modeled,Not modeled,"-2,546 (-6,221, 193)",Not modeled
+129,Ethiopia,zero industry salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+130,Ethiopia,zero industry wheat,"0 (-0, 0)","0 (-0, 0)","nan (nan, nan)","0 (0, 0)","0 (0, 0)"
+131,Ethiopia,zero maize flour,"0 (-0, 0)","0 (-0, 0)","nan (nan, nan)","0 (0, 0)","0 (0, 0)"
+132,Ethiopia,zero oil,"-2,546 (-6,221, 193)",Not modeled,Not modeled,"-2,546 (-6,221, 193)",Not modeled
+133,Ethiopia,zero salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+134,Ethiopia,zero wheat flour,"0 (-0, 0)","0 (-0, 0)","nan (nan, nan)","0 (0, 0)","0 (0, 0)"
+135,Ethiopia,oil,"33,134 (-2,635, 79,902)",Not modeled,Not modeled,"33,134 (-2,635, 79,902)",Not modeled
+136,Ghana,wheat flour,"22,729 (5,490, 45,260)","6,294 (1,963, 13,484)","14,174 (1,947, 31,204)","2,160 (-151, 5,638)","100 (0, 428)"
+137,Ghana,maize flour,"5,105 (905, 11,149)","1,406 (416, 3,143)","3,206 (157, 7,479)","471 (-38, 1,349)","22 (0, 92)"
+138,Ghana,industry oil,"3,400 (-191, 8,974)",Not modeled,Not modeled,"3,400 (-191, 8,974)",Not modeled
+139,Ghana,industry salt,"17,079 (7,621, 31,452)","17,079 (7,621, 31,452)",Not modeled,Not modeled,Not modeled
+140,Ghana,industry wheat,"44,134 (10,766, 75,800)","12,684 (5,374, 24,540)","26,924 (2,401, 52,188)","4,326 (-248, 10,568)","200 (0, 790)"
+141,Ghana,salt,"6,332 (2,807, 11,747)","6,332 (2,807, 11,747)",Not modeled,Not modeled,Not modeled
+142,Ghana,zero industry oil,"-2,462 (-6,494, 138)",Not modeled,Not modeled,"-2,462 (-6,494, 138)",Not modeled
+143,Ghana,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+144,Ghana,zero industry wheat,"-4,637 (-9,246, -1,624)","-3,412 (-7,309, -1,064)","nan (nan, nan)","-1,171 (-3,056, 82)","-54 (-232, 0)"
+145,Ghana,zero maize flour,"-1,014 (-2,174, -281)","-751 (-1,678, -222)","nan (nan, nan)","-252 (-721, 20)","-12 (-49, 0)"
+146,Ghana,zero oil,"-2,462 (-6,494, 138)",Not modeled,Not modeled,"-2,462 (-6,494, 138)",Not modeled
+147,Ghana,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+148,Ghana,zero wheat flour,"-4,637 (-9,246, -1,624)","-3,412 (-7,309, -1,064)","nan (nan, nan)","-1,171 (-3,056, 82)","-54 (-232, 0)"
+149,Ghana,oil,"3,663 (-188, 8,963)",Not modeled,Not modeled,"3,663 (-188, 8,963)",Not modeled
+150,India,wheat flour,"23,238 (4,400, 41,897)","1,768 (817, 3,179)","16,660 (2,680, 32,220)","4,145 (-229, 8,779)","665 (124, 1,608)"
+151,India,industry oil,"56,665 (-2,547, 125,581)",Not modeled,Not modeled,"56,665 (-2,547, 125,581)",Not modeled
+152,India,industry salt,"213,420 (107,458, 384,445)","213,420 (107,458, 384,445)",Not modeled,Not modeled,Not modeled
+153,India,industry wheat,"413,506 (83,612, 818,613)","41,096 (17,609, 76,899)","350,290 (47,069, 723,536)","19,079 (-1,186, 42,513)","3,041 (528, 7,828)"
+154,India,salt,"147,764 (74,317, 266,828)","147,764 (74,317, 266,828)",Not modeled,Not modeled,Not modeled
+155,India,zero industry oil,"-22,884 (-50,840, 1,021)",Not modeled,Not modeled,"-22,884 (-50,840, 1,021)",Not modeled
+156,India,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+157,India,zero industry wheat,"-15,992 (-28,264, -7,497)","-13,924 (-25,041, -6,466)","nan (nan, nan)","-1,786 (-4,260, 119)","-283 (-750, -43)"
+158,India,zero oil,"-22,884 (-50,840, 1,021)",Not modeled,Not modeled,"-22,884 (-50,840, 1,021)",Not modeled
+159,India,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+160,India,zero wheat flour,"-15,992 (-28,264, -7,497)","-13,924 (-25,041, -6,466)","nan (nan, nan)","-1,786 (-4,260, 119)","-283 (-750, -43)"
+161,India,oil,"61,786 (-2,938, 132,802)",Not modeled,Not modeled,"61,786 (-2,938, 132,802)",Not modeled
+162,Indonesia,industry oil,"4,763 (-214, 11,014)",Not modeled,Not modeled,"4,763 (-214, 11,014)",Not modeled
+163,Indonesia,industry salt,"37,953 (22,353, 56,698)","37,953 (22,353, 56,698)",Not modeled,Not modeled,Not modeled
+164,Indonesia,industry wheat,"5,977 (1,637, 11,010)","1,245 (415, 2,286)","4,688 (926, 9,208)",Not modeled,"44 (3, 139)"
+165,Indonesia,salt,"36,307 (21,198, 53,892)","36,307 (21,198, 53,892)",Not modeled,Not modeled,Not modeled
+166,Indonesia,zero industry oil,"-5,292 (-12,426, 239)",Not modeled,Not modeled,"-5,292 (-12,426, 239)",Not modeled
+167,Indonesia,zero industry salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+168,Indonesia,zero industry wheat,"-42,315 (-76,709, -19,021)","-40,863 (-75,680, -17,986)","nan (nan, nan)",Not modeled,"-1,452 (-4,577, -113)"
+169,Indonesia,zero oil,"-5,292 (-12,426, 239)",Not modeled,Not modeled,"-5,292 (-12,426, 239)",Not modeled
+170,Indonesia,zero salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+171,Indonesia,oil,"5,417 (-221, 12,245)",Not modeled,Not modeled,"5,417 (-221, 12,245)",Not modeled
+172,Kenya,wheat flour,"8,069 (2,108, 14,392)","1,356 (695, 2,256)","4,944 (1,050, 9,688)","1,697 (-111, 4,046)","73 (2, 232)"
+173,Kenya,maize flour,"24,301 (4,751, 46,630)","5,098 (2,025, 9,836)","12,842 (1,638, 25,905)","6,095 (-346, 14,929)","266 (6, 913)"
+174,Kenya,industry oil,"4,975 (-290, 12,513)",Not modeled,Not modeled,"4,975 (-290, 12,513)",Not modeled
+175,Kenya,industry salt,"13,609 (7,930, 21,998)","13,609 (7,930, 21,998)",Not modeled,Not modeled,Not modeled
+176,Kenya,industry wheat,"12,408 (1,932, 27,923)","2,315 (103, 5,970)","7,125 (798, 18,800)","2,843 (-167, 9,217)","126 (0, 489)"
+177,Kenya,salt,"8,796 (5,126, 14,166)","8,796 (5,126, 14,166)",Not modeled,Not modeled,Not modeled
+178,Kenya,zero industry oil,"-11,307 (-28,451, 658)",Not modeled,Not modeled,"-11,307 (-28,451, 658)",Not modeled
+179,Kenya,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+180,Kenya,zero industry wheat,"-10,471 (-25,481, -1,977)","-4,584 (-11,307, -580)","nan (nan, nan)","-5,645 (-17,817, 431)","-242 (-921, -3)"
+181,Kenya,zero maize flour,"-0 (-0, 0)","-0 (-0, 0)","nan (nan, nan)","0 (0, 0)","0 (0, 0)"
+182,Kenya,zero oil,"-11,307 (-28,451, 658)",Not modeled,Not modeled,"-11,307 (-28,451, 658)",Not modeled
+183,Kenya,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+184,Kenya,zero wheat flour,"-10,471 (-25,481, -1,977)","-4,584 (-11,307, -580)","nan (nan, nan)","-5,645 (-17,817, 431)","-242 (-921, -3)"
+185,Kenya,oil,"681 (-36, 2,409)",Not modeled,Not modeled,"681 (-36, 2,409)",Not modeled
+186,Madagascar,wheat flour,"16,112 (3,079, 31,223)","3,921 (1,242, 8,087)","6,568 (480, 13,940)","5,215 (-509, 14,864)","409 (15, 1,341)"
+187,Madagascar,maize flour,"1,484 (239, 3,114)","359 (114, 770)","609 (36, 1,360)","479 (-52, 1,297)","37 (1, 125)"
+188,Madagascar,industry oil,"10,139 (-936, 25,227)",Not modeled,Not modeled,"10,139 (-936, 25,227)",Not modeled
+189,Madagascar,industry salt,"15,330 (6,968, 29,227)","15,330 (6,968, 29,227)",Not modeled,Not modeled,Not modeled
+190,Madagascar,industry wheat,"25,506 (5,319, 47,481)","6,228 (2,502, 12,559)","10,322 (643, 20,126)","8,311 (-838, 21,969)","646 (24, 1,993)"
+191,Madagascar,salt,"14,943 (6,744, 28,577)","14,943 (6,744, 28,577)",Not modeled,Not modeled,Not modeled
+192,Madagascar,zero industry oil,"-4,345 (-10,812, 401)",Not modeled,Not modeled,"-4,345 (-10,812, 401)",Not modeled
+193,Madagascar,zero industry salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+194,Madagascar,zero industry wheat,"-3,585 (-7,601, -810)","-1,473 (-3,037, -466)","nan (nan, nan)","-1,959 (-5,583, 191)","-154 (-503, -6)"
+195,Madagascar,zero maize flour,"-1,642 (-3,682, -314)","-674 (-1,445, -214)","nan (nan, nan)","-899 (-2,434, 98)","-70 (-235, -3)"
+196,Madagascar,zero oil,"-4,345 (-10,812, 401)",Not modeled,Not modeled,"-4,345 (-10,812, 401)",Not modeled
+197,Madagascar,zero salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+198,Madagascar,zero wheat flour,"-3,585 (-7,601, -810)","-1,473 (-3,037, -466)","nan (nan, nan)","-1,959 (-5,583, 191)","-154 (-503, -6)"
+199,Madagascar,oil,"2,100 (-231, 5,249)",Not modeled,Not modeled,"2,100 (-231, 5,249)",Not modeled
+200,Mozambique,wheat flour,"4,536 (1,485, 8,347)","2,079 (857, 4,236)","1,571 (173, 3,153)","812 (-37, 2,082)","74 (7, 222)"
+201,Mozambique,maize flour,"6,850 (2,155, 12,073)","2,356 (1,029, 4,771)","3,488 (728, 6,563)","922 (-44, 2,296)","84 (9, 252)"
+202,Mozambique,industry oil,"5,714 (-226, 14,352)",Not modeled,Not modeled,"5,714 (-226, 14,352)",Not modeled
+203,Mozambique,industry salt,"27,046 (12,025, 52,261)","27,046 (12,025, 52,261)",Not modeled,Not modeled,Not modeled
+204,Mozambique,industry wheat,"4,569 (1,520, 8,496)","2,079 (824, 4,261)","1,603 (212, 3,403)","813 (-38, 2,137)","74 (7, 223)"
+205,Mozambique,salt,"18,152 (8,085, 34,921)","18,152 (8,085, 34,921)",Not modeled,Not modeled,Not modeled
+206,Mozambique,zero industry oil,"-5,574 (-13,999, 220)",Not modeled,Not modeled,"-5,574 (-13,999, 220)",Not modeled
+207,Mozambique,zero industry salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+208,Mozambique,zero industry wheat,"-4,447 (-8,598, -1,719)","-3,119 (-6,355, -1,285)","nan (nan, nan)","-1,218 (-3,122, 56)","-111 (-332, -11)"
+209,Mozambique,zero maize flour,"-7,846 (-15,034, -2,880)","-5,498 (-11,132, -2,400)","nan (nan, nan)","-2,152 (-5,357, 102)","-197 (-588, -20)"
+210,Mozambique,zero oil,"-5,574 (-13,999, 220)",Not modeled,Not modeled,"-5,574 (-13,999, 220)",Not modeled
+211,Mozambique,zero salt,"0 (-0, 0)","0 (-0, 0)",Not modeled,Not modeled,Not modeled
+212,Mozambique,zero wheat flour,"-4,447 (-8,598, -1,719)","-3,119 (-6,355, -1,285)","nan (nan, nan)","-1,218 (-3,122, 56)","-111 (-332, -11)"
+213,Mozambique,oil,"1,998 (-86, 4,975)",Not modeled,Not modeled,"1,998 (-86, 4,975)",Not modeled
+214,Myanmar,wheat flour,"2,980 (544, 5,577)","762 (237, 1,598)","2,075 (64, 4,316)","138 (-9, 373)","5 (0, 17)"
+215,Myanmar,industry oil,"2,323 (-123, 5,619)",Not modeled,Not modeled,"2,323 (-123, 5,619)",Not modeled
+216,Myanmar,industry salt,"20,986 (8,298, 42,905)","20,986 (8,298, 42,905)",Not modeled,Not modeled,Not modeled
+217,Myanmar,industry wheat,"3,416 (747, 6,129)","874 (329, 1,781)","2,384 (69, 4,742)","153 (-10, 384)","6 (0, 18)"
+218,Myanmar,salt,"20,213 (7,897, 41,662)","20,213 (7,897, 41,662)",Not modeled,Not modeled,Not modeled
+219,Myanmar,zero industry oil,"0 (0, 0)",Not modeled,Not modeled,"0 (0, 0)",Not modeled
+220,Myanmar,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+221,Myanmar,zero industry wheat,"-218 (-700, -7)","-216 (-698, -7)","nan (nan, nan)","0 (0, 0)","-1 (-7, -0)"
+222,Myanmar,zero oil,"0 (0, 0)",Not modeled,Not modeled,"0 (0, 0)",Not modeled
+223,Myanmar,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+224,Myanmar,zero wheat flour,"-218 (-700, -7)","-216 (-698, -7)","nan (nan, nan)","0 (0, 0)","-1 (-7, -0)"
+225,Myanmar,oil,"312 (-17, 923)",Not modeled,Not modeled,"312 (-17, 923)",Not modeled
+226,Nepal,wheat flour,"13,666 (1,521, 29,731)","1,886 (511, 4,703)","11,247 (138, 25,610)","511 (-23, 1,445)","23 (0, 85)"
+227,Nepal,industry oil,"1,147 (-62, 2,835)",Not modeled,Not modeled,"1,147 (-62, 2,835)",Not modeled
+228,Nepal,industry salt,"4,766 (1,701, 10,631)","4,766 (1,701, 10,631)",Not modeled,Not modeled,Not modeled
+229,Nepal,industry wheat,"2,349 (331, 4,352)","389 (140, 882)","1,848 (32, 3,706)","106 (-5, 271)","7 (0, 24)"
+230,Nepal,salt,"4,435 (1,606, 9,974)","4,435 (1,606, 9,974)",Not modeled,Not modeled,Not modeled
+231,Nepal,zero industry oil,"0 (0, 0)",Not modeled,Not modeled,"0 (0, 0)",Not modeled
+232,Nepal,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+233,Nepal,zero industry wheat,"-327 (-756, -100)","-257 (-642, -70)","nan (nan, nan)","-70 (-197, 3)","0 (0, 0)"
+234,Nepal,zero oil,"0 (0, 0)",Not modeled,Not modeled,"0 (0, 0)",Not modeled
+235,Nepal,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+236,Nepal,zero wheat flour,"-327 (-756, -100)","-257 (-642, -70)","nan (nan, nan)","-70 (-197, 3)","0 (0, 0)"
+237,Nepal,oil,"1,161 (-64, 2,870)",Not modeled,Not modeled,"1,161 (-64, 2,870)",Not modeled
+238,Niger,wheat flour,"11,495 (1,242, 28,269)","2,472 (713, 5,933)","1,863 (171, 4,023)","6,991 (-731, 22,039)","169 (0, 655)"
+239,Niger,maize flour,"200 (26, 481)","42 (12, 101)","43 (6, 92)","112 (-13, 342)","3 (0, 11)"
+240,Niger,industry oil,"7,041 (-629, 29,694)",Not modeled,Not modeled,"7,041 (-629, 29,694)",Not modeled
+241,Niger,industry salt,"40,862 (16,423, 81,457)","40,862 (16,423, 81,457)",Not modeled,Not modeled,Not modeled
+242,Niger,industry wheat,"26,275 (3,064, 58,243)","5,796 (2,304, 11,734)","4,183 (212, 8,201)","15,900 (-1,965, 44,632)","397 (0, 1,501)"
+243,Niger,salt,"33,791 (13,570, 68,118)","33,791 (13,570, 68,118)",Not modeled,Not modeled,Not modeled
+244,Niger,zero industry oil,"-155,343 (-511,024, 12,970)",Not modeled,Not modeled,"-155,343 (-511,024, 12,970)",Not modeled
+245,Niger,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+246,Niger,zero industry wheat,"-59,929 (-157,805, -6,307)","-15,381 (-36,912, -4,435)","nan (nan, nan)","-43,499 (-137,127, 4,545)","-1,049 (-4,074, 0)"
+247,Niger,zero maize flour,"-6,566 (-17,099, -439)","-1,773 (-4,232, -503)","nan (nan, nan)","-4,675 (-14,333, 525)","-118 (-452, 0)"
+248,Niger,zero oil,"-155,343 (-511,024, 12,970)",Not modeled,Not modeled,"-155,343 (-511,024, 12,970)",Not modeled
+249,Niger,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+250,Niger,zero wheat flour,"-59,929 (-157,805, -6,307)","-15,381 (-36,912, -4,435)","nan (nan, nan)","-43,499 (-137,127, 4,545)","-1,049 (-4,074, 0)"
+251,Niger,oil,"16,970 (-644, 69,904)",Not modeled,Not modeled,"16,970 (-644, 69,904)",Not modeled
+252,Nigeria,wheat flour,"394,696 (137,903, 640,092)","184,034 (87,249, 355,951)","165,697 (30,193, 301,116)","36,893 (-2,819, 97,539)","8,072 (139, 26,343)"
+253,Nigeria,maize flour,"62,725 (24,190, 103,500)","27,641 (13,237, 53,303)","28,466 (7,307, 50,637)","5,431 (-445, 14,483)","1,187 (20, 3,897)"
+254,Nigeria,industry oil,"54,949 (-5,221, 141,970)",Not modeled,Not modeled,"54,949 (-5,221, 141,970)",Not modeled
+255,Nigeria,industry salt,"372,533 (179,276, 715,045)","372,533 (179,276, 715,045)",Not modeled,Not modeled,Not modeled
+256,Nigeria,industry wheat,"393,391 (121,619, 739,242)","183,947 (66,929, 412,624)","163,976 (24,877, 343,154)","37,585 (-3,172, 102,093)","7,883 (130, 25,252)"
+257,Nigeria,salt,"348,037 (165,395, 666,783)","348,037 (165,395, 666,783)",Not modeled,Not modeled,Not modeled
+258,Nigeria,zero industry oil,"-5,786 (-14,942, 551)",Not modeled,Not modeled,"-5,786 (-14,942, 551)",Not modeled
+259,Nigeria,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+260,Nigeria,zero industry wheat,"-88,502 (-164,474, -40,238)","-71,073 (-143,620, -32,252)","nan (nan, nan)","-14,336 (-37,557, 1,111)","-3,094 (-9,763, -51)"
+261,Nigeria,zero maize flour,"-5,788 (-11,565, -2,035)","-4,671 (-10,205, -1,639)","nan (nan, nan)","-916 (-2,527, 70)","-201 (-680, -3)"
+262,Nigeria,zero oil,"-5,786 (-14,942, 551)",Not modeled,Not modeled,"-5,786 (-14,942, 551)",Not modeled
+263,Nigeria,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+264,Nigeria,zero wheat flour,"-88,502 (-164,474, -40,238)","-71,073 (-143,620, -32,252)","nan (nan, nan)","-14,336 (-37,557, 1,111)","-3,094 (-9,763, -51)"
+265,Nigeria,oil,"18,843 (-1,621, 47,972)",Not modeled,Not modeled,"18,843 (-1,621, 47,972)",Not modeled
+266,"Nigeria, Ethiopia, and India combined",wheat flour,"473,405 (162,191, 763,327)","200,179 (99,855, 378,607)","209,561 (38,983, 380,391)","54,457 (-4,388, 135,546)","9,209 (288, 29,489)"
+267,"Nigeria, Ethiopia, and India combined",maize flour,"125,624 (43,477, 214,087)","46,910 (23,786, 83,063)","58,436 (12,121, 111,085)","18,624 (-1,628, 47,595)","1,654 (20, 5,464)"
+268,"Nigeria, Ethiopia, and India combined",industry oil,"145,354 (-8,063, 342,170)",Not modeled,Not modeled,"145,354 (-8,063, 342,170)",Not modeled
+269,"Nigeria, Ethiopia, and India combined",industry salt,"655,963 (394,836, 1,078,338)","655,963 (394,836, 1,078,338)",Not modeled,Not modeled,Not modeled
+270,"Nigeria, Ethiopia, and India combined",industry wheat,"844,282 (238,767, 1,497,998)","236,064 (109,489, 463,743)","532,699 (77,475, 1,044,001)","64,327 (-3,550, 154,088)","11,192 (701, 31,981)"
+271,"Nigeria, Ethiopia, and India combined",salt,"555,148 (332,372, 923,031)","555,148 (332,372, 923,031)",Not modeled,Not modeled,Not modeled
+272,"Nigeria, Ethiopia, and India combined",zero industry oil,"-31,216 (-69,073, 1,467)",Not modeled,Not modeled,"-31,216 (-69,073, 1,467)",Not modeled
+273,"Nigeria, Ethiopia, and India combined",zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+274,"Nigeria, Ethiopia, and India combined",zero industry wheat,"-104,494 (-180,753, -52,964)","-84,996 (-158,069, -45,275)","0 (0, 0)","-16,121 (-41,584, 1,041)","-3,377 (-10,443, -111)"
+275,"Nigeria, Ethiopia, and India combined",zero maize flour,"-5,788 (-11,565, -2,035)","-4,671 (-10,205, -1,639)","0 (0, 0)","-916 (-2,527, 70)","-201 (-680, -3)"
+276,"Nigeria, Ethiopia, and India combined",zero oil,"-31,216 (-69,073, 1,467)",Not modeled,Not modeled,"-31,216 (-69,073, 1,467)",Not modeled
+277,"Nigeria, Ethiopia, and India combined",zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+278,"Nigeria, Ethiopia, and India combined",zero wheat flour,"-104,494 (-180,753, -52,964)","-84,996 (-158,069, -45,275)","0 (0, 0)","-16,121 (-41,584, 1,041)","-3,377 (-10,443, -111)"
+279,"Nigeria, Ethiopia, and India combined",oil,"113,763 (-5,713, 249,181)",Not modeled,Not modeled,"113,763 (-5,713, 249,181)",Not modeled
+280,Pakistan,wheat flour,"183,452 (52,285, 349,483)","31,911 (9,439, 71,076)","138,333 (26,111, 280,459)","6,227 (-341, 16,502)","6,981 (1,535, 17,028)"
+281,Pakistan,industry oil,"10,539 (-446, 26,245)",Not modeled,Not modeled,"10,539 (-446, 26,245)",Not modeled
+282,Pakistan,industry salt,"74,283 (35,614, 138,690)","74,283 (35,614, 138,690)",Not modeled,Not modeled,Not modeled
+283,Pakistan,industry wheat,"263,016 (87,784, 453,564)","46,562 (19,903, 93,964)","197,332 (41,592, 359,021)","8,966 (-461, 22,314)","10,157 (3,097, 22,501)"
+284,Pakistan,salt,"68,127 (32,321, 128,514)","68,127 (32,321, 128,514)",Not modeled,Not modeled,Not modeled
+285,Pakistan,zero industry oil,"-5,043 (-12,935, 219)",Not modeled,Not modeled,"-5,043 (-12,935, 219)",Not modeled
+286,Pakistan,zero industry salt,"0 (0, 0)","0 (0, 0)",Not modeled,Not modeled,Not modeled
+287,Pakistan,zero industry wheat,"-1,913 (-4,014, -653)","-1,570 (-3,496, -464)","nan (nan, nan)","0 (0, 0)","-343 (-838, -75)"
+288,Pakistan,zero oil,"-5,043 (-12,935, 219)",Not modeled,Not modeled,"-5,043 (-12,935, 219)",Not modeled
+289,Pakistan,zero salt,"0 (0, 0)","0 (0, 0)",Not modeled,Not modeled,Not modeled
+290,Pakistan,zero wheat flour,"-1,913 (-4,014, -653)","-1,570 (-3,496, -464)","nan (nan, nan)","0 (0, 0)","-343 (-838, -75)"
+291,Pakistan,oil,"8,353 (-401, 23,090)",Not modeled,Not modeled,"8,353 (-401, 23,090)",Not modeled
+292,South Africa,wheat flour,"2,570 (554, 4,865)","312 (165, 499)","2,128 (320, 4,212)","122 (-7, 320)","8 (0, 29)"
+293,South Africa,maize flour,"19,471 (4,432, 35,027)","2,947 (1,630, 4,636)","15,202 (2,337, 28,659)","1,239 (-49, 3,336)","84 (0, 287)"
+294,South Africa,industry oil,"1,399 (-58, 3,904)",Not modeled,Not modeled,"1,399 (-58, 3,904)",Not modeled
+295,South Africa,industry salt,"5,725 (3,569, 8,467)","5,725 (3,569, 8,467)",Not modeled,Not modeled,Not modeled
+296,South Africa,industry wheat,"2,489 (409, 4,475)","311 (190, 465)","2,049 (222, 3,903)","122 (-7, 327)","8 (0, 28)"
+297,South Africa,salt,"5,393 (3,327, 7,998)","5,393 (3,327, 7,998)",Not modeled,Not modeled,Not modeled
+298,South Africa,zero industry oil,"-821 (-2,297, 34)",Not modeled,Not modeled,"-821 (-2,297, 34)",Not modeled
+299,South Africa,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+300,South Africa,zero industry wheat,"-485 (-879, -184)","-343 (-597, -148)","nan (nan, nan)","-133 (-368, 8)","-9 (-33, -0)"
+301,South Africa,zero maize flour,"-6,515 (-12,037, -2,779)","-4,488 (-7,234, -2,549)","nan (nan, nan)","-1,899 (-5,301, 64)","-128 (-466, -1)"
+302,South Africa,zero oil,"-821 (-2,297, 34)",Not modeled,Not modeled,"-821 (-2,297, 34)",Not modeled
+303,South Africa,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+304,South Africa,zero wheat flour,"-485 (-879, -184)","-343 (-597, -148)","nan (nan, nan)","-133 (-368, 8)","-9 (-33, -0)"
+305,South Africa,oil,"762 (-35, 2,002)",Not modeled,Not modeled,"762 (-35, 2,002)",Not modeled
+306,Sudan,wheat flour,"48,206 (15,412, 93,003)","18,936 (4,909, 46,068)","24,228 (3,993, 47,972)","3,379 (-198, 9,747)","1,663 (351, 4,210)"
+307,Sudan,maize flour,"22,428 (5,717, 46,355)","9,668 (2,484, 25,802)","10,211 (137, 22,755)","1,713 (-83, 4,520)","836 (173, 2,148)"
+308,Sudan,industry oil,"390 (-6, 1,592)",Not modeled,Not modeled,"390 (-6, 1,592)",Not modeled
+309,Sudan,industry salt,"31,023 (10,749, 69,418)","31,023 (10,749, 69,418)",Not modeled,Not modeled,Not modeled
+310,Sudan,industry wheat,"65,745 (22,077, 118,044)","26,526 (8,226, 62,842)","32,152 (4,250, 58,080)","4,745 (-261, 12,726)","2,322 (614, 5,561)"
+311,Sudan,salt,"21,754 (7,658, 48,320)","21,754 (7,658, 48,320)",Not modeled,Not modeled,Not modeled
+312,Sudan,zero industry oil,"-9,300 (-26,934, 308)",Not modeled,Not modeled,"-9,300 (-26,934, 308)",Not modeled
+313,Sudan,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+314,Sudan,zero industry wheat,"-3,054 (-6,979, -1,008)","-2,412 (-5,856, -624)","nan (nan, nan)","-430 (-1,242, 25)","-212 (-541, -45)"
+315,Sudan,zero maize flour,"-2,676 (-6,515, -772)","-2,118 (-5,652, -544)","nan (nan, nan)","-375 (-990, 18)","-183 (-471, -38)"
+316,Sudan,zero oil,"-9,300 (-26,934, 308)",Not modeled,Not modeled,"-9,300 (-26,934, 308)",Not modeled
+317,Sudan,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+318,Sudan,zero wheat flour,"-3,054 (-6,979, -1,008)","-2,412 (-5,856, -624)","nan (nan, nan)","-430 (-1,242, 25)","-212 (-541, -45)"
+319,Sudan,oil,"691 (-20, 2,761)",Not modeled,Not modeled,"691 (-20, 2,761)",Not modeled
+320,Uganda,wheat flour,"1,862 (500, 3,247)","587 (259, 1,092)","929 (94, 1,738)","325 (-21, 979)","21 (1, 68)"
+321,Uganda,maize flour,"32,270 (9,322, 56,022)","9,949 (4,253, 18,837)","16,463 (2,750, 30,310)","5,498 (-404, 16,035)","360 (25, 1,173)"
+322,Uganda,industry oil,"5,472 (-284, 16,755)",Not modeled,Not modeled,"5,472 (-284, 16,755)",Not modeled
+323,Uganda,industry salt,"26,490 (11,769, 48,831)","26,490 (11,769, 48,831)",Not modeled,Not modeled,Not modeled
+324,Uganda,industry wheat,"2,397 (579, 4,362)","754 (310, 1,469)","1,197 (115, 2,424)","419 (-24, 1,380)","27 (2, 89)"
+325,Uganda,salt,"25,903 (11,567, 47,788)","25,903 (11,567, 47,788)",Not modeled,Not modeled,Not modeled
+326,Uganda,zero industry oil,"-11,670 (-35,721, 604)",Not modeled,Not modeled,"-11,670 (-35,721, 604)",Not modeled
+327,Uganda,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+328,Uganda,zero industry wheat,"-3,780 (-7,684, -1,226)","-2,374 (-4,628, -982)","nan (nan, nan)","-1,319 (-4,282, 74)","-86 (-279, -6)"
+329,Uganda,zero maize flour,"-2,866 (-6,443, -801)","-1,802 (-3,872, -658)","nan (nan, nan)","-1,000 (-3,215, 58)","-65 (-218, -4)"
+330,Uganda,zero oil,"-11,670 (-35,721, 604)",Not modeled,Not modeled,"-11,670 (-35,721, 604)",Not modeled
+331,Uganda,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+332,Uganda,zero wheat flour,"-3,780 (-7,684, -1,226)","-2,374 (-4,628, -982)","nan (nan, nan)","-1,319 (-4,282, 74)","-86 (-279, -6)"
+333,Uganda,oil,"7,425 (-354, 22,351)",Not modeled,Not modeled,"7,425 (-354, 22,351)",Not modeled
+334,United Republic of Tanzania,wheat flour,"26,943 (7,477, 46,602)","10,258 (4,598, 18,861)","13,714 (1,328, 25,948)","2,842 (-167, 7,950)","130 (7, 446)"
+335,United Republic of Tanzania,maize flour,"51,068 (14,837, 86,404)","17,467 (7,924, 33,005)","28,797 (5,244, 52,569)","4,593 (-341, 12,613)","211 (11, 728)"
+336,United Republic of Tanzania,industry oil,"2,652 (-123, 7,626)",Not modeled,Not modeled,"2,652 (-123, 7,626)",Not modeled
+337,United Republic of Tanzania,industry salt,"48,191 (22,503, 89,272)","48,191 (22,503, 89,272)",Not modeled,Not modeled,Not modeled
+338,United Republic of Tanzania,industry wheat,"19,075 (1,734, 50,572)","7,269 (672, 19,577)","9,708 (610, 26,829)","2,001 (-113, 6,963)","97 (1, 424)"
+339,United Republic of Tanzania,salt,"41,701 (19,106, 77,330)","41,701 (19,106, 77,330)",Not modeled,Not modeled,Not modeled
+340,United Republic of Tanzania,zero industry oil,"-10,347 (-29,750, 481)",Not modeled,Not modeled,"-10,347 (-29,750, 481)",Not modeled
+341,United Republic of Tanzania,zero industry salt,"0 (0, 0)","0 (0, 0)",Not modeled,Not modeled,Not modeled
+342,United Republic of Tanzania,zero industry wheat,"-25,210 (-47,627, -9,920)","-19,559 (-36,302, -8,590)","nan (nan, nan)","-5,404 (-15,458, 317)","-248 (-852, -12)"
+343,United Republic of Tanzania,zero maize flour,"-1,636 (-3,399, -539)","-1,284 (-2,749, -471)","nan (nan, nan)","-337 (-1,031, 26)","-16 (-57, -1)"
+344,United Republic of Tanzania,zero oil,"-10,347 (-29,750, 481)",Not modeled,Not modeled,"-10,347 (-29,750, 481)",Not modeled
+345,United Republic of Tanzania,zero salt,"0 (0, 0)","0 (0, 0)",Not modeled,Not modeled,Not modeled
+346,United Republic of Tanzania,zero wheat flour,"-25,210 (-47,627, -9,920)","-19,559 (-36,302, -8,590)","nan (nan, nan)","-5,404 (-15,458, 317)","-248 (-852, -12)"
+347,United Republic of Tanzania,oil,"7,477 (-368, 21,479)",Not modeled,Not modeled,"7,477 (-368, 21,479)",Not modeled
+348,Viet Nam,wheat flour,"7,235 (756, 15,795)","1,041 (270, 2,822)","6,050 (123, 13,668)","135 (-7, 333)","9 (0, 33)"
+349,Viet Nam,industry oil,"141 (-4, 395)",Not modeled,Not modeled,"141 (-4, 395)",Not modeled
+350,Viet Nam,industry salt,"5,302 (1,898, 12,266)","5,302 (1,898, 12,266)",Not modeled,Not modeled,Not modeled
+351,Viet Nam,industry wheat,"13,785 (1,753, 27,669)","2,027 (677, 4,829)","11,476 (231, 23,986)","264 (-14, 593)","17 (0, 60)"
+352,Viet Nam,salt,"5,436 (1,941, 12,537)","5,436 (1,941, 12,537)",Not modeled,Not modeled,Not modeled
+353,Viet Nam,zero industry oil,"-912 (-2,547, 30)",Not modeled,Not modeled,"-912 (-2,547, 30)",Not modeled
+354,Viet Nam,zero industry salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+355,Viet Nam,zero industry wheat,"-273 (-677, -78)","-240 (-651, -62)","nan (nan, nan)","-31 (-77, 2)","-2 (-8, -0)"
+356,Viet Nam,zero oil,"-912 (-2,547, 30)",Not modeled,Not modeled,"-912 (-2,547, 30)",Not modeled
+357,Viet Nam,zero salt,"-0 (-0, 0)","-0 (-0, 0)",Not modeled,Not modeled,Not modeled
+358,Viet Nam,zero wheat flour,"-273 (-677, -78)","-240 (-651, -62)","nan (nan, nan)","-31 (-77, 2)","-2 (-8, -0)"
+359,Viet Nam,oil,"224 (-5, 735)",Not modeled,Not modeled,"224 (-5, 735)",Not modeled
