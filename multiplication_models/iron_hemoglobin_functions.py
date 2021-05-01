@@ -199,7 +199,7 @@ def calculate_counterfactual_iron_responsive_anemia_prevalence(ira_prevalence_da
     averted_anemia_prepped = averted_anemia_data.filter(['anemic']).reset_index()
     averted_anemia_prepped = averted_anemia_prepped.pivot_table(index=['location_id','age_group_id','sex_id','year','coverage_level','vehicle'],
                                                            columns='draw', values='anemic')
-    ira_diff = (ira_prev
+    ira_diff = (ira_prevalence_data
             .set_index(['location_id','age_group_id','sex_id'])
             .drop(columns=['measure_id','sequela_id','year_id','metric_id'])
             - averted_anemia_prepped)

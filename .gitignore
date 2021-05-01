@@ -10,6 +10,9 @@ __pycache__/
 anemia_prev.csv
 anemia_prev_wra.csv
 
+# LARGE VITAMIN A RESULTS FILE
+vitamin_a.pkl
+
 # Distribution / packaging
 .Python
 build/

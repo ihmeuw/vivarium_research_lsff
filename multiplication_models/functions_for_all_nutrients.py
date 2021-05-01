@@ -35,8 +35,8 @@ def generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, v
 
     # the following is a transformation for a potential data issue and should be removed when resolved
     data['value_mean'] = data['value_mean'].replace(100, 100 - 0.00001 * 2).replace(0, 0 + 0.00001 * 2)
-    data['value_025_percentile'] = data['value_025_percentile'].replace(100, 100 - 0.00001 * 3).replace(0, 0 + 0.00001)
-    data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001).replace(0, 0 + 0.00001 * 3)
+    data['value_025_percentile'] = data['value_025_percentile'].replace(100, 100 - 0.00001 * 3).replace(0, 0 + 0.00000000001)
+    data['value_975_percentile'] = data['value_975_percentile'].replace(100, 100 - 0.00001).replace(0, 0 + 0.00000000001 * 3)
 
     data['value_std'] = (data.value_975_percentile - data.value_025_percentile) / (2 * 1.96)
     data['a'] = (0 - data.value_mean) / data.value_std
@@ -49,82 +49,87 @@ def generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, v
     cov_a_draws = generate_coverage_parameter_draws(cov_a, 11, 1_000)
     cov_b_draws = generate_coverage_parameter_draws(cov_b, 11, 1_000)
 
-    # check to see if any draws are illogically ordered
-    test = (cov_a_draws.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_a'})
-            .merge(cov_b_draws.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_b'}),
-                   on=['location_id', 'draw']))
-    test = test.loc[test.cov_a > test.cov_b]
-    issue_locs = list(test.location_id.unique())
-    # if no logically ordered draws are possible, exclude from analysis
-    excepts = (cov_a.set_index('location_id')['value_025_percentile'] > cov_b.set_index('location_id')[
-        'value_975_percentile'])
-    excepts = list(excepts.loc[excepts == True].reset_index().location_id.unique())
-    locs = [loc for loc in issue_locs if loc not in excepts]
-    if len(excepts) > 0:
-        print(f'Excluded {excepts}/{nutrient}/{vehicle} due to impossible logical values')
+    if 'zero' not in vehicle:
 
-    # for locations/nutrients/vehicles with overlapping parameter distributions, run the following
-    # to select logical draws only
-    if len(locs) > 0:
-        reruns = pd.DataFrame()
-        for loc in locs:
-            cov_a_sub = generate_coverage_parameter_draws(cov_a.loc[cov_a.location_id == loc], 234, 5_000)
-            cov_b_sub = generate_coverage_parameter_draws(cov_b.loc[cov_b.location_id == loc], 341, 5_000)
-            check = (cov_a_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_a'})
-                     .merge(cov_b_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_b'}),
-                            on=['location_id', 'draw']))
-            check['logical'] = np.where(check.cov_a < check.cov_b, 1, 0)
-            check = check.loc[check.logical == 1]
-            while len(check) < 1000:
-                cov_a_sub = generate_coverage_parameter_draws(cov_a.loc[cov_a.location_id == loc], 565, 1_000)
-                cov_b_sub = generate_coverage_parameter_draws(cov_b.loc[cov_b.location_id == loc], 333, 1_000)
-                check_sub = (cov_a_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_a'})
-                             .merge(cov_b_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_b'}),
-                                    on=['location_id', 'draw']))
-                check_sub['logical'] = np.where(check_sub.cov_a < check_sub.cov_b, 1, 0)
-                check_sub = check_sub.loc[check_sub.logical == 1]
-                check = pd.concat([check, check_sub])
+        # check to see if any draws are illogically ordered
+        test = (cov_a_draws.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_a'})
+                .merge(cov_b_draws.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_b'}),
+                       on=['location_id', 'draw']))
+        test = test.loc[test.cov_a > test.cov_b]
+        issue_locs = list(test.location_id.unique())
+        # if no logically ordered draws are possible, exclude from analysis
+        excepts = (cov_a.set_index('location_id')['value_025_percentile'] > cov_b.set_index('location_id')[
+            'value_975_percentile'])
+        excepts = list(excepts.loc[excepts == True].reset_index().location_id.unique())
+        locs = [loc for loc in issue_locs if loc not in excepts]
+        if len(excepts) > 0:
+            print(f'Excluded {excepts}/{nutrient}/{vehicle} due to impossible logical values')
 
-            out = check[0:1_000].drop(columns=['draw', 'logical']).set_index('location_id')
-            draws = []
-            for i in list(range(0, 1000)):
-                draws.append(f'draw_{i}')
-            out['draw'] = draws
-            reruns = reruns.append(out)
+        # for locations/nutrients/vehicles with overlapping parameter distributions, run the following
+        # to select logical draws only
+        if len(locs) > 0:
+            reruns = pd.DataFrame()
+            for loc in locs:
+                cov_a_sub = generate_coverage_parameter_draws(cov_a.loc[cov_a.location_id == loc], 234, 5_000)
+                cov_b_sub = generate_coverage_parameter_draws(cov_b.loc[cov_b.location_id == loc], 341, 5_000)
+                check = (cov_a_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_a'})
+                         .merge(cov_b_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_b'}),
+                                on=['location_id', 'draw']))
+                check['logical'] = np.where(check.cov_a < check.cov_b, 1, 0)
+                check = check.loc[check.logical == 1]
+                while len(check) < 1000:
+                    cov_a_sub = generate_coverage_parameter_draws(cov_a.loc[cov_a.location_id == loc], 565, 1_000)
+                    cov_b_sub = generate_coverage_parameter_draws(cov_b.loc[cov_b.location_id == loc], 333, 1_000)
+                    check_sub = (cov_a_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_a'})
+                                 .merge(cov_b_sub.stack().reset_index().rename(columns={'level_1': 'draw', 0: 'cov_b'}),
+                                        on=['location_id', 'draw']))
+                    check_sub['logical'] = np.where(check_sub.cov_a < check_sub.cov_b, 1, 0)
+                    check_sub = check_sub.loc[check_sub.logical == 1]
+                    check = pd.concat([check, check_sub])
 
-        reruns_a = pd.pivot_table(reruns[['cov_a', 'draw']].reset_index(), index='location_id',
-                                  columns='draw', values='cov_a').reset_index()
-        reruns_b = pd.pivot_table(reruns[['cov_b', 'draw']].reset_index(), index='location_id',
-                                  columns='draw', values='cov_b').reset_index()
+                out = check[0:1_000].drop(columns=['draw', 'logical']).set_index('location_id')
+                draws = []
+                for i in list(range(0, 1000)):
+                    draws.append(f'draw_{i}')
+                out['draw'] = draws
+                reruns = reruns.append(out)
 
-        cov_a_draws_sub = (cov_a_draws.reset_index()
-            .loc[cov_a_draws.reset_index()
-            .location_id
-            .isin([loc for loc in location_ids if loc not in issue_locs])])
-        cov_b_draws_sub = (cov_b_draws.reset_index()
-            .loc[cov_b_draws.reset_index()
-            .location_id
-            .isin([loc for loc in location_ids if loc not in issue_locs])])
+            reruns_a = pd.pivot_table(reruns[['cov_a', 'draw']].reset_index(), index='location_id',
+                                      columns='draw', values='cov_a').reset_index()
+            reruns_b = pd.pivot_table(reruns[['cov_b', 'draw']].reset_index(), index='location_id',
+                                      columns='draw', values='cov_b').reset_index()
 
-        cov_a_final = pd.concat([cov_a_draws_sub, reruns_a], ignore_index=True, sort=True).set_index('location_id')
-        cov_b_final = pd.concat([cov_b_draws_sub, reruns_b], ignore_index=True, sort=True).set_index('location_id')
+            cov_a_draws_sub = (cov_a_draws.reset_index()
+                .loc[cov_a_draws.reset_index()
+                .location_id
+                .isin([loc for loc in location_ids if loc not in issue_locs])])
+            cov_b_draws_sub = (cov_b_draws.reset_index()
+                .loc[cov_b_draws.reset_index()
+                .location_id
+                .isin([loc for loc in location_ids if loc not in issue_locs])])
+
+            cov_a_final = pd.concat([cov_a_draws_sub, reruns_a], ignore_index=True, sort=True).set_index('location_id')
+            cov_b_final = pd.concat([cov_b_draws_sub, reruns_b], ignore_index=True, sort=True).set_index('location_id')
+        else:
+            cov_a_final = (cov_a_draws.reset_index()
+                .loc[cov_a_draws.reset_index()
+                .location_id
+                .isin([loc for loc in location_ids if loc not in excepts])]).set_index('location_id')
+            cov_b_final = (cov_b_draws.reset_index()
+                .loc[cov_b_draws.reset_index()
+                .location_id
+                .isin([loc for loc in location_ids if loc not in excepts])]).set_index('location_id')
+
+        assert np.all(cov_a_final <= cov_b_final), "Illogically ordered"
     else:
-        cov_a_final = (cov_a_draws.reset_index()
-            .loc[cov_a_draws.reset_index()
-            .location_id
-            .isin([loc for loc in location_ids if loc not in excepts])]).set_index('location_id')
-        cov_b_final = (cov_b_draws.reset_index()
-            .loc[cov_b_draws.reset_index()
-            .location_id
-            .isin([loc for loc in location_ids if loc not in excepts])]).set_index('location_id')
-
-    assert np.all(cov_a_final <= cov_b_final), "Illogically ordered"
+        cov_a_final = cov_a_draws
+        cov_b_final = cov_b_draws
 
     return cov_a_final, cov_b_final
 
 
 
-def generate_coverage_dfs(cov_a, cov_b, years, coverage_levels):
+def generate_coverage_dfs(cov_a, cov_b, years, coverage_levels, percent_of_total=False):
     baseline_coverage = pd.DataFrame()
     for year in years:
         temp = cov_a.copy()
@@ -137,7 +142,10 @@ def generate_coverage_dfs(cov_a, cov_b, years, coverage_levels):
         cov = cov_a.copy()
         cov['year'] = years[0]
         for year in years[1:len(years)]:
-            temp = cov_a + (cov_b - cov_a) * level
+            if percent_of_total == True:
+                temp = cov_b * level
+            else:
+                temp = cov_a + (cov_b - cov_a) * level
             temp['year'] = year
             cov = pd.concat([cov, temp])
         cov['coverage_level'] = level
@@ -152,12 +160,14 @@ def get_baseline_and_counterfactual_coverage(coverage_data_dir,
                                              nutrient,
                                              vehicles,
                                              years,
-                                             coverage_levels, sub_population):
+                                             coverage_levels, sub_population, percent_of_total=False):
     baseline_coverage_final = pd.DataFrame()
     counterfactual_coverage_final = pd.DataFrame()
     for vehicle in vehicles:
-        cov_a, cov_b = generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient, vehicle, sub_population)
-        baseline_coverage, counterfactual_coverage = generate_coverage_dfs(cov_a, cov_b, years, coverage_levels)
+        cov_a, cov_b = generate_logical_coverage_draws(coverage_data_dir, location_ids, nutrient,
+                                                       vehicle, sub_population)
+        baseline_coverage, counterfactual_coverage = generate_coverage_dfs(cov_a, cov_b, years,
+                                                                           coverage_levels, percent_of_total)
         baseline_coverage['vehicle'] = vehicle
         counterfactual_coverage['vehicle'] = vehicle
         baseline_coverage_final = pd.concat([baseline_coverage_final, baseline_coverage.reset_index()],
