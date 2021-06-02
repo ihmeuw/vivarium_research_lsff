@@ -1,0 +1,510 @@
+,location_id,location_name,sub_population,vehicle,value_description,nutrient,value_mean,value_025_percentile,value_975_percentile,u5_applicable,wra_applicable
+0,179,Ethiopia,,maize flour,percent of population eating vehicle,na,59.26384836,24.95031721,93.5773795,True,True
+1,179,Ethiopia,,maize flour,percent of population eating industrially produced vehicle,na,27.16751404,11.43763208,42.89739601,True,True
+2,179,Ethiopia,,maize flour,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0,True,True
+3,179,Ethiopia,,maize flour,percent of population eating fortified vehicle,iron,0.0,0.0,0.0,True,True
+4,179,Ethiopia,,maize flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+5,179,Ethiopia,,maize flour,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+6,179,Ethiopia,,oil,percent of population eating vehicle,na,29.35,27.3042463,31.3957537,True,True
+7,179,Ethiopia,under-5,oil,percent of population eating industrially produced vehicle,na,70.0,64.07069101,75.92930899,True,False
+8,179,Ethiopia,women of reproductive age,oil,percent of population eating industrially produced vehicle,na,50.0,45.76477929,54.23522071,False,True
+9,179,Ethiopia,,oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+10,179,Ethiopia,,wheat flour,percent of population eating vehicle,na,28.0,13.776167999999998,42.223832,True,True
+11,179,Ethiopia,under-5,wheat flour,percent of population eating industrially produced vehicle,na,27.0,23.210993,30.789007,True,False
+12,179,Ethiopia,women of reproductive age,wheat flour,percent of population eating industrially produced vehicle,na,20.0,17.19332815,22.80667185,False,True
+13,179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0,True,True
+14,179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,iron,0.0,0.0,0.0,True,True
+15,179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+16,179,Ethiopia,,wheat flour,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+17,163,India,0-24 months,oil,percent of population eating vehicle,na,99.999,99.0,100.0,True,True
+18,163,India,0-24 months,oil,percent of population eating industrially produced vehicle,na,89.4,87.0,91.8,True,True
+19,163,India,0-24 months,oil,percent of population eating fortified vehicle,vitamin a,24.3,21.1,27.9,True,True
+20,163,India,0-24 months,wheat flour,percent of population eating vehicle,na,83.2,79.5,86.5,True,True
+21,163,India,0-24 months,wheat flour,percent of population eating industrially produced vehicle,na,7.1,5.6,9.1,True,True
+22,163,India,0-24 months,wheat flour,percent of population eating fortified vehicle,folic acid,6.3,4.8,7.9,True,True
+23,163,India,0-24 months,wheat flour,percent of population eating fortified vehicle,iron,6.3,4.8,7.9,True,True
+24,163,India,,wheat flour,percent of population eating fortified vehicle,vitamin a,2.133333333,1.0496128,3.2170538669999997,True,True
+25,163,India,,wheat flour,percent of population eating fortified vehicle,zinc,2.133333333,1.0496128,3.2170538669999997,True,True
+26,214,Nigeria,total population,maize flour,percent of population eating vehicle,na,57.41546151,54.86711435,60.03347811,True,True
+27,214,Nigeria,total population,maize flour,percent of population eating industrially produced vehicle,na,8.54322401,6.81619912,10.33991833,True,True
+28,214,Nigeria,total population,maize flour,percent of population eating fortified vehicle,folic acid,1.245041483,0.62702489,1.963058077,True,True
+29,214,Nigeria,,maize flour,percent of population eating fortified vehicle,iron,1.8732272730000001,0.788636175,2.957818371,True,True
+30,214,Nigeria,total population,maize flour,percent of population eating fortified vehicle,vitamin a,1.245041483,0.62702489,1.963058077,True,True
+31,214,Nigeria,total population,maize flour,percent of population eating fortified vehicle,zinc,1.245041483,0.62702489,1.963058077,True,True
+32,214,Nigeria,total population,oil,percent of population eating vehicle,na,98.46066114,97.66066114,99.23033057,True,True
+33,214,Nigeria,total population,oil,percent of population eating industrially produced vehicle,na,31.89636505,28.81768732,34.97504278,True,True
+34,214,Nigeria,total population,oil,percent of population eating fortified vehicle,vitamin a,7.478677729,5.778677729,9.248347161,True,True
+35,214,Nigeria,total population,wheat flour,percent of population eating vehicle,na,62.75959426,60.35959426,65.12926369,True,True
+36,214,Nigeria,total population,wheat flour,percent of population eating industrially produced vehicle,na,62.56860256,60.19893313,64.93827199,True,True
+37,214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,folic acid,17.45281178,15.08644802,19.85851439,True,True
+38,214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,iron,17.45281178,15.08644802,19.85851439,True,True
+39,214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,vitamin a,17.45281178,15.08644802,19.85851439,True,True
+40,214,Nigeria,total population,wheat flour,percent of population eating fortified vehicle,zinc,17.45281178,15.08644802,19.85851439,True,True
+41,161,Bangladesh,,oil,percent of population eating fortified vehicle,vitamin a,42.849571999999995,41.35621833,44.34292567,True,True
+42,161,Bangladesh,total population,oil,percent of population eating industrially produced vehicle,na,88.4,84.5,92.3,True,True
+43,161,Bangladesh,total population,oil,percent of population eating vehicle,na,100.0,96.51489244,100.0,True,True
+44,161,Bangladesh,,wheat flour,percent of population eating fortified vehicle,folic acid,0.155875,0.11628321800000001,0.195466782,True,True
+45,161,Bangladesh,,wheat flour,percent of population eating fortified vehicle,iron,0.155875,0.11628321800000001,0.195466782,True,True
+46,161,Bangladesh,,wheat flour,percent of population eating fortified vehicle,vitamin a,0.155875,0.11628321800000001,0.195466782,True,True
+47,161,Bangladesh,,wheat flour,percent of population eating fortified vehicle,zinc,0.155875,0.11628321800000001,0.195466782,True,True
+48,161,Bangladesh,,wheat flour,percent of population eating industrially produced vehicle,na,38.24133333,28.52814944,47.95451722,True,True
+49,161,Bangladesh,women of reproductive age,wheat flour,percent of population eating vehicle,na,41.9,31.25752576,52.54247424,False,True
+50,161,Bangladesh,under-5,wheat flour,percent of population eating vehicle,na,76.2,56.84542871,95.55457129,True,False
+51,165,Pakistan,total population,oil,percent of population eating fortified vehicle,vitamin a,28.49258241,0.0,29.48557955,True,True
+52,165,Pakistan,total population,oil,percent of population eating industrially produced vehicle,na,85.0,0.0,87.96234143,True,True
+53,165,Pakistan,total population,oil,percent of population eating vehicle,na,100.0,100.0,100.0,True,True
+54,165,Pakistan,,wheat flour,percent of population eating fortified vehicle,folic acid,1.946666667,0.0,2.441114157,True,True
+55,165,Pakistan,total population,wheat flour,percent of population eating fortified vehicle,iron,3.82123947,0.0,4.791822827,True,True
+56,165,Pakistan,,wheat flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+57,165,Pakistan,,wheat flour,percent of population eating fortified vehicle,zinc,1.946666667,0.0,2.441114157,True,True
+58,165,Pakistan,total population,wheat flour,percent of population eating industrially produced vehicle,na,41.52578577,0.0,52.07321072,True,True
+59,165,Pakistan,total population,wheat flour,percent of population eating vehicle,na,100.0,100.0,100.0,True,True
+60,190,Uganda,total population,oil,percent of population eating fortified vehicle,vitamin a,54.4,48.3,60.4,True,True
+61,190,Uganda,total population,oil,percent of population eating industrially produced vehicle,na,89.0,84.7,93.2,True,True
+62,190,Uganda,total population,oil,percent of population eating vehicle,na,89.9,85.9,94.0,True,True
+63,190,Uganda,total population,wheat flour,percent of population eating fortified vehicle,folic acid,8.5,5.7,11.4,True,True
+64,190,Uganda,total population,wheat flour,percent of population eating fortified vehicle,iron,8.5,5.7,11.4,True,True
+65,190,Uganda,total population,wheat flour,percent of population eating fortified vehicle,vitamin a,8.5,5.7,11.4,True,True
+66,190,Uganda,total population,wheat flour,percent of population eating fortified vehicle,zinc,8.5,5.7,11.4,True,True
+67,190,Uganda,total population,wheat flour,percent of population eating industrially produced vehicle,na,10.6,7.6,13.6,True,True
+68,190,Uganda,total population,wheat flour,percent of population eating vehicle,na,11.2,7.7,14.7,True,True
+69,190,Uganda,total population,maize flour,percent of population eating fortified vehicle,folic acid,6.5,3.3,9.7,True,True
+70,190,Uganda,total population,maize flour,percent of population eating fortified vehicle,iron,6.5,3.3,9.7,True,True
+71,190,Uganda,total population,maize flour,percent of population eating fortified vehicle,vitamin a,6.5,3.3,9.7,True,True
+72,190,Uganda,total population,maize flour,percent of population eating fortified vehicle,zinc,6.5,3.3,9.7,True,True
+73,190,Uganda,total population,maize flour,percent of population eating industrially produced vehicle,na,42.4,32.7,52.1,True,True
+74,190,Uganda,total population,maize flour,percent of population eating vehicle,na,91.8,87.7,96.0,True,True
+75,189,United Republic of Tanzania,total population,oil,percent of population eating fortified vehicle,vitamin a,53.6,46.4,60.8,True,True
+76,189,United Republic of Tanzania,total population,oil,percent of population eating industrially produced vehicle,na,92.6,89.0,96.3,True,True
+77,189,United Republic of Tanzania,total population,oil,percent of population eating vehicle,na,96.2,93.2,99.2,True,True
+78,189,United Republic of Tanzania,total population,wheat flour,percent of population eating fortified vehicle,folic acid,33.1,27.5,38.7,True,True
+79,189,United Republic of Tanzania,total population,wheat flour,percent of population eating fortified vehicle,iron,33.1,27.5,38.7,True,True
+80,189,United Republic of Tanzania,total population,wheat flour,percent of population eating fortified vehicle,vitamin a,33.1,27.5,38.7,True,True
+81,189,United Republic of Tanzania,total population,wheat flour,percent of population eating fortified vehicle,zinc,33.1,27.5,38.7,True,True
+82,189,United Republic of Tanzania,total population,wheat flour,percent of population eating industrially produced vehicle,na,50.5,43.3,57.7,True,True
+83,189,United Republic of Tanzania,total population,wheat flour,percent of population eating vehicle,na,51.5,44.5,58.5,True,True
+84,189,United Republic of Tanzania,total population,maize flour,percent of population eating fortified vehicle,folic acid,2.5,1.3,3.7,True,True
+85,189,United Republic of Tanzania,total population,maize flour,percent of population eating fortified vehicle,iron,2.5,1.3,3.7,True,True
+86,189,United Republic of Tanzania,total population,maize flour,percent of population eating fortified vehicle,vitamin a,2.5,1.3,3.7,True,True
+87,189,United Republic of Tanzania,total population,maize flour,percent of population eating fortified vehicle,zinc,2.5,1.3,3.7,True,True
+88,189,United Republic of Tanzania,total population,maize flour,percent of population eating industrially produced vehicle,na,36.6,29.2,44.0,True,True
+89,189,United Republic of Tanzania,total population,maize flour,percent of population eating vehicle,na,93.0,89.7,96.4,True,True
+90,196,South Africa,,oil,percent of population eating fortified vehicle,vitamin a,30.2037278,28.09846756,32.30898803,True,True
+91,196,South Africa,,oil,percent of population eating industrially produced vehicle,na,58.51343223,54.43492898,62.59193549,True,True
+92,196,South Africa,,oil,percent of population eating vehicle,na,90.9670181,84.62643501,97.3076012,True,True
+93,196,South Africa,total population,wheat flour,percent of population eating fortified vehicle,folic acid,5.707703746,3.166260481,9.07579743,True,True
+94,196,South Africa,total population,wheat flour,percent of population eating fortified vehicle,iron,5.707703746,3.166260481,9.07579743,True,True
+95,196,South Africa,total population,wheat flour,percent of population eating fortified vehicle,vitamin a,5.707703746,3.166260481,9.07579743,True,True
+96,196,South Africa,total population,wheat flour,percent of population eating fortified vehicle,zinc,5.707703746,3.166260481,9.07579743,True,True
+97,196,South Africa,total population,wheat flour,percent of population eating industrially produced vehicle,na,10.91748441,6.391077697999999,15.99059028,True,True
+98,196,South Africa,total population,wheat flour,percent of population eating vehicle,na,10.91748441,6.391077697999999,15.99059028,True,True
+99,196,South Africa,total population,maize flour,percent of population eating fortified vehicle,folic acid,58.05414846,50.86576232,72.35622537,True,True
+100,196,South Africa,total population,maize flour,percent of population eating fortified vehicle,iron,58.05414846,50.86576232,72.35622537,True,True
+101,196,South Africa,total population,maize flour,percent of population eating fortified vehicle,vitamin a,58.05414846,50.86576232,72.35622537,True,True
+102,196,South Africa,total population,maize flour,percent of population eating fortified vehicle,zinc,58.05414846,50.86576232,72.35622537,True,True
+103,196,South Africa,total population,maize flour,percent of population eating industrially produced vehicle,na,96.44486596,92.2630815,98.90660168,True,True
+104,196,South Africa,total population,maize flour,percent of population eating vehicle,na,96.58154075,92.33141889,99.04327647,True,True
+105,201,Burkina Faso,,maize flour,percent of population eating vehicle,na,26.61,12.497238099999999,40.7227619,True,True
+106,201,Burkina Faso,,maize flour,percent of population eating industrially produced vehicle,na,0.0,0.0,0.0,True,True
+107,201,Burkina Faso,,maize flour,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0,True,True
+108,201,Burkina Faso,,maize flour,percent of population eating fortified vehicle,iron,0.0,0.0,0.0,True,True
+109,201,Burkina Faso,,maize flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+110,201,Burkina Faso,,maize flour,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+111,201,Burkina Faso,8-59 months,oil,percent of population eating vehicle,na,92.23,46.09189629,100.0,True,True
+112,201,Burkina Faso,,oil,percent of population eating industrially produced vehicle,na,63.359727500000005,24.53053498,100.0,True,True
+113,201,Burkina Faso,total population,oil,percent of population eating fortified vehicle,vitamin a,51.08314178,4.353187921,93.49333763,True,True
+114,201,Burkina Faso,women of reproductive age,wheat flour,percent of population eating vehicle,na,48.0,21.09788868,74.90211132,False,True
+115,201,Burkina Faso,children 12-36 months,wheat flour,percent of population eating vehicle,na,57.0,25.053742800000002,88.9462572,True,False
+116,201,Burkina Faso,,wheat flour,percent of population eating industrially produced vehicle,na,52.3,22.98790787,81.61209213,True,True
+117,201,Burkina Faso,,wheat flour,percent of population eating fortified vehicle,folic acid,32.1645,14.13756334,50.19143666,True,True
+118,201,Burkina Faso,,wheat flour,percent of population eating fortified vehicle,iron,17.38975,7.643479367,27.13602063,True,True
+119,201,Burkina Faso,,wheat flour,percent of population eating fortified vehicle,vitamin a,12.3885625,6.095247081,18.68187792,True,True
+120,201,Burkina Faso,,wheat flour,percent of population eating fortified vehicle,zinc,12.3885625,6.095247081,18.68187792,True,True
+121,180,Kenya,,maize flour,percent of population eating vehicle,na,91.67123017,0.0,100.0,True,True
+122,180,Kenya,total population,maize flour,percent of population eating industrially produced vehicle,na,36.67,17.221860999999997,56.118139,True,True
+123,180,Kenya,,maize flour,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0,True,True
+124,180,Kenya,,maize flour,percent of population eating fortified vehicle,iron,5.31715275,2.497171136,8.137134364,True,True
+125,180,Kenya,,maize flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+126,180,Kenya,,maize flour,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+127,180,Kenya,,oil,percent of population eating vehicle,na,56.65292679999999,0.0,84.99358181,True,True
+128,180,Kenya,total population,oil,percent of population eating industrially produced vehicle,na,9.39,4.692647796,14.0873522,True,True
+129,180,Kenya,,oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+130,180,Kenya,total population,wheat flour,percent of population eating vehicle,na,36.58,16.07834933,57.08165067,True,True
+131,180,Kenya,total population,wheat flour,percent of population eating industrially produced vehicle,na,36.72053067,12.01434893,62.62482461,True,True
+132,180,Kenya,,wheat flour,percent of population eating fortified vehicle,folic acid,27.4197812,0.0,53.06646255,True,True
+133,180,Kenya,,wheat flour,percent of population eating fortified vehicle,iron,27.09520062,0.0,52.48305101,True,True
+134,180,Kenya,,wheat flour,percent of population eating fortified vehicle,vitamin a,27.39557009,0.0,53.02032333,True,True
+135,180,Kenya,,wheat flour,percent of population eating fortified vehicle,zinc,27.45436641,0.0,53.11673201,True,True
+136,15,Myanmar,,oil,percent of population eating vehicle,na,66.25146182,61.63360243,70.86932121,True,True
+137,15,Myanmar,total population,oil,percent of population eating industrially produced vehicle,na,10.0,0.0,20.0,True,True
+138,15,Myanmar,total population,oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,5.0,True,True
+139,15,Myanmar,total population,wheat flour,percent of population eating vehicle,na,5.0,0.0,10.0,True,True
+140,15,Myanmar,,wheat flour,percent of population eating industrially produced vehicle,na,4.5,1.977927063,7.022072937000001,True,True
+141,15,Myanmar,total population,wheat flour,percent of population eating fortified vehicle,folic acid,0.0,0.0,5.0,True,True
+142,15,Myanmar,total population,wheat flour,percent of population eating fortified vehicle,iron,0.0,0.0,5.0,True,True
+143,15,Myanmar,,wheat flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+144,15,Myanmar,total population,wheat flour,percent of population eating fortified vehicle,zinc,0.0,0.0,5.0,True,True
+145,164,Nepal,total population,oil,percent of population eating vehicle,na,99.8,99.8,99.9,True,True
+146,164,Nepal,,oil,percent of population eating industrially produced vehicle,na,88.74459523,82.55891946,94.93027101,True,True
+147,164,Nepal,,oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+148,164,Nepal,total population,wheat flour,percent of population eating vehicle,na,52.1,45.8,58.4,True,True
+149,164,Nepal,total population,wheat flour,percent of population eating industrially produced vehicle,na,43.0,18.90019194,67.09980806,True,True
+150,164,Nepal,,wheat flour,percent of population eating fortified vehicle,folic acid,5.165022222,2.270230497,8.059813948,True,True
+151,164,Nepal,,wheat flour,percent of population eating fortified vehicle,iron,7.334331556,3.2237273060000002,11.44493581,True,True
+152,164,Nepal,,wheat flour,percent of population eating fortified vehicle,vitamin a,5.165022222,2.270230497,8.059813948,True,True
+153,164,Nepal,,wheat flour,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+154,20,Viet Nam,under-5,oil,percent of population eating vehicle,na,38.3,19.14040581,57.45959419,True,False
+155,20,Viet Nam,,oil,percent of population eating vehicle,na,56.3,52.3757774,60.224222600000004,False,True
+156,20,Viet Nam,total population,oil,percent of population eating industrially produced vehicle,na,90.0,44.97745491,100.0,True,True
+157,20,Viet Nam,,oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+158,20,Viet Nam,women of reproductive age,wheat flour,percent of population eating vehicle,na,38.8,17.05412668,60.54587332,False,True
+159,20,Viet Nam,under-5,wheat flour,percent of population eating vehicle,na,16.4,7.208445297999999,25.5915547,True,False
+160,20,Viet Nam,,wheat flour,percent of population eating industrially produced vehicle,na,21.93,9.639097889,34.22090211,True,True
+161,20,Viet Nam,,wheat flour,percent of population eating fortified vehicle,folic acid,4.111875,1.8073308540000002,6.416419146,True,True
+162,20,Viet Nam,,wheat flour,percent of population eating fortified vehicle,iron,4.111875,1.8073308540000002,6.416419146,True,True
+163,20,Viet Nam,,wheat flour,percent of population eating fortified vehicle,vitamin a,4.111875,1.8073308540000002,6.416419146,True,True
+164,20,Viet Nam,,wheat flour,percent of population eating fortified vehicle,zinc,4.111875,1.8073308540000002,6.416419146,True,True
+165,202,Cameroon,,maize flour,percent of population eating vehicle,na,47.29546673,19.91158068,74.67935279,True,True
+166,202,Cameroon,,maize flour,percent of population eating industrially produced vehicle,na,11.52117731,4.850461731,18.19189288,True,True
+167,202,Cameroon,,maize flour,percent of population eating fortified vehicle,folic acid,5.1352288569999995,2.16195189,8.108505824,True,True
+168,202,Cameroon,,maize flour,percent of population eating fortified vehicle,iron,5.1352288569999995,2.16195189,8.108505824,True,True
+169,202,Cameroon,,maize flour,percent of population eating fortified vehicle,vitamin a,5.1352288569999995,2.16195189,8.108505824,True,True
+170,202,Cameroon,,maize flour,percent of population eating fortified vehicle,zinc,5.1352288569999995,2.16195189,8.108505824,True,True
+171,202,Cameroon,under-5,oil,percent of population eating vehicle,na,53.1,52.586492799999995,53.61350720000001,True,True
+172,202,Cameroon,,oil,percent of population eating industrially produced vehicle,na,47.66787893,44.34533243,50.99042543,True,True
+173,202,Cameroon,,oil,percent of population eating fortified vehicle,vitamin a,30.4969,30.20197763,30.79182237,True,True
+174,202,Cameroon,women of reproductive age,wheat flour,percent of population eating vehicle,na,92.0,90.0,94.0,False,True
+175,202,Cameroon,under-5,wheat flour,percent of population eating vehicle,na,94.0,92.0,96.0,True,False
+176,202,Cameroon,,wheat flour,percent of population eating industrially produced vehicle,na,75.57090909,37.1813407,100.0,True,True
+177,202,Cameroon,,wheat flour,percent of population eating fortified vehicle,folic acid,69.52523636,47.12059857,91.92987416,True,True
+178,202,Cameroon,,wheat flour,percent of population eating fortified vehicle,iron,53.08856364,35.98067445,70.19645282,True,True
+179,202,Cameroon,,wheat flour,percent of population eating fortified vehicle,vitamin a,43.61071212,21.45673203,65.76469221,True,True
+180,202,Cameroon,,wheat flour,percent of population eating fortified vehicle,zinc,69.52523636,47.12059857,91.92987416,True,True
+181,205,Côte d'Ivoire,,maize flour,percent of population eating vehicle,na,84.95835164,35.76780588,100.0,True,True
+182,205,Côte d'Ivoire,,maize flour,percent of population eating industrially produced vehicle,na,9.176518015,3.86335079,14.48968524,True,True
+183,205,Côte d'Ivoire,,maize flour,percent of population eating fortified vehicle,folic acid,6.764751526,2.8479874510000003,10.6815156,True,True
+184,205,Côte d'Ivoire,,maize flour,percent of population eating fortified vehicle,iron,6.764751526,2.8479874510000003,10.6815156,True,True
+185,205,Côte d'Ivoire,,maize flour,percent of population eating fortified vehicle,vitamin a,6.764751526,2.8479874510000003,10.6815156,True,True
+186,205,Côte d'Ivoire,,maize flour,percent of population eating fortified vehicle,zinc,6.764751526,2.8479874510000003,10.6815156,True,True
+187,205,Côte d'Ivoire,households with children <2 years old,oil,percent of population eating vehicle,na,98.5,97.5,99.3,True,True
+188,205,Côte d'Ivoire,households with children <2 years old,oil,percent of population eating industrially produced vehicle,na,98.0,97.0,99.0,True,True
+189,205,Côte d'Ivoire,total population,oil,percent of population eating fortified vehicle,vitamin a,75.0,74.27470734,75.72529266,True,True
+190,205,Côte d'Ivoire,households with children <2 years old,wheat flour,percent of population eating vehicle,na,54.7,50.1,59.6,True,True
+191,205,Côte d'Ivoire,households with children <2 years old,wheat flour,percent of population eating industrially produced vehicle,na,11.59295219,7.245354679,15.97924396,True,True
+192,205,Côte d'Ivoire,,wheat flour,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0,True,True
+193,205,Côte d'Ivoire,,wheat flour,percent of population eating fortified vehicle,iron,10.29812205,5.062578607,15.06370705,True,True
+194,205,Côte d'Ivoire,,wheat flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+195,205,Côte d'Ivoire,,wheat flour,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+196,171,Democratic Republic of the Congo,under-5,maize flour,percent of population eating vehicle,na,42.19097559,32.36288609,52.01906508,True,True
+197,171,Democratic Republic of the Congo,,maize flour,percent of population eating industrially produced vehicle,na,2.26275,1.7356583840000002,2.7898416160000004,True,True
+198,171,Democratic Republic of the Congo,,maize flour,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0,True,True
+199,171,Democratic Republic of the Congo,,maize flour,percent of population eating fortified vehicle,iron,0.0,0.0,0.0,True,True
+200,171,Democratic Republic of the Congo,,maize flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+201,171,Democratic Republic of the Congo,,maize flour,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+202,171,Democratic Republic of the Congo,,oil,percent of population eating vehicle,na,95.882,81.1,96.80923347,True,True
+203,171,Democratic Republic of the Congo,,oil,percent of population eating industrially produced vehicle,na,43.9851604,40.91930675,47.05101405,True,True
+204,171,Democratic Republic of the Congo,,oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+205,171,Democratic Republic of the Congo,under-5,wheat flour,percent of population eating vehicle,na,0.58,0.0,1.4,True,True
+206,171,Democratic Republic of the Congo,,wheat flour,percent of population eating industrially produced vehicle,na,0.58,0.39309391200000005,0.7669060879999999,True,True
+207,171,Democratic Republic of the Congo,,wheat flour,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0,True,True
+208,171,Democratic Republic of the Congo,,wheat flour,percent of population eating fortified vehicle,iron,0.0,0.0,0.0,True,True
+209,171,Democratic Republic of the Congo,,wheat flour,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+210,171,Democratic Republic of the Congo,,wheat flour,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+211,11,Indonesia,,oil,percent of population eating vehicle,na,94.37297639,87.79499119,100.0,True,True
+212,11,Indonesia,,oil,percent of population eating industrially produced vehicle,na,88.64448315,82.46578538,94.82318091,True,True
+213,11,Indonesia,,oil,percent of population eating fortified vehicle,vitamin a,43.80555173,40.75221717,46.858886299999995,True,True
+214,11,Indonesia,,wheat flour,percent of population eating vehicle,na,75.76164901,37.27518588,100.0,True,True
+215,11,Indonesia,,wheat flour,percent of population eating industrially produced vehicle,na,29.65591057,14.59088594,44.7209352,True,True
+216,11,Indonesia,total population,wheat flour,percent of population eating fortified vehicle,folic acid,73.1,49.54338792,96.65661208,True,True
+217,11,Indonesia,total population,wheat flour,percent of population eating fortified vehicle,iron,73.1,49.54338792,96.65661208,True,True
+218,11,Indonesia,,wheat flour,percent of population eating fortified vehicle,vitamin a,,25.98677584,100.0,True,True
+219,11,Indonesia,total population,wheat flour,percent of population eating fortified vehicle,zinc,73.1,49.54338792,96.65661208,True,True
+220,184,Mozambique,total population,maize flour,percent of population eating vehicle,na,79.9,61.28785985,98.51214015,True,True
+221,184,Mozambique,,maize flour,percent of population eating industrially produced vehicle,na,23.97,18.38635796,29.55364204,True,True
+222,184,Mozambique,,maize flour,percent of population eating fortified vehicle,folic acid,16.779,12.87045057,20.68754943,True,True
+223,184,Mozambique,,maize flour,percent of population eating fortified vehicle,iron,16.779,12.87045057,20.68754943,True,True
+224,184,Mozambique,,maize flour,percent of population eating fortified vehicle,vitamin a,16.779,12.87045057,20.68754943,True,True
+225,184,Mozambique,,maize flour,percent of population eating fortified vehicle,zinc,16.779,12.87045057,20.68754943,True,True
+226,184,Mozambique,total population,oil,percent of population eating vehicle,na,95.2,94.27936186,96.12063814,True,True
+227,184,Mozambique,,oil,percent of population eating industrially produced vehicle,na,51.29644932,47.72098421,54.87191443,True,True
+228,184,Mozambique,,oil,percent of population eating fortified vehicle,vitamin a,37.5774,37.21400517,37.94079483,True,True
+229,184,Mozambique,total population,wheat flour,percent of population eating vehicle,na,16.3,11.04729443,21.55270557,True,True
+230,184,Mozambique,,wheat flour,percent of population eating industrially produced vehicle,na,16.3,11.04729443,21.55270557,True,True
+231,184,Mozambique,,wheat flour,percent of population eating fortified vehicle,folic acid,9.78,6.62837666,12.93162334,True,True
+232,184,Mozambique,,wheat flour,percent of population eating fortified vehicle,iron,12.6325,8.561653186000001,16.70334681,True,True
+233,184,Mozambique,,wheat flour,percent of population eating fortified vehicle,vitamin a,9.78,6.62837666,12.93162334,True,True
+234,184,Mozambique,,wheat flour,percent of population eating fortified vehicle,zinc,9.78,6.62837666,12.93162334,True,True
+235,168,Angola,,maize flour,percent of population eating vehicle,na,51.10027827,21.51342155,80.68713498,True,True
+236,168,Angola,,maize flour,percent of population eating industrially produced vehicle,na,10.695686,3.278954381,18.61995284,True,True
+237,168,Angola,,maize flour,percent of population eating fortified vehicle,folic acid,7.651010713,0.0,15.09214082,True,True
+238,168,Angola,,maize flour,percent of population eating fortified vehicle,iron,7.654862574,0.0,15.06860704,True,True
+239,168,Angola,,maize flour,percent of population eating fortified vehicle,vitamin a,7.655084569,0.0,15.04915118,True,True
+240,168,Angola,,maize flour,percent of population eating fortified vehicle,zinc,7.661087995,0.0,15.09443154,True,True
+241,168,Angola,,oil,percent of population eating vehicle,na,90.38470836,84.08471341,96.6847033,True,True
+242,168,Angola,,oil,percent of population eating industrially produced vehicle,na,39.10270879,36.37717178,41.8282458,True,True
+243,168,Angola,,oil,percent of population eating fortified vehicle,vitamin a,8.805705058,8.191929803999999,9.419480312000001,True,True
+244,168,Angola,,wheat flour,percent of population eating vehicle,na,27.17197019,13.36877237,40.97516802,True,True
+245,168,Angola,,wheat flour,percent of population eating industrially produced vehicle,na,26.26109375,12.92061569,39.6015718,True,True
+246,168,Angola,,wheat flour,percent of population eating fortified vehicle,folic acid,16.88838105,8.309184807000001,25.46757729,True,True
+247,168,Angola,,wheat flour,percent of population eating fortified vehicle,iron,16.88838105,8.309184807000001,25.46757729,True,True
+248,168,Angola,,wheat flour,percent of population eating fortified vehicle,vitamin a,16.88838105,8.309184807000001,25.46757729,True,True
+249,168,Angola,,wheat flour,percent of population eating fortified vehicle,zinc,16.88838105,8.309184807000001,25.46757729,True,True
+250,6,China,,oil,percent of population eating vehicle,na,57.65137316,53.63295715,61.66978918,True,True
+251,6,China,,oil,percent of population eating industrially produced vehicle,na,63.57700507,59.14556066,68.00844948,True,True
+252,6,China,,oil,percent of population eating fortified vehicle,vitamin a,,,,True,True
+253,6,China,,wheat flour,percent of population eating vehicle,na,81.83218981,40.26192838,100.0,True,True
+254,6,China,,wheat flour,percent of population eating industrially produced vehicle,na,53.66563361,26.40381373,80.92745349,True,True
+255,6,China,,wheat flour,percent of population eating fortified vehicle,folic acid,6.363472477,3.13086664,9.596078315,True,True
+256,6,China,,wheat flour,percent of population eating fortified vehicle,iron,6.363472477,3.13086664,9.596078315,True,True
+257,6,China,,wheat flour,percent of population eating fortified vehicle,vitamin a,6.363472477,3.13086664,9.596078315,True,True
+258,6,China,,wheat flour,percent of population eating fortified vehicle,zinc,6.363472477,3.13086664,9.596078315,True,True
+259,141,Egypt,,maize flour,percent of population eating vehicle,na,74.36312059999999,31.30717122,100.0,True,True
+260,141,Egypt,,maize flour,percent of population eating industrially produced vehicle,na,31.96821461,13.45874622,50.477683,True,True
+261,141,Egypt,,maize flour,percent of population eating fortified vehicle,folic acid,0.000329684,0.00013879799999999998,0.00052057,True,True
+262,141,Egypt,,maize flour,percent of population eating fortified vehicle,iron,0.000329684,0.00013879799999999998,0.00052057,True,True
+263,141,Egypt,,maize flour,percent of population eating fortified vehicle,vitamin a,0.000329684,0.00013879799999999998,0.00052057,True,True
+264,141,Egypt,,maize flour,percent of population eating fortified vehicle,zinc,0.000329684,0.00013879799999999998,0.00052057,True,True
+265,141,Egypt,,oil,percent of population eating vehicle,na,54.97329715,51.14154839,58.80504591,True,True
+266,141,Egypt,,oil,percent of population eating industrially produced vehicle,na,70.10196356,65.2157165,74.98821062,True,True
+267,141,Egypt,,oil,percent of population eating fortified vehicle,vitamin a,,,,True,True
+268,141,Egypt,,wheat flour,percent of population eating vehicle,na,88.48477203,43.53503875,100.0,True,True
+269,141,Egypt,,wheat flour,percent of population eating industrially produced vehicle,na,68.01588749,33.46422474,100.0,True,True
+270,141,Egypt,,wheat flour,percent of population eating fortified vehicle,folic acid,15.61643088,7.6833776920000005,23.54948407,True,True
+271,141,Egypt,,wheat flour,percent of population eating fortified vehicle,iron,15.61643088,7.6833776920000005,23.54948407,True,True
+272,141,Egypt,,wheat flour,percent of population eating fortified vehicle,vitamin a,15.61643088,7.6833776920000005,23.54948407,True,True
+273,141,Egypt,,wheat flour,percent of population eating fortified vehicle,zinc,15.61643088,7.6833776920000005,23.54948407,True,True
+274,207,Ghana,,maize flour,percent of population eating vehicle,na,82.23072533,34.61946429,100.0,True,True
+275,207,Ghana,,maize flour,percent of population eating industrially produced vehicle,na,11.52117731,4.850461731,18.19189288,True,True
+276,207,Ghana,,maize flour,percent of population eating fortified vehicle,folic acid,4.011006996,1.688649989,6.333364003,True,True
+277,207,Ghana,,maize flour,percent of population eating fortified vehicle,iron,4.011006996,1.688649989,6.333364003,True,True
+278,207,Ghana,,maize flour,percent of population eating fortified vehicle,vitamin a,4.011006996,1.688649989,6.333364003,True,True
+279,207,Ghana,,maize flour,percent of population eating fortified vehicle,zinc,4.011006996,1.688649989,6.333364003,True,True
+280,207,Ghana,total population,oil,percent of population eating vehicle,na,95.6,88.93648879999999,100.0,True,True
+281,207,Ghana,,oil,percent of population eating industrially produced vehicle,na,82.04614697,76.32736643,87.7649275,True,True
+282,207,Ghana,total population,oil,percent of population eating fortified vehicle,vitamin a,32.9,30.606804200000003,35.1931958,True,True
+283,207,Ghana,,wheat flour,percent of population eating vehicle,na,82.6586248,40.66853935,100.0,True,True
+284,207,Ghana,,wheat flour,percent of population eating industrially produced vehicle,na,48.71075959,23.96598598,73.4555332,True,True
+285,207,Ghana,,wheat flour,percent of population eating fortified vehicle,folic acid,17.12153237,8.423896655,25.81916808,True,True
+286,207,Ghana,,wheat flour,percent of population eating fortified vehicle,iron,17.12153237,8.423896655,25.81916808,True,True
+287,207,Ghana,,wheat flour,percent of population eating fortified vehicle,vitamin a,17.12153237,8.423896655,25.81916808,True,True
+288,207,Ghana,,wheat flour,percent of population eating fortified vehicle,zinc,17.12153237,8.423896655,25.81916808,True,True
+289,181,Madagascar,,maize flour,percent of population eating vehicle,na,92.95766211,39.13554758,100.0,True,True
+290,181,Madagascar,,maize flour,percent of population eating industrially produced vehicle,na,6.1995924570000005,2.610053223,9.789131692,True,True
+291,181,Madagascar,,maize flour,percent of population eating fortified vehicle,folic acid,4.044272001,1.70265469,6.385889313,True,True
+292,181,Madagascar,,maize flour,percent of population eating fortified vehicle,iron,4.044272001,1.70265469,6.385889313,True,True
+293,181,Madagascar,,maize flour,percent of population eating fortified vehicle,vitamin a,4.044272001,1.70265469,6.385889313,True,True
+294,181,Madagascar,,maize flour,percent of population eating fortified vehicle,zinc,4.044272001,1.70265469,6.385889313,True,True
+295,181,Madagascar,,oil,percent of population eating vehicle,na,75.03460775,69.80454552,80.26466998,True,True
+296,181,Madagascar,,oil,percent of population eating industrially produced vehicle,na,26.76323071,24.897779999999997,28.62868141,True,True
+297,181,Madagascar,,oil,percent of population eating fortified vehicle,vitamin a,17.96624129,16.71395834,19.21852424,True,True
+298,181,Madagascar,,wheat flour,percent of population eating vehicle,na,45.17960798,22.2286382,68.13057775,True,True
+299,181,Madagascar,,wheat flour,percent of population eating industrially produced vehicle,na,31.60902431,15.55182961,47.666219,True,True
+300,181,Madagascar,,wheat flour,percent of population eating fortified vehicle,folic acid,8.630460671,4.246238433,13.01468291,True,True
+301,181,Madagascar,,wheat flour,percent of population eating fortified vehicle,iron,8.630460671,4.246238433,13.01468291,True,True
+302,181,Madagascar,,wheat flour,percent of population eating fortified vehicle,vitamin a,8.630460671,4.246238433,13.01468291,True,True
+303,181,Madagascar,,wheat flour,percent of population eating fortified vehicle,zinc,8.630460671,4.246238433,13.01468291,True,True
+304,213,Niger,,maize flour,percent of population eating vehicle,na,70.43835859999999,29.65483072,100.0,True,True
+305,213,Niger,,maize flour,percent of population eating industrially produced vehicle,na,4.0878894489999995,1.7210178090000001,6.454761088,True,True
+306,213,Niger,,maize flour,percent of population eating fortified vehicle,folic acid,3.992492837,1.680855454,6.30413022,True,True
+307,213,Niger,,maize flour,percent of population eating fortified vehicle,iron,3.992492837,1.680855454,6.30413022,True,True
+308,213,Niger,,maize flour,percent of population eating fortified vehicle,vitamin a,3.992492837,1.680855454,6.30413022,True,True
+309,213,Niger,,maize flour,percent of population eating fortified vehicle,zinc,3.992492837,1.680855454,6.30413022,True,True
+310,213,Niger,women of reproductive age,oil,percent of population eating vehicle,na,85.0,79.07533000000001,90.92466999999999,True,True
+311,213,Niger,,oil,percent of population eating industrially produced vehicle,na,80.37535061,74.77302792,85.9776733,True,True
+312,213,Niger,total population,oil,percent of population eating fortified vehicle,vitamin a,75.0,69.77235,80.22765,True,True
+313,213,Niger,,wheat flour,percent of population eating vehicle,na,41.42499406,20.38134563,62.4686425,True,True
+314,213,Niger,,wheat flour,percent of population eating industrially produced vehicle,na,34.82162573,17.13244879,52.51080268,True,True
+315,213,Niger,total population,wheat flour,percent of population eating fortified vehicle,folic acid,30.0,14.760179999999998,45.23982,True,True
+316,213,Niger,total population,wheat flour,percent of population eating fortified vehicle,iron,30.0,14.760179999999998,45.23982,True,True
+317,213,Niger,,wheat flour,percent of population eating fortified vehicle,vitamin a,30.0,14.760179999999998,45.23982,True,True
+318,213,Niger,,wheat flour,percent of population eating fortified vehicle,zinc,30.0,14.760179999999998,45.23982,True,True
+319,522,Sudan,,maize flour,percent of population eating vehicle,na,54.41398999,22.90850744,85.91947254,True,True
+320,522,Sudan,,maize flour,percent of population eating industrially produced vehicle,na,31.96821461,13.45874622,50.477683,True,True
+321,522,Sudan,,maize flour,percent of population eating fortified vehicle,folic acid,5.744770543,2.418571378,9.070969709,True,True
+322,522,Sudan,,maize flour,percent of population eating fortified vehicle,iron,5.744770543,2.418571378,9.070969709,True,True
+323,522,Sudan,,maize flour,percent of population eating fortified vehicle,vitamin a,5.744770543,2.418571378,9.070969709,True,True
+324,522,Sudan,,maize flour,percent of population eating fortified vehicle,zinc,5.744770543,2.418571378,9.070969709,True,True
+325,522,Sudan,,oil,percent of population eating vehicle,na,50.64672476,47.11654675,54.17690276,True,True
+326,522,Sudan,total population,oil,percent of population eating industrially produced vehicle,na,80.0,74.42384,85.57616,True,True
+327,522,Sudan,total population,oil,percent of population eating fortified vehicle,vitamin a,80.0,74.42384,85.57616,True,True
+328,522,Sudan,,wheat flour,percent of population eating vehicle,na,88.82368433,43.70178563,100.0,True,True
+329,522,Sudan,,wheat flour,percent of population eating industrially produced vehicle,na,57.90225541,28.48825707,87.31625374,True,True
+330,522,Sudan,,wheat flour,percent of population eating fortified vehicle,folic acid,6.525113055,3.2103947739999996,9.839831336,True,True
+331,522,Sudan,,wheat flour,percent of population eating fortified vehicle,iron,6.525113055,3.2103947739999996,9.839831336,True,True
+332,522,Sudan,,wheat flour,percent of population eating fortified vehicle,vitamin a,6.525113055,3.2103947739999996,9.839831336,True,True
+333,522,Sudan,,wheat flour,percent of population eating fortified vehicle,zinc,6.525113055,3.2103947739999996,9.839831336,True,True
+0,168,Angola,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+1,161,Bangladesh,,industry wheat,percent of population eating industrially produced vehicle,na,79.0,51.798761039956545,100.0,True,True
+2,201,Burkina Faso,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+3,205,Côte d'Ivoire,,industry wheat,percent of population eating industrially produced vehicle,na,98.0,64.25669091032586,100.0,True,True
+4,202,Cameroon,,industry wheat,percent of population eating industrially produced vehicle,na,80.0,52.45444155944967,100.0,True,True
+5,6,China,,industry wheat,percent of population eating industrially produced vehicle,na,89.0,58.35556623488776,100.0,True,True
+6,171,Democratic Republic of the Congo,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+7,141,Egypt,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+8,179,Ethiopia,,industry wheat,percent of population eating industrially produced vehicle,na,55.00000000000001,36.062428572121654,73.93757142787837,True,True
+9,207,Ghana,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+10,163,India,,industry wheat,percent of population eating industrially produced vehicle,na,30.0,19.670415584793627,40.32958441520637,True,True
+11,11,Indonesia,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+12,180,Kenya,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+13,181,Madagascar,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+14,184,Mozambique,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+15,15,Myanmar,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+16,164,Nepal,,industry wheat,percent of population eating industrially produced vehicle,na,25.0,16.392012987328023,33.60798701267198,True,True
+17,213,Niger,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+18,214,Nigeria,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+19,165,Pakistan,,industry wheat,percent of population eating industrially produced vehicle,na,60.0,39.340831169587254,80.65916883041274,True,True
+20,196,South Africa,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+21,522,Sudan,,industry wheat,percent of population eating industrially produced vehicle,na,90.0,59.01124675438088,100.0,True,True
+22,190,Uganda,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+23,189,United Republic of Tanzania,,industry wheat,percent of population eating industrially produced vehicle,na,85.0,55.73284415691528,100.0,True,True
+24,20,Viet Nam,,industry wheat,percent of population eating industrially produced vehicle,na,100.0,65.56805194931209,100.0,True,True
+25,179,Ethiopia,,industry wheat,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0,True,True
+26,179,Ethiopia,,industry wheat,percent of population eating fortified vehicle,iron,0.0,0.0,0.0,True,True
+27,179,Ethiopia,,industry wheat,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+28,179,Ethiopia,,industry wheat,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+29,163,India,0-24 months,industry wheat,percent of population eating fortified vehicle,folic acid,6.3,4.8,7.9,True,True
+30,163,India,0-24 months,industry wheat,percent of population eating fortified vehicle,iron,6.3,4.8,7.9,True,True
+31,163,India,,industry wheat,percent of population eating fortified vehicle,vitamin a,2.133333333,1.0496128,3.2170538669999997,True,True
+32,163,India,,industry wheat,percent of population eating fortified vehicle,zinc,2.133333333,1.0496128,3.2170538669999997,True,True
+33,214,Nigeria,total population,industry wheat,percent of population eating fortified vehicle,folic acid,17.45281178,15.08644802,19.85851439,True,True
+34,214,Nigeria,total population,industry wheat,percent of population eating fortified vehicle,iron,17.45281178,15.08644802,19.85851439,True,True
+35,214,Nigeria,total population,industry wheat,percent of population eating fortified vehicle,vitamin a,17.45281178,15.08644802,19.85851439,True,True
+36,214,Nigeria,total population,industry wheat,percent of population eating fortified vehicle,zinc,17.45281178,15.08644802,19.85851439,True,True
+37,161,Bangladesh,,industry wheat,percent of population eating fortified vehicle,folic acid,0.155875,0.11628321800000001,0.195466782,True,True
+38,161,Bangladesh,,industry wheat,percent of population eating fortified vehicle,iron,0.155875,0.11628321800000001,0.195466782,True,True
+39,161,Bangladesh,,industry wheat,percent of population eating fortified vehicle,vitamin a,0.155875,0.11628321800000001,0.195466782,True,True
+40,161,Bangladesh,,industry wheat,percent of population eating fortified vehicle,zinc,0.155875,0.11628321800000001,0.195466782,True,True
+41,165,Pakistan,,industry wheat,percent of population eating fortified vehicle,folic acid,1.946666667,0.0,2.441114157,True,True
+42,165,Pakistan,total population,industry wheat,percent of population eating fortified vehicle,iron,3.82123947,0.0,4.791822827,True,True
+43,165,Pakistan,,industry wheat,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+44,165,Pakistan,,industry wheat,percent of population eating fortified vehicle,zinc,1.946666667,0.0,2.441114157,True,True
+45,190,Uganda,total population,industry wheat,percent of population eating fortified vehicle,folic acid,8.5,5.7,11.4,True,True
+46,190,Uganda,total population,industry wheat,percent of population eating fortified vehicle,iron,8.5,5.7,11.4,True,True
+47,190,Uganda,total population,industry wheat,percent of population eating fortified vehicle,vitamin a,8.5,5.7,11.4,True,True
+48,190,Uganda,total population,industry wheat,percent of population eating fortified vehicle,zinc,8.5,5.7,11.4,True,True
+49,189,United Republic of Tanzania,total population,industry wheat,percent of population eating fortified vehicle,folic acid,33.1,27.5,38.7,True,True
+50,189,United Republic of Tanzania,total population,industry wheat,percent of population eating fortified vehicle,iron,33.1,27.5,38.7,True,True
+51,189,United Republic of Tanzania,total population,industry wheat,percent of population eating fortified vehicle,vitamin a,33.1,27.5,38.7,True,True
+52,189,United Republic of Tanzania,total population,industry wheat,percent of population eating fortified vehicle,zinc,33.1,27.5,38.7,True,True
+53,196,South Africa,total population,industry wheat,percent of population eating fortified vehicle,folic acid,5.707703746,3.166260481,9.07579743,True,True
+54,196,South Africa,total population,industry wheat,percent of population eating fortified vehicle,iron,5.707703746,3.166260481,9.07579743,True,True
+55,196,South Africa,total population,industry wheat,percent of population eating fortified vehicle,vitamin a,5.707703746,3.166260481,9.07579743,True,True
+56,196,South Africa,total population,industry wheat,percent of population eating fortified vehicle,zinc,5.707703746,3.166260481,9.07579743,True,True
+57,201,Burkina Faso,,industry wheat,percent of population eating fortified vehicle,folic acid,32.1645,14.13756334,50.19143666,True,True
+58,201,Burkina Faso,,industry wheat,percent of population eating fortified vehicle,iron,17.38975,7.643479367,27.13602063,True,True
+59,201,Burkina Faso,,industry wheat,percent of population eating fortified vehicle,vitamin a,12.3885625,6.095247081,18.68187792,True,True
+60,201,Burkina Faso,,industry wheat,percent of population eating fortified vehicle,zinc,12.3885625,6.095247081,18.68187792,True,True
+61,180,Kenya,,industry wheat,percent of population eating fortified vehicle,folic acid,27.4197812,0.0,53.06646255,True,True
+62,180,Kenya,,industry wheat,percent of population eating fortified vehicle,iron,27.09520062,0.0,52.48305101,True,True
+63,180,Kenya,,industry wheat,percent of population eating fortified vehicle,vitamin a,27.39557009,0.0,53.02032333,True,True
+64,180,Kenya,,industry wheat,percent of population eating fortified vehicle,zinc,27.45436641,0.0,53.11673201,True,True
+65,15,Myanmar,total population,industry wheat,percent of population eating fortified vehicle,folic acid,0.0,0.0,5.0,True,True
+66,15,Myanmar,total population,industry wheat,percent of population eating fortified vehicle,iron,0.0,0.0,5.0,True,True
+67,15,Myanmar,,industry wheat,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+68,15,Myanmar,total population,industry wheat,percent of population eating fortified vehicle,zinc,0.0,0.0,5.0,True,True
+69,164,Nepal,,industry wheat,percent of population eating fortified vehicle,folic acid,5.165022222,2.270230497,8.059813948,True,True
+70,164,Nepal,,industry wheat,percent of population eating fortified vehicle,iron,7.334331556,3.2237273060000002,11.44493581,True,True
+71,164,Nepal,,industry wheat,percent of population eating fortified vehicle,vitamin a,5.165022222,2.270230497,8.059813948,True,True
+72,164,Nepal,,industry wheat,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+73,20,Viet Nam,,industry wheat,percent of population eating fortified vehicle,folic acid,4.111875,1.8073308540000002,6.416419146,True,True
+74,20,Viet Nam,,industry wheat,percent of population eating fortified vehicle,iron,4.111875,1.8073308540000002,6.416419146,True,True
+75,20,Viet Nam,,industry wheat,percent of population eating fortified vehicle,vitamin a,4.111875,1.8073308540000002,6.416419146,True,True
+76,20,Viet Nam,,industry wheat,percent of population eating fortified vehicle,zinc,4.111875,1.8073308540000002,6.416419146,True,True
+77,202,Cameroon,,industry wheat,percent of population eating fortified vehicle,folic acid,69.52523636,47.12059857,91.92987416,True,True
+78,202,Cameroon,,industry wheat,percent of population eating fortified vehicle,iron,53.08856364,35.98067445,70.19645282,True,True
+79,202,Cameroon,,industry wheat,percent of population eating fortified vehicle,vitamin a,43.61071212,21.45673203,65.76469221,True,True
+80,202,Cameroon,,industry wheat,percent of population eating fortified vehicle,zinc,69.52523636,47.12059857,91.92987416,True,True
+81,205,Côte d'Ivoire,,industry wheat,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0,True,True
+82,205,Côte d'Ivoire,,industry wheat,percent of population eating fortified vehicle,iron,10.29812205,5.062578607,15.06370705,True,True
+83,205,Côte d'Ivoire,,industry wheat,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+84,205,Côte d'Ivoire,,industry wheat,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+85,171,Democratic Republic of the Congo,,industry wheat,percent of population eating fortified vehicle,folic acid,0.0,0.0,0.0,True,True
+86,171,Democratic Republic of the Congo,,industry wheat,percent of population eating fortified vehicle,iron,0.0,0.0,0.0,True,True
+87,171,Democratic Republic of the Congo,,industry wheat,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+88,171,Democratic Republic of the Congo,,industry wheat,percent of population eating fortified vehicle,zinc,0.0,0.0,0.0,True,True
+89,11,Indonesia,total population,industry wheat,percent of population eating fortified vehicle,folic acid,73.1,49.54338792,96.65661208,True,True
+90,11,Indonesia,total population,industry wheat,percent of population eating fortified vehicle,iron,73.1,49.54338792,96.65661208,True,True
+91,11,Indonesia,,industry wheat,percent of population eating fortified vehicle,vitamin a,,25.98677584,100.0,True,True
+92,11,Indonesia,total population,industry wheat,percent of population eating fortified vehicle,zinc,73.1,49.54338792,96.65661208,True,True
+93,184,Mozambique,,industry wheat,percent of population eating fortified vehicle,folic acid,9.78,6.62837666,12.93162334,True,True
+94,184,Mozambique,,industry wheat,percent of population eating fortified vehicle,iron,12.6325,8.561653186000001,16.70334681,True,True
+95,184,Mozambique,,industry wheat,percent of population eating fortified vehicle,vitamin a,9.78,6.62837666,12.93162334,True,True
+96,184,Mozambique,,industry wheat,percent of population eating fortified vehicle,zinc,9.78,6.62837666,12.93162334,True,True
+97,168,Angola,,industry wheat,percent of population eating fortified vehicle,folic acid,16.88838105,8.309184807000001,25.46757729,True,True
+98,168,Angola,,industry wheat,percent of population eating fortified vehicle,iron,16.88838105,8.309184807000001,25.46757729,True,True
+99,168,Angola,,industry wheat,percent of population eating fortified vehicle,vitamin a,16.88838105,8.309184807000001,25.46757729,True,True
+100,168,Angola,,industry wheat,percent of population eating fortified vehicle,zinc,16.88838105,8.309184807000001,25.46757729,True,True
+101,6,China,,industry wheat,percent of population eating fortified vehicle,folic acid,6.363472477,3.13086664,9.596078315,True,True
+102,6,China,,industry wheat,percent of population eating fortified vehicle,iron,6.363472477,3.13086664,9.596078315,True,True
+103,6,China,,industry wheat,percent of population eating fortified vehicle,vitamin a,6.363472477,3.13086664,9.596078315,True,True
+104,6,China,,industry wheat,percent of population eating fortified vehicle,zinc,6.363472477,3.13086664,9.596078315,True,True
+105,141,Egypt,,industry wheat,percent of population eating fortified vehicle,folic acid,15.61643088,7.6833776920000005,23.54948407,True,True
+106,141,Egypt,,industry wheat,percent of population eating fortified vehicle,iron,15.61643088,7.6833776920000005,23.54948407,True,True
+107,141,Egypt,,industry wheat,percent of population eating fortified vehicle,vitamin a,15.61643088,7.6833776920000005,23.54948407,True,True
+108,141,Egypt,,industry wheat,percent of population eating fortified vehicle,zinc,15.61643088,7.6833776920000005,23.54948407,True,True
+109,207,Ghana,,industry wheat,percent of population eating fortified vehicle,folic acid,17.12153237,8.423896655,25.81916808,True,True
+110,207,Ghana,,industry wheat,percent of population eating fortified vehicle,iron,17.12153237,8.423896655,25.81916808,True,True
+111,207,Ghana,,industry wheat,percent of population eating fortified vehicle,vitamin a,17.12153237,8.423896655,25.81916808,True,True
+112,207,Ghana,,industry wheat,percent of population eating fortified vehicle,zinc,17.12153237,8.423896655,25.81916808,True,True
+113,181,Madagascar,,industry wheat,percent of population eating fortified vehicle,folic acid,8.630460671,4.246238433,13.01468291,True,True
+114,181,Madagascar,,industry wheat,percent of population eating fortified vehicle,iron,8.630460671,4.246238433,13.01468291,True,True
+115,181,Madagascar,,industry wheat,percent of population eating fortified vehicle,vitamin a,8.630460671,4.246238433,13.01468291,True,True
+116,181,Madagascar,,industry wheat,percent of population eating fortified vehicle,zinc,8.630460671,4.246238433,13.01468291,True,True
+117,213,Niger,total population,industry wheat,percent of population eating fortified vehicle,folic acid,30.0,14.760179999999998,45.23982,True,True
+118,213,Niger,total population,industry wheat,percent of population eating fortified vehicle,iron,30.0,14.760179999999998,45.23982,True,True
+119,213,Niger,,industry wheat,percent of population eating fortified vehicle,vitamin a,30.0,14.760179999999998,45.23982,True,True
+120,213,Niger,,industry wheat,percent of population eating fortified vehicle,zinc,30.0,14.760179999999998,45.23982,True,True
+121,522,Sudan,,industry wheat,percent of population eating fortified vehicle,folic acid,6.525113055,3.2103947739999996,9.839831336,True,True
+122,522,Sudan,,industry wheat,percent of population eating fortified vehicle,iron,6.525113055,3.2103947739999996,9.839831336,True,True
+123,522,Sudan,,industry wheat,percent of population eating fortified vehicle,vitamin a,6.525113055,3.2103947739999996,9.839831336,True,True
+124,522,Sudan,,industry wheat,percent of population eating fortified vehicle,zinc,6.525113055,3.2103947739999996,9.839831336,True,True
+125,168,Angola,,industry oil,percent of population eating industrially produced vehicle,vitamin a,72.32000000000001,58.58124179151886,86.05875820848115,True,True
+126,161,Bangladesh,,industry oil,percent of population eating industrially produced vehicle,vitamin a,87.516,70.89043081618591,100.0,True,True
+127,201,Burkina Faso,,industry oil,percent of population eating industrially produced vehicle,vitamin a,73.76,59.747682446659724,87.77231755334029,True,True
+128,205,Côte d'Ivoire,,industry oil,percent of population eating industrially produced vehicle,vitamin a,72.0,58.32203275704311,85.67796724295688,True,True
+129,202,Cameroon,,industry oil,percent of population eating industrially produced vehicle,vitamin a,72.0,58.32203275704311,85.67796724295688,True,True
+130,6,China,,industry oil,percent of population eating industrially produced vehicle,vitamin a,96.53,78.19202530607461,100.0,True,True
+131,171,Democratic Republic of the Congo,,industry oil,percent of population eating industrially produced vehicle,vitamin a,76.72000000000001,62.1453660155604,91.29463398443963,True,True
+132,141,Egypt,,industry oil,percent of population eating industrially produced vehicle,vitamin a,64.0,51.84180689514943,76.15819310485057,True,True
+133,179,Ethiopia,,industry oil,percent of population eating industrially produced vehicle,vitamin a,71.25,57.71451158249058,84.78548841750941,True,True
+134,207,Ghana,,industry oil,percent of population eating industrially produced vehicle,vitamin a,78.392,63.49973322069616,93.28426677930383,True,True
+135,163,India,,industry oil,percent of population eating industrially produced vehicle,vitamin a,84.93,68.79569780632877,100.0,True,True
+136,11,Indonesia,,industry oil,percent of population eating industrially produced vehicle,vitamin a,83.63839999999999,67.74946534092604,99.52733465907394,True,True
+137,180,Kenya,,industry oil,percent of population eating industrially produced vehicle,vitamin a,72.0,58.32203275704311,85.67796724295688,True,True
+138,181,Madagascar,,industry oil,percent of population eating industrially produced vehicle,vitamin a,60.0,48.601693964202596,71.3983060357974,True,True
+139,184,Mozambique,,industry oil,percent of population eating industrially produced vehicle,vitamin a,76.16000000000001,61.691750205227834,90.62824979477219,True,True
+140,15,Myanmar,,industry oil,percent of population eating industrially produced vehicle,vitamin a,76.0,61.562145687989954,90.43785431201005,True,True
+141,164,Nepal,,industry oil,percent of population eating industrially produced vehicle,vitamin a,88.5226,71.70580523525868,100.0,True,True
+142,213,Niger,,industry oil,percent of population eating industrially produced vehicle,vitamin a,60.300000000000004,48.84470243402361,71.7552975659764,True,True
+143,214,Nigeria,,industry oil,percent of population eating industrially produced vehicle,vitamin a,78.80000000000001,63.83022473965275,93.76977526034727,True,True
+144,165,Pakistan,,industry oil,percent of population eating industrially produced vehicle,vitamin a,89.10000000000001,72.17351553684085,100.0,True,True
+145,196,South Africa,,industry oil,percent of population eating industrially produced vehicle,vitamin a,81.9,66.34131226113655,97.45868773886346,True,True
+146,522,Sudan,,industry oil,percent of population eating industrially produced vehicle,vitamin a,64.0,51.84180689514943,76.15819310485057,True,True
+147,190,Uganda,,industry oil,percent of population eating industrially produced vehicle,vitamin a,80.01100000000001,64.8111689294969,95.21083107050312,True,True
+148,189,United Republic of Tanzania,,industry oil,percent of population eating industrially produced vehicle,vitamin a,67.34,54.547301192490046,80.13269880750995,True,True
+149,20,Viet Nam,,industry oil,percent of population eating industrially produced vehicle,vitamin a,81.0,65.6122868516735,96.3877131483265,True,True
+150,168,Angola,,industry oil,percent of population eating fortified vehicle,vitamin a,5.0,4.050141163683549,5.949858836316451,True,True
+151,161,Bangladesh,,industry oil,percent of population eating fortified vehicle,vitamin a,42.8,34.66920836113118,50.93079163886881,True,True
+152,201,Burkina Faso,,industry oil,percent of population eating fortified vehicle,vitamin a,23.0,18.630649352944328,27.369350647055672,True,True
+153,205,Côte d'Ivoire,,industry oil,percent of population eating fortified vehicle,vitamin a,30.5,24.70586109846965,36.294138901530346,True,True
+154,202,Cameroon,,industry oil,percent of population eating fortified vehicle,vitamin a,20.0,16.200564654734197,23.799435345265803,True,True
+155,6,China,,industry oil,percent of population eating fortified vehicle,vitamin a,5.0,4.050141163683549,5.949858836316451,True,True
+156,171,Democratic Republic of the Congo,,industry oil,percent of population eating fortified vehicle,vitamin a,3.0,2.4300846982101296,3.5699153017898704,True,True
+157,141,Egypt,,industry oil,percent of population eating fortified vehicle,vitamin a,5.0,4.050141163683549,5.949858836316451,True,True
+158,179,Ethiopia,,industry oil,percent of population eating fortified vehicle,vitamin a,5.0,4.050141163683549,5.949858836316451,True,True
+159,207,Ghana,,industry oil,percent of population eating fortified vehicle,vitamin a,32.9,26.649928857037754,39.15007114296224,True,True
+160,163,India,,industry oil,percent of population eating fortified vehicle,vitamin a,15.0,12.150423491050649,17.84957650894935,True,True
+161,11,Indonesia,,industry oil,percent of population eating fortified vehicle,vitamin a,43.8,35.479236593867896,52.1207634061321,True,True
+162,180,Kenya,,industry oil,percent of population eating fortified vehicle,vitamin a,50.0,40.5014116368355,59.4985883631645,True,True
+163,181,Madagascar,,industry oil,percent of population eating fortified vehicle,vitamin a,3.0,2.4300846982101296,3.5699153017898704,True,True
+164,184,Mozambique,,industry oil,percent of population eating fortified vehicle,vitamin a,37.6,30.457061550900292,44.74293844909971,True,True
+165,15,Myanmar,,industry oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+166,164,Nepal,,industry oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+167,213,Niger,,industry oil,percent of population eating fortified vehicle,vitamin a,5.0,4.050141163683549,5.949858836316451,True,True
+168,214,Nigeria,,industry oil,percent of population eating fortified vehicle,vitamin a,32.0,25.920903447574716,38.079096552425284,True,True
+169,165,Pakistan,,industry oil,percent of population eating fortified vehicle,vitamin a,75.0,60.75211745525324,89.24788254474676,True,True
+170,196,South Africa,,industry oil,percent of population eating fortified vehicle,vitamin a,3.0,2.4300846982101296,3.5699153017898704,True,True
+171,522,Sudan,,industry oil,percent of population eating fortified vehicle,vitamin a,0.0,0.0,0.0,True,True
+172,190,Uganda,,industry oil,percent of population eating fortified vehicle,vitamin a,54.4,44.06553586087702,64.73446413912298,True,True
+173,189,United Republic of Tanzania,,industry oil,percent of population eating fortified vehicle,vitamin a,53.6,43.41751327468765,63.78248672531235,True,True
+174,20,Viet Nam,,industry oil,percent of population eating fortified vehicle,vitamin a,70.0,56.70197629156969,83.2980237084303,True,True
