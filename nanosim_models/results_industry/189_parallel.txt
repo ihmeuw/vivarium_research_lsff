@@ -1,0 +1,1 @@
+/ihme/homes/ndbs/vivarium_research_lsff, /ihme/homes/ndbs/vivarium_research_lsff/nanosim_models/results_industry, 189, 80000, 3456, 250, False
