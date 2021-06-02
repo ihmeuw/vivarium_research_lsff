@@ -69,6 +69,14 @@ def create_marginal_uncertainty(data):
 
     return data
 
+def append_duplicate_vehicle_data(df, vehicle, duplicated_vehicle_name):
+    """Duplicates the data for `vehicle` and appends the duplicated data to df but with the
+    vehicle renamed `duplicated_vehicle_name`. Used to add an "industry wheat" vehicle
+    to the consumption and concentration dataframes.
+    """
+    vehicle_df = df.query("vehicle == @vehicle").assign(vehicle=duplicated_vehicle_name)
+    return pd.concat([df, vehicle_df], ignore_index=True)
+
 def process_consumption_data(consumption_df, coverage_df):
     """Merges percent eating vehicle from coverage_df into consumption_df so that consumption among consumers
     can be computed from consumption per capita. The actual computation will happen in `get_mean_consumption_draws`
@@ -83,6 +91,7 @@ def process_consumption_data(consumption_df, coverage_df):
         consumption_df
         .drop(columns='location_name') # Use location name from coverage to replace 'Vietnam' with 'Viet Nam'
         .merge(percent_eating_vehicle, on=['location_id', 'vehicle'], suffixes=('_gday', '_coverage'))
+        .pipe(append_duplicate_vehicle_data, 'wheat flour', 'industry wheat')
     )
     assert consumption_df.pop_denom.isin(['capita', 'consumers']).all(), \
         f"Unexpected population denominator in g/day data! {consumption_df.pop_denom.unique()=}"
@@ -102,6 +111,7 @@ def process_concentration_data(concentration_df, locations):
         .merge(names_to_ids, left_on='Country', right_index=True)
         .merge(locations)
         .assign(vehicle=lambda df: df['Food Vehicle'].str.lower())
+        .pipe(append_duplicate_vehicle_data, 'wheat flour', 'industry wheat')
     )
     # Could the following be done using .groupby().transform() instead?
     vehicle_dfs = []
@@ -188,7 +198,6 @@ def get_mean_consumption_draws(consumption_df, location_id, vehicle, draws, rand
     assert len(consumption)==1, \
         f"Consumption data has wrong number of rows for iron vehicle! {consumption=}"
     consumption = consumption.squeeze() # Convert single row to Series
-    # Use rejection sampling to guarantee positive draws
     consumption_draws = generate_truncnorm_draws(
         consumption['value_mean_gday'], consumption['lower'], consumption['upper'],
         shape=len(draws), interval=(0,np.inf), random_state=random_state # Truncate at 0 to ensure positive consumption
@@ -222,6 +231,7 @@ def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
 #         interval=(0,100), random_state=global_data.random_generator)
     
     # Use rejection sampling to get valid draws with fortified <= fortifiable
+    rng = np.random.default_rng(random_state) # Create a generator to avoid repeatedly sampling with same seed
     data = pd.concat([fortified, fortifiable])
     values = np.empty(shape=(0,len(data)))
     while(len(values) < len(draws)):
@@ -230,7 +240,7 @@ def get_coverage_draws(coverage_df, location_id, vehicle, draws, random_state):
             # The number of failures before reaching r successful draws is Negative-Binomial(r,p),
             # where p is the probability of success on one trial. Expected value is r*(1-p)/p,
             # i.e. proportional to r=len(draws), so start with a constant times len(draws) trials.
-            shape=(10*len(draws),len(data)), interval=(0,100), random_state=random_state
+            shape=(10*len(draws),len(data)), interval=(0,100), random_state=rng
         ), axis=0)
         values = values[values[:,0] <= values[:,1]] #1st column is fortified, 2nd column is fortifiable
     # Filter to len(draws) values and convert percent to proportion
