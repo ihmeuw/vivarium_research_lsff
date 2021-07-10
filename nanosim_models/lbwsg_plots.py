@@ -79,16 +79,17 @@ def plot_log_rrs(gai, bwi, logrri,
                  x_is_ga=True,
                  logrri_xy_matches_axes=True,
                  draw_category_midpoints=True,
-                 draw_all_gridpoints=False,
+                 draw_grid_midpoints=False,
+                 draw_grid_boundary_points=False,
                  draw_category_rectangles=False,
                 ):
     """Make a contour plot of interpolated log RR's for LBWSG."""
     
-    def draw_category_rectangle(row, x_prefix, y_prefix):
+    def draw_category_rectangle(row, x_prefix, y_prefix, boundary_color):
         rectangle = Rectangle(
             (row[f"{x_prefix}_start"], row[f"{y_prefix}_start"]),
             row[f"{x_prefix}_width"], row[f"{y_prefix}_width"],
-            color='tab:blue',
+            color=boundary_color,
             fill=False
         )
         ax.add_patch(rectangle)
@@ -106,13 +107,27 @@ def plot_log_rrs(gai, bwi, logrri,
         logrri = logrri.T
     if cat_df is not None:
         x_mid, y_mid = cat_df[f"{x_prefix}_midpoint"], cat_df[f"{y_prefix}_midpoint"]
-        if draw_all_gridpoints:
+        x_min, y_min = cat_df[[f'{x_prefix}_start', f'{y_prefix}_start']].min()
+        x_max, y_max = cat_df[[f'{x_prefix}_end', f'{y_prefix}_end']].max()
+
+        x_unique = np.append(np.unique(x_mid), [x_min, x_max]); x_unique.sort()
+        y_unique = np.append(np.unique(y_mid), [y_min, y_max]); y_unique.sort()
+
+        grid_color = 'tab:blue'
+        rectangle_color = 'tab:blue'
+
+        if draw_grid_midpoints:
             x_grid, y_grid = np.meshgrid(sorted(x_mid.unique()), sorted(y_mid.unique()))
-            ax.plot(x_grid.flatten(), y_grid.flatten(), 'o', color='tab:blue')
+            ax.plot(x_grid.flatten(), y_grid.flatten(), 'o', color='none', markeredgecolor=grid_color, mew=1)
+        if draw_grid_boundary_points:
+            ax.plot(x_min, y_unique[None,:], 'o', color='none', mec=grid_color, mew=1)
+            ax.plot(x_max, y_unique[None,:], 'o', color='none', mec=grid_color, mew=1)
+            ax.plot(x_unique[None,:], y_min, 'o', color='none', mec=grid_color, mew=1)
+            ax.plot(x_unique[None,:], y_max, 'o', color='none', mec=grid_color, mew=1)
         if draw_category_midpoints:
-            ax.plot(x_mid, y_mid, 'o', color='tab:green')
+            ax.plot(x_mid, y_mid, 'o', color=grid_color)
         if draw_category_rectangles:
-            cat_df.apply(draw_category_rectangle, args=(x_prefix, y_prefix), axis=1)
+            cat_df.apply(draw_category_rectangle, args=(x_prefix, y_prefix, rectangle_color), axis=1)
 
     ax.contour(xi, yi, logrri, levels=15, linewidths=0.5, colors='k')
     cntr = ax.contourf(xi, yi, logrri, levels=15, cmap="RdBu_r")
