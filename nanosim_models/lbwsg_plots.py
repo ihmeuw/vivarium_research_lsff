@@ -72,17 +72,21 @@ def draw_lbwsg_categories2():
 
     plt.show()
 
-def plot_log_rrs(gai, bwi, logrri,
-                 cat_df=None,
-                 interpolation_type="some type of",
-                 subtitle=None,
-                 x_is_ga=True,
-                 logrri_xy_matches_axes=True,
-                 draw_category_midpoints=True,
-                 draw_grid_midpoints=False,
-                 draw_grid_boundary_points=False,
-                 draw_category_rectangles=False,
-                ):
+def plot_log_rrs(
+    ax,
+    gai,
+    bwi,
+    logrri,
+    cat_df=None,
+    interpolation_type="some type of",
+    subtitle=None,
+    x_is_ga=True,
+    logrri_xy_matches_axes=True,
+    draw_category_midpoints=True,
+    draw_grid_midpoints=False,
+    draw_grid_boundary_points=False,
+    draw_category_rectangles=False,
+):
     """Make a contour plot of interpolated log RR's for LBWSG."""
     
     def draw_category_rectangle(row, x_prefix, y_prefix, boundary_color):
@@ -94,7 +98,7 @@ def plot_log_rrs(gai, bwi, logrri,
         )
         ax.add_patch(rectangle)
 
-    fig, ax = plt.subplots(figsize=(10,8))
+#     fig, ax = plt.subplots(figsize=(10,8))
     
     ga_params = ['Gestational age', (0,42), range(0,42,2), gai, 'ga']
     bw_params = ['Birthweight', (0,4500), range(0,4500,500), bwi, 'bw']
@@ -114,7 +118,7 @@ def plot_log_rrs(gai, bwi, logrri,
         y_unique = np.append(np.unique(y_mid), [y_min, y_max]); y_unique.sort()
 
         grid_color = 'tab:blue'
-        rectangle_color = 'tab:blue'
+        rectangle_boundary_color = 'tab:blue'
 
         if draw_grid_midpoints:
             x_grid, y_grid = np.meshgrid(sorted(x_mid.unique()), sorted(y_mid.unique()))
@@ -127,11 +131,11 @@ def plot_log_rrs(gai, bwi, logrri,
         if draw_category_midpoints:
             ax.plot(x_mid, y_mid, 'o', color=grid_color)
         if draw_category_rectangles:
-            cat_df.apply(draw_category_rectangle, args=(x_prefix, y_prefix, rectangle_color), axis=1)
+            cat_df.apply(draw_category_rectangle, args=(x_prefix, y_prefix, rectangle_boundary_color), axis=1)
 
     ax.contour(xi, yi, logrri, levels=15, linewidths=0.5, colors='k')
     cntr = ax.contourf(xi, yi, logrri, levels=15, cmap="RdBu_r")
-    fig.colorbar(cntr, ax=ax, label='log(RR)')
+#     fig.colorbar(cntr, ax=ax, label='log(RR)')
 
     ax.set_xlabel(xlabel)
     ax.set_ylabel(ylabel)
@@ -144,4 +148,39 @@ def plot_log_rrs(gai, bwi, logrri,
     
     subtitle = f"\n{subtitle}" if subtitle is not None else ""
     ax.set_title(f"Contour plot of {interpolation_type} interpolation of log(RR)" f"{subtitle}")
+    return cntr
+#     return fig, ax
+
+def single_log_rr_plot(
+    gai,
+    bwi,
+    logrri,
+    cat_df=None,
+    interpolation_type="some type of",
+    subtitle=None,
+    x_is_ga=True,
+    logrri_xy_matches_axes=True,
+    draw_category_midpoints=True,
+    draw_grid_midpoints=False,
+    draw_grid_boundary_points=False,
+    draw_category_rectangles=False,
+):
+    fig, ax = plt.subplots(figsize=(10,8))
+
+    cntr = plot_log_rrs(
+    ax=ax,
+    gai=gai,
+    bwi=bwi,
+    logrri=logrri,
+    cat_df=cat_df,
+    interpolation_type=interpolation_type,
+    subtitle=subtitle,
+    x_is_ga=x_is_ga,
+    logrri_xy_matches_axes=logrri_xy_matches_axes,
+    draw_category_midpoints=draw_category_midpoints,
+    draw_grid_midpoints=draw_grid_midpoints,
+    draw_grid_boundary_points=draw_grid_boundary_points,
+    draw_category_rectangles=draw_category_rectangles,
+    )
+    fig.colorbar(cntr, ax=ax, label='log(RR)')
     return fig, ax
