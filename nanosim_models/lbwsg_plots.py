@@ -184,3 +184,41 @@ def single_log_rr_plot(
     )
     fig.colorbar(cntr, ax=ax, label='log(RR)')
     return fig, ax
+
+def plot_log_rrs_by_age_sex(
+    gai,
+    bwi,
+    logrri_by_age_sex,
+    cat_df=None,
+    interpolation_type="some type of",
+    subtitle=None,
+    x_is_ga=True,
+    logrri_xy_matches_axes=True,
+    draw_category_midpoints=True,
+    draw_grid_midpoints=False,
+    draw_grid_boundary_points=False,
+    draw_category_rectangles=False,
+):
+    fig, axs = plt.subplots(2,2, figsize=(16,14), constrained_layout=True)
+
+    for age in (2,3):
+        for sex in (1,2):
+            ax = axs[age-2,sex-1]
+            cntr = plot_log_rrs(
+            ax=ax,
+            gai=gai,
+            bwi=bwi,
+            logrri=logrri_by_age_sex[(age,sex)],
+            cat_df=cat_df,
+            interpolation_type=interpolation_type,
+            subtitle=subtitle,
+            x_is_ga=x_is_ga,
+            logrri_xy_matches_axes=logrri_xy_matches_axes,
+            draw_category_midpoints=draw_category_midpoints,
+            draw_grid_midpoints=draw_grid_midpoints,
+            draw_grid_boundary_points=draw_grid_boundary_points,
+            draw_category_rectangles=draw_category_rectangles,
+            )
+    fig.colorbar(cntr, ax=axs, label='log(RR)')
+#     fig.tight_layout()
+    return fig, ax
