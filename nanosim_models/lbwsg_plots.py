@@ -86,6 +86,14 @@ def plot_log_rrs(
     draw_grid_midpoints=False,
     draw_grid_boundary_points=False,
     draw_category_rectangles=False,
+    grid_color='tab:blue',
+    rectangle_boundary_color='tab:blue',
+    contour_levels=15, # default if 'levels' not specified in contour_kwargs or contourf_kwargs
+    contour_linewidths=0.5, # default if 'linewidths' not specified in contour_kwargs
+    contour_colors='k', # default if 'colors' not specified in contour_kwargs
+    contourf_cmap='RdBu_r', # default if neither 'colors' nor 'cmap' is specified in contour_kwargs
+    contour_kwargs=None,
+    contourf_kwargs=None,
 ):
     """Make a contour plot of interpolated log RR's for LBWSG."""
     
@@ -98,10 +106,27 @@ def plot_log_rrs(
         )
         ax.add_patch(rectangle)
 
+#     if contour_levels is None:
+#         contour_levels = 15
+    if contour_kwargs is None:
+        contour_kwargs = {}
+    if contourf_kwargs is None:
+        contourf_kwargs = {}
+    if 'levels' not in contour_kwargs:
+        contour_kwargs['levels'] = contour_levels
+    if 'linewidths' not in contour_kwargs:
+        contour_kwargs['linewidths'] = contour_linewidths
+    if 'colors' not in contour_kwargs:
+        contour_kwargs['colors'] = contour_colors
+    if 'levels' not in contourf_kwargs:
+        contourf_kwargs['levels'] = contour_levels
+    if 'colors' not in contourf_kwargs and 'cmap' not in contourf_kwargs:
+        contourf_kwargs['cmap'] = contourf_cmap
+
 #     fig, ax = plt.subplots(figsize=(10,8))
     
-    ga_params = ['Gestational age', (0,42), range(0,42,2), gai, 'ga']
-    bw_params = ['Birthweight', (0,4500), range(0,4500,500), bwi, 'bw']
+    ga_params = ['Gestational age (weeks)', (0,42), range(0,42,2), gai, 'ga']
+    bw_params = ['Birthweight (g)', (0,4500), range(0,4500,500), bwi, 'bw']
     
     xy_params = zip(ga_params, bw_params) if x_is_ga else zip(bw_params, ga_params)
     
@@ -117,8 +142,8 @@ def plot_log_rrs(
         x_unique = np.append(np.unique(x_mid), [x_min, x_max]); x_unique.sort()
         y_unique = np.append(np.unique(y_mid), [y_min, y_max]); y_unique.sort()
 
-        grid_color = 'tab:blue'
-        rectangle_boundary_color = 'tab:blue'
+#         grid_color = 'tab:blue'
+#         rectangle_boundary_color = 'tab:blue'
 
         if draw_grid_midpoints:
             x_grid, y_grid = np.meshgrid(sorted(x_mid.unique()), sorted(y_mid.unique()))
@@ -133,8 +158,8 @@ def plot_log_rrs(
         if draw_category_rectangles:
             cat_df.apply(draw_category_rectangle, args=(x_prefix, y_prefix, rectangle_boundary_color), axis=1)
 
-    ax.contour(xi, yi, logrri, levels=15, linewidths=0.5, colors='k')
-    cntr = ax.contourf(xi, yi, logrri, levels=15, cmap="RdBu_r")
+    ax.contour(xi, yi, logrri, **contour_kwargs)
+    cntr = ax.contourf(xi, yi, logrri, **contourf_kwargs)
 #     fig.colorbar(cntr, ax=ax, label='log(RR)')
 
     ax.set_xlabel(xlabel)
@@ -201,23 +226,28 @@ def plot_log_rrs_by_age_sex(
 ):
     fig, axs = plt.subplots(2,2, figsize=(16,14), constrained_layout=True)
 
-    for age in (2,3):
-        for sex in (1,2):
-            ax = axs[age-2,sex-1]
+    vmax = 0
+    for logrri in logrri_by_age_sex.values():
+        vmax = new_max if (new_max := logrri.max()) > vmax else vmax
+
+    for age in 2,3:
+        for sex in 1,2:
+            ax = axs[age-2,sex-1] # Top row is ENN, bottom row is LNN; 1st col is Male, 2nd col is Female
             cntr = plot_log_rrs(
-            ax=ax,
-            gai=gai,
-            bwi=bwi,
-            logrri=logrri_by_age_sex[(age,sex)],
-            cat_df=cat_df,
-            interpolation_type=interpolation_type,
-            subtitle=subtitle,
-            x_is_ga=x_is_ga,
-            logrri_xy_matches_axes=logrri_xy_matches_axes,
-            draw_category_midpoints=draw_category_midpoints,
-            draw_grid_midpoints=draw_grid_midpoints,
-            draw_grid_boundary_points=draw_grid_boundary_points,
-            draw_category_rectangles=draw_category_rectangles,
+                ax=ax,
+                gai=gai,
+                bwi=bwi,
+                logrri=logrri_by_age_sex[(age,sex)],
+                cat_df=cat_df,
+                interpolation_type=interpolation_type,
+                subtitle=subtitle,
+                x_is_ga=x_is_ga,
+                logrri_xy_matches_axes=logrri_xy_matches_axes,
+                draw_category_midpoints=draw_category_midpoints,
+                draw_grid_midpoints=draw_grid_midpoints,
+                draw_grid_boundary_points=draw_grid_boundary_points,
+                draw_category_rectangles=draw_category_rectangles,
+                contourf_kwargs = dict(vmin=0, vmax=vmax),
             )
     fig.colorbar(cntr, ax=axs, label='log(RR)')
 #     fig.tight_layout()
