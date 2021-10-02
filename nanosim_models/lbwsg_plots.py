@@ -224,12 +224,14 @@ def plot_log_rrs_by_age_sex(
     draw_grid_boundary_points=False,
     draw_category_rectangles=False,
 ):
+    # Using constrained_layout=True instead of fig.tight_layout() because of colorbar
     fig, axs = plt.subplots(2,2, figsize=(16,14), constrained_layout=True)
 
-    vmax = 0
-    for logrri in logrri_by_age_sex.values():
-        vmax = new_max if (new_max := logrri.max()) > vmax else vmax
+    # Set same vmax for contourf function in each axes to use same scale on all plots
+    # vmax = max(logrri.max() for logrri in logrri_by_age_sex.values()) # if logrri_by_age_sex is a dict
+    vmax = logrri_by_age_sex.map(np.max).max() # if logrri_by_age_sex is a Series
 
+    cntrs = []
     for age in 2,3:
         for sex in 1,2:
             ax = axs[age-2,sex-1] # Top row is ENN, bottom row is LNN; 1st col is Male, 2nd col is Female
@@ -249,6 +251,11 @@ def plot_log_rrs_by_age_sex(
                 draw_category_rectangles=draw_category_rectangles,
                 contourf_kwargs = dict(vmin=0, vmax=vmax),
             )
-    fig.colorbar(cntr, ax=axs, label='log(RR)')
-#     fig.tight_layout()
-    return fig, ax
+            cntrs += [cntr]
+    # Find the ContourSet object with the maximum level, and use it to draw the colorbar.
+    # It seems like this shouldn't be necessary since I passed the same vmin and vmax
+    # to all the contourf calls, but the colorbar limits didn't go up to the maximum
+    # when I just passed the last used cntr.
+    max_cntr = max(cntrs, key=lambda cntr: cntr.levels.max())
+    fig.colorbar(max_cntr, ax=axs, label='log(RR)')
+    return fig, axs, cntrs
