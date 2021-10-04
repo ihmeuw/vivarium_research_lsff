@@ -78,8 +78,7 @@ def plot_log_rrs(
     bwi,
     logrri,
     cat_df=None,
-    interpolation_type="some type of",
-    subtitle=None,
+    title="",
     x_is_ga=True,
     logrri_xy_matches_axes=True,
     draw_category_midpoints=True,
@@ -171,8 +170,7 @@ def plot_log_rrs(
     ax.set_xticks(xticks)
     ax.set_yticks(yticks)
     
-    subtitle = f"\n{subtitle}" if subtitle is not None else ""
-    ax.set_title(f"Contour plot of {interpolation_type} interpolation of log(RR)" f"{subtitle}")
+    ax.set_title(title)
     return cntr
 #     return fig, ax
 
@@ -181,8 +179,7 @@ def single_log_rr_plot(
     bwi,
     logrri,
     cat_df=None,
-    interpolation_type="some type of",
-    subtitle=None,
+    title="",
     x_is_ga=True,
     logrri_xy_matches_axes=True,
     draw_category_midpoints=True,
@@ -198,8 +195,7 @@ def single_log_rr_plot(
     bwi=bwi,
     logrri=logrri,
     cat_df=cat_df,
-    interpolation_type=interpolation_type,
-    subtitle=subtitle,
+    title=title,
     x_is_ga=x_is_ga,
     logrri_xy_matches_axes=logrri_xy_matches_axes,
     draw_category_midpoints=draw_category_midpoints,
@@ -215,8 +211,8 @@ def plot_log_rrs_by_age_sex(
     bwi,
     logrri_by_age_sex,
     cat_df=None,
-    interpolation_type="some type of",
-    subtitle=None,
+    suptitle="",
+    title="",
     x_is_ga=True,
     logrri_xy_matches_axes=True,
     draw_category_midpoints=True,
@@ -241,8 +237,7 @@ def plot_log_rrs_by_age_sex(
                 bwi=bwi,
                 logrri=logrri_by_age_sex[(age,sex)],
                 cat_df=cat_df,
-                interpolation_type=interpolation_type,
-                subtitle=subtitle,
+                title=f"{title}",
                 x_is_ga=x_is_ga,
                 logrri_xy_matches_axes=logrri_xy_matches_axes,
                 draw_category_midpoints=draw_category_midpoints,
@@ -258,4 +253,5 @@ def plot_log_rrs_by_age_sex(
     # when I just passed the last used cntr.
     max_cntr = max(cntrs, key=lambda cntr: cntr.levels.max())
     fig.colorbar(max_cntr, ax=axs, label='log(RR)')
+    fig.suptitle(suptitle, fontsize=20)
     return fig, axs, cntrs
