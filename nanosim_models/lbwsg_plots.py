@@ -2,12 +2,12 @@ import pandas as pd, numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
-import lbwsg
-import test_lbwsg
+# import lbwsg
+# import test_lbwsg
 
-cat_df = lbwsg.get_category_data()
+# cat_df = lbwsg.get_category_data()
 
-def draw_lbwsg_categories():
+def draw_lbwsg_categories(cat_df):
     fig, ax = plt.subplots(figsize=(14,12))
 
     def draw_category_rectangle(row):
@@ -43,7 +43,7 @@ def draw_lbwsg_categories():
     ax.set_yticks(range(20,44,2))
     plt.show()
 
-def draw_lbwsg_categories2():
+def draw_lbwsg_categories2(cat_df):
     fig, ax = plt.subplots(figsize=(18,8))
 
     def draw_rectangle(row):
