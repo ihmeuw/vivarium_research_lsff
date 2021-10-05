@@ -212,7 +212,6 @@ def plot_log_rrs_by_age_sex(
     logrri_by_age_sex,
     cat_df=None,
     suptitle="",
-    title="",
     x_is_ga=True,
     logrri_xy_matches_axes=True,
     draw_category_midpoints=True,
@@ -227,6 +226,9 @@ def plot_log_rrs_by_age_sex(
     # vmax = max(logrri.max() for logrri in logrri_by_age_sex.values()) # if logrri_by_age_sex is a dict
     vmax = logrri_by_age_sex.map(np.max).max() # if logrri_by_age_sex is a Series
 
+    age_ids_to_names = {2: 'Early Neonatal', 3: 'Late Neonatal'}
+    sex_ids_to_names = {1: 'Male', 2: 'Female'}
+
     cntrs = []
     for age in 2,3:
         for sex in 1,2:
@@ -237,7 +239,7 @@ def plot_log_rrs_by_age_sex(
                 bwi=bwi,
                 logrri=logrri_by_age_sex[(age,sex)],
                 cat_df=cat_df,
-                title=f"{title}",
+                title=f"{age_ids_to_names[age]}, {sex_ids_to_names[sex]}",
                 x_is_ga=x_is_ga,
                 logrri_xy_matches_axes=logrri_xy_matches_axes,
                 draw_category_midpoints=draw_category_midpoints,
@@ -247,6 +249,7 @@ def plot_log_rrs_by_age_sex(
                 contourf_kwargs = dict(vmin=0, vmax=vmax),
             )
             cntrs += [cntr]
+            ax.title.set_fontsize(16)
     # Find the ContourSet object with the maximum level, and use it to draw the colorbar.
     # It seems like this shouldn't be necessary since I passed the same vmin and vmax
     # to all the contourf calls, but the colorbar limits didn't go up to the maximum
