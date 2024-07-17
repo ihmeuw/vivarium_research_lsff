@@ -20,8 +20,8 @@ def lsff_pathway_stacked_bar_plot(df, vehicle, age_group, legend=True, ax=None):
     x_variable = 'coverage_level' # x could be country instead, for a fixed coverage level
     measure = 'counts_averted' # y_variable -- needs to be additive for a stacked bar chart
     filters = [
-        f"coverage_level != {0.2 if 'zero' in vehicle else 1.0}", # since gap coverage 1.0 is missing from iron->BW results
-#         f"coverage_level != 1.0", # since gap coverage 1.0 is missing from iron->BW results
+#         f"coverage_level != {0.2 if 'zero' in vehicle else 1.0}", # since gap coverage 1.0 is missing from iron->BW results
+        f"coverage_level != 1.0", # since gap coverage 1.0 is missing from iron->BW results
         "location_id != 11", # since location_id 11 (Indonesia) is missing from iron->anemia results
         "vehicle==@vehicle",
         "age_group==@age_group",
@@ -92,34 +92,18 @@ def lsff_pathway_stacked_bar_plot(df, vehicle, age_group, legend=True, ax=None):
     return ax
     
 def plot_all_vehicles_and_age_groups(df):
-    vehicles = [ 'oil', 'wheat flour', 'maize flour']
-#     grid = np.array((
-#         (('oil', 'u5'), ('industry oil', 'u5')),
-#         (('salt', 'u5'), ('industry salt', 'u5')), # Note: industry salt doesn't exist
-#         (('wheat flour', 'u5'), ('industry wheat', 'u5')),
-#         (('wheat flour', 'wra'), ('industry wheat', 'wra')),
-#         (('maize flour', 'u5'), ('maize flour', 'wra')), # This row breaks pattern because there's no 'industry maize'
-#     ))
     rows = (
         ('oil', 'u5'),
         ('salt', 'u5'), # Note: industry salt doesn't exist
         ('wheat flour', 'u5'),
         ('wheat flour', 'wra'),
         ('maize flour', 'u5'), # This row breaks pattern because there's no 'industry maize'
-#         ('zero maize flour', 'u5')
     )
-#     [
-#         ['oil', 'industry oil'],
-#         ['wheat flour', 'industry wheat'],
-#         ['maize flour', '']
-#     ]
-    age_groups = ['u5', 'wra']
-    
     n_rows = len(rows)
     n_cols = 2 # 1st column for regular, 2nd column for 'industry' version
     fig, axs = plt.subplots(n_rows, n_cols, figsize=(8 * n_cols, 6 * n_rows), sharex=True, sharey=True)
     for row_num, (vehicle, age_group) in enumerate(rows):
-        if vehicle in ['maize flour', 'zero maize flour']:
+        if vehicle in ['maize flour']:
             vehicle2 = vehicle
             age_group2 = 'wra'
         else:
