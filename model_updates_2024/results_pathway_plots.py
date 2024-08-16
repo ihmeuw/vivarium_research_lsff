@@ -12,7 +12,7 @@ def upper(x):
 def lsff_pathway_stacked_bar_plot(df, vehicle, age_group, legend=True, ax=None):
     if ax is None:
         ax = plt.gca()
-    
+
     pathways = df.value_counts(['nutrient', 'cause']).sort_index().index.to_flat_index().unique()
     draw_cols = df.filter(like='draw').columns.to_list()
     year = 2025
@@ -70,7 +70,7 @@ def lsff_pathway_stacked_bar_plot(df, vehicle, age_group, legend=True, ax=None):
 #         print(pathway, x, x_values, x[x_mask], mean)
         ax.bar(x[x_mask], mean, bottom=bottom[x_mask], label=fr'{pathway[0]} $\to$ {pathway[1]}')
         bottom[x_mask] += mean
-        
+
     ax.set_xticks(x)
     ax.set_xticklabels(x_values.map(lambda x: 'remove baseline' if x==-1 else x))
     ax.set_xlabel("Fortification 'gap' coverage level")
@@ -90,7 +90,7 @@ def lsff_pathway_stacked_bar_plot(df, vehicle, age_group, legend=True, ax=None):
 #         f"\nin {len(location_ids)} location{'s' if len(location_ids) > 1 else ' (' + ids_to_names('location', *location_ids).iloc[0] + ')'}"
     )
     return ax
-    
+
 def plot_all_vehicles_and_age_groups(df):
     rows = (
         ('oil', 'u5'),
